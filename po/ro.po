@@ -1,0 +1,5434 @@
+# glade
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Paul-Dan Opriºa-Stãnescu <oprisa@mec.utt.ro>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: glade 0.6.2\n"
+"POT-Creation-Date: 2002-02-01 14:15-0500\n"
+"PO-Revision-Date: 2001-08-14 12:00+0020\n"
+"Last-Translator: Paul-Dan Opriºa-Stãnescu <oprisa@mec.utt.ro>\n"
+"Language-Team: Romanian <gnome-ro@pelican.level7.ro>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# Litere româneºti iso-8859-2: ãâîºþ ÃÂÎªÞ
+#: glade.desktop.in.h:1
+msgid "GTK+ GUI builder"
+msgstr "Generator GUI pentru GTK+"
+
+#: glade.desktop.in.h:2 glade/glade_project_window.c:1574
+msgid "Glade"
+msgstr "Glade"
+
+#: glade/editor.c:282
+msgid "Grid Options"
+msgstr "Opþiuni grilã"
+
+#: glade/editor.c:299
+msgid "Horizontal Spacing:"
+msgstr "Spaþiere orizontalã:"
+
+#: glade/editor.c:314
+msgid "Vertical Spacing:"
+msgstr "Spaþiere verticalã:"
+
+#: glade/editor.c:332
+msgid "Grid Style:"
+msgstr "Stil grilã:"
+
+#: glade/editor.c:338
+msgid "Dots"
+msgstr "Puncte"
+
+#: glade/editor.c:347
+msgid "Lines"
+msgstr "Linii"
+
+#: glade/editor.c:367 glade/editor.c:531 glade/glade.c:179
+#: glade/glade_keys_dialog.c:128 glade/glade_menu_editor.c:943
+#: glade/glade_project_options.c:720 glade/glade_project_window.c:837
+#: glade/glade_project_window.c:1024 glade/property.c:2952
+#: glade/property.c:3694 glade/property.c:4172 glade/utils.c:128
+#: glade/utils.c:291 glade/utils.c:394
+msgid "OK"
+msgstr "OK"
+
+#: glade/editor.c:380 glade/editor.c:544 glade/glade_keys_dialog.c:139
+#: glade/glade_menu_editor.c:962 glade/glade_project_options.c:732
+#: glade/glade_project_window.c:837 glade/glade_project_window.c:1380
+#: glade/property.c:2966 glade/property.c:3708 glade/property.c:4160
+#: glade/utils.c:301 glade/utils.c:402
+msgid "Cancel"
+msgstr "Renunþã"
+
+#: glade/editor.c:454
+msgid "Snap Options"
+msgstr "Opþiuni prindere"
+
+#. Horizontal snapping
+#: glade/editor.c:472
+msgid "Horizontal Snapping:"
+msgstr "Prindere orizontalã:"
+
+#: glade/editor.c:478 glade/glade_gnome.c:345 glade/glade_gnome.c:614
+msgid "Left"
+msgstr "Stânga"
+
+#: glade/editor.c:487 glade/glade_gnome.c:346 glade/glade_gnome.c:615
+msgid "Right"
+msgstr "Dreapta"
+
+#. Vertical snapping
+#: glade/editor.c:496
+msgid "Vertical Snapping:"
+msgstr "Prindere verticalã:"
+
+#: glade/editor.c:502 glade/glade_gnome.c:339 glade/glade_gnome.c:608
+msgid "Top"
+msgstr "Sus"
+
+#: glade/editor.c:510 glade/glade_gnome.c:340 glade/glade_gnome.c:609
+msgid "Bottom"
+msgstr "Jos"
+
+#: glade/editor.c:721
+msgid "Couldn't insert a GtkScrolledWindow widget."
+msgstr "Nu pot insera widgetul GtkScrolledWindow."
+
+#: glade/editor.c:756
+msgid "Couldn't insert a GtkViewport widget."
+msgstr "Nu pot insera widgetul GtkViewport."
+
+#: glade/editor.c:783
+msgid "Couldn't add new widget."
+msgstr "Nu pot adãuga un nou widget."
+
+#: glade/editor.c:1128
+msgid ""
+"You can't add a widget at the selected position.\n"
+"\n"
+"Tip: GTK+ uses containers to lay out widgets.\n"
+"Try deleting the existing widget and using\n"
+"a box or table container instead.\n"
+msgstr ""
+"Nu puteþi adãuga un widget în poziþia selectatã.\n"
+"Pont:\n"
+"GTK+ foloseºte recipiente pentru a anula widgete.\n"
+"ªterge widgetul ºi foloseste în loc o casetã sau\n"
+"un recipient tabel.\n"
+
+#: glade/editor.c:3153
+msgid "Couldn't delete widget."
+msgstr "Nu pot ºterge widgetul."
+
+#: glade/editor.c:3178 glade/editor.c:3182
+msgid "The widget can't be deleted"
+msgstr "Widgetul nu poate fi ºters."
+
+#: glade/editor.c:3213
+msgid ""
+"The widget is created automatically as part of the parent widget, and it "
+"can't be deleted."
+msgstr ""
+"Widgetul este creat automat, ca parte a widgetului tatã, ºi nu poate fi "
+"ºters."
+
+#: glade/gbwidget.c:693 glade/gbwidgets/gbpacker.c:256
+msgid "Border Width:"
+msgstr "Grosime chenar:"
+
+#: glade/gbwidget.c:694
+msgid "The width of the border around the container"
+msgstr "Grosimea chenarului în jurul recipientului"
+
+#: glade/gbwidget.c:1716
+msgid "Select"
+msgstr "Selecteazã"
+
+#: glade/gbwidget.c:1738
+msgid "Remove Scrolled Window"
+msgstr "ªterge fereastra cu defilare"
+
+#: glade/gbwidget.c:1747
+msgid "Add Scrolled Window"
+msgstr "Adaugã o fereastrã cu defilare"
+
+#: glade/gbwidget.c:1763
+msgid "Remove Alignment"
+msgstr "Suprimã alinierea"
+
+#: glade/gbwidget.c:1771
+msgid "Add Alignment"
+msgstr "Adaugã aliniere"
+
+#: glade/gbwidget.c:1785
+msgid "Remove Event Box"
+msgstr "ªterge casetã evenim."
+
+#: glade/gbwidget.c:1793
+msgid "Add Event Box"
+msgstr "Adaugã casetã evenim."
+
+#: glade/gbwidget.c:1803
+msgid "Redisplay"
+msgstr "Reafiºeazã"
+
+#: glade/gbwidget.c:1814 glade/glade_gnome.c:294 glade/glade_gnome.c:558
+#: glade/glade_project_window.c:562
+msgid "Cut"
+msgstr "Decupeazã"
+
+#: glade/gbwidget.c:1821 glade/glade_gnome.c:295 glade/glade_gnome.c:559
+#: glade/glade_project_window.c:571 glade/property.c:772 glade/property.c:4151
+msgid "Copy"
+msgstr "Copiazã"
+
+#: glade/gbwidget.c:1830 glade/glade_gnome.c:296 glade/glade_gnome.c:560
+#: glade/glade_project_window.c:580 glade/property.c:784
+msgid "Paste"
+msgstr "Lipeºte"
+
+#: glade/gbwidget.c:1842 glade/glade_menu_editor.c:759
+#: glade/glade_project_window.c:589 glade/property.c:1444
+#: glade/property.c:1600 glade/property.c:4142
+msgid "Delete"
+msgstr "ªterge"
+
+#: glade/gbwidget.c:2102 glade/gbwidget.c:2245 glade/gbwidget.c:2259
+#: glade/glade.c:205
+msgid "End tag expected"
+msgstr "Lipseºte tagul de sfârºit"
+
+#: glade/gbwidget.c:2222
+msgid "Data expected"
+msgstr "Lipseºte o datã"
+
+#: glade/gbwidget.c:2355
+msgid "Invalid accelerator key"
+msgstr "Tastã acceleratoare invalidã"
+
+#: glade/gbwidget.c:2372 glade/gbwidget.c:2469 glade/gbwidget.c:2637
+msgid "Unknown tag"
+msgstr "Tag necunoscut"
+
+#: glade/gbwidget.c:2446 glade/load.c:672
+msgid "Invalid boolean value"
+msgstr "Valoare booleeanã invalidã"
+
+#: glade/gbwidget.c:2463
+msgid "Invalid date"
+msgstr "Datã invalidã"
+
+#: glade/gbwidget.c:2581 glade/load.c:852
+msgid "Couldn't load font"
+msgstr "Nu pot încãrca fontul"
+
+#: glade/gbwidget.c:2627 glade/gnome/gbpixmapmenuitem.c:336
+msgid "Couldn't load pixmap"
+msgstr "Nu pot încãrca pixmap-ul"
+
+#: glade/gbwidget.c:2668 glade/load.c:728
+msgid "Invalid color"
+msgstr "Culoare invalidã"
+
+#. N/A stands for 'Not Applicable'. It is used when a standard widget
+#. property does not apply to the current widget. e.g. widgets without
+#. windows can't use the Events property. This appears in the property
+#. editor and so should be a short abbreviation.
+#: glade/gbwidget.c:2890 glade/gbwidget.c:2959
+msgid "N/A"
+msgstr "N/A"
+
+#. General code for container - has to remove all children and add back
+#. NOTE: this may not work for specialised containers.
+#. NOTE: need to ref widgets?
+#: glade/gbwidget.c:3736
+msgid "replacing child of container - not implemented yet\n"
+msgstr "înlocuire fiu al recipientului - încã neimplementatã\n"
+
+#: glade/gbwidget.c:3893
+msgid "Couldn't insert GtkAlignment widget."
+msgstr "Nu pot insera widgetul GtkAlignment."
+
+#: glade/gbwidget.c:3927
+msgid "Couldn't remove GtkAlignment widget."
+msgstr "Nu pot ºterge widgetul GtkAlignment."
+
+#: glade/gbwidget.c:3949
+msgid "Couldn't insert GtkEventBox widget."
+msgstr "Nu pot insera widgetul GtkEventBox."
+
+#: glade/gbwidget.c:3982
+msgid "Couldn't remove GtkEventBox widget."
+msgstr "Nu pot ºterge widgetul GtkEventBox."
+
+#: glade/gbwidget.c:4016
+msgid "Couldn't insert GtkScrolledWindow widget."
+msgstr "Nu pot insera widgetul GtkScrolledWindow."
+
+#: glade/gbwidget.c:4049
+msgid "Couldn't remove GtkScrolledWindow widget."
+msgstr "Nu pot ºterge widgetul GtkScrolledWindow."
+
+#: glade/gbwidget.c:4158
+msgid "Remove Label"
+msgstr "ªerge etichetã"
+
+#: glade/glade.c:181 glade/gnome-db/gnomedberrordlg.c:63
+msgid "Error"
+msgstr "Eroare"
+
+#: glade/glade.c:184
+msgid "System Error"
+msgstr "Eroare de sistem"
+
+#: glade/glade.c:188
+msgid "Error opening file"
+msgstr "Eroare la deschiderea fiºierului"
+
+#: glade/glade.c:190
+msgid "Error reading file"
+msgstr "Eroare la citirea fiºierului"
+
+#: glade/glade.c:192
+msgid "Error writing file"
+msgstr "Eroare la scrierea fiºierului"
+
+#: glade/glade.c:195
+msgid "Invalid directory"
+msgstr "Director invalid"
+
+#: glade/glade.c:199
+msgid "Invalid value"
+msgstr "Valoare invalidã"
+
+#: glade/glade.c:201
+msgid "Invalid XML entity"
+msgstr "Intrare XML invalidã"
+
+#: glade/glade.c:203
+msgid "Start tag expected"
+msgstr "Lipseºte tagul de început"
+
+#: glade/glade.c:207
+msgid "Character data expected"
+msgstr "Data nu e un caracter"
+
+#: glade/glade.c:209
+msgid "Class id missing"
+msgstr "Lipseste id clasã"
+
+#: glade/glade.c:211
+msgid "Class unknown"
+msgstr "Clasã necunoscutã"
+
+#: glade/glade.c:213
+msgid "Invalid component"
+msgstr "Component invalid"
+
+#: glade/glade.c:215
+msgid "Unexpected end of file"
+msgstr "Sfârsit de fiºier neaºteptat"
+
+#: glade/glade.c:218
+msgid "Unknown error code"
+msgstr "Cod de eroare necunoscut"
+
+#: glade/glade_clipboard.c:116
+msgid "Clipboard"
+msgstr "Tampon"
+
+#: glade/glade_clipboard.c:257
+msgid "You need to select a widget to paste into"
+msgstr "Alegeþi un widget pentru a insera în el"
+
+#: glade/glade_clipboard.c:283
+msgid "You can't paste into windows or dialogs."
+msgstr "Nu puteþi insera în ferestre sau dialoguri."
+
+#: glade/glade_clipboard.c:308
+msgid ""
+"You can't paste into the selected widget, since\n"
+"it is created automatically by its parent."
+msgstr ""
+"Nu puteþi insera în widgetul selectat, deoarece\n"
+"este creat automat de widgetul tatã."
+
+#: glade/glade_clipboard.c:317 glade/glade_clipboard.c:325
+msgid "Only menu items can be pasted into a menu or menu bar."
+msgstr "În bara de meniuri pot fi inserate doar meniuri."
+
+#: glade/glade_clipboard.c:336
+msgid "Only buttons can be pasted into a GnomeDialog action area."
+msgstr "În zona GnomeDialog pot fi inserate doar butoane."
+
+#: glade/glade_clipboard.c:346
+msgid "Only GnomeDockItem widgets can be pasted into a GnomeDock."
+msgstr "În GnomeDock pot fi inserate doar widgete GnomeDockItem."
+
+#: glade/glade_clipboard.c:355
+msgid "Only GnomeDockItem widgets can be pasted over a GnomeDockItem."
+msgstr "Un widget GnomeDockItem poate înlocui doar alt GnomeDockItem."
+
+#: glade/glade_clipboard.c:358
+msgid "Sorry - pasting over a GnomeDockItem is not implemented yet."
+msgstr "Scuze - înlocuirea GnomeDockItem încã nu este implementatã."
+
+#: glade/glade_clipboard.c:366
+msgid "GnomeDockItem widgets can only be pasted into a GnomeDock."
+msgstr "Un widget GnomeDockItem poate fi inserat doar în GnomeDock."
+
+#. Add a "None" item first, so it is easy to reset the pixmap.
+#: glade/glade_gnome.c:112 glade/glade_gnome.c:551
+#: glade/glade_menu_editor.c:664 glade/glade_menu_editor.c:1111
+msgid "None"
+msgstr "Nimic"
+
+#. 3 - see GladeStockMenuItemNew above.
+#: glade/glade_gnome.c:121
+msgid "_New"
+msgstr "_Nou"
+
+#: glade/glade_gnome.c:286
+msgid "Blank"
+msgstr "Fãrã"
+
+#: glade/glade_gnome.c:287 glade/glade_gnome.c:552
+#: glade/glade_project_window.c:740 glade/gnome/gnomeapp.c:124
+#: glade/property.c:4125
+msgid "New"
+msgstr "Nou"
+
+#: glade/glade_gnome.c:288 glade/glade_gnome.c:556
+#: glade/glade_project_window.c:312 glade/glade_project_window.c:494
+#: glade/glade_project_window.c:752 glade/gnome/gnomeapp.c:134
+msgid "Save"
+msgstr "Salveazã"
+
+#: glade/glade_gnome.c:289 glade/glade_gnome.c:557
+msgid "Save As"
+msgstr "Salveazã ca"
+
+#: glade/glade_gnome.c:290 glade/glade_gnome.c:555
+msgid "Revert"
+msgstr "Revino"
+
+#: glade/glade_gnome.c:291 glade/glade_gnome.c:553
+#: glade/glade_project_window.c:307 glade/glade_project_window.c:746
+#: glade/gnome/gnomeapp.c:129
+msgid "Open"
+msgstr "Deschide"
+
+#: glade/glade_gnome.c:292 glade/glade_gnome.c:554 glade/property.c:1513
+msgid "Close"
+msgstr "Închide"
+
+#: glade/glade_gnome.c:293 glade/glade_gnome.c:601
+msgid "Quit"
+msgstr "Terminã"
+
+#: glade/glade_gnome.c:297 glade/glade_gnome.c:562 glade/property.c:511
+msgid "Properties"
+msgstr "Proprietãþi"
+
+#: glade/glade_gnome.c:298 glade/glade_gnome.c:563
+msgid "Preferences"
+msgstr "Preferinþe"
+
+#: glade/glade_gnome.c:299 glade/glade_gnome.c:600
+msgid "About"
+msgstr "Despre"
+
+#: glade/glade_gnome.c:300 glade/glade_gnome.c:565
+msgid "Scores"
+msgstr "Clasament"
+
+#: glade/glade_gnome.c:301 glade/glade_gnome.c:576
+msgid "Undo"
+msgstr "Anuleazã"
+
+#: glade/glade_gnome.c:302 glade/glade_gnome.c:577
+msgid "Redo"
+msgstr "Refã"
+
+#: glade/glade_gnome.c:303 glade/glade_gnome.c:566
+msgid "Print"
+msgstr "Imprimã"
+
+#: glade/glade_gnome.c:304 glade/glade_gnome.c:567
+msgid "Search"
+msgstr "Cautã"
+
+#: glade/glade_gnome.c:305 glade/glade_gnome.c:568
+msgid "Search/Replace"
+msgstr "Cautã/înloc."
+
+#: glade/glade_gnome.c:306 glade/glade_gnome.c:569
+msgid "Back"
+msgstr "Înapoi"
+
+#: glade/glade_gnome.c:307 glade/glade_gnome.c:570
+msgid "Forward"
+msgstr "Înainte"
+
+#: glade/glade_gnome.c:308 glade/glade_gnome.c:571
+msgid "First"
+msgstr "Primul"
+
+#: glade/glade_gnome.c:309 glade/glade_gnome.c:572
+msgid "Last"
+msgstr "Ultimul"
+
+#: glade/glade_gnome.c:310 glade/glade_gnome.c:573
+msgid "Home"
+msgstr "La început"
+
+#: glade/glade_gnome.c:311 glade/glade_gnome.c:574 glade/gnome/gbclock.c:125
+msgid "Stop"
+msgstr "Stop"
+
+#: glade/glade_gnome.c:312 glade/glade_gnome.c:575
+msgid "Refresh"
+msgstr "Actualizeazã"
+
+#: glade/glade_gnome.c:313 glade/glade_gnome.c:580
+msgid "Mail"
+msgstr "Poºta"
+
+#: glade/glade_gnome.c:314 glade/glade_gnome.c:581
+msgid "Receive Mail"
+msgstr "Primeºte poºta"
+
+#: glade/glade_gnome.c:315 glade/glade_gnome.c:582
+msgid "Send Mail"
+msgstr "Trimite poºta"
+
+#: glade/glade_gnome.c:316 glade/glade_gnome.c:583
+msgid "Reply to Mail"
+msgstr "Rãspunde la mesaj"
+
+#: glade/glade_gnome.c:317 glade/glade_gnome.c:584
+msgid "Forward Mail"
+msgstr "Mesajul mai departe"
+
+#: glade/glade_gnome.c:318 glade/glade_gnome.c:585
+msgid "New Mail"
+msgstr "Mesaj nou"
+
+#: glade/glade_gnome.c:319 glade/glade_gnome.c:586
+msgid "Trash"
+msgstr "Gunoi"
+
+#: glade/glade_gnome.c:320 glade/glade_gnome.c:587
+msgid "Trash Full"
+msgstr "Coº de gunoi plin"
+
+#: glade/glade_gnome.c:321 glade/glade_gnome.c:588
+msgid "Undelete"
+msgstr "Recupereazã"
+
+#: glade/glade_gnome.c:322 glade/glade_gnome.c:578
+msgid "Timer"
+msgstr "Ceas"
+
+#: glade/glade_gnome.c:323 glade/glade_gnome.c:579
+msgid "Timer Stopped"
+msgstr "Ceas oprit"
+
+#: glade/glade_gnome.c:324 glade/glade_gnome.c:589
+msgid "Spellchecker"
+msgstr "Test ortografic"
+
+#: glade/glade_gnome.c:325 glade/glade_gnome.c:590
+msgid "Microphone"
+msgstr "Microfon"
+
+#: glade/glade_gnome.c:326 glade/glade_gnome.c:591
+msgid "Line In"
+msgstr "Intrare Line"
+
+#: glade/glade_gnome.c:327 glade/glade_gnome.c:592
+msgid "Cdrom"
+msgstr "CD-rom"
+
+#: glade/glade_gnome.c:328 glade/glade_gnome.c:593
+msgid "Volume"
+msgstr "Volum"
+
+#: glade/glade_gnome.c:329 glade/glade_gnome.c:594
+msgid "Midi"
+msgstr "Midi"
+
+#: glade/glade_gnome.c:330 glade/glade_gnome.c:595
+msgid "Book Red"
+msgstr "Cartea roºie"
+
+#: glade/glade_gnome.c:331 glade/glade_gnome.c:596
+msgid "Book Green"
+msgstr "Cartea verde"
+
+#: glade/glade_gnome.c:332 glade/glade_gnome.c:597
+msgid "Book Blue"
+msgstr "Cartea albastrã"
+
+#: glade/glade_gnome.c:333 glade/glade_gnome.c:598
+msgid "Book Yellow"
+msgstr "Cartea galbenã"
+
+#: glade/glade_gnome.c:334 glade/glade_gnome.c:599
+msgid "Book Open"
+msgstr "Cartea deschisã"
+
+#: glade/glade_gnome.c:335 glade/glade_gnome.c:604
+msgid "Convert"
+msgstr "Converteºte"
+
+#: glade/glade_gnome.c:336 glade/glade_gnome.c:605
+msgid "Jump To"
+msgstr "Salt la"
+
+#: glade/glade_gnome.c:337 glade/glade_gnome.c:606
+msgid "Up"
+msgstr "Sus"
+
+#: glade/glade_gnome.c:338 glade/glade_gnome.c:607
+msgid "Down"
+msgstr "Jos"
+
+#: glade/glade_gnome.c:341 glade/glade_gnome.c:610
+msgid "Attach"
+msgstr "Ataºeazã"
+
+#: glade/glade_gnome.c:342 glade/glade_gnome.c:611
+msgid "Index"
+msgstr "Index"
+
+#: glade/glade_gnome.c:343 glade/glade_gnome.c:612
+msgid "Font"
+msgstr "Font"
+
+#: glade/glade_gnome.c:344 glade/glade_gnome.c:613
+msgid "Exec"
+msgstr "Exec"
+
+#: glade/glade_gnome.c:347 glade/glade_gnome.c:616
+msgid "Center"
+msgstr "Centrat"
+
+#: glade/glade_gnome.c:348 glade/glade_gnome.c:617
+msgid "Justify"
+msgstr "Aliniat"
+
+#: glade/glade_gnome.c:349 glade/glade_gnome.c:618
+msgid "Bold"
+msgstr "Gros"
+
+#: glade/glade_gnome.c:350 glade/glade_gnome.c:619
+msgid "Italic"
+msgstr "Italic"
+
+#: glade/glade_gnome.c:351 glade/glade_gnome.c:620
+msgid "Underline"
+msgstr "Subliniat"
+
+#: glade/glade_gnome.c:352 glade/glade_gnome.c:621
+msgid "Strikeout"
+msgstr "Tãiat"
+
+#: glade/glade_gnome.c:561 glade/property.c:1450 glade/property.c:1606
+msgid "Clear"
+msgstr "ªterge"
+
+#. Create Help menu
+#: glade/glade_gnome.c:564 glade/glade_project_window.c:704
+msgid "Help"
+msgstr "Ajutor"
+
+#: glade/glade_gnome.c:602
+msgid "Multiple"
+msgstr "Multiplu"
+
+#: glade/glade_gnome.c:603
+msgid "Not"
+msgstr "Not"
+
+#: glade/glade_gnome.c:622
+msgid "Text Indent"
+msgstr "Paragraf dreapta"
+
+#: glade/glade_gnome.c:623
+msgid "Text Unindent"
+msgstr "Paragraf stânga"
+
+#: glade/glade_gnome.c:624
+msgid "Color Select"
+msgstr "Alege culoare"
+
+#: glade/glade_gnome.c:625 glade/glade_menu_editor.c:739 glade/property.c:1432
+#: glade/property.c:1588
+msgid "Add"
+msgstr "Adaugã"
+
+#: glade/glade_gnome.c:626
+msgid "Remove"
+msgstr "Suprimã"
+
+#: glade/glade_gnome.c:627
+msgid "Table Borders"
+msgstr "Margini tabel"
+
+#: glade/glade_gnome.c:628
+msgid "Table Fill"
+msgstr "Umple tabel"
+
+#: glade/glade_gnome.c:629
+msgid "Text Bulleted List"
+msgstr "Listã nenumerotatã"
+
+#: glade/glade_gnome.c:630
+msgid "Text Numbered List"
+msgstr "Listã numerotatã"
+
+#: glade/glade_gtk12lib.c:309
+msgid "GTK+ Basic"
+msgstr "GTC+ de bazã"
+
+#: glade/glade_gtk12lib.c:310
+msgid "GTK+ Additional"
+msgstr "GTK+ suplimentar"
+
+#: glade/glade_keys_dialog.c:93 glade/property.c:3274
+msgid "Select Accelerator Key"
+msgstr "Alege tasta acceleratoare"
+
+#: glade/glade_keys_dialog.c:96
+msgid "Keys"
+msgstr "Taste"
+
+#: glade/glade_menu_editor.c:355
+msgid "Menu Editor"
+msgstr "Editor meniu"
+
+#: glade/gbwidgets/gblabel.c:517 glade/glade_menu_editor.c:371
+msgid "Label"
+msgstr "Etichetã"
+
+#: glade/glade_menu_editor.c:372
+msgid "Type"
+msgstr "Tip"
+
+#: glade/glade_menu_editor.c:373
+msgid "Accelerator"
+msgstr "Accelerator"
+
+#: glade/glade_menu_editor.c:374
+msgid "Name"
+msgstr "Nume"
+
+#: glade/glade_menu_editor.c:375 glade/property.c:1363
+msgid "Handler"
+msgstr "Descriptor"
+
+#: glade/glade_menu_editor.c:376 glade/property.c:103
+msgid "Active"
+msgstr "Activ"
+
+#: glade/glade_menu_editor.c:377
+msgid "Group"
+msgstr "Grup"
+
+#: glade/glade_menu_editor.c:378
+msgid "Right Justify"
+msgstr "Aliniat la dreapta"
+
+#: glade/glade_menu_editor.c:380
+msgid "Icon"
+msgstr "Icon"
+
+#: glade/glade_menu_editor.c:425
+msgid "Move the item and its children up one place in the list"
+msgstr "Mutã elementul ºi fiii sãi un loc în sus pe listã"
+
+#: glade/glade_menu_editor.c:437
+msgid "Move the item and its children down one place in the list"
+msgstr "Mutã elementul ºi fiii sãi un loc în jos pe listã"
+
+#: glade/glade_menu_editor.c:449
+msgid "Move the item and its children up one level"
+msgstr "Mutã elementul ºi fiii sãi un nivel mai sus"
+
+#: glade/glade_menu_editor.c:461
+msgid "Move the item and its children down one level"
+msgstr "Mutã elementul ºi fiii sãi un nivel mai jos"
+
+#: glade/glade_menu_editor.c:487
+msgid "The stock Gnome item to use."
+msgstr "Lista elementelor Gnome."
+
+#: glade/glade_menu_editor.c:489
+msgid "Stock Item:"
+msgstr "Element listã:"
+
+#: glade/glade_menu_editor.c:579
+msgid ""
+"The text of the menu item, or empty for separators. Hit return to add a new "
+"item below this one. Ctl-Return adds a child item beneath this one."
+msgstr ""
+"Textul elementului, sau lasã gol pentru separator. RETURN pentru a adãuga un "
+"nou element sub acesta. Ctl-RETURN adaugã un element-fiu sub acesta."
+
+#: glade/gbwidgets/gbaccellabel.c:86 glade/gbwidgets/gbaspectframe.c:93
+#: glade/gbwidgets/gbbutton.c:169 glade/gbwidgets/gbbutton.c:175
+#: glade/gbwidgets/gbcheckbutton.c:76 glade/gbwidgets/gbcheckmenuitem.c:73
+#: glade/gbwidgets/gbframe.c:87 glade/gbwidgets/gblabel.c:124
+#: glade/gbwidgets/gblistitem.c:73 glade/gbwidgets/gbmenuitem.c:85
+#: glade/gbwidgets/gbradiobutton.c:102 glade/gbwidgets/gbradiomenuitem.c:93
+#: glade/gbwidgets/gbtogglebutton.c:114 glade/gbwidgets/gbtreeitem.c:71
+#: glade/glade_menu_editor.c:581 glade/gnome/gbpixmapmenuitem.c:79
+#: glade/gnome/gnomehref.c:67
+msgid "Label:"
+msgstr "Eticheta:"
+
+#: glade/glade_menu_editor.c:603 glade/property.c:656
+msgid "The name of the widget"
+msgstr "Numele widgetului"
+
+#: glade/glade_menu_editor.c:606 glade/property.c:655
+msgid "Name:"
+msgstr "Nume:"
+
+#: glade/glade_menu_editor.c:624
+msgid "The function to be called when the item is selected"
+msgstr "Functia apelatã când elementul este selectat"
+
+#: glade/glade_menu_editor.c:626 glade/property.c:1410
+msgid "Handler:"
+msgstr "Descriptor:"
+
+#: glade/glade_menu_editor.c:646
+msgid "An optional icon to show on the left of the menu item."
+msgstr "Icon-ul, opþional, afiºat în meniu la stânga elementului."
+
+#: glade/gbwidgets/gbbutton.c:179 glade/gbwidgets/gbbutton.c:194
+#: glade/gbwidgets/gbradiobutton.c:106 glade/gbwidgets/gbtogglebutton.c:121
+#: glade/glade_menu_editor.c:648
+msgid "Icon:"
+msgstr "Icon:"
+
+#: glade/glade_menu_editor.c:716
+msgid "The tip to show when the mouse is over the item"
+msgstr "Pontul afiºat când mouse-ul este pe element"
+
+#: glade/glade_menu_editor.c:718 glade/property.c:705
+msgid "Tooltip:"
+msgstr "Tooltip:"
+
+#: glade/glade_menu_editor.c:744
+msgid "Add a new item below the selected item."
+msgstr "Acaugã un nou element sub cel selectat."
+
+#: glade/glade_menu_editor.c:749
+msgid "Add Separator"
+msgstr "Adaugã separator"
+
+#: glade/glade_menu_editor.c:754
+msgid "Add a separator below the selected item."
+msgstr "Adaugã separator sub elementul selectat."
+
+#: glade/glade_menu_editor.c:764
+msgid "Delete the current item"
+msgstr "ªterge elementul curent"
+
+#. Type radio options and toggle options.
+#: glade/glade_menu_editor.c:770
+msgid "Item Type:"
+msgstr "Tip element:"
+
+#: glade/glade_menu_editor.c:786
+msgid "If the item is right justified (e.g. for a Help menu)."
+msgstr "Dacã elementul este aliniat la dreapta (ex. în meniul Ajutor)."
+
+#: glade/gbwidgets/gbmenuitem.c:86 glade/glade_menu_editor.c:788
+#: glade/gnome/gbpixmapmenuitem.c:80
+msgid "Right Justify:"
+msgstr "Aliniat la dreapta:"
+
+#: glade/glade_menu_editor.c:793 glade/glade_menu_editor.c:811
+#: glade/glade_menu_editor.c:1372 glade/glade_menu_editor.c:1393
+#: glade/property.c:1822 glade/property.c:1832
+msgid "No"
+msgstr "Nu"
+
+#: glade/glade_menu_editor.c:804
+msgid "If the item is initially on."
+msgstr "Dacã elementul este initial activ."
+
+#: glade/glade_menu_editor.c:806
+msgid "Active:"
+msgstr "Activ:"
+
+#: glade/glade_menu_editor.c:825
+msgid ""
+"The radio menu item's group. Leave empty to use the parent menu's default "
+"group."
+msgstr ""
+"Grupul elementelor radio. Lãsaþi-l gol dacã se va folosi grupul meniului "
+"tatã."
+
+#: glade/gbwidgets/gbradiobutton.c:112 glade/gbwidgets/gbradiomenuitem.c:98
+#: glade/glade_menu_editor.c:827
+msgid "Group:"
+msgstr "Grup:"
+
+#: glade/glade_menu_editor.c:840 glade/glade_menu_editor.c:2139
+#: glade/glade_menu_editor.c:2256
+msgid "Radio"
+msgstr "Radio"
+
+#: glade/glade_menu_editor.c:847 glade/glade_menu_editor.c:2137
+#: glade/glade_menu_editor.c:2254
+msgid "Check"
+msgstr "Bifat"
+
+#: glade/gbwidgets/gbimage.c:208 glade/glade_menu_editor.c:854
+#: glade/property.c:103
+msgid "Normal"
+msgstr "Normal"
+
+#. Accelerator key options.
+#: glade/glade_menu_editor.c:863
+msgid "Accelerator:"
+msgstr "Accelerator:"
+
+#: glade/glade_menu_editor.c:900 glade/property.c:1566
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: glade/glade_menu_editor.c:905 glade/property.c:1569
+msgid "Shift"
+msgstr "Shift"
+
+#: glade/glade_menu_editor.c:910 glade/property.c:1572
+msgid "Alt"
+msgstr "Alt"
+
+#: glade/glade_menu_editor.c:915 glade/property.c:1579
+msgid "Key:"
+msgstr "Tasta:"
+
+#: glade/glade_menu_editor.c:921 glade/property.c:1558
+msgid "Modifiers:"
+msgstr "Modificatoare:"
+
+#: glade/glade_menu_editor.c:953
+msgid "Apply"
+msgstr "Aplicã"
+
+#: glade/glade_menu_editor.c:1372 glade/glade_menu_editor.c:1393
+#: glade/glade_menu_editor.c:2147 glade/glade_menu_editor.c:2149
+#: glade/glade_menu_editor.c:2265 glade/glade_menu_editor.c:2273
+#: glade/property.c:1822
+msgid "Yes"
+msgstr "Da"
+
+#: glade/glade_menu_editor.c:1744
+msgid "Select icon"
+msgstr "Alege icon"
+
+#: glade/glade_menu_editor.c:2077 glade/glade_menu_editor.c:2479
+msgid "separator"
+msgstr "separator"
+
+#: glade/glade_menu_editor.c:2916
+msgid "Couldn't create pixmap from file:"
+msgstr "Nu pot crea pixmap-ul, din fiºierul:"
+
+#: glade/glade_palette.c:186 glade/glade_palette.c:188
+#: glade/glade_palette.c:380
+msgid "Selector"
+msgstr "Selector"
+
+#: glade/glade_project.c:351
+msgid ""
+"The project directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"Directorul proiectului nu este dat.\n"
+"Definiþi-l prin dialogul 'Opþiuni proiect'.\n"
+
+#: glade/glade_project.c:358
+msgid ""
+"The source directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"Directorul sursã nu este dat.\n"
+"Definiþi-l prin dialogul 'Opþiuni proiect'.\n"
+
+#: glade/glade_project.c:368
+msgid ""
+"Invalid source directory:\n"
+"\n"
+"The source directory must be the project directory\n"
+"or a subdirectory of the project directory.\n"
+msgstr ""
+"Director sursã invalid:\n"
+"\n"
+"Directorul sursã trebuie sã fie directorul proiectului\n"
+"sau un subdirector al directorul proiectului\n"
+
+#: glade/glade_project.c:376
+msgid ""
+"The pixmaps directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"Directorul de pixmap-uri nu este dat.\n"
+"Definiþi-l prin dialogul 'Opþiuni proiect'.\n"
+
+#: glade/glade_project.c:404
+#, c-format
+msgid "Sorry - generating source for %s is not implemented yet"
+msgstr "Scuze - generarea sursei pentru %s încã nu este implementatã"
+
+#: glade/glade_project.c:432
+msgid ""
+"Error running glade-- to generate the C++ source code.\n"
+"Check that you have glade-- installed and that it is in your PATH."
+msgstr ""
+"Eroare în glade-- la generarea codului sursã C++.\n"
+"Verificaþi dacã glade-- este instalat si dacã este în PATH."
+
+#: glade/glade_project.c:454
+msgid ""
+"Error running gate to generate the Ada95 source code.\n"
+"Check that you have gate installed and that it is in your PATH."
+msgstr ""
+"Eroare în gate la generarea codului sursã Ada95.\n"
+"Verificaþi dacã gate este instalat si dacã este în PATH."
+
+#: glade/glade_project.c:476
+msgid ""
+"Error running glade2perl to generate the Perl source code.\n"
+"Check that you have glade2perl installed and that it is in your PATH."
+msgstr ""
+"Eroare în glade2perl la generarea codului sursã Perl.\n"
+"Verificaþi dacã glade2perl este instalat si dacã este în PATH."
+
+#: glade/glade_project.c:498
+msgid ""
+"Error running eglade to generate the Eiffel source code.\n"
+"Check that you have eglade installed and that it is in your PATH."
+msgstr ""
+"Eroare în eglade la generarea codului sursã Eiffel.\n"
+"Verificaþi dacã eglade este instalat si dacã este în PATH."
+
+#: glade/glade_project.c:844
+msgid ""
+"The pixmap directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"Directorul de pixmap-uri nu este dat.\n"
+"Definiþi-l prin dialogul 'Opþiuni proiect'.\n"
+
+#: glade/glade_project_options.c:141 glade/glade_project_window.c:318
+#: glade/glade_project_window.c:759
+msgid "Project Options"
+msgstr "Opþiuni proiect"
+
+#.
+#. * General Page.
+#.
+#: glade/glade_project_options.c:158
+msgid "General"
+msgstr "General"
+
+#: glade/glade_project_options.c:167
+msgid "Basic Options:"
+msgstr "Opþiuni de bazã:"
+
+#: glade/glade_project_options.c:185
+msgid "The project directory"
+msgstr "Directorul proiectului"
+
+#: glade/glade_project_options.c:187
+msgid "Project Directory:"
+msgstr "Director proiect:"
+
+#: glade/glade_project_options.c:205
+msgid "Browse..."
+msgstr "Rãsfoieºte..."
+
+#: glade/glade_project_options.c:220
+msgid "The name of the current project"
+msgstr "Numele proiectului curent"
+
+#: glade/glade_project_options.c:222
+msgid "Project Name:"
+msgstr "Nume proiect:"
+
+#: glade/glade_project_options.c:242
+msgid "The name of the program"
+msgstr "Numele programului"
+
+#: glade/glade_project_options.c:244
+msgid "Program Name:"
+msgstr "Nume program:"
+
+#: glade/glade_project_options.c:265
+msgid "The project file"
+msgstr "Fiºierul proiectului"
+
+#: glade/glade_project_options.c:267
+msgid "Project File:"
+msgstr "Fiºier proiect:"
+
+#. Project Source Directory.
+#: glade/glade_project_options.c:283
+msgid "Subdirectories:"
+msgstr "Subdirectoare:"
+
+#: glade/glade_project_options.c:300
+msgid "The directory to save generated source code"
+msgstr "Directorul de salvare a codului sursã"
+
+#: glade/glade_project_options.c:303
+msgid "Source Directory:"
+msgstr "Director sursã:"
+
+#: glade/glade_project_options.c:322
+msgid "The directory to store pixmaps"
+msgstr "Directorul de pixmap-uri"
+
+#: glade/glade_project_options.c:325
+msgid "Pixmaps Directory:"
+msgstr "Director pixmap:"
+
+#: glade/glade_project_options.c:347
+msgid "The license which is added at the top of generated files"
+msgstr "Licenþa care va fi pusã la începutul fiºierelor generate"
+
+#: glade/glade_project_options.c:349
+msgid "License:"
+msgstr "Licenþã:"
+
+#. Source Language.
+#: glade/glade_project_options.c:369
+msgid "Language:"
+msgstr "Limbaj:"
+
+#: glade/glade_project_options.c:397
+msgid "Gnome:"
+msgstr "Gnome:"
+
+#: glade/glade_project_options.c:405
+msgid "Enable Gnome Support"
+msgstr "Cu suport Gnome"
+
+#: glade/glade_project_options.c:409
+msgid "If a Gnome application is to be built"
+msgstr "Dacã este generatã o aplicaþie Gnome"
+
+#: glade/glade_project_options.c:412
+msgid "Enable Gnome DB Support"
+msgstr "Cu suport Gnome DB"
+
+#: glade/glade_project_options.c:416
+msgid "If a Gnome DB application is to be built"
+msgstr "Dacã este generatã o aplicaþie Gnome DB"
+
+#.
+#. * C Options Page.
+#.
+#: glade/glade_project_options.c:426
+msgid "C Options"
+msgstr "Opþiuni C"
+
+#: glade/glade_project_options.c:439
+msgid "General Options:"
+msgstr "Opþiuni generale:"
+
+#. Gettext Support.
+#: glade/glade_project_options.c:449
+msgid "Gettext Support"
+msgstr "Suport gettext"
+
+#: glade/glade_project_options.c:454
+msgid "If strings are marked for translation by gettext"
+msgstr "Dacã ºirurile sunt marcate pentru traducere cu gettext"
+
+#. Setting widget names.
+#: glade/glade_project_options.c:458
+msgid "Set Widget Names"
+msgstr "Numeºte widgetele"
+
+#: glade/glade_project_options.c:463
+msgid "If widget names are set in the source code"
+msgstr "Dacã numele widgetelor sunt date în codul sursã"
+
+#. Backing up source files.
+#: glade/glade_project_options.c:467
+msgid "Backup Source Files"
+msgstr "Copii siguranþã surse"
+
+#: glade/glade_project_options.c:472
+msgid "If copies of old source files are made"
+msgstr "Dacã se fac copii de siguranþã ale surselor"
+
+#. Gnome Help System support.
+#: glade/glade_project_options.c:476
+msgid "Gnome Help Support"
+msgstr "Suport 'Ajutor' Gnome"
+
+#: glade/glade_project_options.c:483
+msgid "If support for the Gnome Help system should be included"
+msgstr "Dacã va fi inclus suportul sistemului de ajutor Gnome"
+
+#: glade/glade_project_options.c:486
+msgid "File Output Options:"
+msgstr "Opþiuni fiºiere de ieºire:"
+
+#. Outputting main file.
+#: glade/glade_project_options.c:496
+msgid "Output main.c File"
+msgstr "Fiºierul produs main.c"
+
+#: glade/glade_project_options.c:501
+msgid ""
+"If a main.c file is output containing a main() function, if it doesn't "
+"already exist"
+msgstr "Dacã fiºierul produs main.c conþinând funcþia main() încã nu existã"
+
+#. Outputting support files.
+#: glade/glade_project_options.c:505
+msgid "Output Support Functions"
+msgstr "Produse ale funcþiilor suport"
+
+#: glade/glade_project_options.c:510
+msgid "If the support functions are output"
+msgstr "Dacã funcþiile suport produc ceva"
+
+#. Outputting build files.
+#: glade/glade_project_options.c:514
+msgid "Output Build Files"
+msgstr "Produsul generãrii"
+
+#: glade/glade_project_options.c:519
+msgid ""
+"If files for building the source code are output, including Makefile.am and "
+"configure.in, if they don't already exist"
+msgstr ""
+"Dacã se produc fiºiere cod sursã. inclusiv Makefile.am ºi configure.in, dacã "
+"acestea încã nu existã"
+
+#. Main source file.
+#: glade/glade_project_options.c:523
+msgid "Interface Creation Functions:"
+msgstr "Funcþii creare interfaþã:"
+
+#: glade/glade_project_options.c:535
+msgid "The file in which the functions to create the interface are written"
+msgstr "Fiºierul în care se scriu funcþiile de creare a interfeþei"
+
+#: glade/glade_project_options.c:537 glade/glade_project_options.c:581
+#: glade/glade_project_options.c:624 glade/property.c:873
+msgid "Source File:"
+msgstr "Fiºier sursã:"
+
+#: glade/glade_project_options.c:552
+msgid ""
+"The file in which the declarations of the functions to create the interface "
+"are written"
+msgstr ""
+"Fiºierul în care se scriu instrucþiunile funcþiilor de creare a interfeþei"
+
+#: glade/glade_project_options.c:554 glade/glade_project_options.c:598
+#: glade/glade_project_options.c:641
+msgid "Header File:"
+msgstr "Fiºier header:"
+
+#. Handler source file.
+#: glade/glade_project_options.c:567
+msgid "Signal Handler & Callback Functions:"
+msgstr "Manipulant semnale ºi funcþii de rapel:"
+
+#: glade/glade_project_options.c:579
+msgid ""
+"The file in which the empty signal handler and callback functions are written"
+msgstr ""
+"Fiºierul în care se scriu descriptorii (fãrã semnal) ºi funcþiile de rapel"
+
+#: glade/glade_project_options.c:596
+msgid ""
+"The file in which the declarations of the signal handler and callback "
+"functions are written"
+msgstr ""
+"Fiºierul în care se scriu instrucþiunile manipulantului semnalelor ºi al "
+"funcþiilor de rapel"
+
+#. Support source file.
+#: glade/glade_project_options.c:610
+msgid "Support Functions:"
+msgstr "Funcþii suport:"
+
+#: glade/glade_project_options.c:622
+msgid "The file in which the support functions are written"
+msgstr "Fiºierul în care se scriu funcþiile suport"
+
+#: glade/glade_project_options.c:639
+msgid "The file in which the declarations of the support functions are written"
+msgstr "Fiºierul în care se scriu declaraþiile funcþiilor suport"
+
+#.
+#. * libglade Options Page.
+#.
+#: glade/glade_project_options.c:657
+msgid "LibGlade Options"
+msgstr "Opþiuni LibGlade"
+
+#: glade/glade_project_options.c:666
+msgid "Translatable Strings:"
+msgstr "ªiruri traductibile:"
+
+#. Output translatable strings.
+#: glade/glade_project_options.c:680
+msgid "Save Translatable Strings"
+msgstr "Salveazã ºiruri traductibile"
+
+#: glade/glade_project_options.c:685
+msgid ""
+"If translatable strings are saved in a separate C source file, to enable "
+"translation of interfaces loaded by libglade"
+msgstr ""
+"Dacã ºirurile traductibile sunt salvate într-un fiºier sursã C separat, "
+"pentru a activa traducerea interfeþelor prin libglade"
+
+#: glade/glade_project_options.c:695
+msgid "The C source file to save all translatable strings in"
+msgstr "Fiºierul sursã C pentru salvarea ºirurilor traductibile"
+
+#: glade/gbwidgets/gbpixmap.c:71 glade/glade_project_options.c:697
+#: glade/gnome/gnomepixmap.c:78
+msgid "File:"
+msgstr "Fiºier:"
+
+#: glade/glade_project_options.c:1158
+msgid "Select the Project Directory"
+msgstr "Selectare director proiect"
+
+#: glade/glade_project_options.c:1349 glade/glade_project_options.c:1359
+#: glade/glade_project_options.c:1369
+msgid "You need to set the Translatable Strings File option"
+msgstr "Definiþi opþiunea 'Fiºier de ºiruri traductibile'"
+
+#: glade/glade_project_options.c:1353 glade/glade_project_options.c:1363
+msgid "You need to set the Project Directory option"
+msgstr "Definiþi opþiunea 'Director proiect'"
+
+#: glade/glade_project_options.c:1355 glade/glade_project_options.c:1365
+msgid "You need to set the Project File option"
+msgstr "Definiþi opþiunea 'Fiºier proiect'"
+
+#: glade/glade_project_options.c:1371
+msgid "You need to set the Project Name option"
+msgstr "Definiþi opþiunea 'Nume proiect'"
+
+#: glade/glade_project_options.c:1373
+msgid "You need to set the Program Name option"
+msgstr "Definiþi opþiunea 'Nume proiect'"
+
+#: glade/glade_project_options.c:1376
+msgid "You need to set the Source Directory option"
+msgstr "Definiþi opþiunea 'Director sursã'"
+
+#: glade/glade_project_options.c:1379
+msgid "You need to set the Pixmaps Directory option"
+msgstr "Definiþi opþiunea 'Director pixmap'"
+
+#: glade/glade_project_window.c:156
+msgid "_New Project"
+msgstr "Proiect _Nou"
+
+#: glade/glade_project_window.c:156 glade/glade_project_window.c:480
+msgid "Create a new project"
+msgstr "Creazã un proiect nou"
+
+#: glade/glade_project_window.c:164
+msgid "_Build Source Code"
+msgstr "_Genereazã cod sursã"
+
+#: glade/glade_project_window.c:165 glade/glade_project_window.c:527
+msgid "Output the project source code"
+msgstr "Ieºire cod sursã proiect"
+
+#: glade/glade_project_window.c:171
+msgid "_Project Options..."
+msgstr "_Opþiuni Proiect..."
+
+#: glade/glade_project_window.c:172 glade/glade_project_window.c:536
+msgid "Edit the project options"
+msgstr "Editeazã opþiuni proiect"
+
+#: glade/glade_project_window.c:187
+msgid "_Delete"
+msgstr "_Sterge"
+
+#: glade/glade_project_window.c:187
+msgid "Delete the selected widget"
+msgstr "ªterge widgetul selectat"
+
+#: glade/glade_project_window.c:197
+msgid "Show _Palette"
+msgstr "Aratã _Paleta"
+
+#: glade/glade_project_window.c:197 glade/glade_project_window.c:611
+msgid "Show the palette of widgets"
+msgstr "Aratã paleta widgetului"
+
+#: glade/glade_project_window.c:203
+msgid "Show Property _Editor"
+msgstr "Aratã _Editor proprietãþi"
+
+#: glade/glade_project_window.c:204
+msgid "Show the property editor"
+msgstr "Aratã editorul proprietãþilor"
+
+#: glade/glade_project_window.c:210
+msgid "Show Widget _Tree"
+msgstr "Aratã _Arbore widget"
+
+#: glade/glade_project_window.c:211
+msgid "Show the widget tree"
+msgstr "Aratã arborele widgetului"
+
+#: glade/glade_project_window.c:217
+msgid "Show _Clipboard"
+msgstr "Aratã _Tamponul"
+
+#: glade/glade_project_window.c:218 glade/glade_project_window.c:639
+msgid "Show the clipboard"
+msgstr "Aratã tamponul"
+
+#: glade/glade_project_window.c:236
+msgid "Show _Grid"
+msgstr "Aratã _Grila"
+
+#: glade/glade_project_window.c:237 glade/glade_project_window.c:670
+msgid "Show the grid (in fixed containers only)"
+msgstr "Aratã grila (numai la recipiente fixe)"
+
+#: glade/glade_project_window.c:243
+msgid "_Snap to Grid"
+msgstr "_Prinde Grila"
+
+#: glade/glade_project_window.c:244
+msgid "Snap widgets to the grid"
+msgstr "Prindere widgete de grilã"
+
+#: glade/glade_project_window.c:250
+msgid "Show _Widget Tooltips"
+msgstr "Aratã tooltipuri _Widget"
+
+#: glade/glade_project_window.c:251 glade/glade_project_window.c:650
+msgid "Show the tooltips of created widgets"
+msgstr "Aratã tooltipurile widgetului creat"
+
+#: glade/glade_project_window.c:260
+msgid "Set Grid _Options..."
+msgstr "_Opþiuni grilã..."
+
+#: glade/glade_project_window.c:261
+msgid "Set the grid style and spacing"
+msgstr "Stilul grilei ºi spatierile"
+
+#: glade/glade_project_window.c:267
+msgid "Set Snap O_ptions..."
+msgstr "Opþiuni de p_rindere..."
+
+#: glade/glade_project_window.c:268
+msgid "Set options for snapping to the grid"
+msgstr "Opþiuni de prindere de grilã"
+
+#: glade/glade_project_window.c:307 glade/glade_project_window.c:746
+#: glade/glade_project_window.c:879
+msgid "Open Project"
+msgstr "Deschide proiect"
+
+#: glade/glade_project_window.c:312 glade/glade_project_window.c:752
+#: glade/glade_project_window.c:1163
+msgid "Save Project"
+msgstr "Salveazã proiect"
+
+#: glade/glade_project_window.c:318 glade/glade_project_window.c:759
+msgid "Options"
+msgstr "Opþiuni"
+
+#: glade/glade_project_window.c:324 glade/glade_project_window.c:765
+msgid "Build"
+msgstr "Generare"
+
+#: glade/glade_project_window.c:324
+msgid "Build the Source Code"
+msgstr "Genereazã codul sursã"
+
+#. create File menu
+#: glade/glade_project_window.c:467
+msgid "File"
+msgstr "Fiºier"
+
+#: glade/glade_project_window.c:474 glade/glade_project_window.c:740
+msgid "New Project"
+msgstr "Proiect nou"
+
+#: glade/glade_project_window.c:483
+msgid "Open..."
+msgstr "Deschide..."
+
+#: glade/glade_project_window.c:490
+msgid "Open an existing project"
+msgstr "Deschide un proiect existent"
+
+#: glade/glade_project_window.c:501
+msgid "Save project"
+msgstr "Salveazã proiect"
+
+#: glade/glade_project_window.c:519
+msgid "Write Source Code..."
+msgstr "Scrie cod sursã..."
+
+#: glade/glade_project_window.c:530
+msgid "Project Options..."
+msgstr "Opþiuni proiect..."
+
+#: glade/glade_project_window.c:544 glade/glade_project_window.c:1380
+#, fuzzy
+msgid "Exit"
+msgstr "Editare"
+
+#: glade/glade_project_window.c:550
+#, fuzzy
+msgid "Exit Glade"
+msgstr "Terminã Glade"
+
+#. Create Edit menu
+#: glade/glade_project_window.c:555
+msgid "Edit"
+msgstr "Editare"
+
+#. Create View menu
+#: glade/glade_project_window.c:599
+msgid "View"
+msgstr "Vizualizare"
+
+#: glade/glade_project_window.c:606
+msgid "Show Palette"
+msgstr "Aratã paleta"
+
+#: glade/glade_project_window.c:615
+msgid "Show Properties"
+msgstr "Aratã proprietãþi"
+
+#: glade/glade_project_window.c:621
+msgid "Show the properties of the selected widget"
+msgstr "Aratã proprietãþile widgetului selectat"
+
+#: glade/glade_project_window.c:624
+msgid "Show Widget Tree"
+msgstr "Aratã arborele widgetului"
+
+#: glade/glade_project_window.c:630
+msgid "Show the project widget tree"
+msgstr "Aratã arborele de widgete din proiect"
+
+#: glade/glade_project_window.c:633
+msgid "Show Clipboard"
+msgstr "Aratã tamponul"
+
+#: glade/glade_project_window.c:642
+msgid "Show Widget Tooltips"
+msgstr "Aratã tooltipurile widgetului"
+
+#: glade/glade_project_window.c:654
+msgid "Grid"
+msgstr "Grila"
+
+#: glade/glade_project_window.c:662
+msgid "Show Grid"
+msgstr "Aratã grila"
+
+#: glade/glade_project_window.c:673
+msgid "Set Grid Options..."
+msgstr "Opþiuni grilã..."
+
+#: glade/glade_project_window.c:679
+msgid "Set the spacing between grid lines"
+msgstr "Fixeazã spaþiul dintre liniile grilei"
+
+#: glade/glade_project_window.c:682
+msgid "Snap to Grid"
+msgstr "Prinde grila"
+
+#: glade/glade_project_window.c:690
+msgid "Snap widgets to the grid (in fixed containers only)"
+msgstr "Prinde widgete de grilã (numai la recipiente fixe)"
+
+#: glade/glade_project_window.c:694
+msgid "Set Snap Options..."
+msgstr "Opþiuni de prindere..."
+
+#: glade/glade_project_window.c:700
+msgid "Set which parts of a widget snap to the grid"
+msgstr "Pãrþile widgetului care se prind de grilã"
+
+#. Don't show these yet as we have no help pages.
+#. menuitem = gtk_menu_item_new_with_label (_("Contents"));
+#. gtk_menu_append (GTK_MENU (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#. menuitem = gtk_menu_item_new_with_label (_("Index"));
+#. gtk_menu_append (GTK_MENU (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#. menuitem = gtk_menu_item_new ();
+#. gtk_menu_append (GTK_MENU (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#: glade/glade_project_window.c:725
+msgid "About..."
+msgstr "Despre..."
+
+#: glade/glade_project_window.c:765
+msgid "Write Source Code"
+msgstr "Scrie cod sursã"
+
+#: glade/glade_project_window.c:843
+msgid "Are you sure you want to create a new project?"
+msgstr "Sigur doriþi sã creaþi un proiect nou?"
+
+#: glade/glade_project_window.c:865
+msgid "New project created."
+msgstr "Noul proiect a fost creat."
+
+#: glade/glade_project_window.c:938
+msgid "Project opened."
+msgstr "Proiectul a fost deschis."
+
+#: glade/glade_project_window.c:946
+msgid "Error opening project."
+msgstr "Eroare la deschiderea proiectului."
+
+#: glade/glade_project_window.c:964
+msgid "Errors opening project file"
+msgstr "Erori la deschiderea fiºierelor proiectului"
+
+#: glade/glade_project_window.c:971
+msgid " errors opening project file:"
+msgstr " erori la deschiderea fiºierului:"
+
+#: glade/glade_project_window.c:1230
+msgid "Error saving project"
+msgstr "Eroare la salvarea proiectului"
+
+#: glade/glade_project_window.c:1232
+msgid "Error saving project."
+msgstr "Eroare la salvarea proiectului."
+
+#: glade/glade_project_window.c:1238
+msgid "Project saved."
+msgstr "Proiect salvat."
+
+#: glade/glade_project_window.c:1304
+msgid "Errors writing source code"
+msgstr "Eroare la scrierea codului sursã"
+
+#: glade/glade_project_window.c:1306
+msgid "Error writing source."
+msgstr "Eroare la scrierea sursei."
+
+#: glade/glade_project_window.c:1312
+msgid "Source code written."
+msgstr "Cod sursã scris."
+
+#: glade/glade_project_window.c:1345
+msgid "System error message:"
+msgstr "Mesaj de eroare sistem:"
+
+#: glade/glade_project_window.c:1383
+#, fuzzy
+msgid "Are you sure you want to exit?"
+msgstr "Sigur doriþi sã terminaþi?"
+
+#: glade/glade_project_window.c:1576
+msgid "(C) 1998-2001 Damon Chaplin"
+msgstr "(C) 1998-2001 Damon Chaplin"
+
+#: glade/glade_project_window.c:1578
+msgid "Glade is a User Interface Builder for GTK+ and GNOME.\n"
+msgstr "Glade este un Generator de interfeþe pentru GTK+ ºi GNOME.\n"
+
+#: glade/glade_project_window.c:1589
+msgid "Glade Home Page"
+msgstr "Pagina web Glade"
+
+#: glade/glade_project_window.c:1600
+#, fuzzy, c-format
+msgid ""
+"G L A D E\n"
+"\n"
+"A User Interface Builder for GTK+ and GNOME\n"
+"\n"
+"Version %s\n"
+"\n"
+"By\n"
+"Damon Chaplin\n"
+"Martijn van Beers\n"
+"\n"
+"Email: damon@ximian.com\n"
+"Home Page: http://glade.gnome.org\n"
+msgstr ""
+"G L A D E\n"
+"\n"
+"A Generator de interfeþe pentru GTK+ ºi GNOME\n"
+"\n"
+"Versiune %s\n"
+"\n"
+"De\n"
+"Damon Chaplin\n"
+"Martijn van Beers\n"
+"\n"
+"Email: damon@ximian.com\n"
+"Pagina web: http://glade.pn.org\n"
+
+#: glade/glade_project_window.c:1659
+msgid "<untitled>"
+msgstr "<fãrã titlu>"
+
+#: glade/load.c:135
+msgid "Couldn't open file.\n"
+msgstr "Nu pot deschide fiºierul.\n"
+
+#: glade/load.c:562
+#, c-format
+msgid "Line %i - %s %s %s\n"
+msgstr "Linia %i - %s %s %s\n"
+
+#: glade/load.c:587
+#, c-format
+msgid ""
+"Line %i - %s:\n"
+"  %s = %s\n"
+msgstr ""
+"Linia %i - %s:\n"
+"  %s = %s\n"
+
+#: glade/main.c:65
+msgid "Write the source code and exit"
+msgstr "Scrie codul sursei ºi ieºi"
+
+#: glade/main.c:99
+msgid "Oaf options"
+msgstr "Opþiuni oaf"
+
+#: glade/main.c:252
+msgid ""
+"glade: The XML file must be set for the '-w' or '--write-source' option.\n"
+msgstr ""
+"glade: Fiºierul XML trebuie sa aibã argumentul '-w' sau '--write-source'.\n"
+
+#: glade/main.c:264
+msgid "glade: Error loading XML file.\n"
+msgstr "glade: eroare la încãrcarea fiºierului XML.\n"
+
+#: glade/main.c:271
+msgid "glade: Error writing source.\n"
+msgstr "glade: eroare la scrierea sursei.\n"
+
+#: glade/palette.c:52
+msgid "Palette"
+msgstr "Paleta"
+
+#: glade/property.c:74
+msgid "private"
+msgstr "privat"
+
+#: glade/property.c:74
+msgid "protected"
+msgstr "protejat"
+
+#: glade/property.c:74
+msgid "public"
+msgstr "public"
+
+#: glade/property.c:103
+msgid "Prelight"
+msgstr "Evidenþiat"
+
+#: glade/property.c:104
+msgid "Selected"
+msgstr "Selectat"
+
+#: glade/property.c:104
+msgid "Insens"
+msgstr "Insens"
+
+#: glade/property.c:460
+msgid "When the window needs redrawing"
+msgstr "Când fereastra trebuie regeneratã"
+
+#: glade/property.c:461
+msgid "When the mouse moves"
+msgstr "Când mouse-ul se miºcã"
+
+#: glade/property.c:462
+msgid "Mouse movement hints"
+msgstr "Sugestii la miºcarea mouse-ului"
+
+#: glade/property.c:463
+msgid "Mouse movement with any button pressed"
+msgstr "Miºcare mouse cu un buton apãsat"
+
+#: glade/property.c:464
+msgid "Mouse movement with button 1 pressed"
+msgstr "Miºcare mouse cu butonul 1 apãsat"
+
+#: glade/property.c:465
+msgid "Mouse movement with button 2 pressed"
+msgstr "Miºcare mouse cu butonul 2 apãsat"
+
+#: glade/property.c:466
+msgid "Mouse movement with button 3 pressed"
+msgstr "Miºcare mouse cu butonul 3 apãsat"
+
+#: glade/property.c:467
+msgid "Any mouse button pressed"
+msgstr "Apãsarea unui buton al mouse-ului"
+
+#: glade/property.c:468
+msgid "Any mouse button released"
+msgstr "Eliberarea unui buton al mouse-ului"
+
+#: glade/property.c:469
+msgid "Any key pressed"
+msgstr "Apãsarea unei taste"
+
+#: glade/property.c:470
+msgid "Any key released"
+msgstr "Eliberarea unei taste"
+
+#: glade/property.c:471
+msgid "When the mouse enters the window"
+msgstr "Când mouse-ul intrã în fereastrã"
+
+#: glade/property.c:472
+msgid "When the mouse leaves the window"
+msgstr "Când mouse-ul iese din fereastrã"
+
+#: glade/property.c:473
+msgid "Any change in input focus"
+msgstr "Nici o schimbare în intrarea focalizatã"
+
+#: glade/property.c:474
+msgid "Any change in window structure"
+msgstr "Nici o schimbare în structura ferestrei"
+
+#: glade/property.c:475
+msgid "Any change in X Windows property"
+msgstr "Nici o schimbare în propritãþile X Windows"
+
+#: glade/property.c:476
+msgid "Any change in visibility"
+msgstr "Nici o schimbare în vizibilitate"
+
+#: glade/property.c:477 glade/property.c:478
+msgid "For cursors in XInput-aware programs"
+msgstr "Pentru cursoare din programe care folosesc XImput"
+
+#. Create the pages of the main notebook
+#. NOTE: If you add/remove pages you need to change the GB_PAGE_SIGNALS
+#. value at the top of this file
+#: glade/property.c:530
+msgid "Widget"
+msgstr "Widget"
+
+#: glade/property.c:535
+msgid "Packing"
+msgstr "Împachetare"
+
+#: glade/property.c:540
+msgid "Common"
+msgstr "Comun"
+
+#: glade/property.c:546
+msgid "Style"
+msgstr "Stil"
+
+#: glade/property.c:552 glade/property.c:3609
+msgid "Signals"
+msgstr "Semnale"
+
+#: glade/property.c:605
+msgid "Properties: "
+msgstr "Proprietãþi: "
+
+#: glade/property.c:616
+msgid "Properties: <none>"
+msgstr "Proprietãþi: <nimic>"
+
+#: glade/property.c:657
+msgid "Class:"
+msgstr "Clasa:"
+
+#: glade/property.c:658
+msgid "The class of the widget"
+msgstr "Clasa widgetului"
+
+#: glade/property.c:688
+msgid "X:"
+msgstr "X:"
+
+#: glade/property.c:689
+msgid "The left edge of the widget, relative to its parent"
+msgstr "Marginea din stânga a widgetului, reletiv la a tatãlui"
+
+#: glade/property.c:691
+msgid "Y:"
+msgstr "Y:"
+
+#: glade/property.c:692
+msgid "The top edge of the widget, relative to its parent"
+msgstr "Marginea de sus a widgetului, reletiv la a tatãlui"
+
+#: glade/property.c:694
+msgid "Width:"
+msgstr "Lãþime:"
+
+#: glade/property.c:695
+msgid "The width of the widget"
+msgstr "Lãþimea widgetului"
+
+#: glade/property.c:697
+msgid "Height:"
+msgstr "Înãlþime:"
+
+#: glade/property.c:698
+msgid "The height of the widget"
+msgstr "Înãlþimea widgetului"
+
+#: glade/property.c:701
+msgid "Visible:"
+msgstr "Vizibil:"
+
+#: glade/property.c:702
+msgid "If the widget is initially visible"
+msgstr "Dacã widgetul este iniþial vizibil"
+
+#: glade/property.c:703
+msgid "Sensitive:"
+msgstr "Sensibil:"
+
+#: glade/property.c:704
+msgid "If the widget responds to input"
+msgstr "Dacã widgetul rãspunde la intrare"
+
+#: glade/property.c:706
+msgid "The tooltip to display if the mouse lingers over the widget"
+msgstr "Tooltipul de afiºat dacã mouse-ul zãboveºte pe widget"
+
+#: glade/property.c:708
+msgid "Can Default:"
+msgstr "Poate fi implicit:"
+
+#: glade/property.c:709
+msgid "If the widget can be the default"
+msgstr "Dacã widgetul poate fi cel implicit"
+
+#: glade/property.c:710
+msgid "Has Default:"
+msgstr "Cel implicit:"
+
+#: glade/property.c:711
+msgid "If the widget is the default"
+msgstr "Dacã widgetul este cel implicit"
+
+#: glade/property.c:712
+msgid "Can Focus:"
+msgstr "Poate focaliza:"
+
+#: glade/property.c:713
+msgid "If the widget can accept the input focus"
+msgstr "Dacã widgetul poate fi focalizat"
+
+#: glade/property.c:714
+msgid "Has Focus:"
+msgstr "Este focalizat:"
+
+#: glade/property.c:715
+msgid "If the widget has the input focus"
+msgstr "Dacã widgetul este focalizat"
+
+#: glade/property.c:717
+msgid "Events:"
+msgstr "Evenimente:"
+
+#: glade/property.c:718
+msgid "The X events that the widget receives"
+msgstr "Evenimentele X la care rãspunde widgetul"
+
+#: glade/property.c:720
+msgid "Ext.Events:"
+msgstr "Evenimente ext.:"
+
+#: glade/property.c:721
+msgid "The X Extension events mode"
+msgstr "Mod evenimente extensie X"
+
+#: glade/property.c:724
+msgid "Accelerators:"
+msgstr "Acceleratoare:"
+
+#: glade/property.c:725
+msgid "Defines the signals to emit when keys are pressed"
+msgstr "Definire semnale emise la apãsarea tastelor"
+
+#: glade/property.c:726
+msgid "Edit..."
+msgstr "Editare..."
+
+#: glade/property.c:746
+msgid "Propagate:"
+msgstr "Propagã:"
+
+#: glade/property.c:747
+msgid "Set True to propagate the style to the widget's children"
+msgstr "TRUE pentru a propaga stilul la fiii widgetului"
+
+#: glade/property.c:748
+msgid "Named Style:"
+msgstr "Nume stil:"
+
+#: glade/property.c:749
+msgid "The name of the style, which can be shared by several widgets"
+msgstr "Numele stilului, care poate fi folosit de mai multe widgete"
+
+#: glade/gnome/gnomeless.c:77 glade/property.c:751
+msgid "Font:"
+msgstr "Font:"
+
+#: glade/property.c:752
+msgid "The font to use for any text in the widget"
+msgstr "Fontul folosit în widget pentru texte"
+
+#: glade/property.c:778
+msgid "Copy All"
+msgstr "Copiazã tot"
+
+#: glade/property.c:806
+msgid "Foreground:"
+msgstr "Prim plan:"
+
+#: glade/property.c:806
+msgid "Background:"
+msgstr "Fundal:"
+
+#: glade/gbwidgets/gbentry.c:73 glade/gbwidgets/gbtext.c:65
+#: glade/gnome/gnomedruidpagefinish.c:74 glade/gnome/gnomedruidpagestart.c:73
+#: glade/property.c:806
+msgid "Text:"
+msgstr "Text:"
+
+#: glade/property.c:806
+msgid "Base:"
+msgstr "Bazã:"
+
+#: glade/property.c:808
+msgid "Foreground color"
+msgstr "Culoare prim plan"
+
+#: glade/property.c:808
+msgid "Background color"
+msgstr "Culoare fundal"
+
+#: glade/property.c:808
+msgid "Text color"
+msgstr "Culoare text"
+
+#: glade/property.c:809
+msgid "Base color"
+msgstr "Culoare bazã"
+
+#: glade/property.c:825
+msgid "Back. Pixmap:"
+msgstr "Pixamp fundal:"
+
+#: glade/property.c:826
+msgid "The graphic to use as the background of the widget"
+msgstr "Imaginea folositã de widget ca fundal"
+
+#: glade/property.c:874
+msgid "The file to write source code into"
+msgstr "Fiºierul în care se scrie codul sursã"
+
+#: glade/property.c:875
+msgid "Public:"
+msgstr "Public:"
+
+#: glade/property.c:876
+msgid "If the widget is added to the component's data structure"
+msgstr "Dacã widgetul este adãugat la structura componentelor"
+
+#: glade/property.c:886
+msgid "Separate File:"
+msgstr "Fiºier separat:"
+
+#: glade/property.c:887
+msgid "Put this widget in a separate source file"
+msgstr "Pune widgetul într-un fiºier separat"
+
+#: glade/property.c:888
+msgid "Use Heap:"
+msgstr "Cu heap:"
+
+#: glade/property.c:889
+msgid ""
+"If the widget is allocated from the heap rather than from the parent's "
+"memory block"
+msgstr ""
+"Dacã widgetul este generat mai degrabã de heap decât de blocul de memorie al "
+"tatãlui"
+
+#: glade/property.c:890
+msgid "Separate Class:"
+msgstr "Clasã separatã:"
+
+#: glade/property.c:891
+msgid "Put this widget's subtree in a separate class"
+msgstr "Pune subarborele widgetului într-o clasã separatã"
+
+#: glade/property.c:892
+msgid "Visibility:"
+msgstr "Vizibilitate:"
+
+#: glade/property.c:893
+msgid "Visibility of widgets. Public widgets are exported to a global map."
+msgstr "Vizibilitatea widgetului. Widgetele publice sunt exportate global."
+
+#: glade/property.c:1000
+msgid "You need to select a color or background to copy"
+msgstr "Pentru a copia, selectþi culoarea sau fundalul"
+
+#: glade/property.c:1019
+msgid "Invalid selection in on_style_copy()"
+msgstr "Selecþie invalidã în on_style_copy()"
+
+#: glade/property.c:1061
+msgid "You need to copy a color or background pixmap first"
+msgstr "Trebuie sã copiaþi întâi culoarea sau pixmap-ul de fundal"
+
+#: glade/property.c:1067
+msgid "You need to select a color to paste into"
+msgstr "Pentru a insera, selectaþi o culoare"
+
+#: glade/property.c:1077
+msgid "You need to select a background pixmap to paste into"
+msgstr "Pentru a insera, selectaþi un pixmap de fundal"
+
+#: glade/gbwidgets/gbcolorselectiondialog.c:327 glade/property.c:1149
+msgid "Color Selection Dialog"
+msgstr "Dialog de selecþie culoare"
+
+#: glade/gbwidgets/gbfileselection.c:65 glade/property.c:1239
+msgid "Select File"
+msgstr "Selecteazã fiºier"
+
+#: glade/gbwidgets/gbpixmap.c:155 glade/gbwidgets/gbtoolbar.c:1444
+#: glade/property.c:1323
+msgid "Couldn't create pixmap from file\n"
+msgstr "Nu pot crea pixmap-ul, din fiºier\n"
+
+#. List of current signal handlers - Signal/Handler/Data/Options
+#: glade/property.c:1362
+msgid "Signal"
+msgstr "Semnal"
+
+#: glade/property.c:1364
+msgid "Data"
+msgstr "Data"
+
+#: glade/property.c:1365
+msgid "After"
+msgstr "Dupã"
+
+#: glade/property.c:1366
+msgid "Object"
+msgstr "Obiect"
+
+#: glade/property.c:1396 glade/property.c:1581
+msgid "Signal:"
+msgstr "Semnal:"
+
+#: glade/property.c:1397
+msgid "The signal to add a handler for"
+msgstr "Semnalul la care se adaugã descriptorul"
+
+#: glade/property.c:1411
+msgid "The function to handle the signal"
+msgstr "Funcþia care manipuleazã semnalul"
+
+#: glade/property.c:1414
+msgid "Data:"
+msgstr "Data:"
+
+#: glade/property.c:1415
+msgid "The data passed to the handler"
+msgstr "Data transmisã descriptorului"
+
+#: glade/property.c:1416
+msgid "Object:"
+msgstr "Obiect:"
+
+#: glade/property.c:1417
+msgid "The object which receives the signal"
+msgstr "Obiectul care primeºte semnalul"
+
+#: glade/property.c:1418
+msgid "After:"
+msgstr "Dupã:"
+
+#: glade/property.c:1419
+msgid "If the handler runs after the class function"
+msgstr "Dacã descriptorul ruleazã dupã clasa funcþiei"
+
+#: glade/property.c:1438 glade/property.c:1594
+msgid "Update"
+msgstr "Actualizare"
+
+#: glade/property.c:1493 glade/property.c:1504
+msgid "Accelerators"
+msgstr "Acceleratoare"
+
+#. List of current accelerators - Mods/Keys/Signals
+#: glade/property.c:1535
+msgid "Mod"
+msgstr "Mod"
+
+#: glade/property.c:1536
+msgid "Key"
+msgstr "Tasta"
+
+#: glade/property.c:1537
+msgid "Signal to emit"
+msgstr "Semnal emis"
+
+#: glade/property.c:1580
+msgid "The accelerator key"
+msgstr "Tasta acceleratoare"
+
+#: glade/property.c:1582
+msgid "The signal to emit when the accelerator is pressed"
+msgstr "Semnalul emis la apãsarea tastei acceleratoare"
+
+#: glade/property.c:2897
+msgid "Select X Events"
+msgstr "Selectare evenimente X"
+
+#: glade/property.c:2904
+msgid "Event Mask"
+msgstr "Masca evenimente"
+
+#: glade/property.c:2905
+msgid "Description"
+msgstr "Descriere"
+
+#: glade/property.c:3054 glade/property.c:3103
+msgid "You need to set the accelerator key"
+msgstr "Alegeþi tasta acceleratoare"
+
+#: glade/property.c:3061 glade/property.c:3110
+msgid "You need to set the signal to emit"
+msgstr "Alegeþi semnalul emis"
+
+#: glade/property.c:3344 glade/property.c:3400
+msgid "You need to set the signal name"
+msgstr "Alegeþi numele semnalului"
+
+#: glade/property.c:3351 glade/property.c:3407
+msgid "You need to set the handler for the signal"
+msgstr "Definiþi descriptorul semnalului"
+
+#: glade/property.c:3602
+msgid "Select Signal"
+msgstr "Selectare semnal"
+
+#. This groups the signals by class, e.g. 'GtkButton signals'.
+#: glade/property.c:3645
+#, c-format
+msgid "%s signals"
+msgstr "%s semnale"
+
+#: glade/gbwidgets/gbprogressbar.c:118 glade/property.c:3843
+msgid "Value:"
+msgstr "Valoare:"
+
+#: glade/property.c:3843
+msgid "Min:"
+msgstr "Min:"
+
+#: glade/gbwidgets/gbhruler.c:91 glade/gbwidgets/gbvruler.c:91
+#: glade/property.c:3843
+msgid "Max:"
+msgstr "Max:"
+
+#: glade/property.c:3843
+msgid "Step Inc:"
+msgstr "Inc. pas:"
+
+#: glade/property.c:3844
+msgid "Page Inc:"
+msgstr "Inc. paginã:"
+
+#: glade/property.c:3844
+msgid "Page Size:"
+msgstr "Dim. pag.:"
+
+#: glade/property.c:3846
+msgid "H Value:"
+msgstr "Valoare H:"
+
+#: glade/property.c:3846
+msgid "H Min:"
+msgstr "H min:"
+
+#: glade/property.c:3846
+msgid "H Max:"
+msgstr "H max:"
+
+#: glade/property.c:3846
+msgid "H Step Inc:"
+msgstr "Inc. H pas:"
+
+#: glade/property.c:3847
+msgid "H Page Inc:"
+msgstr "Inc. H pag.:"
+
+#: glade/property.c:3847
+msgid "H Page Size:"
+msgstr "Dim. H pag.:"
+
+#: glade/property.c:3849
+msgid "V Value:"
+msgstr "Valoare V:"
+
+#: glade/property.c:3849
+msgid "V Min:"
+msgstr "V min:"
+
+#: glade/property.c:3849
+msgid "V Max:"
+msgstr "V max:"
+
+#: glade/property.c:3849
+msgid "V Step Inc:"
+msgstr "Inc. V pas:"
+
+#: glade/property.c:3850
+msgid "V Page Inc:"
+msgstr "Inc. V pag.:"
+
+#: glade/property.c:3850
+msgid "V Page Size:"
+msgstr "Dim. V pag.:"
+
+#: glade/gbwidgets/gbprogressbar.c:118 glade/property.c:3853
+msgid "The initial value"
+msgstr "Valoarea iniþialã"
+
+#: glade/gbwidgets/gbprogressbar.c:119 glade/property.c:3854
+msgid "The minimum value"
+msgstr "Valoarea minimã"
+
+#: glade/gbwidgets/gbprogressbar.c:120 glade/property.c:3855
+msgid "The maximum value"
+msgstr "Valoarea maximã"
+
+#: glade/property.c:3856
+msgid "The step increment"
+msgstr "Incrementul pasului"
+
+#: glade/property.c:3857
+msgid "The page increment"
+msgstr "Incrementul paginii"
+
+#: glade/property.c:3858
+msgid "The page size"
+msgstr "Mãrimea paginii"
+
+#: glade/property.c:4013
+msgid "The requested font is not available."
+msgstr "Fontul cerut nu este disponibil."
+
+#: glade/property.c:4062
+msgid "Select Named Style"
+msgstr "Selecþie stiluri"
+
+#: glade/property.c:4073
+msgid "Styles"
+msgstr "Stiluri"
+
+#: glade/property.c:4132
+msgid "Rename"
+msgstr "Redenumire"
+
+#: glade/property.c:4280
+msgid "New Style:"
+msgstr "Stil nou:"
+
+#: glade/property.c:4294 glade/property.c:4415
+msgid "Invalid style name"
+msgstr "Nume de stil invalid"
+
+#: glade/property.c:4302 glade/property.c:4425
+msgid "That style name is already in use"
+msgstr "Acest nume de stil este deja folosit"
+
+#: glade/property.c:4400
+msgid "Rename Style To:"
+msgstr "Redenumire stil în:"
+
+#: glade/save.c:126 glade/source.c:2885
+#, c-format
+msgid ""
+"Couldn't rename file:\n"
+"  %s\n"
+"to:\n"
+"  %s\n"
+msgstr ""
+"Nu pot redenumi fiºierul:\n"
+"  %s\n"
+"în:\n"
+"  %s\n"
+
+#: glade/save.c:135 glade/save.c:662 glade/source.c:355 glade/source.c:370
+#: glade/source.c:388 glade/source.c:401 glade/source.c:782
+#: glade/source.c:1013 glade/source.c:1140 glade/source.c:1329
+#: glade/source.c:1388 glade/source.c:1499 glade/source.c:1785
+#: glade/source.c:1875 glade/source.c:1927 glade/source.c:1990
+#: glade/source.c:2038 glade/source.c:2159 glade/utils.c:1355
+#, c-format
+msgid ""
+"Couldn't create file:\n"
+"  %s\n"
+msgstr ""
+"Nu pot crea fiºierul:\n"
+"  %s\n"
+
+#: glade/save.c:563
+msgid "Error writing XML file\n"
+msgstr "Eroare la scrierea fiºierului XML\n"
+
+#: glade/save.c:668
+msgid ""
+"/*\n"
+" * Translatable strings file generated by Glade.\n"
+" * Add this file to your project's POTFILES.in.\n"
+" * DO NOT compile it as part of your application.\n"
+" */\n"
+"\n"
+msgstr ""
+"/*\n"
+" * Fiºierul de ºiruri traductibile generat de Glade.\n"
+" * Adãugaþi acest fiºier la POTFILES.in din proiect.\n"
+" * NU îl compilaþi ca parte a aplicaþiei dv.\n"
+" */\n"
+"\n"
+
+#: glade/source.c:181
+#, c-format
+msgid ""
+"Invalid interface source filename: %s\n"
+"%s\n"
+msgstr ""
+"Nume fiºier sursã interfaþã invalid: %s\n"
+"%s\n"
+
+#: glade/source.c:183
+#, c-format
+msgid ""
+"Invalid interface header filename: %s\n"
+"%s\n"
+msgstr ""
+"Nume fiºier header interfaþã invalid: %s\n"
+"%s\n"
+
+#: glade/source.c:186
+#, c-format
+msgid ""
+"Invalid callbacks source filename: %s\n"
+"%s\n"
+msgstr ""
+"Nume fiºier sursã rapeluri invalid: %s\n"
+"%s\n"
+
+#: glade/source.c:188
+#, c-format
+msgid ""
+"Invalid callbacks header filename: %s\n"
+"%s\n"
+msgstr ""
+"Nume fiºier header rapeluri invalid: %s\n"
+"%s\n"
+
+#: glade/source.c:194
+#, c-format
+msgid ""
+"Invalid support source filename: %s\n"
+"%s\n"
+msgstr ""
+"Nume fiºier sursã suport invalid: %s\n"
+"%s\n"
+
+#: glade/source.c:196
+#, c-format
+msgid ""
+"Invalid support header filename: %s\n"
+"%s\n"
+msgstr ""
+"Nume fiºier header suport invalid: %s\n"
+"%s\n"
+
+#: glade/source.c:415 glade/source.c:423
+#, c-format
+msgid ""
+"Couldn't append to file:\n"
+"  %s\n"
+msgstr ""
+"Nu pot adãuga la fiºierul:\n"
+"  %s\n"
+
+#: glade/source.c:791
+msgid ""
+"/*\n"
+" * Initial main.c file generated by Glade. Edit as required.\n"
+" * Glade will not overwrite this file.\n"
+" */\n"
+"\n"
+msgstr ""
+"/*\n"
+" * Fiºierul main.c iniþial generat de Glade. Editat la cerere.\n"
+" * Glade nu va suprascrie acest fiºier.\n"
+" */\n"
+"\n"
+
+#: glade/source.c:1867 glade/utils.c:1376
+#, c-format
+msgid ""
+"Error writing to file:\n"
+"  %s\n"
+msgstr "Eroare la scrierea în fiºierul:\n"
+
+#: glade/source.c:2857
+msgid "The filename must be set in the Project Options dialog."
+msgstr "Numele fiºierului trebuie definit în dialogul 'Opþiuni proiect'."
+
+#: glade/source.c:2860
+msgid ""
+"The filename must be a simple relative filename.\n"
+"Use the Project Options dialog to set it."
+msgstr ""
+"Numele fiºierului trebuie sã fie relativ simplu.\n"
+"Definiþi-l în dialogul 'Opþiuni proiect'."
+
+#: glade/source.c:2929
+msgid "DO NOT EDIT THIS FILE - it is generated by Glade."
+msgstr "NU EDITAÞI ACEST FIªIER - el este generat de Glade."
+
+#: glade/tree.c:79
+msgid "Widget Tree"
+msgstr "Arbore widget"
+
+#: glade/utils.c:1103 glade/utils.c:1143
+msgid "Widget not found in box"
+msgstr "Widget inexistent în casetã"
+
+#: glade/utils.c:1123
+msgid "Widget not found in table"
+msgstr "Widget inexistent în tabel"
+
+#: glade/utils.c:1163
+msgid "Widget not found in fixed container"
+msgstr "Widget inexistent în containerul fix"
+
+#: glade/utils.c:1183
+msgid "Widget not found in packer"
+msgstr "Widget inexistent în împachetator"
+
+#: glade/utils.c:1326
+#, c-format
+msgid ""
+"Couldn't access file:\n"
+"  %s\n"
+msgstr ""
+"Nu pot accesa fiºierul:\n"
+"  %s\n"
+
+#: glade/utils.c:1349
+#, c-format
+msgid ""
+"Couldn't open file:\n"
+"  %s\n"
+msgstr ""
+"nu pot deschide fiºierul:\n"
+"  %s\n"
+
+#: glade/utils.c:1366
+#, c-format
+msgid ""
+"Error reading from file:\n"
+"  %s\n"
+msgstr ""
+
+#. This happens under WIN32 when stat is confused by the filename, but this is
+#. harmless, since we know that the directory exists after all.
+#: glade/utils.c:1431
+#, c-format
+msgid ""
+"Couldn't create directory:\n"
+"  %s\n"
+msgstr ""
+"Nu pot crea directorul:\n"
+"  %s\n"
+
+#: glade/utils.c:1437
+#, c-format
+msgid ""
+"Couldn't access directory:\n"
+"  %s\n"
+msgstr ""
+"Nu pot accesa directorul:\n"
+"  %s\n"
+
+#: glade/utils.c:1445
+#, c-format
+msgid ""
+"Invalid directory:\n"
+"  %s\n"
+msgstr ""
+"Director invalid:\n"
+"  %s\n"
+
+#: glade/utils.c:1811
+msgid "Projects"
+msgstr "Proiecte"
+
+#: glade/utils.c:1818
+msgid "project"
+msgstr "proiect"
+
+#: glade/utils.c:1824
+#, c-format
+msgid ""
+"Couldn't open directory:\n"
+"  %s\n"
+msgstr ""
+"Nu pot deschide directorul:\n"
+"  %s\n"
+
+#: glade/gbwidgets/gbaccellabel.c:86 glade/gbwidgets/gbaspectframe.c:93
+#: glade/gbwidgets/gbbutton.c:169 glade/gbwidgets/gbbutton.c:175
+#: glade/gbwidgets/gbcheckbutton.c:76 glade/gbwidgets/gbcheckmenuitem.c:73
+#: glade/gbwidgets/gbentry.c:73 glade/gbwidgets/gbframe.c:87
+#: glade/gbwidgets/gblabel.c:124 glade/gbwidgets/gblistitem.c:73
+#: glade/gbwidgets/gbmenuitem.c:85 glade/gbwidgets/gbradiobutton.c:102
+#: glade/gbwidgets/gbradiomenuitem.c:93 glade/gbwidgets/gbtext.c:65
+#: glade/gbwidgets/gbtogglebutton.c:114 glade/gbwidgets/gbtreeitem.c:71
+#: glade/gnome/gbpixmapmenuitem.c:79
+msgid "The text to display"
+msgstr "Textul de afiºat"
+
+#: glade/gbwidgets/gbaccellabel.c:87 glade/gbwidgets/gblabel.c:125
+msgid "Justify:"
+msgstr "Aliniat:"
+
+#: glade/gbwidgets/gbaccellabel.c:88 glade/gbwidgets/gblabel.c:126
+msgid "The justification of the lines of the label"
+msgstr "Alinierea liniilor etichetei"
+
+#: glade/gbwidgets/gbaccellabel.c:90 glade/gbwidgets/gblabel.c:128
+msgid "Wrap Text:"
+msgstr "Formatare:"
+
+#: glade/gbwidgets/gbaccellabel.c:91 glade/gbwidgets/gblabel.c:129
+msgid "If the text is wrapped to fit within the width of the label"
+msgstr "Dacã textul este formatat sã încapã în lãþimea etichetei"
+
+#: glade/gbwidgets/gbaccellabel.c:92 glade/gbwidgets/gbalignment.c:66
+#: glade/gbwidgets/gbarrow.c:108 glade/gbwidgets/gbaspectframe.c:99
+#: glade/gbwidgets/gbimage.c:354 glade/gbwidgets/gblabel.c:130
+#: glade/gbwidgets/gbpixmap.c:72 glade/gbwidgets/gbprogressbar.c:138
+msgid "X Align:"
+msgstr "Aliniere X:"
+
+#: glade/gbwidgets/gbaccellabel.c:93 glade/gbwidgets/gblabel.c:131
+msgid "The horizontal alignment of the entire label"
+msgstr "Alinierea orizontalã a întregii etichete"
+
+#: glade/gbwidgets/gbaccellabel.c:95 glade/gbwidgets/gbalignment.c:69
+#: glade/gbwidgets/gbarrow.c:111 glade/gbwidgets/gbaspectframe.c:102
+#: glade/gbwidgets/gbimage.c:357 glade/gbwidgets/gblabel.c:133
+#: glade/gbwidgets/gbpixmap.c:75 glade/gbwidgets/gbprogressbar.c:141
+msgid "Y Align:"
+msgstr "Aliniere Y:"
+
+#: glade/gbwidgets/gbaccellabel.c:96 glade/gbwidgets/gblabel.c:134
+msgid "The vertical alignment of the entire label"
+msgstr "Alinierea verticalã a întregii etichete "
+
+#: glade/gbwidgets/gbaccellabel.c:98 glade/gbwidgets/gbarrow.c:114
+#: glade/gbwidgets/gbhbuttonbox.c:200 glade/gbwidgets/gbimage.c:360
+#: glade/gbwidgets/gblabel.c:136 glade/gbwidgets/gbpixmap.c:78
+msgid "X Pad:"
+msgstr "Cãptuºire X:"
+
+#: glade/gbwidgets/gbaccellabel.c:98 glade/gbwidgets/gbarrow.c:114
+#: glade/gbwidgets/gbimage.c:360 glade/gbwidgets/gblabel.c:136
+#: glade/gbwidgets/gbpixmap.c:78 glade/gbwidgets/gbtable.c:378
+msgid "The horizontal padding"
+msgstr "Cãptuºirea orizontalã"
+
+#: glade/gbwidgets/gbaccellabel.c:100 glade/gbwidgets/gbarrow.c:116
+#: glade/gbwidgets/gbhbuttonbox.c:203 glade/gbwidgets/gbimage.c:362
+#: glade/gbwidgets/gblabel.c:138 glade/gbwidgets/gbpixmap.c:80
+msgid "Y Pad:"
+msgstr "Cãptuºire Y:"
+
+#: glade/gbwidgets/gbaccellabel.c:100 glade/gbwidgets/gbarrow.c:116
+#: glade/gbwidgets/gbimage.c:362 glade/gbwidgets/gblabel.c:138
+#: glade/gbwidgets/gbpixmap.c:80 glade/gbwidgets/gbtable.c:381
+msgid "The vertical padding"
+msgstr "Cãptuºirea verticalã"
+
+#: glade/gbwidgets/gbaccellabel.c:303
+msgid "Label with Accelerator"
+msgstr "Etichetã cu accelerator"
+
+#: glade/gbwidgets/gbalignment.c:67
+msgid "The horizontal alignment of the child widget"
+msgstr "Alinierea orizontalã a widgetului fiu"
+
+#: glade/gbwidgets/gbalignment.c:70
+msgid "The vertical alignment of the child widget"
+msgstr "Alinierea verticalã a widgetului fiu"
+
+#: glade/gbwidgets/gbalignment.c:72
+msgid "X Scale:"
+msgstr "Scalare X:"
+
+#: glade/gbwidgets/gbalignment.c:73
+msgid "The horizontal scale of the child widget"
+msgstr "Scara orizontalã a widgetului fiu"
+
+#: glade/gbwidgets/gbalignment.c:75
+msgid "Y Scale:"
+msgstr "Scalare Y:"
+
+#: glade/gbwidgets/gbalignment.c:76
+msgid "The vertical scale of the child widget"
+msgstr "Scara verticalã a widgetului fiu"
+
+#: glade/gbwidgets/gbalignment.c:179
+msgid "Alignment"
+msgstr "Aliniere"
+
+#: glade/gbwidgets/gbarrow.c:104
+msgid "Direction:"
+msgstr "Direcþie:"
+
+#: glade/gbwidgets/gbarrow.c:104
+msgid "The direction of the arrow"
+msgstr "Direcþia sãgeþii"
+
+#: glade/gbwidgets/gbarrow.c:106 glade/gbwidgets/gbaspectframe.c:97
+#: glade/gbwidgets/gbclist.c:267 glade/gbwidgets/gbctree.c:253
+#: glade/gbwidgets/gbframe.c:91 glade/gbwidgets/gbhandlebox.c:109
+#: glade/gbwidgets/gbmenubar.c:118 glade/gbwidgets/gbviewport.c:104
+#: glade/gnome/gnomedockitem.c:212
+msgid "Shadow:"
+msgstr "Umbra:"
+
+#: glade/gbwidgets/gbarrow.c:106
+msgid "The shadow type of the arrow"
+msgstr "Tipul de umbrã al sãgeþii"
+
+#: glade/gbwidgets/gbarrow.c:109
+msgid "The horizontal alignment of the arrow"
+msgstr "Alinierea orizontalã a sãgeþii"
+
+#: glade/gbwidgets/gbarrow.c:112
+msgid "The vertical alignment of the arrow"
+msgstr "Alinierea verticalã a sãgeþii"
+
+#: glade/gbwidgets/gbarrow.c:319
+msgid "Arrow"
+msgstr "Sãgeata"
+
+#: glade/gbwidgets/gbaspectframe.c:94 glade/gbwidgets/gbframe.c:88
+msgid "Label X Align:"
+msgstr "Al. etich. X:"
+
+#: glade/gbwidgets/gbaspectframe.c:95 glade/gbwidgets/gbframe.c:89
+msgid "The horizontal alignment of the frame's label"
+msgstr "Alinierea orizontalã a etichetei cadrului"
+
+#: glade/gbwidgets/gbaspectframe.c:97 glade/gbwidgets/gbframe.c:91
+msgid "The type of shadow of the frame"
+msgstr "Tipul umbrei cadrului"
+
+#: glade/gbwidgets/gbaspectframe.c:100 glade/gbwidgets/gbaspectframe.c:103
+msgid "The horizontal alignment of the frame's child"
+msgstr "Alinierea orizontalã a fiului cadrului"
+
+#: glade/gbwidgets/gbaspectframe.c:105
+msgid "Ratio:"
+msgstr "Proporþii:"
+
+#: glade/gbwidgets/gbaspectframe.c:106
+msgid "The aspect ratio of the frame's child"
+msgstr "Proporþiile fiului cadrului"
+
+#: glade/gbwidgets/gbaspectframe.c:107
+msgid "Obey Child:"
+msgstr "Fiul decide:"
+
+#: glade/gbwidgets/gbaspectframe.c:108
+msgid "If the aspect ratio should be determined by the child"
+msgstr "Dacã proporþiile sunt stabilite de fiu"
+
+#: glade/gbwidgets/gbaspectframe.c:295
+msgid "Aspect Frame"
+msgstr "Aspect cadru"
+
+#: glade/gbwidgets/gbbutton.c:166
+msgid "Stock Button:"
+msgstr "Buton din stoc:"
+
+#: glade/gbwidgets/gbbutton.c:167
+msgid "The Gnome stock button to use"
+msgstr "Butonul de folosit din stocul Gnome"
+
+#: glade/gbwidgets/gbbutton.c:170 glade/gbwidgets/gbbutton.c:176
+#: glade/gbwidgets/gbtogglebutton.c:115 glade/gbwidgets/gbtoolbar.c:316
+msgid "Button Relief:"
+msgstr "Relief buton:"
+
+#: glade/gbwidgets/gbbutton.c:171 glade/gbwidgets/gbbutton.c:177
+#: glade/gbwidgets/gbtogglebutton.c:116
+msgid "The relief style of the button"
+msgstr "Stilul de relief al butonului"
+
+#: glade/gbwidgets/gbbutton.c:179 glade/gbwidgets/gbbutton.c:195
+msgid "The pixmap to display"
+msgstr "Pixmap-ul de afiºat"
+
+#: glade/gbwidgets/gbbutton.c:343
+msgid "Invalid stock button"
+msgstr "Buton din stoc invalid"
+
+#: glade/gbwidgets/gbbutton.c:655 glade/gbwidgets/gbtoolbar.c:1314
+msgid "Invalid stock pixmap"
+msgstr "Pixmap din stoc, invalid"
+
+#: glade/gbwidgets/gbbutton.c:1001
+msgid "Button"
+msgstr "Buton"
+
+#: glade/gbwidgets/gbcalendar.c:73
+msgid "Heading:"
+msgstr "Antet:"
+
+#: glade/gbwidgets/gbcalendar.c:74
+msgid "If the month and year should be shown at the top"
+msgstr "Dacã luna ºi anul trebuie afiºate sus"
+
+#: glade/gbwidgets/gbcalendar.c:75
+msgid "Day Names:"
+msgstr "Nume zile:"
+
+#: glade/gbwidgets/gbcalendar.c:76
+msgid "If the day names should be shown"
+msgstr "Dacã trebuie afiºate numele zilelor"
+
+#: glade/gbwidgets/gbcalendar.c:77
+msgid "Fixed Month:"
+msgstr "Luni fixe:"
+
+#: glade/gbwidgets/gbcalendar.c:78
+msgid "If the month and year shouldn't be changeable"
+msgstr "Dacã luna ºi anul nu se pot schimba"
+
+#: glade/gbwidgets/gbcalendar.c:79
+msgid "Week Numbers:"
+msgstr "Nr. sãptãmânã:"
+
+#: glade/gbwidgets/gbcalendar.c:80
+msgid "If the number of the week should be shown"
+msgstr "Dacã trebuie afiºat numãrul sãptãmânii"
+
+#: glade/gbwidgets/gbcalendar.c:81 glade/gnome/gnomedateedit.c:73
+msgid "Monday First:"
+msgstr "Luni, prima:"
+
+#: glade/gbwidgets/gbcalendar.c:82 glade/gnome/gnomedateedit.c:74
+msgid "If the week should start on Monday"
+msgstr "Dacã sãptãmâna trebuie sã înceapã luni"
+
+#: glade/gbwidgets/gbcalendar.c:250
+msgid "Calendar"
+msgstr "Calendar"
+
+#: glade/gbwidgets/gbcheckbutton.c:77 glade/gbwidgets/gbcheckmenuitem.c:74
+#: glade/gbwidgets/gbradiobutton.c:108 glade/gbwidgets/gbradiomenuitem.c:94
+#: glade/gbwidgets/gbtogglebutton.c:124
+msgid "Initially On:"
+msgstr "Iniþial bifat:"
+
+#: glade/gbwidgets/gbcheckbutton.c:78
+msgid "If the check button is initially on"
+msgstr "Dacã butonul este iniþial bifat"
+
+#: glade/gbwidgets/gbcheckbutton.c:79 glade/gbwidgets/gbcheckmenuitem.c:76
+#: glade/gbwidgets/gbradiobutton.c:110 glade/gbwidgets/gbradiomenuitem.c:96
+msgid "Indicator:"
+msgstr "Indicator:"
+
+#: glade/gbwidgets/gbcheckbutton.c:80 glade/gbwidgets/gbradiobutton.c:111
+msgid "If the indicator is always drawn"
+msgstr "Dacã indicatorul este întotdeauna trasat"
+
+#: glade/gbwidgets/gbcheckbutton.c:216
+msgid "Check Button"
+msgstr "Buton bifat"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:75
+msgid "If the check menu item is initially on"
+msgstr "Dacã elementul de meniu este iniþial bifat"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:77 glade/gbwidgets/gbradiomenuitem.c:97
+msgid "If the toggle indicator is always shown"
+msgstr "Dacã indicatorul de comutare este afiºat întotdeauna"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:222
+msgid "Check Menu Item"
+msgstr "Element meniu cu bifare"
+
+#: glade/gbwidgets/gbclist.c:149
+msgid "New columned list"
+msgstr "Listã cu coloane nouã"
+
+#. Columns label & entry
+#: glade/gbwidgets/gbclist.c:159 glade/gbwidgets/gbctree.c:157
+#: glade/gbwidgets/gbhbox.c:108 glade/gbwidgets/gbhbuttonbox.c:125
+#: glade/gbwidgets/gbtable.c:161
+msgid "Number of columns:"
+msgstr "Numãr coloane:"
+
+#: glade/gbwidgets/gbclist.c:262 glade/gbwidgets/gbctree.c:248
+#: glade/gbwidgets/gblist.c:80 glade/gbwidgets/gbtree.c:95
+#: glade/gnome/gnomeiconlist.c:176
+msgid "Select Mode:"
+msgstr "Mod selecþie:"
+
+#: glade/gbwidgets/gbclist.c:263
+msgid "The selection mode of the columned list"
+msgstr "Modul de selecþie în lista cu coloane"
+
+#: glade/gbwidgets/gbclist.c:265 glade/gbwidgets/gbctree.c:251
+msgid "Show Titles:"
+msgstr "Cu titluri:"
+
+#: glade/gbwidgets/gbclist.c:266 glade/gbwidgets/gbctree.c:252
+msgid "If the column titles are shown"
+msgstr "Dacã se afiºeazã titlurile coloanelor"
+
+#: glade/gbwidgets/gbclist.c:268
+msgid "The type of shadow of the columned list's border"
+msgstr "Tipul umbrei chenarului listei cu coloane"
+
+#: glade/gbwidgets/gbclist.c:606
+msgid "Columned List"
+msgstr "Listã cu coloane"
+
+#: glade/gbwidgets/gbcolorselection.c:78
+#: glade/gbwidgets/gbcolorselectiondialog.c:119
+#: glade/gbwidgets/gbspinbutton.c:108
+msgid "Update Policy:"
+msgstr "Proc. actualizare:"
+
+#: glade/gbwidgets/gbcolorselection.c:79
+#: glade/gbwidgets/gbcolorselectiondialog.c:120
+msgid "The update policy of the color selection scales"
+msgstr "Procedura de actualizare a gamelor de culori"
+
+#: glade/gbwidgets/gbcolorselection.c:195
+msgid "Color Selection"
+msgstr "Alegere culoare"
+
+#: glade/gbwidgets/gbcolorselectiondialog.c:83
+msgid "Select Color"
+msgstr "Alege culoarea"
+
+#: glade/gbwidgets/gbcombo.c:94
+msgid "Value In List:"
+msgstr "Val. din listã:"
+
+#: glade/gbwidgets/gbcombo.c:95
+msgid "If the value must be in the list"
+msgstr "Dacã valoarea trebuie sã fie luatã din listã"
+
+#: glade/gbwidgets/gbcombo.c:96
+msgid "OK If Empty:"
+msgstr "OK dacã e vid:"
+
+#: glade/gbwidgets/gbcombo.c:97
+msgid "If an empty value is acceptable, when 'Value In List' is set"
+msgstr "Dacã se acceptã o valoare vidã, se ia 'Val. din listã'"
+
+#: glade/gbwidgets/gbcombo.c:98
+msgid "Case Sensitive:"
+msgstr "Litere mari/mici:"
+
+#: glade/gbwidgets/gbcombo.c:99
+msgid "If the searching is case sensitive"
+msgstr "Dacã cautarea deosebeste literele mari/mici"
+
+#: glade/gbwidgets/gbcombo.c:100
+msgid "Use Arrows:"
+msgstr "Cu sãgeþi:"
+
+#: glade/gbwidgets/gbcombo.c:101
+msgid "If arrows can be used to change the value"
+msgstr "Dacã valorile pot fi schimbate cu ajutorul sãgeþilor"
+
+#: glade/gbwidgets/gbcombo.c:102
+msgid "Use Always:"
+msgstr "Întotdeauna:"
+
+#: glade/gbwidgets/gbcombo.c:103
+msgid "If arrows work even if the value is not in the list"
+msgstr "Dacã sãgeþile lucreazã chiar ºi dacã valoarea nu este în listã"
+
+#: glade/gbwidgets/gbcombo.c:104 glade/gbwidgets/gboptionmenu.c:120
+msgid "Items:"
+msgstr "Elemente:"
+
+#: glade/gbwidgets/gbcombo.c:105
+msgid "The items in the combo list, one per line"
+msgstr "Elementele în lista combinatã, unul pe linie"
+
+#: glade/gbwidgets/gbcombo.c:381
+msgid "Combo Box"
+msgstr "Caseta combo"
+
+#: glade/gbwidgets/gbctree.c:147
+msgid "New columned tree"
+msgstr "Arbore cu coloane nou"
+
+#: glade/gbwidgets/gbctree.c:249
+msgid "The selection mode of the columned tree"
+msgstr "Modul de selecþie în arborele cu coloane"
+
+#: glade/gbwidgets/gbctree.c:254
+msgid "The type of shadow of the columned tree's border"
+msgstr "Tipul umbrei chenarului arborelui cu coloane"
+
+#: glade/gbwidgets/gbctree.c:542
+msgid "Columned Tree"
+msgstr "Arbore cu coloane"
+
+#: glade/gbwidgets/gbcurve.c:85 glade/gbwidgets/gbwindow.c:157
+#: glade/gnome/gbclock.c:104
+msgid "Type:"
+msgstr "Tip:"
+
+#: glade/gbwidgets/gbcurve.c:85
+msgid "The type of the curve"
+msgstr "Tipul curbei"
+
+#: glade/gbwidgets/gbcurve.c:87 glade/gbwidgets/gbgammacurve.c:91
+msgid "X Min:"
+msgstr "X min:"
+
+#: glade/gbwidgets/gbcurve.c:87 glade/gbwidgets/gbgammacurve.c:91
+msgid "The minimum horizontal value"
+msgstr "Valoarea minimã pe orizontalã"
+
+#: glade/gbwidgets/gbcurve.c:88 glade/gbwidgets/gbgammacurve.c:92
+msgid "X Max:"
+msgstr "X max:"
+
+#: glade/gbwidgets/gbcurve.c:88 glade/gbwidgets/gbgammacurve.c:92
+msgid "The maximum horizontal value"
+msgstr "Valoarea maximã pe orizontalã"
+
+#: glade/gbwidgets/gbcurve.c:89 glade/gbwidgets/gbgammacurve.c:93
+msgid "Y Min:"
+msgstr "Y min:"
+
+#: glade/gbwidgets/gbcurve.c:89 glade/gbwidgets/gbgammacurve.c:93
+msgid "The minimum vertical value"
+msgstr "Valoarea minimã pe verticalã"
+
+#: glade/gbwidgets/gbcurve.c:90 glade/gbwidgets/gbgammacurve.c:94
+msgid "Y Max:"
+msgstr "Y max:"
+
+#: glade/gbwidgets/gbcurve.c:90 glade/gbwidgets/gbgammacurve.c:94
+msgid "The maximum vertical value"
+msgstr "Valoarea maximã pe verticalã"
+
+#: glade/gbwidgets/gbcurve.c:249
+msgid "Curve"
+msgstr "Curba"
+
+#: glade/gbwidgets/gbcustom.c:154
+msgid "Creation Function:"
+msgstr "Funcþie generatoare:"
+
+#: glade/gbwidgets/gbcustom.c:155
+msgid "The function which creates the widget"
+msgstr "Funcþia care genereazã widgetul"
+
+#: glade/gbwidgets/gbcustom.c:157
+msgid "String1:"
+msgstr "ªir1:"
+
+#: glade/gbwidgets/gbcustom.c:158
+msgid "The first string argument to pass to the function"
+msgstr "Primul ºir de transmis funcþiei ca argument"
+
+#: glade/gbwidgets/gbcustom.c:159
+msgid "String2:"
+msgstr "ªir2:"
+
+#: glade/gbwidgets/gbcustom.c:160
+msgid "The second string argument to pass to the function"
+msgstr "Al doilea ºir de transmis funcþiei ca argument"
+
+#: glade/gbwidgets/gbcustom.c:161
+msgid "Int1:"
+msgstr "Int1"
+
+#: glade/gbwidgets/gbcustom.c:162
+msgid "The first integer argument to pass to the function"
+msgstr "Primul întreg de transmis funcþiei ca argument"
+
+#: glade/gbwidgets/gbcustom.c:163
+msgid "Int2:"
+msgstr "Int2:"
+
+#: glade/gbwidgets/gbcustom.c:164
+msgid "The second integer argument to pass to the function"
+msgstr "Al doilea întreg de transmis funcþiei ca argument"
+
+#: glade/gbwidgets/gbcustom.c:360
+msgid "Custom Widget"
+msgstr "Widget personal"
+
+#: glade/gbwidgets/gbdialog.c:248
+msgid "Dialog"
+msgstr "Dialog"
+
+#: glade/gbwidgets/gbdrawingarea.c:145
+msgid "Drawing Area"
+msgstr "Zona de trasare"
+
+#: glade/gbwidgets/gbentry.c:67 glade/gbwidgets/gbtext.c:64
+msgid "Editable:"
+msgstr "Editabil:"
+
+#: glade/gbwidgets/gbentry.c:67 glade/gbwidgets/gbtext.c:64
+msgid "If the text can be edited"
+msgstr "Dacã textul poate fi editat"
+
+#: glade/gbwidgets/gbentry.c:68
+msgid "Text Visible:"
+msgstr "Text vizibil:"
+
+#: glade/gbwidgets/gbentry.c:69
+msgid ""
+"If the text entered by the user will be shown. When turned off, the text "
+"typed in is displayed as asterix characters, which is useful for entering "
+"passwords"
+msgstr ""
+"Dacã textul introdus de utilizator va fi afiºat. Dacã este dezactivat, "
+"textul introdus va fi afiºat ca asteriscuri, caz uzual la introducerea "
+"parolelor"
+
+#: glade/gbwidgets/gbentry.c:70
+msgid "Max Length:"
+msgstr "Lungime max:"
+
+#: glade/gbwidgets/gbentry.c:71
+msgid "The maximum length of the text"
+msgstr "Lungimea maximã a textului"
+
+#: glade/gbwidgets/gbentry.c:200
+msgid "Text Entry"
+msgstr "Intrare text"
+
+#: glade/gbwidgets/gbeventbox.c:146
+msgid "Event Box"
+msgstr "Casetã evenimente"
+
+#: glade/gbwidgets/gbfileselection.c:97
+msgid "File Ops.:"
+msgstr "Operaþii fiºier:"
+
+#: glade/gbwidgets/gbfileselection.c:98
+msgid "If the file operation buttons are shown"
+msgstr "Dacã sunt afiºate butoanele de operaþii ale fiºierului"
+
+#: glade/gbwidgets/gbfileselection.c:259
+msgid "File Selection Dialog"
+msgstr "Dialog de selecþie fiºier"
+
+#: glade/gbwidgets/gbfixed.c:159
+msgid "Fixed Positions"
+msgstr "Poziþii fixe"
+
+#: glade/gbwidgets/gbfontselection.c:145
+msgid "Font Selection"
+msgstr "Alegere font"
+
+#: glade/gbwidgets/gbfontselectiondialog.c:64
+msgid "Select Font"
+msgstr "Alege font"
+
+#: glade/gbwidgets/gbfontselectiondialog.c:251
+msgid "Font Selection Dialog"
+msgstr "Dialog selecþie font"
+
+#: glade/gbwidgets/gbframe.c:234
+msgid "Frame"
+msgstr "Cadru"
+
+#: glade/gbwidgets/gbgammacurve.c:88
+msgid "Initial Type:"
+msgstr "Tip iniþial:"
+
+#: glade/gbwidgets/gbgammacurve.c:88
+msgid "The initial type of the curve"
+msgstr "Tipul iniþial al curbei"
+
+#: glade/gbwidgets/gbgammacurve.c:255
+msgid "Gamma Curve"
+msgstr "Curbã Gamma"
+
+#: glade/gbwidgets/gbhandlebox.c:110
+msgid "The type of shadow around the handle box"
+msgstr "Tipul umbrei în jurul casetei purtãtoare"
+
+#: glade/gbwidgets/gbhandlebox.c:113
+msgid "Handle Pos:"
+msgstr "Poz. purtãtoare:"
+
+#: glade/gbwidgets/gbhandlebox.c:114
+msgid "The position of the handle"
+msgstr "Poziþia purtãtoarei"
+
+#: glade/gbwidgets/gbhandlebox.c:116
+msgid "Snap Edge:"
+msgstr "Latura de prindere:"
+
+#: glade/gbwidgets/gbhandlebox.c:117
+msgid "The edge of the handle box which snaps into position"
+msgstr "Latura casetei purtãtoare care se prinde în poziþie"
+
+#: glade/gbwidgets/gbhandlebox.c:303
+msgid "Handle Box"
+msgstr "Caseta purtãtoare"
+
+#: glade/gbwidgets/gbhbox.c:98
+msgid "New horizontal box"
+msgstr "Casetã orizontalã nouã"
+
+#: glade/gbwidgets/gbhbox.c:169 glade/gbwidgets/gbhbuttonbox.c:187
+#: glade/gbwidgets/gbtoolbar.c:301 glade/gbwidgets/gbvbox.c:155
+msgid "Size:"
+msgstr "Mãrime:"
+
+#: glade/gbwidgets/gbhbox.c:169 glade/gbwidgets/gbvbox.c:155
+msgid "The number of widgets in the box"
+msgstr "Numãrul widgetelor în casetã"
+
+#: glade/gbwidgets/gbhbox.c:171 glade/gbwidgets/gbtable.c:239
+#: glade/gbwidgets/gbvbox.c:157
+msgid "Homogeneous:"
+msgstr "Omogen:"
+
+#: glade/gbwidgets/gbhbox.c:172 glade/gbwidgets/gbvbox.c:158
+msgid "If the children should be the same size"
+msgstr "Dacã fiii vor avea aceeaºi mãrime"
+
+#: glade/gbwidgets/gbhbox.c:173 glade/gbwidgets/gbhbuttonbox.c:192
+#: glade/gbwidgets/gbvbox.c:159
+msgid "Spacing:"
+msgstr "Spaþiere:"
+
+#: glade/gbwidgets/gbhbox.c:173 glade/gbwidgets/gbvbox.c:159
+msgid "The space between each child"
+msgstr "Spaþiul între fiecare fiu"
+
+#: glade/gbwidgets/gbhbox.c:304
+msgid "Can't delete any children."
+msgstr "Nu pot ºterge nici un fiu."
+
+#: glade/gbwidgets/gbhbox.c:318 glade/gbwidgets/gbhpaned.c:79
+#: glade/gbwidgets/gbhruler.c:89 glade/gbwidgets/gbpacker.c:236
+#: glade/gbwidgets/gbvpaned.c:75 glade/gbwidgets/gbvruler.c:89
+#: glade/gbwidgets/gbwindow.c:161
+msgid "Position:"
+msgstr "Poziþie:"
+
+#: glade/gbwidgets/gbhbox.c:319
+msgid "The widget's position relative to its siblings"
+msgstr "Pozitia widgetului realtiv la widgetele adiacente"
+
+#: glade/gbwidgets/gbhbox.c:321
+msgid "Padding:"
+msgstr "Cãptuºire:"
+
+#: glade/gbwidgets/gbhbox.c:322
+msgid "The widget's padding"
+msgstr "Cãptuºirea widgetului"
+
+#: glade/gbwidgets/gbhbox.c:324 glade/gbwidgets/gbpacker.c:246
+#: glade/gbwidgets/gbpreview.c:65
+msgid "Expand:"
+msgstr "Extensibil:"
+
+#: glade/gbwidgets/gbhbox.c:325 glade/gbwidgets/gbpacker.c:247
+msgid "Set True to let the widget expand"
+msgstr "TRUE dacã widgetul se poate extinde"
+
+#: glade/gbwidgets/gbhbox.c:326
+msgid "Fill:"
+msgstr "Umple zona:"
+
+#: glade/gbwidgets/gbhbox.c:327
+msgid "Set True to let the widget fill its allocated area"
+msgstr "TRUE dacã widgetul poate umple zona alocatã"
+
+#: glade/gbwidgets/gbhbox.c:328
+msgid "Pack Start:"
+msgstr "Împachetat:"
+
+#: glade/gbwidgets/gbhbox.c:329
+msgid "Set True to pack the widget at the start of the box"
+msgstr "TRUE dacã la startul casetei widgetul este împachetat"
+
+#: glade/gbwidgets/gbhbox.c:446
+msgid "Insert Before"
+msgstr "Insereazã înaine"
+
+#: glade/gbwidgets/gbhbox.c:452
+msgid "Insert After"
+msgstr "Insereazã dupã"
+
+#: glade/gbwidgets/gbhbox.c:561
+msgid "Horizontal Box"
+msgstr "Casetã orizontalã"
+
+#: glade/gbwidgets/gbhbuttonbox.c:114
+msgid "New horizontal button box"
+msgstr "Casetã orizontalã cu butoane nouã"
+
+#: glade/gbwidgets/gbhbuttonbox.c:187
+msgid "The number of buttons"
+msgstr "Numãrul butoanelor"
+
+#: glade/gbwidgets/gbhbuttonbox.c:189
+msgid "Layout:"
+msgstr "Aspect:"
+
+#: glade/gbwidgets/gbhbuttonbox.c:190
+msgid "The layout style of the buttons"
+msgstr "Aspectul dispunerii butoanelor"
+
+#: glade/gbwidgets/gbhbuttonbox.c:192
+msgid "The space between the buttons"
+msgstr "Spaþiul între butoane"
+
+#: glade/gbwidgets/gbhbuttonbox.c:194
+msgid "Min Width:"
+msgstr "Lãþime min:"
+
+#: glade/gbwidgets/gbhbuttonbox.c:195
+msgid "The minimum width of the buttons"
+msgstr "Lãþimea minimã a butoanelor"
+
+#: glade/gbwidgets/gbhbuttonbox.c:197
+msgid "Min Height:"
+msgstr "Înãlþime min:"
+
+#: glade/gbwidgets/gbhbuttonbox.c:198
+msgid "The minimum height of the buttons"
+msgstr "Înãlþimea minimã a butoanelor"
+
+#: glade/gbwidgets/gbhbuttonbox.c:201
+msgid "The horizontal padding of the buttons"
+msgstr "Cãptuºirea orizontalã a butoanelor"
+
+#: glade/gbwidgets/gbhbuttonbox.c:204
+msgid "The vertical padding of the buttons"
+msgstr "Cãptuºirea verticalã a butoanelor"
+
+#: glade/gbwidgets/gbhbuttonbox.c:458
+msgid "Horizontal Button Box"
+msgstr "Casetã de butoane orizontalã"
+
+#: glade/gbwidgets/gbhpaned.c:75 glade/gbwidgets/gbvpaned.c:71
+msgid "Handle Size:"
+msgstr "Mãrime purtãtoare:"
+
+#: glade/gbwidgets/gbhpaned.c:75 glade/gbwidgets/gbvpaned.c:71
+msgid "The size of the handle"
+msgstr "Mãrimea purtãtoarei"
+
+#: glade/gbwidgets/gbhpaned.c:77 glade/gbwidgets/gbvpaned.c:73
+msgid "Gutter Size:"
+msgstr "Mãrime ºanþ:"
+
+#: glade/gbwidgets/gbhpaned.c:77 glade/gbwidgets/gbvpaned.c:73
+msgid "The size of the gutter"
+msgstr "Mãrimea ºanþului"
+
+#: glade/gbwidgets/gbhpaned.c:80 glade/gbwidgets/gbvpaned.c:76
+msgid "The position of the divider"
+msgstr "Poziþia divizorului"
+
+#: glade/gbwidgets/gbhpaned.c:216 glade/gbwidgets/gbwindow.c:184
+msgid "Shrink:"
+msgstr "Strângere:"
+
+#: glade/gbwidgets/gbhpaned.c:217
+msgid "Set True to let the widget shrink"
+msgstr "TRUE dacã widgetul se poate strânge"
+
+#: glade/gbwidgets/gbhpaned.c:218
+msgid "Resize:"
+msgstr "Desfãºurare:"
+
+#: glade/gbwidgets/gbhpaned.c:219
+msgid "Set True to let the widget resize"
+msgstr "TRUE dacã widgetul se poate desfãºura"
+
+#: glade/gbwidgets/gbhpaned.c:344
+msgid "Horizontal Panes"
+msgstr "Cursoare orizontale"
+
+#: glade/gbwidgets/gbhruler.c:82 glade/gbwidgets/gbvruler.c:82
+msgid "Metric:"
+msgstr "Metric:"
+
+#: glade/gbwidgets/gbhruler.c:83 glade/gbwidgets/gbvruler.c:83
+msgid "The units of the ruler"
+msgstr "Unitãþile riglei"
+
+#: glade/gbwidgets/gbhruler.c:85 glade/gbwidgets/gbvruler.c:85
+msgid "Lower Value:"
+msgstr "Capãt min:"
+
+#: glade/gbwidgets/gbhruler.c:86 glade/gbwidgets/gbvruler.c:86
+#: glade/gbwidgets/gbvruler.c:88
+msgid "The low value of the ruler"
+msgstr "Capãtul minim al riglei"
+
+#: glade/gbwidgets/gbhruler.c:87 glade/gbwidgets/gbvruler.c:87
+msgid "Upper Value:"
+msgstr "Capãt max:"
+
+#: glade/gbwidgets/gbhruler.c:88
+msgid "The high value of the ruler"
+msgstr "Capãtul maxim pe riglei"
+
+#: glade/gbwidgets/gbhruler.c:90 glade/gbwidgets/gbvruler.c:90
+msgid "The current position on the ruler"
+msgstr "Poziþia curentã pe riglã"
+
+#: glade/gbwidgets/gbhruler.c:92 glade/gbwidgets/gbvruler.c:92
+msgid "The maximum value of the ruler"
+msgstr "Valoarea maximã pe riglã"
+
+#: glade/gbwidgets/gbhruler.c:246
+msgid "Horizontal Ruler"
+msgstr "Rigla orizontalã"
+
+#: glade/gbwidgets/gbhscale.c:116 glade/gbwidgets/gbvscale.c:117
+msgid "Show Value:"
+msgstr "Cu gradaþii:"
+
+#: glade/gbwidgets/gbhscale.c:116 glade/gbwidgets/gbvscale.c:117
+msgid "If the scale's value is shown"
+msgstr "Dacã sunt afiºate gradaþiile scalei"
+
+#: glade/gbwidgets/gbhscale.c:117 glade/gbwidgets/gbspinbutton.c:103
+#: glade/gbwidgets/gbvscale.c:118
+msgid "Digits:"
+msgstr "Cifre:"
+
+#: glade/gbwidgets/gbhscale.c:117 glade/gbwidgets/gbvscale.c:118
+msgid "The number of digits to show"
+msgstr "Numãrul de cifre afiºate"
+
+#: glade/gbwidgets/gbhscale.c:119 glade/gbwidgets/gbvscale.c:120
+msgid "Value Pos:"
+msgstr "Poz. gradaþii:"
+
+#: glade/gbwidgets/gbhscale.c:120 glade/gbwidgets/gbvscale.c:121
+msgid "The position of the value"
+msgstr "Poziþia gradaþiilor"
+
+#: glade/gbwidgets/gbhscale.c:122 glade/gbwidgets/gbhscrollbar.c:96
+#: glade/gbwidgets/gbvscale.c:123 glade/gbwidgets/gbvscrollbar.c:96
+#: glade/gnome/gbdial.c:129
+msgid "Policy:"
+msgstr "Procedurã:"
+
+#: glade/gbwidgets/gbhscale.c:123 glade/gbwidgets/gbvscale.c:124
+msgid "The update policy of the scale"
+msgstr "Procedura de actualizare a scalei"
+
+#: glade/gbwidgets/gbhscale.c:312
+msgid "Horizontal Scale"
+msgstr "Scara orizontalã"
+
+#: glade/gbwidgets/gbhscrollbar.c:97 glade/gbwidgets/gbvscrollbar.c:97
+msgid "The update policy of the scrollbar"
+msgstr "Procedura de actualizare a barei de defilare"
+
+#: glade/gbwidgets/gbhscrollbar.c:230
+msgid "Horizontal Scrollbar"
+msgstr "Barã de defilare orizontalã"
+
+#: glade/gbwidgets/gbhseparator.c:145
+msgid "Horizonal Separator"
+msgstr "Separator orizontal"
+
+#: glade/gbwidgets/gbimage.c:163
+msgid "New image"
+msgstr "Imagine nouã"
+
+#: glade/gbwidgets/gbimage.c:173
+msgid "Image Width:"
+msgstr "Lãþime imagine:"
+
+#. Image height
+#: glade/gbwidgets/gbimage.c:188
+msgid "Image Height:"
+msgstr "Înãlþime imagine:"
+
+#. Type - Normal/Shared/Fastest
+#: glade/gbwidgets/gbimage.c:202
+msgid "Image Type:"
+msgstr "Tip imagine:"
+
+#: glade/gbwidgets/gbimage.c:215
+msgid "Shared"
+msgstr "Partajat"
+
+#: glade/gbwidgets/gbimage.c:222
+msgid "Fastest"
+msgstr "Rapid"
+
+#. Visual - System/Best
+#: glade/gbwidgets/gbimage.c:229
+msgid "Visual:"
+msgstr "Vizual:"
+
+#: glade/gbwidgets/gbimage.c:235
+msgid "System"
+msgstr "Sistem"
+
+#: glade/gbwidgets/gbimage.c:242
+msgid "Best"
+msgstr "Optim"
+
+#: glade/gbwidgets/gbimage.c:355 glade/gbwidgets/gbpixmap.c:73
+msgid "The horizontal alignment"
+msgstr "Alinierea orizontalã"
+
+#: glade/gbwidgets/gbimage.c:358 glade/gbwidgets/gbpixmap.c:76
+msgid "The vertical alignment"
+msgstr "Alinierea verticalã"
+
+#: glade/gbwidgets/gbimage.c:515
+msgid "Image"
+msgstr "Imagine"
+
+#: glade/gbwidgets/gbinputdialog.c:199
+msgid "Input Dialog"
+msgstr "Dialog de intrare"
+
+#: glade/gbwidgets/gblabel.c:140
+msgid "Focus Target:"
+msgstr "Focalizare:"
+
+#: glade/gbwidgets/gblabel.c:141
+msgid ""
+"The widget to set the keyboard focus to when the underlined accelerator key "
+"is used"
+msgstr ""
+"Widgetul focalizeazã intrarea prin tastaturã la apãsarea tastei "
+"acceleratoare subliniate"
+
+#: glade/gbwidgets/gblabel.c:198 glade/gbwidgets/gblabel.c:213
+#: glade/gbwidgets/gblabel.c:374
+msgid "Auto"
+msgstr "Auto"
+
+#: glade/gbwidgets/gblayout.c:90
+msgid "Area Width:"
+msgstr "Lãþime zonã:"
+
+#: glade/gbwidgets/gblayout.c:91
+msgid "The width of the layout area"
+msgstr "Lãþimea zonei cu aspect dat"
+
+#: glade/gbwidgets/gblayout.c:93
+msgid "Area Height:"
+msgstr "Înãlþime zonã:"
+
+#: glade/gbwidgets/gblayout.c:94
+msgid "The height of the layout area"
+msgstr "Înãlþimea zonei cu aspect dat"
+
+#: glade/gbwidgets/gblayout.c:305
+msgid "Layout"
+msgstr "Aspect"
+
+#: glade/gbwidgets/gblist.c:81
+msgid "The selection mode of the list"
+msgstr "Moduld de selecþie în listã"
+
+#: glade/gbwidgets/gblist.c:194
+msgid "List"
+msgstr "Lista"
+
+#: glade/gbwidgets/gblistitem.c:164
+msgid "List Item"
+msgstr "Element listã"
+
+#: glade/gbwidgets/gbmenu.c:190
+msgid "Popup Menu"
+msgstr "Meniu popup"
+
+#: glade/gbwidgets/gbmenubar.c:119
+msgid "The type of shadow around the menubar"
+msgstr "Tipul umbrei în jurul barei de meniuri"
+
+#: glade/gbwidgets/gbmenubar.c:124
+msgid "Edit Menus..."
+msgstr "Editare meniuri..."
+
+#: glade/gbwidgets/gbmenubar.c:223
+msgid "Edit Menu"
+msgstr "Editare meniu"
+
+#: glade/gbwidgets/gbmenubar.c:332
+msgid "Menu Bar"
+msgstr "Bara de meniuri"
+
+#: glade/gbwidgets/gbmenuitem.c:87 glade/gnome/gbpixmapmenuitem.c:81
+msgid "If the menu item is right-justified"
+msgstr "Dacã elementul de meniu este aliniat la dreapta"
+
+#: glade/gbwidgets/gbmenuitem.c:226 glade/gnome/gbpixmapmenuitem.c:249
+msgid "Invalid stock menu item"
+msgstr "Element de meniu din stoc, invalid"
+
+#: glade/gbwidgets/gbmenuitem.c:427
+msgid "Menu Item"
+msgstr "Element meniu"
+
+#: glade/gbwidgets/gbnotebook.c:174
+msgid "New notebook"
+msgstr "Agendã nouã"
+
+#: glade/gbwidgets/gbnotebook.c:184 glade/gnome/gnomepropertybox.c:116
+msgid "Number of pages:"
+msgstr "Numãr pagini:"
+
+#: glade/gbwidgets/gbnotebook.c:257
+msgid "Show Tabs:"
+msgstr "Cu taburi:"
+
+#: glade/gbwidgets/gbnotebook.c:257
+msgid "If the notebook tabs are shown"
+msgstr "Dacã sunt afiºate tabulatoarele agendei"
+
+#: glade/gbwidgets/gbnotebook.c:258
+msgid "Show Border:"
+msgstr "Cu chenar:"
+
+#: glade/gbwidgets/gbnotebook.c:259
+msgid "If the notebook border is shown, when the tabs are not shown"
+msgstr "Dacã este afiºat chenarul agendei, dar nu ºi tabulatoarele"
+
+#: glade/gbwidgets/gbnotebook.c:260
+msgid "Tab Pos:"
+msgstr "Poz. taburi:"
+
+#: glade/gbwidgets/gbnotebook.c:261
+msgid "The position of the notebook tabs"
+msgstr "Poziþia tabulatoarelor agendei"
+
+#: glade/gbwidgets/gbnotebook.c:263
+msgid "Scrollable:"
+msgstr "Mobile:"
+
+#: glade/gbwidgets/gbnotebook.c:264
+msgid "If the notebook tabs are scrollable"
+msgstr "Dacã tabulatoarele agendei sunt mobile"
+
+#: glade/gbwidgets/gbnotebook.c:265
+msgid "Tab Horz. Border:"
+msgstr "Margine H taburi:"
+
+#: glade/gbwidgets/gbnotebook.c:266
+msgid "The size of the notebook tabs' horizontal border"
+msgstr "Grosimea liniei orizontale a tabulatoarelor"
+
+#: glade/gbwidgets/gbnotebook.c:268
+msgid "Tab Vert. Border:"
+msgstr "Margine V taburi:"
+
+#: glade/gbwidgets/gbnotebook.c:269
+msgid "The size of the notebook tabs' vertical border"
+msgstr "Grosimea liniei verticale a tabulatoarelor"
+
+#: glade/gbwidgets/gbnotebook.c:271
+msgid "Show Popup:"
+msgstr "Ca popup:"
+
+#: glade/gbwidgets/gbnotebook.c:271
+msgid "If the popup menu is enabled"
+msgstr "Dacã meniul este afiºat ca popup"
+
+#: glade/gbwidgets/gbnotebook.c:272 glade/gnome/gnomedruid.c:98
+msgid "Number of Pages:"
+msgstr "Numãr de pagini:"
+
+#: glade/gbwidgets/gbnotebook.c:273
+msgid "The number of notebook pages"
+msgstr "Numãrul paginilor agendei"
+
+#: glade/gbwidgets/gbnotebook.c:524
+msgid "Previous Page"
+msgstr "Pagina precedentã"
+
+#: glade/gbwidgets/gbnotebook.c:532
+msgid "Next Page"
+msgstr "Pagina urmãtoare"
+
+#: glade/gbwidgets/gbnotebook.c:540
+msgid "Delete Page"
+msgstr "ªterge pagina"
+
+#: glade/gbwidgets/gbnotebook.c:546
+msgid "Switch Next"
+msgstr "Schimbã cu urmãt."
+
+#: glade/gbwidgets/gbnotebook.c:554
+msgid "Switch Previous"
+msgstr "Schimbã cu prec."
+
+#: glade/gbwidgets/gbnotebook.c:562 glade/gnome/gnomedruid.c:277
+msgid "Insert Page After"
+msgstr "Insereazã pag. dupã"
+
+#: glade/gbwidgets/gbnotebook.c:570 glade/gnome/gnomedruid.c:267
+msgid "Insert Page Before"
+msgstr "Insereazã pag. înainte"
+
+#: glade/gbwidgets/gbnotebook.c:691
+msgid "Notebook"
+msgstr "Agenda"
+
+#: glade/gbwidgets/gboptionmenu.c:121
+msgid "The items in the option menu, one per line"
+msgstr "Elementele din meniul 'Opþiuni', câte unul pe linie"
+
+#: glade/gbwidgets/gboptionmenu.c:122
+msgid "Initial Choice:"
+msgstr "Opþiune iniþialã:"
+
+#: glade/gbwidgets/gboptionmenu.c:123
+msgid "The index of the initially selected item"
+msgstr "Indexul elementului ales iniþial"
+
+#: glade/gbwidgets/gboptionmenu.c:363
+msgid "Option Menu"
+msgstr "Meniu Opþiuni"
+
+#.
+#. property_add_int_range (Spacing, _("Spacing:"),
+#. _("The spacing between child widgets"),
+#. 0, 10000, 1, 10, 1);
+#.
+#: glade/gbwidgets/gbpacker.c:138
+msgid "Default Border:"
+msgstr "Contur implicit:"
+
+#: glade/gbwidgets/gbpacker.c:139
+msgid "The default border width of child widgets"
+msgstr "Conturul implicit al widgetelor fii"
+
+#: glade/gbwidgets/gbpacker.c:142
+msgid "Default Pad X:"
+msgstr "Cãpt. Impl. X:"
+
+#: glade/gbwidgets/gbpacker.c:143
+msgid "The default horizontal padding of child widgets"
+msgstr "Cãptuºirea pe orizontalã, implicitã, a widgetelor fii"
+
+#: glade/gbwidgets/gbpacker.c:145
+msgid "Default Pad Y:"
+msgstr "Cãpt. Impl. Y:"
+
+#: glade/gbwidgets/gbpacker.c:146
+msgid "The default vertical padding of child widgets"
+msgstr "Cãptuºirea pe verticalã, implicitã, a widgetelor fii"
+
+#: glade/gbwidgets/gbpacker.c:149
+msgid "Default IPad X:"
+msgstr "Cãpt. IImpl. X:"
+
+#: glade/gbwidgets/gbpacker.c:150
+msgid "The default internal horizontal padding of child widgets"
+msgstr "Cãptuºirea pe orizontalã, internã, implicitã, a widgetelor fii"
+
+#: glade/gbwidgets/gbpacker.c:152
+msgid "Default IPad Y:"
+msgstr "Cãpt. IImpl. Y:"
+
+#: glade/gbwidgets/gbpacker.c:153
+msgid "The default internal vertical padding of child widgets"
+msgstr "Cãptuºirea pe verticalã, internã, implicitã, a widgetelor fii"
+
+#: glade/gbwidgets/gbpacker.c:237
+msgid "The position of the child widget with respect to its siblings"
+msgstr "Poziþia widgetelor fii respectând widgetele adiacente"
+
+#: glade/gbwidgets/gbpacker.c:240
+msgid "Side:"
+msgstr "Partea:"
+
+#: glade/gbwidgets/gbpacker.c:241
+msgid "The side of the remaining space to place the widget"
+msgstr "Partea spaþiului rãmas pentru plasarea widgetului"
+
+#: glade/gbwidgets/gbpacker.c:243
+msgid "Anchor:"
+msgstr "Ancora:"
+
+#: glade/gbwidgets/gbpacker.c:244
+msgid "Where to anchor the widget in its allocated area"
+msgstr "Unde se ancoreazã widgetul în zona sa de alocare"
+
+#: glade/gbwidgets/gbpacker.c:248
+msgid "Fill X:"
+msgstr "Umple X:"
+
+#: glade/gbwidgets/gbpacker.c:249
+msgid "Set True to let the widget fill its allocated width"
+msgstr "TRUE dacã widgetul poate umple lãþimea alocatã"
+
+#: glade/gbwidgets/gbpacker.c:250
+msgid "Fill Y:"
+msgstr "Umple Y:"
+
+#: glade/gbwidgets/gbpacker.c:251
+msgid "Set True to let the widget fill its allocated height"
+msgstr "TRUE dacã widgetul poate umple înãlþimea alocatã"
+
+#: glade/gbwidgets/gbpacker.c:253
+msgid "Use Defaults:"
+msgstr "Implicit:"
+
+#: glade/gbwidgets/gbpacker.c:254
+msgid ""
+"Set True to use the parent GtkPacker's default settings for the border width "
+"and all padding properties"
+msgstr ""
+"TRUE dacã se vor folosi configurãrile implicite pentru chenar cu tot cu "
+"opþiunile de cãptuºire"
+
+#: glade/gbwidgets/gbpacker.c:257
+msgid "The size of the widget's border"
+msgstr "Grosimea conturului widgetului"
+
+#: glade/gbwidgets/gbpacker.c:259 glade/gbwidgets/gbtable.c:377
+msgid "H Padding:"
+msgstr "Cãptuºire H:"
+
+#: glade/gbwidgets/gbpacker.c:260
+msgid "The widget's horizontal external padding"
+msgstr "'Cãptuºirea' exterioarã pe orizontalã a widgetului"
+
+#: glade/gbwidgets/gbpacker.c:262 glade/gbwidgets/gbtable.c:380
+msgid "V Padding:"
+msgstr "Cãptuºire V:"
+
+#: glade/gbwidgets/gbpacker.c:263
+msgid "The widget's vertical external padding"
+msgstr "'Cãptuºirea' exterioarã pe verticalã a widgetului"
+
+#: glade/gbwidgets/gbpacker.c:265
+msgid "H Int. Padding:"
+msgstr "Cãptuºire H int:"
+
+#: glade/gbwidgets/gbpacker.c:266
+msgid "The widget's horizontal internal padding"
+msgstr "Cãptuºirea interioarã pe orizontalã a widgetului"
+
+#: glade/gbwidgets/gbpacker.c:268
+msgid "V Int. Padding:"
+msgstr "Cãptuºire V int:"
+
+#: glade/gbwidgets/gbpacker.c:269
+msgid "The widget's vertical internal padding"
+msgstr "Cãptuºirea interioarã pe verticalã a widgetului"
+
+#: glade/gbwidgets/gbpacker.c:640
+msgid "Packer"
+msgstr "Împachetator"
+
+#: glade/gbwidgets/gbpixmap.c:71 glade/gbwidgets/gbradiobutton.c:106
+#: glade/gbwidgets/gbtogglebutton.c:121 glade/gnome/gnomepixmap.c:78
+msgid "The pixmap filename"
+msgstr "Fiºierul pixmap"
+
+#: glade/gbwidgets/gbpixmap.c:82
+msgid "Build Insensitive:"
+msgstr "Gener. insensibil:"
+
+#: glade/gbwidgets/gbpixmap.c:83
+msgid "If an insensitive version of the pixmap is built automatically"
+msgstr "Dacã este generatã automat o versiune insensibilã a pixmap-ului"
+
+#: glade/gbwidgets/gbpixmap.c:150 glade/gbwidgets/gbtoolbar.c:1439
+msgid "Couldn't create pixmap from file"
+msgstr "Nu pot crea pixmap-ul, din fiºier"
+
+#: glade/gbwidgets/gbpixmap.c:292
+msgid "Pixmap"
+msgstr "Pixmap"
+
+#: glade/gbwidgets/gbpreview.c:63
+msgid "Color:"
+msgstr "În culori:"
+
+#: glade/gbwidgets/gbpreview.c:64
+msgid "If the preview is color or grayscale"
+msgstr "Dacã previzualizarea se face în culori sau alb/negru"
+
+#: glade/gbwidgets/gbpreview.c:66
+msgid "If the preview expands to fill its allocated area"
+msgstr "Dacã previzualizarea se extinde în toatã zona alocatã"
+
+#: glade/gbwidgets/gbpreview.c:161
+msgid "Preview"
+msgstr "Previzualizare"
+
+#: glade/gbwidgets/gbprogressbar.c:119
+msgid "Minimum Value:"
+msgstr "Valoare minimã:"
+
+#: glade/gbwidgets/gbprogressbar.c:120
+msgid "Maximum Value:"
+msgstr "Valoare maximã:"
+
+#: glade/gbwidgets/gbprogressbar.c:122 glade/gbwidgets/gbtoolbar.c:307
+msgid "Style:"
+msgstr "Stil:"
+
+#: glade/gbwidgets/gbprogressbar.c:123
+msgid "The style of the progress bar"
+msgstr "Stilul barei de progres"
+
+#: glade/gbwidgets/gbprogressbar.c:125 glade/gbwidgets/gbtoolbar.c:304
+#: glade/gnome/gnomedockitem.c:215
+msgid "Orientation:"
+msgstr "Orientare:"
+
+#: glade/gbwidgets/gbprogressbar.c:126
+msgid "The orientation of the progress bar's contents"
+msgstr "Orientarea conþinutului barei de progres"
+
+#: glade/gbwidgets/gbprogressbar.c:129
+msgid "Activity Mode:"
+msgstr "Mod activitate:"
+
+#: glade/gbwidgets/gbprogressbar.c:130
+msgid "If the progress bar should act like the front of Kit's car"
+msgstr "Dacã bara de progres se comportã ca botul maºinii lui Kit :)"
+
+#: glade/gbwidgets/gbprogressbar.c:131
+msgid "Show Text:"
+msgstr "Cu text:"
+
+#: glade/gbwidgets/gbprogressbar.c:132
+msgid "If the text should be shown in the progress bar"
+msgstr "Dacã textul va fi afiºat în bara de progres"
+
+#: glade/gbwidgets/gbprogressbar.c:133 glade/gnome/gbclock.c:106
+msgid "Format:"
+msgstr "Format:"
+
+#: glade/gbwidgets/gbprogressbar.c:134
+msgid ""
+"The format of the text, similar to sprintf. Use %P, %V, %L and %U to insert "
+"the percentage, value, lower bound and upper bound respectively. Use %1V or "
+"%2V to show 1 or 2 decimal places."
+msgstr ""
+"Formatul textului, similar cu sprintf. Pentru a insera procentul, valoarea, "
+"marginea inferioarã, respectiv cea superioarã folosiþi %P, %V, %L ºi %U. "
+"Pentru a afiºa 1 sau 2 cifre zecimale folosiþi %1V sau %2V."
+
+#: glade/gbwidgets/gbprogressbar.c:139
+msgid "The horizontal alignment of the text"
+msgstr "Alinierea orizontalã a textului"
+
+#: glade/gbwidgets/gbprogressbar.c:142
+msgid "The vertical alignment of the text"
+msgstr "Alinierea verticalã a textului"
+
+#: glade/gbwidgets/gbprogressbar.c:401
+msgid "Progress Bar"
+msgstr "Bara de progres"
+
+#: glade/gbwidgets/gbradiobutton.c:109
+msgid "If the radio button is initially on"
+msgstr "Dacã butonul radio este iniþial apãsat"
+
+#: glade/gbwidgets/gbradiobutton.c:113
+msgid ""
+"The radio button group (the default is all radio buttons with the same "
+"parent)"
+msgstr ""
+"Grupul butoanelor radio (implicit toate butoanele radio au acelaºi tatã)"
+
+#: glade/gbwidgets/gbradiobutton.c:501
+msgid "Radio Button"
+msgstr "Buton radio"
+
+#: glade/gbwidgets/gbradiomenuitem.c:95
+msgid "If the radio menu item is initially on"
+msgstr "Dacã elementul de meniu radio este iniþial activ"
+
+#: glade/gbwidgets/gbradiomenuitem.c:99
+msgid ""
+"The radio menu item group (the default is all radio menu items with the same "
+"parent)"
+msgstr ""
+"Grupul elemetelor meniului radio (implicit toate elementele meniului radio "
+"au acelaºi tatã)"
+
+#: glade/gbwidgets/gbradiomenuitem.c:445
+msgid "Radio Menu Item"
+msgstr "Element meniu radio"
+
+#: glade/gbwidgets/gbscrolledwindow.c:126
+msgid "H Policy:"
+msgstr "Procedurã H:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:127
+msgid "When the horizontal scrollbar will be shown"
+msgstr "Dacã va fi afiºatã bara de defilare orizontalã"
+
+#: glade/gbwidgets/gbscrolledwindow.c:129
+msgid "V Policy:"
+msgstr "Procedurã V:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:130
+msgid "When the vertical scrollbar will be shown"
+msgstr "Dacã va fi afiºatã bara de defilare verticalã "
+
+#: glade/gbwidgets/gbscrolledwindow.c:132
+msgid "H Updates:"
+msgstr "Actualizãri H:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:133
+msgid "The update policy of the horizontal scrollbar"
+msgstr "Procedura de actualizare a barei de defilare orizontalã"
+
+#: glade/gbwidgets/gbscrolledwindow.c:135
+msgid "V Updates:"
+msgstr "Actualizãri V:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:136
+msgid "The update policy of the vertical scrollbar"
+msgstr "Procedura de actualizare a barei de defilare verticalã"
+
+#: glade/gbwidgets/gbscrolledwindow.c:380
+msgid "Scrolled Window"
+msgstr "Fereastrã cu defilare"
+
+#: glade/gbwidgets/gbspinbutton.c:101
+msgid "Climb Rate:"
+msgstr "Vitezã defilare:"
+
+#: glade/gbwidgets/gbspinbutton.c:102
+msgid ""
+"The climb rate of the spinbutton, used in conjunction with the Page Increment"
+msgstr ""
+"Viteza de defilare a butonului cu defilare, în legãturã cu incrementul "
+"paginii"
+
+#: glade/gbwidgets/gbspinbutton.c:104
+msgid "The number of decimal digits to show"
+msgstr "Numãrul cifrelor zecimale afiºate"
+
+#: glade/gbwidgets/gbspinbutton.c:106
+msgid "Numeric:"
+msgstr "Numeric:"
+
+#: glade/gbwidgets/gbspinbutton.c:107
+msgid ""
+"If any value entered should be converted according to the locale settings"
+msgstr ""
+"Dacã orice valoare introdusã va fi convertitã conform opþiunilor locale"
+
+#: glade/gbwidgets/gbspinbutton.c:109
+msgid "When value_changed signals are emitted"
+msgstr "Când este emis semnalul 'value_changed'"
+
+#: glade/gbwidgets/gbspinbutton.c:111
+msgid "Snap:"
+msgstr "Rotunjire:"
+
+#: glade/gbwidgets/gbspinbutton.c:112
+msgid "If the value is snapped to multiples of the step increment"
+msgstr "Dacã valoarea este rotunjitã la multipli ai increm. pasului"
+
+#: glade/gbwidgets/gbspinbutton.c:113
+msgid "Wrap:"
+msgstr "Limitare:"
+
+#: glade/gbwidgets/gbspinbutton.c:114
+msgid "If the value is wrapped at the limits"
+msgstr "Dacã valoarea este trunchiatã la limite"
+
+#: glade/gbwidgets/gbspinbutton.c:294
+msgid "Spin Button"
+msgstr "Buton cu defilare"
+
+#: glade/gbwidgets/gbstatusbar.c:145
+msgid "Status Bar"
+msgstr "Bara de stare"
+
+#: glade/gbwidgets/gbtable.c:134
+msgid "New table"
+msgstr "Tabel nou"
+
+#: glade/gbwidgets/gbtable.c:145 glade/gbwidgets/gbvbox.c:94
+#: glade/gbwidgets/gbvbuttonbox.c:117
+msgid "Number of rows:"
+msgstr "Numãr rânduri:"
+
+#: glade/gbwidgets/gbtable.c:233
+msgid "Rows:"
+msgstr "Rânduri:"
+
+#: glade/gbwidgets/gbtable.c:234
+msgid "The number of rows in the table"
+msgstr "Numãrul rândurilor în tabel"
+
+#: glade/gbwidgets/gbtable.c:236
+msgid "Columns:"
+msgstr "Coloane:"
+
+#: glade/gbwidgets/gbtable.c:237
+msgid "The number of columns in the table"
+msgstr "Numãrul coloanelor în tabel"
+
+#: glade/gbwidgets/gbtable.c:240
+msgid "If the children should all be the same size"
+msgstr "Dacã fiii vor avea aceeaºi mãrime"
+
+#: glade/gbwidgets/gbtable.c:241 glade/gnome/gnomeiconlist.c:182
+msgid "Row Spacing:"
+msgstr "Spaþiere rând:"
+
+#: glade/gbwidgets/gbtable.c:242
+msgid "The space between each row"
+msgstr "Spaþiul dintre rânduri"
+
+#: glade/gbwidgets/gbtable.c:244 glade/gnome/gnomeiconlist.c:185
+msgid "Col Spacing:"
+msgstr "Spaþiere col.:"
+
+#: glade/gbwidgets/gbtable.c:245
+msgid "The space between each column"
+msgstr "Spaþiul dintre coloane"
+
+#: glade/gbwidgets/gbtable.c:364
+msgid "Cell X:"
+msgstr "Celula X:"
+
+#: glade/gbwidgets/gbtable.c:365
+msgid "The left edge of the widget in the table"
+msgstr "Marginea din stânga a widgetului în tabel"
+
+#: glade/gbwidgets/gbtable.c:367
+msgid "Cell Y:"
+msgstr "Celula Y:"
+
+#: glade/gbwidgets/gbtable.c:368
+msgid "The top edge of the widget in the table"
+msgstr "Marginea de sus a widgetului în tabel"
+
+#: glade/gbwidgets/gbtable.c:371
+msgid "Col Span:"
+msgstr "Câte col.:"
+
+#: glade/gbwidgets/gbtable.c:372
+msgid "The number of columns spanned by the widget in the table"
+msgstr "Numãrul de coloane din tabel pe care se întinde widgetul"
+
+#: glade/gbwidgets/gbtable.c:374
+msgid "Row Span:"
+msgstr "Câte rând.:"
+
+#: glade/gbwidgets/gbtable.c:375
+msgid "The number of rows spanned by the widget in the table"
+msgstr "Numãrul de rânduri din tabel pe care se întinde widgetul"
+
+#: glade/gbwidgets/gbtable.c:383
+msgid "X Expand:"
+msgstr "Extindere X:"
+
+#: glade/gbwidgets/gbtable.c:384
+msgid "Set True to let the widget expand horizontally"
+msgstr "TRUE dacã widgetul se poate extinde pe orizontalã"
+
+#: glade/gbwidgets/gbtable.c:385
+msgid "Y Expand:"
+msgstr "Extindere Y:"
+
+#: glade/gbwidgets/gbtable.c:386
+msgid "Set True to let the widget expand vertically"
+msgstr "TRUE dacã widgetul se poate extinde pe verticalã"
+
+#: glade/gbwidgets/gbtable.c:387
+msgid "X Shrink:"
+msgstr "Strângere X:"
+
+#: glade/gbwidgets/gbtable.c:388
+msgid "Set True to let the widget shrink horizontally"
+msgstr "TRUE dacã widgetul se poate strânge pe orizontalã"
+
+#: glade/gbwidgets/gbtable.c:389
+msgid "Y Shrink:"
+msgstr "Stângere Y:"
+
+#: glade/gbwidgets/gbtable.c:390
+msgid "Set True to let the widget shrink vertically"
+msgstr "TRUE dacã widgetul se poate strânge pe verticalã"
+
+#: glade/gbwidgets/gbtable.c:391
+msgid "X Fill:"
+msgstr "Umplere X:"
+
+#: glade/gbwidgets/gbtable.c:392
+msgid "Set True to let the widget fill its horizontal allocated area"
+msgstr "TRUE dacã widgetul poate umple pe orizontalã zona alocatã"
+
+#: glade/gbwidgets/gbtable.c:393
+msgid "Y Fill:"
+msgstr "Umplere Y:"
+
+#: glade/gbwidgets/gbtable.c:394
+msgid "Set True to let the widget fill its vertical allocated area"
+msgstr "TRUE dacã widgetul poate umple pe verticalã zona alocatã"
+
+#: glade/gbwidgets/gbtable.c:575
+msgid "Insert Row Before"
+msgstr "Insereazã rând înainte"
+
+#: glade/gbwidgets/gbtable.c:582
+msgid "Insert Row After"
+msgstr "Insereazã rând dupã"
+
+#: glade/gbwidgets/gbtable.c:589
+msgid "Insert Column Before"
+msgstr "Insereazã coloanã înainte"
+
+#: glade/gbwidgets/gbtable.c:596
+msgid "Insert Column After"
+msgstr "Insereazã coloanã dupã"
+
+#: glade/gbwidgets/gbtable.c:603
+msgid "Delete Row"
+msgstr "ªterge rând"
+
+#: glade/gbwidgets/gbtable.c:609
+msgid "Delete Column"
+msgstr "ªterge coloanã"
+
+#: glade/gbwidgets/gbtable.c:1115
+msgid "Table"
+msgstr "Tabel"
+
+#: glade/gbwidgets/gbtext.c:248
+msgid "Text Box"
+msgstr "Casetã text"
+
+#: glade/gbwidgets/gbtogglebutton.c:125
+msgid "If the toggle button is initially on"
+msgstr "Dacã butonul de comutare este iniþial apãsat"
+
+#: glade/gbwidgets/gbtogglebutton.c:337
+msgid "Toggle Button"
+msgstr "Buton comutare"
+
+#: glade/gbwidgets/gbtoolbar.c:229
+msgid "New toolbar"
+msgstr "Barã nouã"
+
+#: glade/gbwidgets/gbtoolbar.c:239
+msgid "Number of items:"
+msgstr "Numãr elemente:"
+
+#: glade/gbwidgets/gbtoolbar.c:302
+msgid "The number of items in the toolbar"
+msgstr "Numãrul de elemente din barã"
+
+#: glade/gbwidgets/gbtoolbar.c:305
+msgid "The toolbar orientation"
+msgstr "Orientarea barei"
+
+#: glade/gbwidgets/gbtoolbar.c:308
+msgid "The toolbar style"
+msgstr "Stilul barei"
+
+#: glade/gbwidgets/gbtoolbar.c:310
+msgid "Space Size:"
+msgstr "Mãrime spaþii:"
+
+#: glade/gbwidgets/gbtoolbar.c:311
+msgid "The size of spaces in the toolbar"
+msgstr "Mãrimea spaþiilor pe barã"
+
+#: glade/gbwidgets/gbtoolbar.c:313
+msgid "Space Style:"
+msgstr "Stil spaþii:"
+
+#: glade/gbwidgets/gbtoolbar.c:314
+msgid "The way spaces in the toolbar are displayed"
+msgstr "Afiºeazã pe barã spaþierile"
+
+#: glade/gbwidgets/gbtoolbar.c:317
+msgid "The relief style of the toolbar buttons"
+msgstr "Stilul reliefului butoanelor de pe barã"
+
+#: glade/gbwidgets/gbtoolbar.c:319
+msgid "Tooltips:"
+msgstr "Tooltip-uri:"
+
+#: glade/gbwidgets/gbtoolbar.c:319
+msgid "If tooltips are enabled"
+msgstr "Dacã sunt prevãzute tooltip-uri"
+
+#: glade/gbwidgets/gbtoolbar.c:515
+msgid "New Group:"
+msgstr "Grup nou:"
+
+#: glade/gbwidgets/gbtoolbar.c:516
+msgid "Set True to start a new group of toolbar items"
+msgstr "TRUE pentru a crea un nou grup de elemente pe barã"
+
+#: glade/gbwidgets/gbtoolbar.c:584
+msgid "Insert Item Before"
+msgstr "Insereazã element înainte"
+
+#: glade/gbwidgets/gbtoolbar.c:591
+msgid "Insert Item After"
+msgstr "Insereazã element dupã"
+
+#: glade/gbwidgets/gbtoolbar.c:795
+msgid "Convert to ordinary button"
+msgstr "Converteºte la buton simplu"
+
+#: glade/gbwidgets/gbtoolbar.c:1628
+msgid "Toolbar"
+msgstr "Barã"
+
+#: glade/gbwidgets/gbtree.c:96
+msgid "The selection mode of the tree"
+msgstr "Modul de selecþie în arbore"
+
+#: glade/gbwidgets/gbtree.c:98
+msgid "View Mode:"
+msgstr "Mod afiºare:"
+
+#: glade/gbwidgets/gbtree.c:99
+msgid "The view mode of the tree"
+msgstr "Modul de afiºare al arborelui"
+
+#: glade/gbwidgets/gbtree.c:101
+msgid "View Lines:"
+msgstr "Aratã linii:"
+
+#: glade/gbwidgets/gbtree.c:102
+msgid "If lines are displayed between items"
+msgstr "Dacã între elemente sunt afiºate linii"
+
+#: glade/gbwidgets/gbtree.c:257
+msgid "Tree"
+msgstr "Arbore"
+
+#: glade/gbwidgets/gbtreeitem.c:162
+msgid "Tree Item"
+msgstr "Element arbore"
+
+#: glade/gbwidgets/gbvbox.c:84
+msgid "New vertical box"
+msgstr "Casetã verticalã nouã"
+
+#: glade/gbwidgets/gbvbox.c:240
+msgid "Vertical Box"
+msgstr "Casetã verticalã"
+
+#: glade/gbwidgets/gbvbuttonbox.c:106
+msgid "New vertical button box"
+msgstr "Casetã de butoane verticalã nouã"
+
+#: glade/gbwidgets/gbvbuttonbox.c:435
+msgid "Vertical Button Box"
+msgstr "Casetã de butoane verticalã"
+
+#: glade/gbwidgets/gbviewport.c:104
+msgid "The type of shadow of the viewport"
+msgstr "Tipul umbrei vederii"
+
+#: glade/gbwidgets/gbviewport.c:239
+msgid "Viewport"
+msgstr "Vedere"
+
+#: glade/gbwidgets/gbvpaned.c:221
+msgid "Vertical Panes"
+msgstr "Cursoare verticale"
+
+#: glade/gbwidgets/gbvruler.c:246
+msgid "Vertical Ruler"
+msgstr "Rigla verticalã"
+
+#: glade/gbwidgets/gbvscale.c:312
+msgid "Vertical Scale"
+msgstr "Scara verticalã"
+
+#: glade/gbwidgets/gbvscrollbar.c:229
+msgid "Vertical Scrollbar"
+msgstr "Barã de defilare verticalã"
+
+#: glade/gbwidgets/gbvseparator.c:145
+msgid "Vertical Separator"
+msgstr "Separator vertical"
+
+#: glade/gbwidgets/gbwindow.c:154 glade/gnome/gnomecolorpicker.c:71
+#: glade/gnome/gnomedruidpagefinish.c:72
+#: glade/gnome/gnomedruidpagestandard.c:85
+#: glade/gnome/gnomedruidpagestart.c:71 glade/gnome/gnomefileentry.c:83
+#: glade/gnome/gnomefontpicker.c:96 glade/gnome/gnomeiconentry.c:66
+#: glade/gnome/gnomenumberentry.c:75
+msgid "Title:"
+msgstr "Titlu:"
+
+#: glade/gbwidgets/gbwindow.c:154
+msgid "The title of the window"
+msgstr "Titlul ferestrei"
+
+#: glade/gbwidgets/gbwindow.c:157
+msgid "The type of the window"
+msgstr "Tipul ferestrei"
+
+#: glade/gbwidgets/gbwindow.c:162
+msgid "The initial position of the window"
+msgstr "Poziþia iniþialã a ferestrei"
+
+#: glade/gbwidgets/gbwindow.c:166 glade/gnome/gnomefileentry.c:87
+msgid "Modal:"
+msgstr "Modalã:"
+
+#: glade/gbwidgets/gbwindow.c:166
+msgid "If the window is modal"
+msgstr "Dacã fereastra este modalã"
+
+#: glade/gbwidgets/gbwindow.c:171
+msgid "Default Width:"
+msgstr "Lãþime implicitã:"
+
+#: glade/gbwidgets/gbwindow.c:172
+msgid "The default width of the window"
+msgstr "Lãþimea implicitã a ferestrei"
+
+#: glade/gbwidgets/gbwindow.c:176
+msgid "Default Height:"
+msgstr "Înãlþime implicitã:"
+
+#: glade/gbwidgets/gbwindow.c:177
+msgid "The default height of the window"
+msgstr "Înãlþimea implicitã a ferestrei"
+
+#: glade/gbwidgets/gbwindow.c:185
+msgid "If the window can be shrunk"
+msgstr "Dacã fereastra poate fi strânsã"
+
+#: glade/gbwidgets/gbwindow.c:186
+msgid "Grow:"
+msgstr "Mãrire:"
+
+#: glade/gbwidgets/gbwindow.c:187
+msgid "If the window can be enlarged"
+msgstr "Dacã fereastra poate fi mãritã"
+
+#: glade/gbwidgets/gbwindow.c:188
+msgid "Auto Shrink:"
+msgstr "Auto-strânge:"
+
+#: glade/gbwidgets/gbwindow.c:189
+msgid "If the window shrinks automatically"
+msgstr "Dacã fereastra se strânge automat"
+
+#: glade/gbwidgets/gbwindow.c:193
+msgid "WM Name:"
+msgstr "Nume WM"
+
+#: glade/gbwidgets/gbwindow.c:194
+msgid "The name to pass to the window manager"
+msgstr "Numele de transmis managerului de ferestre"
+
+#: glade/gbwidgets/gbwindow.c:196
+msgid "WM Class:"
+msgstr "Clasã WM:"
+
+#: glade/gbwidgets/gbwindow.c:197
+msgid "The class name to pass to the window manager"
+msgstr "Numele clasei de transmis managerului de ferestre"
+
+#: glade/gbwidgets/gbwindow.c:699
+msgid "Window"
+msgstr "Fereastrã"
+
+#: glade/gnome/gbclock.c:104
+msgid "The type of the clock"
+msgstr "Tipul ceasului"
+
+#: glade/gnome/gbclock.c:107
+msgid ""
+"The format of the time to display. Use %H, %M and %S to insert the hour, "
+"minute and seconds values"
+msgstr ""
+"Formatul de afiºare al orei. Folosiþi %H, %M ºi %S pentru a insera ora, "
+"minutul ºi secunda"
+
+#: glade/gnome/gbclock.c:108
+msgid "Seconds:"
+msgstr "Secunde:"
+
+#: glade/gnome/gbclock.c:108
+msgid "The starting time"
+msgstr "Ora de start:"
+
+#: glade/gnome/gbclock.c:110
+msgid "Interval:"
+msgstr "Interval:"
+
+#: glade/gnome/gbclock.c:111
+msgid "The time between updates, in seconds"
+msgstr "Intervalul între actualizãri, în secunde"
+
+#: glade/gnome/gbclock.c:119
+msgid "Start"
+msgstr "Start"
+
+#: glade/gnome/gbclock.c:429
+msgid "Clock"
+msgstr "Ceas"
+
+#: glade/gnome/gbdial.c:127
+msgid "View Only:"
+msgstr "Doar afiºare:"
+
+#: glade/gnome/gbdial.c:128
+msgid "If the dial can not be changed by the user"
+msgstr "Dacã ceasul nu poate fi ajustat de utilizator"
+
+#: glade/gnome/gbdial.c:130
+msgid "The update policy of the dial"
+msgstr "Procedura de actualizare a ceasului"
+
+#: glade/gnome/gbdial.c:275
+msgid "Dial"
+msgstr "Cadran"
+
+#: glade/gnome/gbpixmapmenuitem.c:298
+msgid "Invalid stock menu pixmap"
+msgstr "Pixmap de meniu, din stoc, invalid"
+
+#: glade/gnome/gbpixmapmenuitem.c:452
+msgid "Menu item with a pixmap"
+msgstr "Element de meniu cu pixmap"
+
+#: glade/gnome/gnomeabout.c:94
+msgid "Copyright:"
+msgstr "Copyright:"
+
+#: glade/gnome/gnomeabout.c:94
+msgid "The copyright notice"
+msgstr "Informare privind drepturile de autor"
+
+#: glade/gnome/gnomeabout.c:95
+msgid "Authors:"
+msgstr "Autori:"
+
+#: glade/gnome/gnomeabout.c:95
+msgid "The authors of the package, one on each line"
+msgstr "Autorii pachetului, câte unul pe linie"
+
+#: glade/gnome/gnomeabout.c:96
+msgid "Comments:"
+msgstr "Comentarii:"
+
+#: glade/gnome/gnomeabout.c:96
+msgid ""
+"Additional information, such as a description of the package and its home "
+"page on the web"
+msgstr "Informaþii suplimentare, ca descrierea pachetului ºi pagina sa pe web"
+
+#: glade/gnome/gnomeabout.c:97
+msgid "Logo:"
+msgstr "Logo:"
+
+#: glade/gnome/gnomeabout.c:97
+msgid "The pixmap to use as the logo"
+msgstr "Pixmap-ul folosit ca logo"
+
+#: glade/gnome/gnomeabout.c:231
+msgid "Authors: "
+msgstr "Autori:"
+
+#: glade/gnome/gnomeabout.c:561
+msgid "Gnome About Dialog"
+msgstr "Dialogul despre Gnome"
+
+#: glade/gnome/gnomeanimator.c:94
+msgid "Loop Type:"
+msgstr "Tip buclã:"
+
+#: glade/gnome/gnomeanimator.c:95
+msgid "If the animation loops, and in what way"
+msgstr "Dacã animaþia se repetã în buclã, ºi în ce mod"
+
+#: glade/gnome/gnomeanimator.c:97
+msgid "Reverse:"
+msgstr "Invers:"
+
+#: glade/gnome/gnomeanimator.c:98
+msgid "If the initial direction is reversed"
+msgstr "Dacã direcþia iniþialã este inversatã"
+
+#: glade/gnome/gnomeanimator.c:99
+msgid "Speed:"
+msgstr "Vitezã:"
+
+#: glade/gnome/gnomeanimator.c:100
+msgid "The playback speed"
+msgstr "Viteza animaþiei"
+
+#: glade/gnome/gnomeanimator.c:257
+msgid "Gnome Animator"
+msgstr "Animator Gnome"
+
+#: glade/gnome/gnomeapp.c:63
+msgid "_New File"
+msgstr "Fiºier _Nou"
+
+#: glade/gnome/gnomeapp.c:63
+msgid "Create a new file"
+msgstr "Creare fiºier nou"
+
+#: glade/gnome/gnomeapp.c:124
+msgid "New File"
+msgstr "Fiºier nou"
+
+#: glade/gnome/gnomeapp.c:129
+msgid "Open File"
+msgstr "Deschide fiºier"
+
+#: glade/gnome/gnomeapp.c:134
+msgid "Save File"
+msgstr "Salveazã fiºier"
+
+#: glade/gnome/gnomeapp.c:362
+msgid "Status Bar:"
+msgstr "Barã de stare:"
+
+#: glade/gnome/gnomeapp.c:363
+msgid "If the window has a status bar"
+msgstr "Dacã fereastra are barã de stare"
+
+#: glade/gnome/gnomeapp.c:364
+msgid "Store Config:"
+msgstr "Memo config.:"
+
+#: glade/gnome/gnomeapp.c:365
+msgid "If the layout is saved and restored automatically"
+msgstr "Dacã aspectul este salvat ºi refãcut automat"
+
+#: glade/gnome/gnomeapp.c:581
+msgid "Gnome Application Window"
+msgstr "Fereastrã de aplicaþie Gnome"
+
+#: glade/gnome/gnomeappbar.c:56
+msgid "Status Message."
+msgstr "Mesaj de stare."
+
+#: glade/gnome/gnomeappbar.c:69
+msgid "Progress:"
+msgstr "Progres:"
+
+#: glade/gnome/gnomeappbar.c:70
+msgid "If the app bar has a progress indicator"
+msgstr "Dacã bara de aplicaþii are indicator de progres"
+
+#: glade/gnome/gnomeappbar.c:71
+msgid "Status:"
+msgstr "Stare:"
+
+#: glade/gnome/gnomeappbar.c:72
+msgid "If the app bar has an area for status messages and user input"
+msgstr "Dacã bara de aplicaþii are zone pt. intrare ºi mesaje de stare"
+
+#: glade/gnome/gnomeappbar.c:183
+msgid "Gnome Application Bar"
+msgstr "Bara de aplicaþii Gnome"
+
+#: glade/gnome/gnomecalculator.c:146
+msgid "Gnome Calculator"
+msgstr "Calculator Gnome"
+
+#: glade/gnome/gnomecanvas.c:68
+msgid "Anti-Aliased:"
+msgstr "Anti-alias:"
+
+#: glade/gnome/gnomecanvas.c:69
+msgid "If the canvas is anti-aliased, to smooth the edges of text and graphics"
+msgstr "Dacã rastrul este anti-alias, pt. a netezi muchiile la text ºi graficã"
+
+#: glade/gnome/gnomecanvas.c:70
+msgid "X1:"
+msgstr "X1:"
+
+#: glade/gnome/gnomecanvas.c:70
+msgid "The minimum x coordinate"
+msgstr "Coordonata X minimã"
+
+#: glade/gnome/gnomecanvas.c:71
+msgid "Y1:"
+msgstr "Y1:"
+
+#: glade/gnome/gnomecanvas.c:71
+msgid "The minimum y coordinate"
+msgstr "Coordonata Y minimã"
+
+#: glade/gnome/gnomecanvas.c:72
+msgid "X2:"
+msgstr "X2:"
+
+#: glade/gnome/gnomecanvas.c:72
+msgid "The maximum x coordinate"
+msgstr "Coordonata X maximã"
+
+#: glade/gnome/gnomecanvas.c:73
+msgid "Y2:"
+msgstr "Y2:"
+
+#: glade/gnome/gnomecanvas.c:73
+msgid "The maximum y coordinate"
+msgstr "Coordonata Y maximã"
+
+#: glade/gnome/gnomecanvas.c:75
+msgid "Pixels Per Unit:"
+msgstr "Pixeli pe unitate:"
+
+#: glade/gnome/gnomecanvas.c:76
+msgid "The number of pixels corresponding to one unit"
+msgstr "Numãrul de pixeli pe unitatea de lungime"
+
+#: glade/gnome/gnomecanvas.c:250
+msgid "GnomeCanvas"
+msgstr "GnomeCanvas"
+
+#: glade/gnome/gnomecolorpicker.c:66
+msgid "Dither:"
+msgstr "Dither:"
+
+#: glade/gnome/gnomecolorpicker.c:67
+msgid "If the sample should use dithering to be more accurate"
+msgstr "Dacã imaginea va fi interpolatã pentru a fi acceptabilã"
+
+#: glade/gnome/gnomecolorpicker.c:68
+msgid "Use Alpha:"
+msgstr "Cu Alfa:"
+
+#: glade/gnome/gnomecolorpicker.c:69
+msgid "If the alpha channel should be used"
+msgstr "Dacã va fi folosit canalul Alfa"
+
+#: glade/gnome/gnomecolorpicker.c:72
+msgid "The title of the color selection dialog"
+msgstr "Titlul dialogului pentru alegerea culorii"
+
+#: glade/gnome/gnomecolorpicker.c:151
+msgid "Pick a color"
+msgstr "Ia o culoare"
+
+#: glade/gnome/gnomecolorpicker.c:194
+msgid "Gnome Color Picker"
+msgstr "Selector de culori Gnome"
+
+#: glade/gnome/gnomedateedit.c:69
+msgid "Show Time:"
+msgstr "Aratã ora:"
+
+#: glade/gnome/gnomedateedit.c:70
+msgid "If the time is shown as well as the date"
+msgstr "Dacã este afiºatã ora ºi data"
+
+#: glade/gnome/gnomedateedit.c:71
+msgid "24 Hour Format:"
+msgstr "Format de 24h:"
+
+#: glade/gnome/gnomedateedit.c:72
+msgid "If the time is shown in 24-hour format"
+msgstr "Dacã ora este afiºatã în format 24:00"
+
+#: glade/gnome/gnomedateedit.c:75
+msgid "Lower Hour:"
+msgstr "Ora min:"
+
+#: glade/gnome/gnomedateedit.c:76
+msgid "The lowest hour to show in the popup"
+msgstr "Ora minimã afiºatã în popup"
+
+#: glade/gnome/gnomedateedit.c:78
+msgid "Upper Hour:"
+msgstr "Ora max:"
+
+#: glade/gnome/gnomedateedit.c:79
+msgid "The highest hour to show in the popup"
+msgstr "Ora maximã afiºatã în popup"
+
+#: glade/gnome/gnomedateedit.c:274
+msgid "GnomeDateEdit"
+msgstr "GnomeDateEdit"
+
+#: glade/gnome/gnomedialog.c:143 glade/gnome/gnomemessagebox.c:175
+msgid "Auto Close:"
+msgstr "Auto-închide:"
+
+#: glade/gnome/gnomedialog.c:144 glade/gnome/gnomemessagebox.c:176
+msgid "If the dialog closes when any button is clicked"
+msgstr "Dacã fereastra se închide dupã apãsarea unui buton"
+
+#: glade/gnome/gnomedialog.c:145 glade/gnome/gnomemessagebox.c:177
+msgid "Hide on Close:"
+msgstr "Închis = ascuns:"
+
+#: glade/gnome/gnomedialog.c:146 glade/gnome/gnomemessagebox.c:178
+msgid "If the dialog is hidden when it is closed, instead of being destroyed"
+msgstr "Dacã la închidere, în loc sã fie distrusã, fereastra este doar ascunsã"
+
+#: glade/gnome/gnomedialog.c:317
+msgid "Gnome Dialog Box"
+msgstr "Caseta de dialog Gnome"
+
+#: glade/gnome/gnomedock.c:231
+msgid "Allow Floating:"
+msgstr "Flotant:"
+
+#: glade/gnome/gnomedock.c:232
+msgid "If floating dock items are allowed"
+msgstr "Dacã pot fi elemente cu docare flotantã"
+
+#: glade/gnome/gnomedock.c:278
+msgid "Add dock band on top"
+msgstr "Adaugã bandã de docare sus"
+
+#: glade/gnome/gnomedock.c:285
+msgid "Add dock band on bottom"
+msgstr "Adaugã bandã de docare jos"
+
+#: glade/gnome/gnomedock.c:292
+msgid "Add dock band on left"
+msgstr "Adaugã bandã de docare la stânga"
+
+#: glade/gnome/gnomedock.c:299
+msgid "Add dock band on right"
+msgstr "Adaugã bandã de docare la dreapta"
+
+#: glade/gnome/gnomedock.c:306
+msgid "Add floating dock item"
+msgstr "Adaugã element docat flotant"
+
+#: glade/gnome/gnomedock.c:504
+msgid "Gnome Dock"
+msgstr "Doc Gnome"
+
+#: glade/gnome/gnomedockitem.c:201
+msgid "Locked:"
+msgstr "Blocat:"
+
+#: glade/gnome/gnomedockitem.c:202
+msgid "If the dock item is locked in position"
+msgstr "Dacã elementul docat este blocat în poziþie"
+
+#: glade/gnome/gnomedockitem.c:203
+msgid "Exclusive:"
+msgstr "Exclusiv:"
+
+#: glade/gnome/gnomedockitem.c:204
+msgid "If the dock item is always the only item in its band"
+msgstr "Dacã elementul docat este întotdeauna singur în banda sa"
+
+#: glade/gnome/gnomedockitem.c:205
+msgid "Never Floating:"
+msgstr "Fãrã flotare:"
+
+#: glade/gnome/gnomedockitem.c:206
+msgid "If the dock item is never allowed to float in its own window"
+msgstr "Dacã elementul docat nu poate flota în propria sa fereastrã"
+
+#: glade/gnome/gnomedockitem.c:207
+msgid "Never Vertical:"
+msgstr "Fãrã vertical:"
+
+#: glade/gnome/gnomedockitem.c:208
+msgid "If the dock item is never allowed to be vertical"
+msgstr "Dacã elementul docat nu poate fi vertical"
+
+#: glade/gnome/gnomedockitem.c:209
+msgid "Never Horizontal:"
+msgstr "Fãrã orizontal:"
+
+#: glade/gnome/gnomedockitem.c:210
+msgid "If the dock item is never allowed to be horizontal"
+msgstr "Dacã elementul docat nu poate fi orizontal"
+
+#: glade/gnome/gnomedockitem.c:213
+msgid "The type of shadow around the dock item"
+msgstr "Tipul umbrei în jurul elementului docat"
+
+#: glade/gnome/gnomedockitem.c:216
+msgid "The orientation of a floating dock item"
+msgstr "Orientarea elementului docat"
+
+#: glade/gnome/gnomedockitem.c:431
+msgid "Add dock item before"
+msgstr "Adaugã element docat înainte"
+
+#: glade/gnome/gnomedockitem.c:438
+msgid "Add dock item after"
+msgstr "Adaugã element docat dupã"
+
+#: glade/gnome/gnomedockitem.c:773
+msgid "Gnome Dock Item"
+msgstr "Element docat Gnome"
+
+#: glade/gnome/gnomedruid.c:88
+msgid "New Gnome Druid"
+msgstr "Druid Gnome nou"
+
+#: glade/gnome/gnomedruid.c:246
+msgid "Add Start Page"
+msgstr "Adaugã pag. de start"
+
+#: glade/gnome/gnomedruid.c:257
+msgid "Add Finish Page"
+msgstr "Adaugã pag. de sfârºit"
+
+#: glade/gnome/gnomedruid.c:450
+msgid "Druid"
+msgstr "Druid"
+
+#: glade/gnome/gnomedruidpagefinish.c:73
+#: glade/gnome/gnomedruidpagestandard.c:86
+#: glade/gnome/gnomedruidpagestart.c:72
+msgid "The title of the page"
+msgstr "Titlul paginii"
+
+#: glade/gnome/gnomedruidpagefinish.c:75 glade/gnome/gnomedruidpagestart.c:74
+msgid "The main text of the page, introducing people to the druid."
+msgstr "Textul principal din paginã, introducând utilizatorul în druid."
+
+#: glade/gnome/gnomedruidpagefinish.c:77
+#: glade/gnome/gnomedruidpagestandard.c:87
+#: glade/gnome/gnomedruidpagestart.c:76
+msgid "Title Color:"
+msgstr "Culoare titlu:"
+
+#: glade/gnome/gnomedruidpagefinish.c:78
+#: glade/gnome/gnomedruidpagestandard.c:88
+#: glade/gnome/gnomedruidpagestart.c:77
+msgid "The color of the title text"
+msgstr "Culoarea textului din titlu"
+
+#: glade/gnome/gnomedruidpagefinish.c:79 glade/gnome/gnomedruidpagestart.c:78
+msgid "Text Color:"
+msgstr "Culoare text:"
+
+#: glade/gnome/gnomedruidpagefinish.c:80 glade/gnome/gnomedruidpagestart.c:79
+msgid "The color of the main text"
+msgstr "Culoarea textului principal"
+
+#: glade/gnome/gnomedruidpagefinish.c:81
+#: glade/gnome/gnomedruidpagestandard.c:89
+#: glade/gnome/gnomedruidpagestart.c:80
+msgid "Back. Color:"
+msgstr "Culoare fond:"
+
+#: glade/gnome/gnomedruidpagefinish.c:82
+#: glade/gnome/gnomedruidpagestandard.c:90
+#: glade/gnome/gnomedruidpagestart.c:81
+msgid "The background color of the page"
+msgstr "Culoarea fondului paginii"
+
+#: glade/gnome/gnomedruidpagefinish.c:83
+#: glade/gnome/gnomedruidpagestandard.c:91
+#: glade/gnome/gnomedruidpagestart.c:82
+msgid "Logo Back. Color:"
+msgstr "Cul. fundal logo:"
+
+#: glade/gnome/gnomedruidpagefinish.c:84
+#: glade/gnome/gnomedruidpagestandard.c:92
+#: glade/gnome/gnomedruidpagestart.c:83
+msgid "The background color around the logo"
+msgstr "Culoarea de fundal în jurul logo"
+
+#: glade/gnome/gnomedruidpagefinish.c:85 glade/gnome/gnomedruidpagestart.c:84
+msgid "Text Box Color:"
+msgstr "Cul. casetã text:"
+
+#: glade/gnome/gnomedruidpagefinish.c:86 glade/gnome/gnomedruidpagestart.c:85
+msgid "The background color of the main text area"
+msgstr "Culoare fondului din zona textului principal"
+
+#: glade/gnome/gnomedruidpagefinish.c:88
+#: glade/gnome/gnomedruidpagestandard.c:94
+#: glade/gnome/gnomedruidpagestart.c:87
+msgid "The logo to display in the top-right of the page"
+msgstr "Logo-ul afiºat în dreapta-sus a paginii"
+
+#: glade/gnome/gnomedruidpagefinish.c:90 glade/gnome/gnomedruidpagestart.c:89
+msgid "The main image to display on the left of the page."
+msgstr "Imaginea principalã afiºatã în stânga paginii."
+
+#: glade/gnome/gnomedruidpagefinish.c:196
+#: glade/gnome/gnomedruidpagefinish.c:241
+#: glade/gnome/gnomedruidpagestandard.c:179
+#: glade/gnome/gnomedruidpagestart.c:195 glade/gnome/gnomedruidpagestart.c:240
+msgid "Couldn't load image from file"
+msgstr "Nu pot încãrca imaginea din fiºier"
+
+#: glade/gnome/gnomedruidpagefinish.c:201
+#: glade/gnome/gnomedruidpagefinish.c:246
+#: glade/gnome/gnomedruidpagestandard.c:184
+#: glade/gnome/gnomedruidpagestart.c:200 glade/gnome/gnomedruidpagestart.c:245
+msgid "Couldn't load image from file\n"
+msgstr "Nu pot încãrca imaginea din fiºier\n"
+
+#: glade/gnome/gnomedruidpagefinish.c:420
+msgid "Druid Finish Page"
+msgstr "Pagina de sfârºit a druidului"
+
+#: glade/gnome/gnomedruidpagestandard.c:346
+msgid "Druid Standard Page"
+msgstr "Paginã standard a druidului"
+
+#: glade/gnome/gnomedruidpagestart.c:419
+msgid "Druid Start Page"
+msgstr "Pagina de start a druidului"
+
+#: glade/gnome/gnomeentry.c:74 glade/gnome/gnomefileentry.c:78
+#: glade/gnome/gnomeiconentry.c:68 glade/gnome/gnomenumberentry.c:77
+msgid "History ID:"
+msgstr "ID istoric:"
+
+#: glade/gnome/gnomeentry.c:75 glade/gnome/gnomefileentry.c:79
+#: glade/gnome/gnomeiconentry.c:69 glade/gnome/gnomenumberentry.c:78
+msgid "The ID to save the history entries under"
+msgstr "ID-ul pentru salvarea intrãrilor în istoric"
+
+#: glade/gnome/gnomeentry.c:76 glade/gnome/gnomefileentry.c:80
+#: glade/gnome/gnomeiconentry.c:70 glade/gnome/gnomenumberentry.c:79
+msgid "Max Saved:"
+msgstr "Salvate max:"
+
+#: glade/gnome/gnomeentry.c:77 glade/gnome/gnomefileentry.c:81
+#: glade/gnome/gnomeiconentry.c:71 glade/gnome/gnomenumberentry.c:80
+msgid "The maximum number of history entries saved"
+msgstr "Numãrul maxim de intrãri salvate în istoric"
+
+#: glade/gnome/gnomeentry.c:212
+msgid "Gnome Entry"
+msgstr "Intrare Gnome"
+
+#: glade/gnome/gnomefileentry.c:84 glade/gnome/gnomeiconentry.c:67
+msgid "The title of the file selection dialog"
+msgstr "Titlul dialogului de selecþie al fiºierelor"
+
+#: glade/gnome/gnomefileentry.c:85
+msgid "Directory:"
+msgstr "Director:"
+
+#: glade/gnome/gnomefileentry.c:86
+msgid "If a directory is needed rather than a file"
+msgstr "Dacã mai degrabã trebuie un director decât un fiºier"
+
+#: glade/gnome/gnomefileentry.c:88
+msgid "If the file selection dialog should be modal"
+msgstr "Dacã dialogul de selecþie al fiºierelor este modal"
+
+#: glade/gnome/gnomefileentry.c:276
+msgid "Gnome File Entry"
+msgstr "Intrare fiºiere Gnome"
+
+#: glade/gnome/gnomefontpicker.c:97
+msgid "The title of the font selection dialog"
+msgstr "Titlul dialogului de alegere a fontului"
+
+#: glade/gnome/gnomefontpicker.c:98
+msgid "Preview Text:"
+msgstr "Text de previzualizare:"
+
+#: glade/gnome/gnomefontpicker.c:99
+msgid "The preview text to show in the font selection dialog"
+msgstr "Text de previzualizare afiºat în dialogul de alegere a fontului"
+
+#: glade/gnome/gnomefontpicker.c:100
+msgid "Mode:"
+msgstr "Mod:"
+
+#: glade/gnome/gnomefontpicker.c:101
+msgid "What to display in the font picker button"
+msgstr "De afiºat în butonul de preluare a fontului"
+
+#: glade/gnome/gnomefontpicker.c:103
+msgid "Show Size:"
+msgstr "Aratã mãrimea:"
+
+#: glade/gnome/gnomefontpicker.c:104
+msgid "If the font size is shown as part of the font information"
+msgstr "Dacã mãrimea fontului este arãtatã ca parte a informaþiilor"
+
+#: glade/gnome/gnomefontpicker.c:105
+msgid "Use Font:"
+msgstr "Cu fontul:"
+
+#: glade/gnome/gnomefontpicker.c:106
+msgid "If the selected font is used when displaying the font information"
+msgstr "Dacã fontul ales este folosit la afiºarea informaþiilor"
+
+#: glade/gnome/gnomefontpicker.c:107
+msgid "Use Size:"
+msgstr "Cu mãrimea:"
+
+#: glade/gnome/gnomefontpicker.c:108
+msgid "The size of the font to use in the font picker button"
+msgstr "Mãrimea fontului folosit în butonul de preluare a fontului"
+
+#: glade/gnome/gnomefontpicker.c:182 glade/gnome/gnomefontpicker.c:276
+msgid "Pick a Font"
+msgstr "Ia fontul"
+
+#: glade/gnome/gnomefontpicker.c:341
+msgid "Gnome Font Picker"
+msgstr "Selector fonturi Gnome"
+
+#: glade/gnome/gnomehref.c:65
+msgid "URL:"
+msgstr "URL:"
+
+#: glade/gnome/gnomehref.c:66
+msgid "The URL to display when the button is clicked"
+msgstr "URL-ul afiºat când se face click pe buton"
+
+#: glade/gnome/gnomehref.c:68
+msgid "The text to display in the button"
+msgstr "Textul afiºat în buton"
+
+#: glade/gnome/gnomehref.c:171
+msgid "Gnome HRef Link Button"
+msgstr "Butonul HRef Link Gnome"
+
+#: glade/gnome/gnomeiconentry.c:204
+msgid "Gnome Icon Entry"
+msgstr "Intrare icon Gnome"
+
+#: glade/gnome/gnomeiconlist.c:177
+msgid "The selection mode"
+msgstr "Modul de selecþie:"
+
+#: glade/gnome/gnomeiconlist.c:179
+msgid "Icon Width:"
+msgstr "Lãþime icon:"
+
+#: glade/gnome/gnomeiconlist.c:180
+msgid "The width of each icon"
+msgstr "Lãþimea fiecãrui icon"
+
+#: glade/gnome/gnomeiconlist.c:183
+msgid "The number of pixels between rows of icons"
+msgstr "Numãrul de pixeli între rândurile de icon-uri"
+
+#: glade/gnome/gnomeiconlist.c:186
+msgid "The number of pixels between columns of icons"
+msgstr "Numãrul de pixeli între coloanele de icon-uri"
+
+#: glade/gnome/gnomeiconlist.c:189
+msgid "Icon Border:"
+msgstr "Contur icon:"
+
+#: glade/gnome/gnomeiconlist.c:190
+msgid "The number of pixels around icons (unused?)"
+msgstr "Nr. pixeli în jurul icon-ului (nefolosit?)"
+
+#: glade/gnome/gnomeiconlist.c:193
+msgid "Text Spacing:"
+msgstr "Spaþiere text:"
+
+#: glade/gnome/gnomeiconlist.c:194
+msgid "The number of pixels between the text and the icon"
+msgstr "Numãrul de pixeli între text ºi icon"
+
+#: glade/gnome/gnomeiconlist.c:196
+msgid "Text Editable:"
+msgstr "Text editabil:"
+
+#: glade/gnome/gnomeiconlist.c:197
+msgid "If the icon text can be edited by the user"
+msgstr "Dacã textul icon-ului poate fi editat de utilizator"
+
+#: glade/gnome/gnomeiconlist.c:198
+msgid "Text Static:"
+msgstr "Text static:"
+
+#: glade/gnome/gnomeiconlist.c:199
+msgid ""
+"If the icon text is static, in which case it will not be copied by the "
+"GnomeIconList"
+msgstr ""
+"Dacã textul icon-ului este static, caz în care nu va fi copiat de cãtre "
+"GnomeIconList"
+
+#: glade/gnome/gnomeiconlist.c:462
+msgid "Icon List"
+msgstr "Listã icon-uri"
+
+#: glade/gnome/gnomeiconselection.c:153
+msgid "Icon Selection"
+msgstr "Alegere icon"
+
+#: glade/gnome/gnomeless.c:67
+msgid "Example output from GnomeLess widget.\n"
+msgstr "Exemplu obþinut din widgetul GnomeLess.\n"
+
+#: glade/gnome/gnomeless.c:78
+msgid "The font to use for the text"
+msgstr "Fontul folosit pentru text"
+
+#: glade/gnome/gnomeless.c:187
+msgid "Gnome Less"
+msgstr "Gnome Less"
+
+#: glade/gnome/gnomemessagebox.c:163
+msgid "Message Type:"
+msgstr "Tip mesaj:"
+
+#: glade/gnome/gnomemessagebox.c:164
+msgid "The type of the message box"
+msgstr "Tipul casetei de mesaj"
+
+#: glade/gnome/gnomemessagebox.c:166
+msgid "Message:"
+msgstr "Mesaj:"
+
+#: glade/gnome/gnomemessagebox.c:166
+msgid "The message to display"
+msgstr "Mesajul de afiºat"
+
+#: glade/gnome/gnomemessagebox.c:497
+msgid "Gnome Message Box"
+msgstr "Caseta de mesaaje Gnome"
+
+#: glade/gnome/gnomenumberentry.c:76
+msgid "The title of the calculator dialog"
+msgstr "Titlul dialogului calculatorului"
+
+#: glade/gnome/gnomenumberentry.c:116 glade/gnome/gnomenumberentry.c:160
+msgid "Calculator"
+msgstr "Calculator"
+
+#: glade/gnome/gnomenumberentry.c:237
+msgid "GnomeNumberEntry"
+msgstr "Intr.numãr Gnome"
+
+#: glade/gnome/gnomepaperselector.c:147
+msgid "Gnome Paper Selector"
+msgstr "Configurator paginã Gnome"
+
+#: glade/gnome/gnomepixmap.c:79
+msgid "Scaled:"
+msgstr "Scalat:"
+
+#: glade/gnome/gnomepixmap.c:79
+msgid "If the pixmap is scaled"
+msgstr "Dacã pixmap-ul este scalat"
+
+#: glade/gnome/gnomepixmap.c:80
+msgid "Scaled Width:"
+msgstr "Lãþime scalare:"
+
+#: glade/gnome/gnomepixmap.c:81
+msgid "The width to scale the pixmap to"
+msgstr "Lãþimea la care va fi scalat pixmap-ul"
+
+#: glade/gnome/gnomepixmap.c:83
+msgid "Scaled Height:"
+msgstr "Înãlþime scalare:"
+
+#: glade/gnome/gnomepixmap.c:84
+msgid "The height to scale the pixmap to"
+msgstr "Înãlþimea la care va fi scalat pixmap-ul"
+
+#: glade/gnome/gnomepixmap.c:325
+msgid "Gnome Pixmap"
+msgstr "Pixmap Gnome"
+
+#: glade/gnome/gnomepixmapentry.c:81
+msgid "Preview:"
+msgstr "Previzualizare:"
+
+#: glade/gnome/gnomepixmapentry.c:82
+msgid "If a small preview of the pixmap is displayed"
+msgstr "Dacã este afiºatã o micã previzualizare a pixmap-ului"
+
+#: glade/gnome/gnomepixmapentry.c:223
+msgid "GnomePixmapEntry"
+msgstr "Intr.pixmap Gnome"
+
+#: glade/gnome/gnomepropertybox.c:104
+msgid "New GnomePropertyBox"
+msgstr "Casetã propr.Gnome nouã"
+
+#: glade/gnome/gnomepropertybox.c:342
+msgid "Property Dialog Box"
+msgstr "Casetã de dialog proprietãþi"
+
+#: glade/gnome/gnomespell.c:147
+msgid "Spell Checker"
+msgstr "Test ortografic"
+
+#: glade/gnome/gnomestock.c:143
+msgid "Gnome Stock Pixmap"
+msgstr "Stoc pixmap-uri Gnome"
+
+#: glade/gnome-db/gnomedbbrowser.c:143
+msgid "Database Browser"
+msgstr "Navigator bazã de date"
+
+#: glade/gnome-db/gnomedbcombo.c:139
+msgid "Data-bound combo"
+msgstr "Casetã cu date"
+
+#: glade/gnome-db/gnomedbdataset.c:143
+msgid "Database Dataset"
+msgstr "Formular bazã de date"
+
+#: glade/gnome-db/gnomedbdesigner.c:139
+#, fuzzy
+msgid "Database designer"
+msgstr "Navigator bazã de date"
+
+#: glade/gnome-db/gnomedbdsnconfig.c:143
+msgid "DSN Configurator"
+msgstr "Configurator DSN"
+
+#: glade/gnome-db/gnomedbentry.c:141
+#, fuzzy
+msgid "Data-bound entry"
+msgstr "Grilã cu date"
+
+#: glade/gnome-db/gnomedberror.c:143
+msgid "Database error viewer"
+msgstr "Vizualizator erori bazã de date"
+
+#: glade/gnome-db/gnomedberrordlg.c:192
+msgid "Database error dialog"
+msgstr "Dialog erori bazã de date"
+
+#: glade/gnome-db/gnomedbexport.c:140
+#, fuzzy
+msgid "Database export"
+msgstr "Raport bazã de date"
+
+#: glade/gnome-db/gnomedbgrid.c:139
+msgid "Data-bound grid"
+msgstr "Grilã cu date"
+
+#: glade/gnome-db/gnomedbiconlist.c:143
+msgid "Database Icon List"
+msgstr "Listã icon-uri bazã de date"
+
+#: glade/gnome-db/gnomedblabel.c:141
+msgid "Data label"
+msgstr ""
+
+#: glade/gnome-db/gnomedblist.c:145
+msgid "Data-bound list"
+msgstr "Listã cu date"
+
+#: glade/gnome-db/gnomedblogin.c:144
+msgid "Database login widget"
+msgstr "Widget login bazã de date"
+
+#: glade/gnome-db/gnomedblogindlg.c:65
+msgid "Login"
+msgstr "Login"
+
+#: glade/gnome-db/gnomedblogindlg.c:194
+msgid "Database login dialog"
+msgstr "Dialog login bazã de date"
+
+#: glade/gnome-db/gnomedblogviewer.c:141
+#, fuzzy
+msgid "Database log viewer"
+msgstr "Vizualizator erori bazã de date"
+
+#: glade/gnome-db/gnomedbreport.c:145
+msgid "Database report"
+msgstr "Raport bazã de date"
+
+#: glade/gnome-db/gnomedbtableeditor.c:139
+#, fuzzy
+msgid "Table Editor "
+msgstr "Editor meniu"
+
+#: glade/gnome-db/gnomedbwindow.c:141
+#, fuzzy
+msgid "GNOME-DB Application window"
+msgstr "Fereastrã de aplicaþie Gnome"
+
+#~ msgid "NotShown"
+#~ msgstr "Neafiºat"

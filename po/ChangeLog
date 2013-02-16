@@ -1,0 +1,724 @@
+2013-02-16  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: Upgrade to gettext-0.18.1.
+	* Rules-quot: New file, from gettext-0.18.1.
+	* boldquot.sed: New file, from gettext-0.18.1.
+	* en@boldquot.header: New file, from gettext-0.18.1.
+	* en@quot.header: New file, from gettext-0.18.1.
+	* insert-header.sin: New file, from gettext-0.18.1.
+	* quot.sed: New file, from gettext-0.18.1.
+	* remove-potcdate.sin: New file, from gettext-0.18.1.
+	* cat-id-tbl.c: Remove file.
+	* stamp-cat-id: Remove file.
+
+2002-02-01  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2002-01-31  Christophe Merlet  <redfox@eikonex.org>
+
+	* fr.po: Updated French translation.
+
+2002-01-30  Takeshi Aihana <aihana@gnome.gr.jp>
+
+	* ja.po: Updated Japanese translation by
+	  Yuichi OHKAWA <kuri@makino.ecei.tohoku.ac.jp>.
+
+2002-01-28  Gustavo Maciel Dias Vieira <gdvieira@zaz.com.br>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation.
+
+2002-01-27  Christian Meyer  <chrisime@gnome.org>
+
+	* de.po: Updated German translation.
+
+2002-01-23 Duarte Loreto <happyguy_pt@hotmail.com>
+
+        * pt.po: Updated portuguese translation.
+
+2002-01-22  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation by
+	GNOME PL Team <translators@gnome.pl>.
+
+2002-01-22  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po: Updated Slovak translation.
+
+2002-01-22  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Updated Swedish translation.
+
+2002-01-21  Damon Chaplin  <damon@ximian.com>
+
+	* POTFILES.skip: added.
+	* POTFILES.in: updated.
+
+2002-01-15  Peteris Krisjanis <peteris.krisjanis@ttc.lv>
+
+	* lv.po: Added Latvian translation.
+
+2002-01-07  Damon Chaplin  <damon@ximian.com>
+
+	* de.po: Applied patch from Eric Dorland <dorland@lords.com>, the
+	Debian maintainer. Changes one string "L-Aöschen" to "Entfernen".$)B
+
+2002-01-01  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Fixed the message again.
+
+2001-12-31  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Fixed one message. Thanks to Martin Sjvgren
+	for pointing out the problem.
+
+2001-12-27  Duarte Loreto <happyguy_pt@hotmail.com>
+
+        * pt.po: Added Portuguese Translation.
+
+2001-12-26  Fatih Demir <kabalak@gtranslator.org>
+
+	* tr.po: Small correction in the charset field of the po file.
+
+2001-10-13  Christophe Merlet  <redfox@eikonex.org>
+
+	* fr.po: Updated French translation.
+
+2001-09-20  Wang Jian  <lark@linux.net.cn>
+
+	* zh_CN.po: Updated Simplified Chinese translation.
+
+2001-09-14  Gustavo Maciel Dias Vieira <gdvieira@zaz.com.br>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation.
+
+2001-09-13  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* da.po: Updated Danish file
+	* ga.po: Updated Irish file
+
+2001-09-11  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Updated Swedish translation.
+
+2001-09-08  Wang Jian  <lark@linux.net.cn>
+
+	* zh_CN.po: Updated.
+
+2001-09-01  Wang Jian  <lark@linux.net.cn>
+
+	* zh_CN.po: Added Simplified Chinese translation.
+
+2001-08-24  Christophe Merlet  <redfox@eikonex.org>
+
+	* fr.po: Updated French translation.
+
+2001-08-19  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation.
+
+2001-08-14  Marius Andreiana  <mandreiana@yahoo.com>
+
+        * ro.po: added
+
+2001-07-17  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po: Updated Slovak translation.
+
+2001-07-15  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* nn.po: Added Norwegian (nynorsk) translation.
+	
+2001-06-07  Fatih Demir <kabalak@gtranslator.org>
+
+	* tr.po: Committed updated Turkish translation
+		by Gvrkem Cetin.
+
+2001-05-22  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2001-05-09  Yukihiro Nakai  <nakai@gnome.gr.jp>
+
+	* ja.po: Japanese translation update from Yuichi Ohkawa.
+
+2001-04-29  Carlos Perells Marmn <carlos@gnome-db.org>
+
+	* es.po: Some errors fixed.
+
+2001-04-20  Damon Chaplin  <damon@ximian.com>
+
+	* *.po: Changed all occurrences of glade@glade.pn.org to
+	damon@ximian.com, and http://glade.pn.org to http://glade.gnome.org
+
+2001-04-20  Christian Meyer  <chrisime@gnome.org>
+
+	* de.po: Changed glade.pn.org to glade.gnome.org in de.po.
+
+Thu Apr 19 00:24:55 2001  George Lebl <jirka@5z.com>
+
+	* cs.po: update czech translations a bit
+
+2001-04-09  Gustavo Maciel Dias Vieira <gdvieira@zaz.com.br>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation.
+
+2001-03-28  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* az.po: Updated Azeri file
+	* ca.po: Updated Catalan file
+
+2001-03-20  Pablo Saratxaga  <pablo@mandrakesoft.com>
+
+	* az.po: Added Azeri file
+
+2001-03-16  Christian Meyer  <chrisime@gnome.org>
+
+	* de.po: Updated German translation.
+
+2001-03-13  Christophe Merlet  <redfox@eikonex.org>
+
+	* fr.po: Updated French translation.
+
+2001-03-07  Carlos Perells Marmn <carlos@gnome-db.org>
+
+	* es.po: Updated Spanish translation by Rodrigo Sancho
+	  Senosiain <ruy_ikari@bigfoot.com>
+
+2001-03-04  Matthias Warkus  <mawarkus@gnome.org>
+
+	* de.po: Updates, fixes.
+
+2001-03-02  Takayuki KUSANO  <AE5T-KSN@asahi-net.or.jp>
+
+	* ja.po: Fix header.
+
+2001-03-01  Martin Norbdck  <d95mback@dtek.chalmers.se>
+
+	* sv.po: Updated Swedish translation.
+
+2001-02-27  Simos Xenitellis  <simos@hellug.gr>
+
+	* el.po: Updated Greek translation.
+
+2001-02-27  Fatih Demir	<kabalak@gtranslator.org>
+
+	* .cvsignore: Added Makefile.in.in to the ignores.
+
+	* Makefile.in.in: Removed this cruft.
+
+	* tr.po: Added updated Turkish translation by
+		B|lent Bolat.
+
+2001-02-26  Szabolcs Ban  <shooby@gnome.hu>
+
+	* hu.po: Updated Hungarian translation by Greg <greg@gnome.hu>.
+
+2001-02-26  Christophe Merlet  <redfox@eikonex.org>
+
+	* fr.po: Updated French translation.
+
+2001-02-24  Carlos Perells Marmn <carlos@gnome-db.org>
+
+	* es.po: Updated Spanish translation
+
+2001-02-24  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po:
+
+2001-02-24  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian (bokmel) translation.
+	
+2001-02-23  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2001-02-23  Carlos Perells Marmn <carlos@gnome-db.org>
+
+	* *.po: Included the old translations from glade.desktop
+
+2001-02-23  Christophe Merlet  <redfox@eikonex.org>
+
+	* README.tools: Removed (obsoletes)
+	* update.pl: Removed (obsoletes)
+	* update.sh: Removed (don't work with xml-i18n-tools 0.8.1)
+	* fr.po: Updated French translation.
+
+2001-02-22  Damon Chaplin  <damon@ximian.com> applied patch from
+	Carlos Perells Marmn <carlos@gnome-db.org>
+
+	* POTFILES.in: Added new files to translate
+
+2001-02-22  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* da.po: Updated Danish translation.
+	
+2001-02-16  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po: Updated Slovak translation.
+
+2001-02-15  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian (bokmel) translation.
+	
+2001-02-15  Christophe Merlet  <redfox@eikonex.org>
+
+	* fr.po: Updated French translation.
+
+2001-02-15  Martin Norbdck  <d95mback@dtek.chalmers.se>
+
+	* sv.po: Updated Swedish translation.
+
+2001-02-15  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2001-02-14  Simos Xenitellis  <simos@hellug.gr>
+
+	* el.po: Updated Greek translation.
+
+2001-02-07  Christophe Merlet  <redfox@eikonex.org>
+
+	* fr.po: Updated French translation.
+
+2001-01-31  Szabolcs Ban  <shooby@gnome.hu>
+
+        * hu.po: Terminology fixes by Andras Timar <timar@gnome.hu>
+
+2001-01-29  Carlos Perells Marmn <carlos@gnome-db.org>
+
+	* es.po: Updated Spanish translation
+
+2001-01-24  Szabolcs Ban  <shooby@gnome.hu>
+
+        * hu.po: Tons of fixes by Andras and Emese (spelling,
+          terminology, headers)
+
+2001-01-12  Christophe Merlet  <redfox@eikonex.org>
+
+	* fr.po: Updated French translation.
+
+2001-01-09  Szabolcs Ban <shooby@gnome.hu>
+
+	* hu.po: Updated Hungarian translations.
+
+2000-12-22  Stanislav Visnovsky  <visnovsky@nenya.ms.mff.cuni.cz>
+
+	* sk.po: Initial Slovak translation added.
+
+2000-11-20  Szabolcs BAN <shooby@gnome.hu>
+
+	* hu.po: Updated Hungarian translation.
+
+2000-11-04  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-10-30  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2000-10-30  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Updated Swedish translation.
+
+2000-10-28  Kai Lahmann <kl@linuxfaqs.de>
+
+	* de.po: Updated German translation
+
+2000-10-25  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-10-22  Andrew V. Samoilov <sav@bcs.zp.ua>
+
+	* ru.po: updated Russian translation.
+
+2000-10-21  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* pl.po: Updated Polish translation.
+
+2000-10-20  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: Updated French translation.
+
+2000-10-15  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Updated Swedish translation.
+
+2000-10-15  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-10-15  Christian Meyer  <cm@ggtt.de
+
+	* de.po: Updated German translation.
+	
+2000-10-11  Christian Rose  <menthos@menthos.com>
+
+	* sv.po: Updated Swedish translation.
+
+2000-10-10  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: Updated French translation.
+
+2000-10-01  Kai Lahmann <kl@linuxfaqs.de>
+
+	* de.po: Updated German translation
+
+2000-09-28  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2000-09-26  Martin Norbdck  <d95mback@dtek.chalmers.se>
+
+	* sv.po: Updated Swedish translation.
+
+2000-09-26  Christophe Merlet  <christophe@merlet.net>
+
+	* fr.po: Updated French translation.
+
+2000-09-26  Changwoo Ryu  <cwryu@debian.org>
+
+	* ko.po: Updated, feedback from <kinux@hanmail.net>.
+
+2000-09-25  Yukihiro Nakai <nakai@gnome.gr.jp>
+
+	* ja.po: Update Japanese translation from OHKAWA Yuichi.
+
+2000-09-24  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-09-24  Damon Chaplin  <damon@helixcode.com>
+
+	* POTFILES.in: added glade/glade_widget_data.c.
+
+2000-09-24 Carlos Perells Marmn <carlos@hispalinux.es>
+
+	* es.po: Updated Spanish translation
+
+2000-09-24  Changwoo Ryu  <cwryu@debian.org>
+
+	* ko.po: Updated Korean translation.
+
+2000-09-21  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-09-20  Martin Norbdck  <d95mback@dtek.chalmers.se>
+
+	* sv.po: Updated Swedish translation.
+
+2000-09-13  Christian Meyer  <linux@chrisime.de>
+
+	* update.pl: Added perl script from kanikus.
+	* README.tools: Added text file.
+	
+2000-09-04  Benedikt Roth  <Benedikt.Roth@gmx.net>
+
+	* de.po: Updated German translation.
+
+2000-09-04  Andreas Hyden  <a.hyden@cyberpoint.se>
+
+	* sv.po: Updated Swedish translation.
+
+2000-08-22  Matthias Warkus  <mawa@iname.com>
+
+	* de.po: Update, fixes.
+
+2000-08-19  Kjartan Maraas  <kmaraas@gnome.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-08-18  Christopher R. Gabriel  <cgabriel@softwarelibero.org>
+
+	* it.po: updated italian translation
+
+2000-08-12  Kai Lahmann <kl@linuxfaqs.de>
+
+	* de.po: Updated German translation
+
+2000-08-12  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+	* POTFILES.in: added missing files.
+
+2000-07-29  Damon Chaplin  <damon@helixcode.com>
+
+	* ko.po: update from Lee Jia Hao <glee@linpus.com.tw>
+
+2000-07-15  Robert Brady  <rwb197@zepler.org>
+
+	* en_GB.po: Updated British translation.
+
+2000-07-13  Benedikt Roth  <Benedikt.Roth@gmx.net>
+
+	* de.po: Updated German translation from Kai Lahmann <kl@linuxfaqs.de>
+
+2000-06-25  Damon Chaplin  <damon@helixcode.com>
+
+	* ko.po: Added Korean translations from kongsi@mail.korec.com.
+
+2000-06-12  Fatih Demir	<kabalak@gmx.net>
+	
+	* tr.po: Finished the Turkish translation.	
+
+2000-06-11  Fatih Demir <kabalak@gmx.net> 
+
+        * tr.po: Updated the Turkish translation.
+
+2000-06-10  Fatih Demri	<kabalak@gmx.net>
+	
+	* tr.po: Added a quick-translation.
+
+2000-06-03  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+
+2000-05-24  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+	* update.sh: 1.2.5 version.
+
+2000-05-23  Andreas Hyden  <a.hyden@cyberpoint.se>
+
+	* sv.po: Updated Swedish translation.
+
+2000-05-23  Kjartan Maraas  <kmaraas@gnu.org>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-05-22  Christopher R. Gabriel  <cgabriel@linux.it>
+
+	* it.po: small update
+
+2000-05-20  Damon Chaplin  <damon@helixcode.com>
+
+	* de.po: patch from Ralf Corsepius <corsepiu@faw.uni-ulm.de>
+
+2000-05-16  Yukihiro Nakai <nakai@gnome.gr.jp>
+
+	* ja.po: Update from Yuuichi Ohkawa
+
+2000-05-15  Martin Norbdck  <d95mback@dtek.chalmers.se>
+
+	* sv.po: Updated Swedish translation.
+
+2000-05-14  Valek Filippov  <frob@df.ru>
+
+	* ru.po: updated russian translation.
+	* update.sh: updated script.
+
+2000-05-14  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-05-04  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-05-01  Zbigniew Chyla  <chyla@buy.pl>
+
+	* pl.po: Updated Polish translation.
+
+2000-04-28  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-04-25  Valek Filippov  <frob@df.ru>
+
+	* ru.po: Updated russian translation.
+
+2000-04-20  Martin Norbdck  <d95mback@dtek.chalmers.se>
+
+	* sv.po: Updated Swedish translation.
+
+2000-04-18  Pablo Saratxaga <pablo@mandrakesoft.com>
+
+	* ca.po: Added Catalan file
+
+2000-04-13  Valek Filippov <frob@df.ru>
+
+	* ru.po: Updated translation.
+
+2000-04-08  Ruben Lopez  <ryu@mundivia.es>
+
+        * gl.po: Added Galician translation.
+
+2000-04-06  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-03-13 Alastair McKinstry <mckinstry@computer.org>
+
+	* ga.po: Added Irish translation.
+
+2000-03-10  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-02-26  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+Thu Feb 24 19:50:38 2000  George Lebl <jirka@5z.com>
+
+	* cs.po: update a tiny bit
+
+2000-02-22  Zbigniew Chyla  <chyla@buy.pl>
+
+	* pl.po: Updated Polish translation.
+
+Mon Feb 21 21:59:56 2000  George Lebl <jirka@5z.com>
+
+	* cs.po: add a translation file with a couple cs translations
+
+2000-02-19  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-02-19  Damon Chaplin  <damon@helixcode.com>
+
+	* fr.po: Update from "Emmanuel DELOGET" <logout@free.fr>
+
+2000-02-15  Vincent Renardias <vincent@ldsol.com>
+
+	* fr.po: some updating, removed all the ^Ms...
+
+2000-02-14  Andreas Hyden  <ahyden@staffanstorp.net>
+
+	* sv.po: Updated Swedish translation.
+
+2000-02-14  Yukihiro Nakai <nakai@gnome.gr.jp>
+
+	* ja.po: Update from Yuichi Ohkawa.
+
+2000-02-12  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+2000-02-12  Damon Chaplin  <damon@helixcode.com>
+
+	* fr.po: Update from "Emmanuel DELOGET" <logout@free.fr>
+
+2000-02-08  Andreas Hyden <ahyden@staffanstorp.net>
+
+	* sv.po: Updated Swedish translation.
+
+2000-01-20  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+	
+1999-12-06  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+
+2000-01-03  Kjartan Maraas  <kmaraas@online.no>
+
+	* update.sh: A little script that lets people
+	update the .pot file without makefiles etc.
+
+1999-12-29  Zbigniew Chyla  <chyla@alice.ci.pwr.wroc.pl>   
+
+        * pl.po: Updated translation.
+
+1999-12-06  Kjartan Maraas  <kmaraas@online.no>
+
+	* no.po: Updated Norwegian translation.
+
+1999-12-01  Martin Norbäãk  ¼îïòðáîÀâéçæïïô®ãïí¾
+
+	* óö®ðïº Õðäáôåd Ó÷åäéóh ôòáîóìáôéïî®
+
+±¹¹¹­±±­²´  Ùõòé Óùòïôá  ¼òáóôáÀòåîïíå®òïöîï®õá>
+
+	* õë®ðïº Õðäáôåd Õëòáéîéán ôòáîóìáôéïî®
+
+±¹¹¹­±±­°·  Ëêáòôán Íáòááó  ¼ëíáòááóÀïîìéîå®îï>
+
+	* îï®ðïº Õðäáôåd Îïò÷åçéán ôòáîóìáôéïî®
+
+±¹¹¹­±±­°¸  Äáíïn Ãèáðìén  ¼äáíïîÀëáòõîá®æòååóåòöå®ãï®õë¾
+
+	* êá®ðïº Õðäáôåä®
+
+±¹¹¹­±°­³±  Äáíïn Ãèáðìén  ¼äáíïîÀëáòõîá®æòååóåòöå®ãï®õë¾
+
+	* ÐÏÔÆÉÌÅÓ®éîº Áääåd çâóïõòãå®ã.
+
+±¹¹¹­±°­²±  Ëêáòôán Íáòááó  ¼ëíáòááóÀïîìéîå®îï>
+
+	* îï®ðïº Õðäáôåd Îïò÷åçéán ôòáîóìáôéïî®
+
+±¹¹¹­±°­²°  Ëêáòôán Íáòááó  ¼ëíáòááóÀïîìéîå®îï>
+
+	* îï®ðïº Õðäáôåd Îïò÷åçéán ôòáîóìáôéïî®
+	
+±¹¹¹­±°­°¶  Áîäåòó Ãáòìóóïî  ¼áîäåòóãáÀðéãáòä®áîäåòóîåô>
+
+	* óö®ðïº Õðäáôåd Ó÷åäéóh ôòáîóìáôéïn æòïí Íáòôéî Îïòâáãk 
+	¼îïòðáîÀâéçæïïô®ãïí¾
+
+±¹¹¹­°¹­²·  Áîäåòó Ãáòìóóïî  ¼áîäåòóãáÀçîõ®ïòç¾
+
+	* óö®ðïº Áääåd Ó÷åäéóh ôòáîóìáôéïî®
+
+±¹¹¹­°¹­²·  Úâéçîéå÷ Ãèùìa  ¼ãèùìáÀáìéãå®ãé®ð÷ò®÷òïã®ðì¾   
+
+        * ðì®ðïº Õðäáôåd ôòáîóìáôéïî®
+
+±¹¹¹­°¹­±¸  Úâéçîéå÷ Ãèùìa  ¼ãèùìáÀáìéãå®ãé®ð÷ò®÷òïã®ðì¾
+
+	* ðì®ðïº Õðäáôåä®
+
+±¹¹¹­°¹­±·  Ëêáòôán Íáòááó  ¼ëíáòááóÀïîìéîå®îï>
+
+	* äá®ðïº Õðäáôåd Äáîéóè ôòáîóìáôéïn æòïí Ëåîîåôh
+	Ãèòéóôéáîóåî ¼ëåîîåôèÀòéðåî®äë¾.
+
+±¹¹¹­°¹­°¶  Äáíïn Ãèáðìén  ¼äáíïîÀëáòõîá®æòååóåòöå®ãï®õë¾
+
+	* êá®ðïº Áððìéåd ðáôãh æòïí ÏÈËÁ×Á Ùõéãèé ¼ëõòéÀíáëéîï®ãã®ôïèïëõ®áã®êð>
+
+±¹¹¹­°¹­°¸  Ëêáòôán Íáòááó  ¼ëíáòááóÀïîìéîå®îï>
+
+	* îï®ðïº Õðäáôåd ôòáîóìáôéïî®
+
+±¹¹¹­°¹­°´  Ëêáòôán Íáòááó  ¼ëíáòááóÀïîìéîå®îï>
+
+	* îï®ðïº Õðäáôåd ôòáîóìáôéïî®
+
+±¹¹¹­°¸­±³  Ëêáòôán Íáòááó  ¼ëíáòááóÀïîìéîå®îï>
+
+	* îï®ðïº Õðäáôåd ôòáîóìáôéïî®
+	
+±¹¹¹­°¸­°¸  Ðáâìo Óáòáôøáça ¼óòôøçÀãèáîáå®áìðèáîåô®ãè¾
+
+	* åó®ðïº õðäáôåd a âét ôèe óðáîéóh æéìå ¨óôéìì ²¸3 óôòéîçs íéóóéîç©
+
+±¹¹¹­°·­²¸  Ëáòóôån ×åéós  ¼ëáòóôåîÀáääø®áõ®ó®óèõôôìå®äå¾
+
+	* äå®ðïº Õðäáôåd ôòáîóìáôéïî®
+
+±¹¹¹­°·­²¶  Ëáòóôån ×åéós  ¼ëáòóôåîÀáääø®áõ®ó®óèõôôìå®äå¾
+
+	* äå®ðïº Õðäáôåd ôòáîóìáôéïî® ¨¶µ¸ ôòáîóìáôåä, ³¹9 õîôòáîóìáôåä)
+
+±¹¹¹­°·­±°  Ëêáòôán Íáòááó  ¼ëíáòááóÀïîìéîå®îï>
+
+	* îï®ðïº Õðäáôåd ôòáîóìáôéïî®
+	
+±¹¹¹­°¶­²·  Ãèòéóôïðèår Çáâòéål  ¼ãçáâòéåìÀôéî®éô>
+
+	* éô®ðïº Õðäáôåd 
+
+±¹¹¹­°´­²µ  Ãèòéóôïðèår Çáâòéål  ¼ãçáâòéåìÀôéî®éô>
+
+	* éô®ðïº Áääåd éôáìéán ôòáîóìáôéïn
+
+±¹¹¸­±²­°±  Äáíïn Ãèáðìén  ¼ÄÁÃèáðìéîÀíóî®ãïí>
+
+	* ®ãöóéçîïòå: Áääåd ª®çío áîd ª®íï óéîãe ôèåóe áòe çåîåòáôåä®
+	Áìóï òåíïöåd ôèåí.

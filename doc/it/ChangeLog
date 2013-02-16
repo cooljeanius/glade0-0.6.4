@@ -1,0 +1,36 @@
+2002-01-28  Damon Chaplin  <damon@ximian.com>
+
+	* Makefile.am (install-data-local): create the faq directory, and
+	install the turbo start manual. Installation fixes.
+
+2002-01-25  Damon Chaplin  <damon@ximian.com>
+
+	* Makefile.am (dist-hook): use $(srcdir) to make distcheck happier.
+
+2002-01-21  Damon Chaplin  <damon@ximian.com>
+
+	* turbo-start.sgml: 
+	* user-guide.sgml: 
+	* faq.sgml: changed DOCTYPE to DocBook 4.0, since that includes PNG
+	support. I can't get RH 7.0/7.1 to handle the DocBook 3.1 PNG variant.
+	I got rid of 1 <note> in faq.sgml, so we don't need the stylesheet
+	images.
+
+	* Makefile.am: removed stuff for stylesheet images and .css file,
+	since the new RH db2html doesn't copy these.
+
+2001-04-19  Christopher R. Gabriel  <cgabriel@softwarelibero.org>
+
+	* faq.sgml: updates from Fabrizio Stefani
+	* user-guide.sgml: new translation from Fabrizio
+
+2001-03-12  Damon Chaplin  <damon@ximian.com>
+
+	* faq.sgml: changed my email address to damon@ximian.com
+
+2001-02-16  Christopher R. Gabriel  <cgabriel@softwarelibero.org>
+
+	* faq.sgml: Added Glade FAQ from Francesco Stefani
+	<fstef@it.gnome.org>
+	
+

@@ -1,0 +1,702 @@
+<!DOCTYPE Article PUBLIC "-//OASIS//DTD DocBook V4.0//EN"[
+
+]>
+
+<article id="index"> <!-- please do not change the id -->
+
+ <!-- ============= Document Header ============================= -->
+ <articleinfo> 
+  <title>Glade Turbo-Start</title>
+  <copyright>
+   <year>2000</year>
+   <holder>Compaq Computer Corporation</holder>
+  </copyright>
+
+  <copyright>
+   <year>2000</year>
+    <holder>Fabrizio Stefani (traduzione italiana)</holder>
+  </copyright>
+
+  <!-- do not put authorname in the header except in copyright - use
+  section "authors" below -->
+
+  <legalnotice>
+   <para>
+    È permesso copiare, distribuire e/o modificare questo documento 
+    secondo i termini della <citetitle>GNU Free Documentation
+    License</citetitle>, Versione 1.1 o qualsiasi altra versione
+    successiva pubblicata dalla Free Software Foundation, senza
+    Sezioni non modificabili, senza nessun Testo Copertina e senza nessun
+    Testo di retro copertina. È possibile ottenere una copia della
+    <citetitle>GNU Free Documentation License</citetitle> dalla Free
+    Software Foundation visitando <ulink url="http://www.fsf.org/"
+    type="http">il loro sito web</ulink> oppure scrivendo a:
+    Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+    Boston, MA 02111-1307, USA.
+   </para>
+   <para>
+    Molti dei nomi usati dalle compagnie per identificare i loro prodotti
+    e servizi sono dichiarati marchi registrati. Quando tali nomi appaiono
+    in un qualsiasi documento GNOME, e qualora tali nomi siano noti ai
+    membri dello GNOME Documentation Project, essi vengono stampati in
+    maiuscolo o con iniziali maiuscole.
+   </para>
+  </legalnotice>
+
+  <releaseinfo>
+   Questa è la versione 1.0 del Glade Turbo-Start.
+  </releaseinfo>
+ </articleinfo>
+
+
+ <!-- ================= Document Body ============================= -->
+
+
+ <!-- ============= Introduction ============================= -->
+
+ <sect1 id="gladeturbostart">
+  <title>Glade Turbo-Start</title>
+  <para>
+   Qui c'è quanto basta per incominciare. Raccomando anche di leggere
+   la <citetitle>Glade FAQ</citetitle>, che è compresa nella distribuzione,
+   e di guardare le <ulink url="http://glade.gnome.org/features.html"
+   type="http">schermate</ulink>.
+  </para>
+
+  <!-- ============= Building Glade ========================== -->
+  <sect2 id="building-glade">
+   <title>Compilare Glade</title>
+   <para>
+    Se siete utenti Linux che usano i Compaq Alpha, come me, dovrete
+    compilare <application>Glade</application> per la vostra piattaforma.
+    I file <filename>README</filename> e <filename>INSTALL</filename> che
+    accompagnano <application>Glade</application> sono piuttosto buoni.
+    Leggeteli e seguitene le indicazioni. La sottodirectory <filename
+    class="directory">doc</filename> contiene anch'essa dei file utili;
+    in particolare <filename>manual.txt</filename>.
+   </para>
+   <para>
+    C'era un problema nella compilazione di <application>Glade</application>
+    v0.5.7 per Linux RedHat 6.1 per Alpha: la compilazione falliva 
+    durante la creazione della roba rigurdante il natural language
+    support (NLS) nella sottodirectory <filename
+    class="directory">po</filename>. Disabilitando il NLS è andato tutto
+    a posto.
+   </para>
+   <para>
+    Cercate nelle future distribuzioni di Linux per Alpha se contengono
+    una versione precompilata di <application>Glade</application>.
+   </para>
+  </sect2>
+
+
+  <!-- ============= Running Glade ========================== -->
+  <sect2 id="running-glade">
+    <title>Eseguire Glade</title>
+    <para>
+     Se <application>Glade</application> è nel path (ad esempio se è
+     stato installato in <filename 
+     class="directory">/usr/local/bin</filename>), allora è sufficiente
+     digitare <command>glade</command> per lanciarlo dalla shell.
+    </para>
+    <para>
+     <application>Glade</application> mostra tre finestre:
+     <itemizedlist>
+      <listitem>
+       <para>
+        La finestra principale di Glade (file/opzioni/crea sorgente)
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        L'Editor delle proprietà
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        La Palette
+       </para>
+      </listitem>  
+     </itemizedlist>
+    </para>
+
+    <para>
+     Usate la finestra <interface>Progetto</interface> per aprire un
+     progetto esistente o per crearne uno nuovo. Suggerisco di cambiare
+     alcune impostazioni nella finestra di dialogo <interface>Opzioni
+     progetto</interface> che si apre dal menu <guimenu>File</guimenu>.
+     Ad esempio, probabilmente vorrete cambiare la <guilabel>Directory
+     del progetto</guilabel> e il <guilabel>Nome del progetto</guilabel>
+     nella scheda <guilabel>Generale</guilabel>. <guilabel>Directory
+     del progetto</guilabel> e <guilabel>Nome del progetto</guilabel>
+     cambieranno di conseguenza. La scheda <guilabel>Opzioni C</guilabel>
+     controlla la generazione del codice C, compresi i nomi di certi
+     file generati appositamente:
+
+     <itemizedlist>
+      <listitem>
+       <para>
+        Funzioni di creazione dell'interfaccia &mdash;
+        (<filename>interface.c</filename>,
+        <filename>interface.h</filename>)
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Funzioni di callback e di gestione dei segnali &mdash;
+        (<filename>callbacks.c</filename>,
+        <filename>callbacks.h</filename>)
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Funzioni di supporto &mdash; 
+	(<filename>support.c</filename>,
+        <filename>support.h</filename>)
+       </para>
+      </listitem>  
+     </itemizedlist>
+
+     Come notato nella <citetitle>Glade FAQ</citetitle>, le vostre funzioni
+     di gestione dei segnali sono nei file sorgente dei callback e nei file 
+     di supporto.
+    </para>
+
+    <para>
+     Cliccando sul pulsante <guibutton>Crea sorgente</guibutton>, o 
+     scegliendo <guimenuitem>Genera codice sorgente</guimenuitem>
+     dal menu <guimenu>File</guimenu> si chiederà a 
+     <application>Glade</application> di generare il codice C.
+    </para>
+ 
+  </sect2>
+
+  <!-- ============= The Palette ========================= -->
+  <sect2 id="thepalette">
+   <title>La Palette</title>
+   <para>
+    La <interface>Palette</interface> mostra i widget disponibili per il
+    progetto dell'interfaccia utente. Questi sono divisi in tre categorie:
+
+     <itemizedlist>
+      <listitem>
+       <para>
+        GTK+ Basic
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        GTK+ Additional
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Gnome
+       </para>
+      </listitem>  
+     </itemizedlist>
+    </para>
+
+    <para>
+     L'icona con la <guiicon>finestra</guiicon>, che si trova nell'angolo
+     in alto a sinistra, è quel che serve per cominciare. Cliccateci su
+     per creare una nuova finestra. <application>Glade</application>
+     disegnerà la nuova finestra e potrete scegliere altri widget dalla
+     <interface>Palette</interface> per aggiungerli alla finestra.
+    </para>
+
+    <para>
+     <application>Glade</application> usa dei "riquadri" per organizzare
+     e tracciare i widget. Se volete aggiungere alla vostra finestra più
+     di un widget (e probabilmente lo vorrete), selezionate ed inserite
+     dei riquadri nella finestra. Potete scegliere tra:
+
+     <itemizedlist>
+      <listitem>
+       <para>
+        Riquadro orizzontale
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Riquadro verticale
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Tabella
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Posizioni fisse
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Gruppo di pulsanti orizzontale
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Gruppo di pulsanti verticale
+       </para>
+      </listitem>
+
+  
+     </itemizedlist>
+    </para>
+
+    <para>
+     I riquadri possono essere annidati per creare delle strutture di
+     aspetto complesso. Quando create riquadri orizzontali o verticali
+     vi verrà chiesto quante righe o colonne (suddivisioni) volete.
+    </para>
+
+    <para>
+     Una volta che i riquadri sono stati piazzati potrete metterci dentro 
+     widget specifici, come etichette, o pulsanti, o altri widget ancora più 
+     complessi. Osservate che <application>Glade</application> "raggruppa"
+     i widget in una disposizione che fa risparmiare un sacco di lavoro
+     noioso. Quando selezionate un widget la finestra 
+     <interface>Proprietà</interface> ne mostrerà le proprietà correnti,
+     come il nome del widget stesso. La scheda
+     <guilabel>Segnali</guilabel> nell'<interface>Editor delle 
+     proprietà</interface> è il posto in cui attaccare al widget le funzioni 
+     di gestione dei segnali.
+    </para>
+
+    <para>
+     Il progetto d'esempio che ho creato possiede una finestra divisa in
+     due parti usando la disposizione a Riquadri verticali. Il riquadro 
+     in alto contiene una barra dei menu, mentre quello in basso è a sua 
+     volta diviso in due parti (destra e sinistra) usando un Riquadro 
+     orizzontale. La barra dei menu contiene i menu <guimenu>File</guimenu>
+     e <guimenu>Aiuto</guimenu>, entrambi contenenti delle voci. La parte 
+     sinistra della Divisione orizzontale contiene una Finestra di 
+     scorrimento che, a sua volta, contiene un viewport con dentro un 
+     widget albero. La parte destra invece contiene un widget schedario 
+     con tre schede.
+    </para>
+
+   <para>
+     L'albero dei widget può essere visto scegliendo <guimenuitem>Mostra
+     albero dei widget</guimenuitem> nel menu <guimenu>Vista</guimenu> 
+     nella finestra principale di <application>Glade</application>. 
+     L'albero dei widget della mia applicazione d'esempio ha la seguente 
+     struttura:
+
+     <itemizedlist>
+      <listitem>
+       <para>
+        Window (Finestra)
+        <itemizedlist>
+         <listitem>
+          <para>
+           Vertical Box (Riquadro verticale)
+           <itemizedlist>
+            <listitem>
+             <para>
+              Menu Bar (Barra dei menu)
+             </para>
+            </listitem>
+            <listitem>
+             <para>
+              Horizontal Box (Riquadro orizzontale)
+              <itemizedlist>
+               <listitem>
+                <para>
+                 Scrolled Window (Finestra di scorrimento)
+                 <itemizedlist>
+                  <listitem>
+                   <para>
+                    Viewport
+                    <itemizedlist>
+                     <listitem>
+                      <para>
+                       Tree (Albero)
+                      </para>
+                     </listitem>
+                    </itemizedlist> 
+                   </para>
+                  </listitem>
+                 </itemizedlist>
+                </para>
+               </listitem>
+               <listitem>
+                <para>
+                 Notebook (Schedario)
+                </para>
+               </listitem>
+              </itemizedlist>
+             </para>
+            </listitem>
+           </itemizedlist>
+          </para>
+         </listitem>
+        </itemizedlist>
+       </para>
+      </listitem>
+     </itemizedlist>
+   </para>
+
+<!--
+    <figure id="glade-tree">
+     <title>L'albero dei widget</title>
+     <screenshot>
+      <screeninfo>L'albero dei widget</screeninfo>
+      <graphic fileref="glade_tree" format="png"
+       srccredit="muet">
+      </graphic>
+     </screenshot>
+    </figure>
+-->
+
+   <para>
+    La <interface>Barra dei menu</interface> e lo
+    <interface>Schedario</interface> possono essere espansi 
+    ulteriormente per vedere i singoli menu, le voci dei menu, le pagine,
+    ecc. L'albero dei widget è un modo comodo per scorrere ed esaminare
+    come sono organizzati i widget.
+   </para>
+  </sect2>
+
+
+  <!-- ============= Menu Editor ========================= -->
+  <sect2 id="menueditor">
+   <title>Editor dei menu</title>
+   <para>
+    Dopo aver messo un widget <interface>Barra dei menu</interface>
+    usate il pulsante sinistro per selezionarlo. Usate il pulsante
+    destro sulla <interface>Barra dei menu</interface> per far 
+    apparire un menu con dei comandi. Scegliendo la voce 
+    <guimenuitem>Modifica Menu</guimenuitem>
+    <application>Glade</application> mostrerà l'<interface>Editor 
+    dei Menu</interface>. Qui è possibile definire la struttura dei menu 
+    della vostra applicazione.
+   </para>
+
+   <para>
+    Cliccate su pulsante <guibutton>Aggiungi</guibutton> per aggiungere 
+    un nuovo menu o una nuova voce di menu. Cambiate a vostro piacimento 
+    i campi <guilabel>Etichetta</guilabel> e <guilabel>Nome</guilabel>. 
+    <guilabel>Etichetta</guilabel> indica il testo che verrà mostrato 
+    nel menu o nella barra dei menu. Il Nome verrà usato per costruire 
+    un gestore di segnale. Il campo <guilabel>Gestore</guilabel> verrà 
+    aggiornato quando viene cambiato il <guilabel>Nome</guilabel>. Il 
+    nome del gestore incomincia con "on_" e finisce con "_activate", 
+    come in <function>on_open_project_activate</function>. Usate le 
+    frecce destra e sinistra per creare dei livelli nelle voci di menu. 
+    I rientri rispecchieranno la gerarchia dei menu.
+   </para>
+
+   <para>
+    Cliccate sul pulsante <guilabel>Applica</guilabel> per far apparire
+    l'attuale configurazione dei menu nella <interface>finestra di
+    modifica</interface>. Potete giocherellare con le voci di menu per 
+    trovarne la disposizione migliore.
+   </para>
+  </sect2>
+
+
+  <!-- ============= Generating Code ========================= -->
+  <sect2 id="generatingcode">
+   <title>Generazione del codice</title>
+   <para>
+    Quando la finestra è come la volevate, cliccate sul pulsante
+    <guibutton>Crea sorgenti</guibutton> per generare il codice. 
+    <application>Glade</application> genera anche le informazioni 
+    per <application>autoconf</application>, facilitando la 
+    compilazione sulla vostra piattaforma. Per un progetto semplice 
+    verranno creati i seguenti file e directory:
+
+     <itemizedlist>
+      <listitem>
+       <para>
+        <filename>AUTHORS</filename> &mdash; Vuoto, necessario per aderire
+	alle convenzioni GNU
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename>NEWS</filename> &mdash; Vuoto, necessario per aderire
+	alle convenzioni GNU
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename>README</filename> &mdash; Vuoto, necessario per aderire
+	alle convenzioni GNU
+       </para>
+      </listitem>  
+      <listitem>
+       <para>
+        <filename>Makefile.am</filename> &mdash; Usate
+        <application>automake</application> con questo file per produrre il
+        <filename>Makefile.in</filename> 
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename>acconfig.h</filename> &mdash;
+        informazioni per <application>Autoconf</application>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename>autogen.sh</filename> &mdash; Lanciate questo per 
+	compilare l'applicazione
+       </para>
+      </listitem>  
+      <listitem>
+       <para>
+        <filename>configure.in</filename> &mdash; Serve ad
+        <application>autoconf</application> per produrre uno script
+	di configurazione (configure)
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename class="directory">macros/</filename> &mdash; Macro (m4)
+	relative alla compilazione
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename>pm.glade</filename> &mdash; Il file 
+        <application>Glade</application> del progetto dell'applicazione
+       </para>
+      </listitem>  
+      <listitem>
+       <para>
+        <filename class="directory">po/</filename> &mdash;
+        File di supporto per la localizzazione (NLS)
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename class="directory">src/</filename> &mdash;
+        File sorgenti dell'applicazione
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename>stamp-h.h</filename> &mdash; Data/ora (timestamp)
+       </para>
+      </listitem>  
+     </itemizedlist>
+
+    La sottodirectory <filename class="directory">src</filename> contiene
+    i file sorgente dell'applicazione; sei di essi sono già stati citati:
+
+     <itemizedlist>
+      <listitem>
+       <para>
+        Funzioni di creazione dell'interfaccia &mdash;
+        (<filename>interface.c</filename>,
+        <filename>interface.h</filename>)
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+	Funzioni di callback e di gestione dei segnali &mdash;
+        (<filename>callbacks.c</filename>,
+        <filename>callbacks.h</filename>)
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        Funzioni di supporto &mdash; (<filename>support.c</filename>,
+        <filename>support.h</filename>)
+       </para>
+      </listitem>  
+     </itemizedlist>
+
+    <application>Glade</application> genera anche
+    <filename>main.c</filename>. <application>Glade</application>
+    *non* sovrascrive i seguenti file:
+
+     <itemizedlist>
+      <listitem>
+       <para>
+        <filename>main.c</filename>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename>callbacks.h</filename>
+       </para>
+      </listitem>
+      <listitem>
+       <para>
+        <filename>callbacks.c</filename>
+       </para>
+      </listitem>  
+     </itemizedlist>
+
+    Siete liberi di modificarli. <filename>callbacks.c</filename>
+    contiene le funzioni (troncate) di gestione dei segnali che rispondono 
+    alle azioni degli utenti. È qui che dovete agganciare il codice della 
+    vostra applicazione.
+    </para>
+
+    <para>
+     Per prepararvi alla compilazione dell'applicazione battete
+     <command>autogen.sh</command> al prompt della shell.
+     <application>Autoconf</application> creerà le informazioni di 
+     configurazione e verranno generati i makefile. Ora date
+     <command>make</command> per la compilazione vera e propria.
+     <application>Make</application> lavorerà ricorsivamente nel
+     processo di compilazione lasciando infine il programma eseguibile
+     nella sottodirectory <filename class="directory">src</filename>.
+   </para>
+  </sect2>
+
+
+  <!-- =========== Building Confidence  ======================= -->
+  <sect2 id="buildingconfidence">
+   <title>Prendere confidenza</title>
+   <para>
+    Ecco qualcosa da provare per prenere confidenza con
+    <application>Glade</application>.
+   </para>
+
+   <para>
+    Editate <filename>callbacks.c</filename> ed aggiungete delle
+    <function>printf</function> alle funzioni di gestione dei segnali.
+    Rifate il make dell'applicazione, eseguitela e guardate i messaggi
+    che appaiono quando vengono invocate le funzioni di gestione dei
+    segnali, in risposta alle azioni dei widget.
+   </para>
+  
+   <para>
+    La finestra della vostra applicazione, così come appare la prima volta,
+    potrebbe essere troppo piccola (la mia sicuramente lo era). Aprite
+    il progetto <application>Glade</application> e cliccate sull'icona
+    del widget window (finestra) nella finestra principale di 
+    <application>Glade</application>. Andate nella scheda 
+    <guilabel>Widget</guilabel> dell'<interface>Editor delle 
+    proprietà</interface> e cambiate i campi <guilabel>Larghezza</guilabel>
+    e <guilabel>Altezza predefinita</guilabel> per aggiustare le dimensioni
+    della finestra. Rigenerate il codice sorgente C e compilate 
+    l'applicazione. Lanciate di nuovo l'applicazione e congratulatevi
+    con voi stessi per l'ottimo lavoro!
+   </para>
+  </sect2>
+
+
+  <!-- =========== What's Next?  ======================= -->
+  <sect2 id="whatsnext">
+   <title>E poi?</title>
+   <para>
+    Dovrebbe essere possibile arrivare fino a questo punto senza conoscere
+    nulla di GTK+. Il passo successivo è di imparare qualcosa di GTK
+    (in particolar modo riguardo i widget più complessi, come gli alberi)
+    e incominciare a riempire gli spezzoni.
+   </para>
+  </sect2>
+
+
+  <!-- ============= Authors ================================ -->
+
+  <sect2 id="authors">
+   <title>Autori</title>
+   <para>
+    <application>Glade</application> è stato scritto da Damon Chaplin
+    (<email>glade@glade.gnome.org</email>). Questa guida è stata scritta da
+    Paul J. Drongowski (<email>paul.drongowski@compaq.com</email>).
+    La conversione in DocBook è stata fatta da Dan Mueth
+    (<email>d-mueth@uchicago.edu</email>).
+   </para>
+
+<!--
+   <para>
+    <application>Glade</application> was written by Damon Chaplin
+    (<email>glade@glade.gnome.org</email>).  Please send all comments,
+    suggestions, and bug 
+    reports to the <ulink url="http://bugs.gnome.org" type="http">GNOME
+    bug tracking database</ulink>. (Instructions for submitting bug
+    reports can be found <ulink
+    url="http://bugs.gnome.org/Reporting.html" type="http">
+    on-line</ulink>. If you are using
+    GNOME 1.1 or later, you can also use <application>Bug Report
+    Tool</application> (<command>bug-buddy</command>), available in the
+    <guisubmenu>Utilities</guisubmenu> submenu of <guimenu>Main
+    Menu</guimenu>, for submitting bug reports.
+   </para>
+
+   <para>
+    This guide was written by Paul J. Drongowski
+    (<email>paul.drongowski@compaq.com</email>). Please send all comments and
+    suggestions regarding this manual to the <ulink type="http"
+    url="http://www.gnome.org/gdp">GNOME Documentation Project</ulink> 
+    by sending an email to <email>docs@gnome.org</email> or to the
+    author of this document directly. You can also
+    submit comments online by using the <ulink type="http"
+    url="http://www.gnome.org/gdp/doctable/">GNOME Documentation Status
+    Table</ulink>.
+   </para>
+-->
+
+   <para>
+   Traduzione italiana di Fabrizio Stefani
+   (<email>fstef@it.gnome.org</email>). Per favore, inviare commenti e
+   suggerimenti riguardanti questa traduzione al suddetto indirizzo.
+   </para>
+
+  </sect2>
+
+
+  <!-- ============= Application License ============================= -->
+<!--
+  <sect2 id="license">
+   <title>Licenza</title>
+   <para>
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the <citetitle>GNU General Public
+    License</citetitle> as published by the Free Software Foundation;
+    either version 2 of the License, or (at your option) any later
+    version.
+   </para>
+   <para>
+    This program is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    <citetitle>GNU General Public License</citetitle> for more details.
+   </para>
+   <para>
+    Questo programma è software libero; è possibile ridistribuirlo e/o 
+    modificarlo rispettando i termini della <citetitle>GNU General Public 
+    License</citetitle> pubblicata dalla Free Software Foundation; nella 
+    versione 2 o (a vostra scelta) qualsiasi altra versione successiva.
+   </para>
+   <para>
+    Questo programma è distribuito nella speranza che sia utile, ma SENZA
+    NESSUNA GARANZIA; senza neppure l'implicita garanzia di COMMERCIABILITÀ
+    o UTILIZZABILITÀ PER UN PARTICOLARE SCOPO. Per maggiori dettagli
+    vedere la <citetitle>Licenza pubblica generica GNU</citetitle>.
+   </para>
+
+   <para>
+    Una copia della <citetitle>Licenza pubblica generica GNU</citetitle>
+    è inclusa come appendice nella <citetitle>Guida utente di
+    GNOME<citetitle>. È possibile anche ottenerne una copia dalla
+    Free Software Foundation visitando <ulink type="http"
+    url="http://www.fsf.org/">il loro sito Web</ulink> o scrivendo a:
+    <address>
+     Free Software Foundation, Inc.
+     <street>59 Temple Place</street> - Suite 330
+     <city>Boston</city>, <state>MA</state> <postcode>02111-1307</postcode>
+     <country>USA</country>
+    </address>
+   </para>
+  </sect2>
+-->
+
+
+ </sect1>
+
+</article>
+
+
+

@@ -1,0 +1,5475 @@
+# Dutch translation of Glade.
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Marc Botermans <marc.botermans@home.nl>, 2001.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Glade cvs\n"
+"POT-Creation-Date: 2002-02-01 14:15-0500\n"
+"PO-Revision-Date: 2001-12-13 17:37GMT\n"
+"Last-Translator: Marc Botermans <marc.botermans@home.nl>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: glade.desktop.in.h:1
+msgid "GTK+ GUI builder"
+msgstr "GTK+ GUI bouwer"
+
+#: glade.desktop.in.h:2 glade/glade_project_window.c:1574
+msgid "Glade"
+msgstr "Glade"
+
+#: glade/editor.c:282
+msgid "Grid Options"
+msgstr "Grid opties"
+
+#: glade/editor.c:299
+msgid "Horizontal Spacing:"
+msgstr "Horizontale spatiering"
+
+#: glade/editor.c:314
+msgid "Vertical Spacing:"
+msgstr "Vertikale spatiering"
+
+#: glade/editor.c:332
+msgid "Grid Style:"
+msgstr "Grid Stijl:"
+
+#: glade/editor.c:338
+msgid "Dots"
+msgstr "Puntjes"
+
+#: glade/editor.c:347
+msgid "Lines"
+msgstr "Lijnen"
+
+#: glade/editor.c:367 glade/editor.c:531 glade/glade.c:179
+#: glade/glade_keys_dialog.c:128 glade/glade_menu_editor.c:943
+#: glade/glade_project_options.c:720 glade/glade_project_window.c:837
+#: glade/glade_project_window.c:1024 glade/property.c:2952
+#: glade/property.c:3694 glade/property.c:4172 glade/utils.c:128
+#: glade/utils.c:291 glade/utils.c:394
+msgid "OK"
+msgstr "OK"
+
+#: glade/editor.c:380 glade/editor.c:544 glade/glade_keys_dialog.c:139
+#: glade/glade_menu_editor.c:962 glade/glade_project_options.c:732
+#: glade/glade_project_window.c:837 glade/glade_project_window.c:1380
+#: glade/property.c:2966 glade/property.c:3708 glade/property.c:4160
+#: glade/utils.c:301 glade/utils.c:402
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: glade/editor.c:454
+msgid "Snap Options"
+msgstr "Snap Opties"
+
+#. Horizontal snapping
+#: glade/editor.c:472
+msgid "Horizontal Snapping:"
+msgstr "Horizontale Snapping"
+
+#: glade/editor.c:478 glade/glade_gnome.c:345 glade/glade_gnome.c:614
+msgid "Left"
+msgstr "Links"
+
+#: glade/editor.c:487 glade/glade_gnome.c:346 glade/glade_gnome.c:615
+msgid "Right"
+msgstr "Rechts"
+
+#. Vertical snapping
+#: glade/editor.c:496
+msgid "Vertical Snapping:"
+msgstr "Vertikale Snapping"
+
+#: glade/editor.c:502 glade/glade_gnome.c:339 glade/glade_gnome.c:608
+msgid "Top"
+msgstr "Boven"
+
+#: glade/editor.c:510 glade/glade_gnome.c:340 glade/glade_gnome.c:609
+msgid "Bottom"
+msgstr "Onder"
+
+#: glade/editor.c:721
+msgid "Couldn't insert a GtkScrolledWindow widget."
+msgstr "Kon een GtkScrolledWindow widget niet invoegen"
+
+#: glade/editor.c:756
+msgid "Couldn't insert a GtkViewport widget."
+msgstr "Kon een GtkViewReport widget niet invoegen"
+
+#: glade/editor.c:783
+msgid "Couldn't add new widget."
+msgstr "Kon geen nieuw widget invoegen"
+
+#: glade/editor.c:1128
+msgid ""
+"You can't add a widget at the selected position.\n"
+"\n"
+"Tip: GTK+ uses containers to lay out widgets.\n"
+"Try deleting the existing widget and using\n"
+"a box or table container instead.\n"
+msgstr ""
+"U kunt een widget niet toevoegen op de geselecteerde positie.\n"
+"\n"
+"Tip: GTK+ gebruikt containers om widgets te positioneren.\n"
+"Probeer de huidige widget te verwijderen en in plaats\n"
+"daarvan een vierkant of tabel container te gebruiken.\n"
+
+#: glade/editor.c:3153
+msgid "Couldn't delete widget."
+msgstr "Kon widget niet verwijderen."
+
+#: glade/editor.c:3178 glade/editor.c:3182
+msgid "The widget can't be deleted"
+msgstr "De widget kan niet verwijderd worden"
+
+#: glade/editor.c:3213
+msgid ""
+"The widget is created automatically as part of the parent widget, and it "
+"can't be deleted."
+msgstr ""
+"De widget wordt automatisch gecreeerd als onderdeel van het ouder widget, en "
+"het kan niet verwijderd worden."
+
+#: glade/gbwidget.c:693 glade/gbwidgets/gbpacker.c:256
+msgid "Border Width:"
+msgstr "Randbreedte:"
+
+#: glade/gbwidget.c:694
+msgid "The width of the border around the container"
+msgstr "De breedte van de rand rondom de container"
+
+#: glade/gbwidget.c:1716
+msgid "Select"
+msgstr "Selekteer"
+
+#: glade/gbwidget.c:1738
+msgid "Remove Scrolled Window"
+msgstr "Verwijder gescrolld venster"
+
+#: glade/gbwidget.c:1747
+msgid "Add Scrolled Window"
+msgstr "Toevoegen scroll venster"
+
+#: glade/gbwidget.c:1763
+msgid "Remove Alignment"
+msgstr "Verwijder uitlijning"
+
+#: glade/gbwidget.c:1771
+msgid "Add Alignment"
+msgstr "Toevoegen uitlijning"
+
+#: glade/gbwidget.c:1785
+msgid "Remove Event Box"
+msgstr "Verwijder Event rechthoek"
+
+#: glade/gbwidget.c:1793
+msgid "Add Event Box"
+msgstr "Toevoegen Event Rechthoek"
+
+#: glade/gbwidget.c:1803
+msgid "Redisplay"
+msgstr "Toon opnieuw"
+
+#: glade/gbwidget.c:1814 glade/glade_gnome.c:294 glade/glade_gnome.c:558
+#: glade/glade_project_window.c:562
+msgid "Cut"
+msgstr "Knip"
+
+#: glade/gbwidget.c:1821 glade/glade_gnome.c:295 glade/glade_gnome.c:559
+#: glade/glade_project_window.c:571 glade/property.c:772 glade/property.c:4151
+msgid "Copy"
+msgstr "Kopieer"
+
+#: glade/gbwidget.c:1830 glade/glade_gnome.c:296 glade/glade_gnome.c:560
+#: glade/glade_project_window.c:580 glade/property.c:784
+msgid "Paste"
+msgstr "Plak"
+
+#: glade/gbwidget.c:1842 glade/glade_menu_editor.c:759
+#: glade/glade_project_window.c:589 glade/property.c:1444
+#: glade/property.c:1600 glade/property.c:4142
+msgid "Delete"
+msgstr "Verwijder"
+
+#: glade/gbwidget.c:2102 glade/gbwidget.c:2245 glade/gbwidget.c:2259
+#: glade/glade.c:205
+msgid "End tag expected"
+msgstr "Einde tag verwacht"
+
+#: glade/gbwidget.c:2222
+msgid "Data expected"
+msgstr "Data verwacht"
+
+#: glade/gbwidget.c:2355
+msgid "Invalid accelerator key"
+msgstr "Ongeldige versnelde toets"
+
+#: glade/gbwidget.c:2372 glade/gbwidget.c:2469 glade/gbwidget.c:2637
+msgid "Unknown tag"
+msgstr "Onbekende tag"
+
+#: glade/gbwidget.c:2446 glade/load.c:672
+msgid "Invalid boolean value"
+msgstr "Ongeldige booleaanse waarde"
+
+#: glade/gbwidget.c:2463
+msgid "Invalid date"
+msgstr "Ongeldige datum"
+
+#: glade/gbwidget.c:2581 glade/load.c:852
+msgid "Couldn't load font"
+msgstr "Kon lettertype niet laden"
+
+#: glade/gbwidget.c:2627 glade/gnome/gbpixmapmenuitem.c:336
+msgid "Couldn't load pixmap"
+msgstr "Kon pixmap niet laden"
+
+#: glade/gbwidget.c:2668 glade/load.c:728
+msgid "Invalid color"
+msgstr "Ongeldige kleur"
+
+#. N/A stands for 'Not Applicable'. It is used when a standard widget
+#. property does not apply to the current widget. e.g. widgets without
+#. windows can't use the Events property. This appears in the property
+#. editor and so should be a short abbreviation.
+#: glade/gbwidget.c:2890 glade/gbwidget.c:2959
+msgid "N/A"
+msgstr "Niet beschikbaar"
+
+#. General code for container - has to remove all children and add back
+#. NOTE: this may not work for specialised containers.
+#. NOTE: need to ref widgets?
+#: glade/gbwidget.c:3736
+msgid "replacing child of container - not implemented yet\n"
+msgstr "vervangen kind van container - nog niet geimplementeerd\n"
+
+#: glade/gbwidget.c:3893
+msgid "Couldn't insert GtkAlignment widget."
+msgstr "Kon GtkAlignment widget niet invoegen."
+
+#: glade/gbwidget.c:3927
+msgid "Couldn't remove GtkAlignment widget."
+msgstr "Kon GtkAlighment widget niet verwijderen."
+
+#: glade/gbwidget.c:3949
+msgid "Couldn't insert GtkEventBox widget."
+msgstr "Kon GtkEventBox widget niet invoegen."
+
+#: glade/gbwidget.c:3982
+msgid "Couldn't remove GtkEventBox widget."
+msgstr "Kon GtkEventBox widget niet verwijderen."
+
+#: glade/gbwidget.c:4016
+msgid "Couldn't insert GtkScrolledWindow widget."
+msgstr "Kon GtkScrolledWindow widget niet invoegen."
+
+#: glade/gbwidget.c:4049
+msgid "Couldn't remove GtkScrolledWindow widget."
+msgstr "Kon GtkScrolledWindow widget niet verwijderen"
+
+#: glade/gbwidget.c:4158
+msgid "Remove Label"
+msgstr "Verwijder Label"
+
+#: glade/glade.c:181 glade/gnome-db/gnomedberrordlg.c:63
+msgid "Error"
+msgstr "Fout"
+
+#: glade/glade.c:184
+msgid "System Error"
+msgstr "Systeemfout"
+
+#: glade/glade.c:188
+msgid "Error opening file"
+msgstr "Fout tijdens openen van bestand"
+
+#: glade/glade.c:190
+msgid "Error reading file"
+msgstr "Fout tijdens lezen van bestand"
+
+#: glade/glade.c:192
+msgid "Error writing file"
+msgstr "Fout tijdens schrijven van bestand"
+
+#: glade/glade.c:195
+msgid "Invalid directory"
+msgstr "Ongeldige map"
+
+#: glade/glade.c:199
+msgid "Invalid value"
+msgstr "Ongeldige waarde"
+
+#: glade/glade.c:201
+msgid "Invalid XML entity"
+msgstr "Ongeldige XML entiteit"
+
+#: glade/glade.c:203
+msgid "Start tag expected"
+msgstr "Start tag verwacht"
+
+#: glade/glade.c:207
+msgid "Character data expected"
+msgstr "Karakter data verwacht"
+
+#: glade/glade.c:209
+msgid "Class id missing"
+msgstr "Klasse ID niet aanwezig"
+
+#: glade/glade.c:211
+msgid "Class unknown"
+msgstr "Klasse is onbekend"
+
+#: glade/glade.c:213
+msgid "Invalid component"
+msgstr "Ongeldige component"
+
+#: glade/glade.c:215
+msgid "Unexpected end of file"
+msgstr "Onverwacht einde van bestand"
+
+#: glade/glade.c:218
+msgid "Unknown error code"
+msgstr "Onbekende foutcode"
+
+#: glade/glade_clipboard.c:116
+msgid "Clipboard"
+msgstr "Klembord"
+
+#: glade/glade_clipboard.c:257
+msgid "You need to select a widget to paste into"
+msgstr "U moet een widget selecteren om in te plakken"
+
+#: glade/glade_clipboard.c:283
+msgid "You can't paste into windows or dialogs."
+msgstr "U kunt niet plakken in vensters of dialogen"
+
+#: glade/glade_clipboard.c:308
+msgid ""
+"You can't paste into the selected widget, since\n"
+"it is created automatically by its parent."
+msgstr ""
+"U kunt niet plakken in het geselecteerde widget, omdat\n"
+"het automatisch gemaakt is door de ouder widget."
+
+#: glade/glade_clipboard.c:317 glade/glade_clipboard.c:325
+msgid "Only menu items can be pasted into a menu or menu bar."
+msgstr "Alleen menu items kunnen geplakt worden in een menu of een menubalk."
+
+#: glade/glade_clipboard.c:336
+msgid "Only buttons can be pasted into a GnomeDialog action area."
+msgstr "Alleen knoppen kunnen geplakt worden in een Gnome Dialoog actiegebied."
+
+#: glade/glade_clipboard.c:346
+msgid "Only GnomeDockItem widgets can be pasted into a GnomeDock."
+msgstr "Alleen GnomeDockItem widgets kunnen geplakt worden in een GnomeDock."
+
+#: glade/glade_clipboard.c:355
+msgid "Only GnomeDockItem widgets can be pasted over a GnomeDockItem."
+msgstr ""
+"Alleen GnomeDockItem widgets kunnen geplakt worden over een GnomeDockItem."
+
+#: glade/glade_clipboard.c:358
+msgid "Sorry - pasting over a GnomeDockItem is not implemented yet."
+msgstr "Sorry - plakken over een GnomeDockItem is nog niet geimplementeerd."
+
+#: glade/glade_clipboard.c:366
+msgid "GnomeDockItem widgets can only be pasted into a GnomeDock."
+msgstr "GnomeDockItem widgets kunnen alleen geplakt worden in een GnomeDock."
+
+#. Add a "None" item first, so it is easy to reset the pixmap.
+#: glade/glade_gnome.c:112 glade/glade_gnome.c:551
+#: glade/glade_menu_editor.c:664 glade/glade_menu_editor.c:1111
+msgid "None"
+msgstr "Geen"
+
+#. 3 - see GladeStockMenuItemNew above.
+#: glade/glade_gnome.c:121
+msgid "_New"
+msgstr "_Nieuw"
+
+#: glade/glade_gnome.c:286
+msgid "Blank"
+msgstr "Witregel"
+
+#: glade/glade_gnome.c:287 glade/glade_gnome.c:552
+#: glade/glade_project_window.c:740 glade/gnome/gnomeapp.c:124
+#: glade/property.c:4125
+msgid "New"
+msgstr "Nieuw"
+
+#: glade/glade_gnome.c:288 glade/glade_gnome.c:556
+#: glade/glade_project_window.c:312 glade/glade_project_window.c:494
+#: glade/glade_project_window.c:752 glade/gnome/gnomeapp.c:134
+msgid "Save"
+msgstr "Bewaar"
+
+#: glade/glade_gnome.c:289 glade/glade_gnome.c:557
+msgid "Save As"
+msgstr "Bewaar Als"
+
+#: glade/glade_gnome.c:290 glade/glade_gnome.c:555
+msgid "Revert"
+msgstr "Herstel"
+
+#: glade/glade_gnome.c:291 glade/glade_gnome.c:553
+#: glade/glade_project_window.c:307 glade/glade_project_window.c:746
+#: glade/gnome/gnomeapp.c:129
+msgid "Open"
+msgstr "Openen"
+
+#: glade/glade_gnome.c:292 glade/glade_gnome.c:554 glade/property.c:1513
+msgid "Close"
+msgstr "Sluiten"
+
+#: glade/glade_gnome.c:293 glade/glade_gnome.c:601
+msgid "Quit"
+msgstr "Afsluiten"
+
+#: glade/glade_gnome.c:297 glade/glade_gnome.c:562 glade/property.c:511
+msgid "Properties"
+msgstr "Eigenschappen"
+
+#: glade/glade_gnome.c:298 glade/glade_gnome.c:563
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: glade/glade_gnome.c:299 glade/glade_gnome.c:600
+msgid "About"
+msgstr "Over"
+
+#: glade/glade_gnome.c:300 glade/glade_gnome.c:565
+msgid "Scores"
+msgstr "Scores"
+
+#: glade/glade_gnome.c:301 glade/glade_gnome.c:576
+msgid "Undo"
+msgstr "Ungedaan maken"
+
+#: glade/glade_gnome.c:302 glade/glade_gnome.c:577
+msgid "Redo"
+msgstr "Opnieuw doen"
+
+#: glade/glade_gnome.c:303 glade/glade_gnome.c:566
+msgid "Print"
+msgstr "Afdrukken"
+
+#: glade/glade_gnome.c:304 glade/glade_gnome.c:567
+msgid "Search"
+msgstr "Zoeken"
+
+#: glade/glade_gnome.c:305 glade/glade_gnome.c:568
+msgid "Search/Replace"
+msgstr "Zoek/Vervang"
+
+#: glade/glade_gnome.c:306 glade/glade_gnome.c:569
+msgid "Back"
+msgstr "Terug"
+
+#: glade/glade_gnome.c:307 glade/glade_gnome.c:570
+msgid "Forward"
+msgstr "Volgende"
+
+#: glade/glade_gnome.c:308 glade/glade_gnome.c:571
+msgid "First"
+msgstr "Eerste"
+
+#: glade/glade_gnome.c:309 glade/glade_gnome.c:572
+msgid "Last"
+msgstr "Laatste"
+
+#: glade/glade_gnome.c:310 glade/glade_gnome.c:573
+msgid "Home"
+msgstr "Thuis"
+
+#: glade/glade_gnome.c:311 glade/glade_gnome.c:574 glade/gnome/gbclock.c:125
+msgid "Stop"
+msgstr "Stop"
+
+#: glade/glade_gnome.c:312 glade/glade_gnome.c:575
+msgid "Refresh"
+msgstr "Ververs"
+
+#: glade/glade_gnome.c:313 glade/glade_gnome.c:580
+msgid "Mail"
+msgstr "Mail"
+
+#: glade/glade_gnome.c:314 glade/glade_gnome.c:581
+msgid "Receive Mail"
+msgstr "Ontvang mail"
+
+#: glade/glade_gnome.c:315 glade/glade_gnome.c:582
+msgid "Send Mail"
+msgstr "Verstuur mail"
+
+#: glade/glade_gnome.c:316 glade/glade_gnome.c:583
+msgid "Reply to Mail"
+msgstr "Beantwoord aan mail"
+
+#: glade/glade_gnome.c:317 glade/glade_gnome.c:584
+msgid "Forward Mail"
+msgstr "Doorsturen Mail"
+
+#: glade/glade_gnome.c:318 glade/glade_gnome.c:585
+msgid "New Mail"
+msgstr "Nieuwe Mail"
+
+#: glade/glade_gnome.c:319 glade/glade_gnome.c:586
+msgid "Trash"
+msgstr "Vuilnisbak"
+
+#: glade/glade_gnome.c:320 glade/glade_gnome.c:587
+msgid "Trash Full"
+msgstr "Vuilnisbak Vol"
+
+#: glade/glade_gnome.c:321 glade/glade_gnome.c:588
+msgid "Undelete"
+msgstr "Verwijderen ongedaan maken"
+
+#: glade/glade_gnome.c:322 glade/glade_gnome.c:578
+msgid "Timer"
+msgstr "Timer"
+
+#: glade/glade_gnome.c:323 glade/glade_gnome.c:579
+msgid "Timer Stopped"
+msgstr "Timer gestopt"
+
+#: glade/glade_gnome.c:324 glade/glade_gnome.c:589
+msgid "Spellchecker"
+msgstr "Spellingscontrole"
+
+#: glade/glade_gnome.c:325 glade/glade_gnome.c:590
+msgid "Microphone"
+msgstr "Microfoon"
+
+#: glade/glade_gnome.c:326 glade/glade_gnome.c:591
+msgid "Line In"
+msgstr "Line In"
+
+#: glade/glade_gnome.c:327 glade/glade_gnome.c:592
+msgid "Cdrom"
+msgstr "Cdrom"
+
+#: glade/glade_gnome.c:328 glade/glade_gnome.c:593
+msgid "Volume"
+msgstr "Volume"
+
+#: glade/glade_gnome.c:329 glade/glade_gnome.c:594
+msgid "Midi"
+msgstr "Midi"
+
+#: glade/glade_gnome.c:330 glade/glade_gnome.c:595
+msgid "Book Red"
+msgstr "Book Red"
+
+#: glade/glade_gnome.c:331 glade/glade_gnome.c:596
+msgid "Book Green"
+msgstr "Book Green"
+
+#: glade/glade_gnome.c:332 glade/glade_gnome.c:597
+msgid "Book Blue"
+msgstr "Book Blue"
+
+#: glade/glade_gnome.c:333 glade/glade_gnome.c:598
+msgid "Book Yellow"
+msgstr "Book Yellow"
+
+#: glade/glade_gnome.c:334 glade/glade_gnome.c:599
+msgid "Book Open"
+msgstr "Boek Open"
+
+#: glade/glade_gnome.c:335 glade/glade_gnome.c:604
+msgid "Convert"
+msgstr "Converteer"
+
+#: glade/glade_gnome.c:336 glade/glade_gnome.c:605
+msgid "Jump To"
+msgstr "Sping Naar"
+
+#: glade/glade_gnome.c:337 glade/glade_gnome.c:606
+msgid "Up"
+msgstr "Omhoog"
+
+#: glade/glade_gnome.c:338 glade/glade_gnome.c:607
+msgid "Down"
+msgstr "Omlaag"
+
+#: glade/glade_gnome.c:341 glade/glade_gnome.c:610
+msgid "Attach"
+msgstr "Verbind"
+
+#: glade/glade_gnome.c:342 glade/glade_gnome.c:611
+msgid "Index"
+msgstr "Index"
+
+#: glade/glade_gnome.c:343 glade/glade_gnome.c:612
+msgid "Font"
+msgstr "Lettertype"
+
+#: glade/glade_gnome.c:344 glade/glade_gnome.c:613
+msgid "Exec"
+msgstr "Uitvoeren"
+
+#: glade/glade_gnome.c:347 glade/glade_gnome.c:616
+msgid "Center"
+msgstr "Centreer"
+
+#: glade/glade_gnome.c:348 glade/glade_gnome.c:617
+msgid "Justify"
+msgstr "Aanpassen"
+
+#: glade/glade_gnome.c:349 glade/glade_gnome.c:618
+msgid "Bold"
+msgstr "Vet"
+
+#: glade/glade_gnome.c:350 glade/glade_gnome.c:619
+msgid "Italic"
+msgstr "Schuin gedrukt"
+
+#: glade/glade_gnome.c:351 glade/glade_gnome.c:620
+msgid "Underline"
+msgstr "Onderstreept"
+
+#: glade/glade_gnome.c:352 glade/glade_gnome.c:621
+msgid "Strikeout"
+msgstr "Doorgestreept"
+
+#: glade/glade_gnome.c:561 glade/property.c:1450 glade/property.c:1606
+msgid "Clear"
+msgstr "Schoonmaken"
+
+#. Create Help menu
+#: glade/glade_gnome.c:564 glade/glade_project_window.c:704
+msgid "Help"
+msgstr "Help"
+
+#: glade/glade_gnome.c:602
+msgid "Multiple"
+msgstr "Vermenigvuldigen"
+
+#: glade/glade_gnome.c:603
+msgid "Not"
+msgstr "Niet"
+
+#: glade/glade_gnome.c:622
+msgid "Text Indent"
+msgstr "Tekst invoegen"
+
+#: glade/glade_gnome.c:623
+msgid "Text Unindent"
+msgstr "Tekst uitvoegen"
+
+#: glade/glade_gnome.c:624
+msgid "Color Select"
+msgstr "Kleur Selekteer"
+
+#: glade/glade_gnome.c:625 glade/glade_menu_editor.c:739 glade/property.c:1432
+#: glade/property.c:1588
+msgid "Add"
+msgstr "Toevoegen"
+
+#: glade/glade_gnome.c:626
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: glade/glade_gnome.c:627
+msgid "Table Borders"
+msgstr "Tabel Randen"
+
+#: glade/glade_gnome.c:628
+msgid "Table Fill"
+msgstr "Tabel Vullen"
+
+#: glade/glade_gnome.c:629
+msgid "Text Bulleted List"
+msgstr "Tabel Bolletjeslijst"
+
+#: glade/glade_gnome.c:630
+msgid "Text Numbered List"
+msgstr "Tkst Genummerde Lijst"
+
+#: glade/glade_gtk12lib.c:309
+msgid "GTK+ Basic"
+msgstr "GTK+ Basis"
+
+#: glade/glade_gtk12lib.c:310
+msgid "GTK+ Additional"
+msgstr "GTK+ Geavanceerd"
+
+#: glade/glade_keys_dialog.c:93 glade/property.c:3274
+msgid "Select Accelerator Key"
+msgstr "Selekteer sneltoets"
+
+#: glade/glade_keys_dialog.c:96
+msgid "Keys"
+msgstr "Toetsen"
+
+#: glade/glade_menu_editor.c:355
+msgid "Menu Editor"
+msgstr "Menu Editor"
+
+#: glade/gbwidgets/gblabel.c:517 glade/glade_menu_editor.c:371
+msgid "Label"
+msgstr "Label"
+
+#: glade/glade_menu_editor.c:372
+msgid "Type"
+msgstr "Type"
+
+#: glade/glade_menu_editor.c:373
+msgid "Accelerator"
+msgstr "Versneller"
+
+#: glade/glade_menu_editor.c:374
+msgid "Name"
+msgstr "Naam"
+
+#: glade/glade_menu_editor.c:375 glade/property.c:1363
+msgid "Handler"
+msgstr "Handler"
+
+#: glade/glade_menu_editor.c:376 glade/property.c:103
+msgid "Active"
+msgstr "Actief"
+
+#: glade/glade_menu_editor.c:377
+msgid "Group"
+msgstr "Groep"
+
+#: glade/glade_menu_editor.c:378
+msgid "Right Justify"
+msgstr "Rechts uitlijnen"
+
+#: glade/glade_menu_editor.c:380
+msgid "Icon"
+msgstr "Ikoon"
+
+#: glade/glade_menu_editor.c:425
+msgid "Move the item and its children up one place in the list"
+msgstr "Verplaats het item en zijn kinderen een plaats naar boven in de lijst"
+
+#: glade/glade_menu_editor.c:437
+msgid "Move the item and its children down one place in the list"
+msgstr ""
+"Verplaats het item en zijn kinderen een plaats naar beneden in de lijst"
+
+#: glade/glade_menu_editor.c:449
+msgid "Move the item and its children up one level"
+msgstr "Verplaats het item en zijn kinderen een niveau naar boven"
+
+#: glade/glade_menu_editor.c:461
+msgid "Move the item and its children down one level"
+msgstr "Verplaats het item en zijn kinderen een niveau naar beneden"
+
+#: glade/glade_menu_editor.c:487
+msgid "The stock Gnome item to use."
+msgstr "Het stock Gnome item om te gebruiken"
+
+#: glade/glade_menu_editor.c:489
+msgid "Stock Item:"
+msgstr "Stock Item:"
+
+#: glade/glade_menu_editor.c:579
+msgid ""
+"The text of the menu item, or empty for separators. Hit return to add a new "
+"item below this one. Ctl-Return adds a child item beneath this one."
+msgstr ""
+"De tekst van het menu item; of leeg-voor-scheidingstekens. Druk op Return om "
+"een nieuw item onder deze toe te voegen. Ctl Return voegt een kind item toe "
+"onder deze ."
+
+#: glade/gbwidgets/gbaccellabel.c:86 glade/gbwidgets/gbaspectframe.c:93
+#: glade/gbwidgets/gbbutton.c:169 glade/gbwidgets/gbbutton.c:175
+#: glade/gbwidgets/gbcheckbutton.c:76 glade/gbwidgets/gbcheckmenuitem.c:73
+#: glade/gbwidgets/gbframe.c:87 glade/gbwidgets/gblabel.c:124
+#: glade/gbwidgets/gblistitem.c:73 glade/gbwidgets/gbmenuitem.c:85
+#: glade/gbwidgets/gbradiobutton.c:102 glade/gbwidgets/gbradiomenuitem.c:93
+#: glade/gbwidgets/gbtogglebutton.c:114 glade/gbwidgets/gbtreeitem.c:71
+#: glade/glade_menu_editor.c:581 glade/gnome/gbpixmapmenuitem.c:79
+#: glade/gnome/gnomehref.c:67
+msgid "Label:"
+msgstr "Label:"
+
+#: glade/glade_menu_editor.c:603 glade/property.c:656
+msgid "The name of the widget"
+msgstr "De naam van het widget"
+
+#: glade/glade_menu_editor.c:606 glade/property.c:655
+msgid "Name:"
+msgstr "Naam:"
+
+#: glade/glade_menu_editor.c:624
+msgid "The function to be called when the item is selected"
+msgstr "De functie die aangeroepen moet worden als het item geselecteerd is"
+
+#: glade/glade_menu_editor.c:626 glade/property.c:1410
+msgid "Handler:"
+msgstr "Handler:"
+
+#: glade/glade_menu_editor.c:646
+msgid "An optional icon to show on the left of the menu item."
+msgstr "Een optioneel ikoon dat getoond wordt links van het menu item."
+
+#: glade/gbwidgets/gbbutton.c:179 glade/gbwidgets/gbbutton.c:194
+#: glade/gbwidgets/gbradiobutton.c:106 glade/gbwidgets/gbtogglebutton.c:121
+#: glade/glade_menu_editor.c:648
+msgid "Icon:"
+msgstr "Ikoon:"
+
+#: glade/glade_menu_editor.c:716
+msgid "The tip to show when the mouse is over the item"
+msgstr "De tip die getoond wordt als de muis zich over het item bevindt"
+
+#: glade/glade_menu_editor.c:718 glade/property.c:705
+msgid "Tooltip:"
+msgstr "Tooltip:"
+
+#: glade/glade_menu_editor.c:744
+msgid "Add a new item below the selected item."
+msgstr "Voeg een nieuw item toe onder het geseleceerde item."
+
+#: glade/glade_menu_editor.c:749
+msgid "Add Separator"
+msgstr "Toevoegen Scheidslijn"
+
+#: glade/glade_menu_editor.c:754
+msgid "Add a separator below the selected item."
+msgstr "Voeg een scheidslijn toe onder het geselecteerde item."
+
+#: glade/glade_menu_editor.c:764
+msgid "Delete the current item"
+msgstr "Verwijder het huidige item"
+
+#. Type radio options and toggle options.
+#: glade/glade_menu_editor.c:770
+msgid "Item Type:"
+msgstr "Item Type:"
+
+#: glade/glade_menu_editor.c:786
+msgid "If the item is right justified (e.g. for a Help menu)."
+msgstr "Als het item rechts uitgelijnd is ( bijv. voor een Help menu)."
+
+#: glade/gbwidgets/gbmenuitem.c:86 glade/glade_menu_editor.c:788
+#: glade/gnome/gbpixmapmenuitem.c:80
+msgid "Right Justify:"
+msgstr "Rechts Uitlijnen:"
+
+#: glade/glade_menu_editor.c:793 glade/glade_menu_editor.c:811
+#: glade/glade_menu_editor.c:1372 glade/glade_menu_editor.c:1393
+#: glade/property.c:1822 glade/property.c:1832
+msgid "No"
+msgstr "Nee"
+
+#: glade/glade_menu_editor.c:804
+msgid "If the item is initially on."
+msgstr "Als het item initieel aan is."
+
+#: glade/glade_menu_editor.c:806
+msgid "Active:"
+msgstr "Actief:"
+
+#: glade/glade_menu_editor.c:825
+msgid ""
+"The radio menu item's group. Leave empty to use the parent menu's default "
+"group."
+msgstr ""
+"De groep voor de radio menu items. Laat dit leeg om de standaard groep van "
+"het ouder menu te gebruiken."
+
+#: glade/gbwidgets/gbradiobutton.c:112 glade/gbwidgets/gbradiomenuitem.c:98
+#: glade/glade_menu_editor.c:827
+msgid "Group:"
+msgstr "Groep:"
+
+#: glade/glade_menu_editor.c:840 glade/glade_menu_editor.c:2139
+#: glade/glade_menu_editor.c:2256
+msgid "Radio"
+msgstr "Radio"
+
+#: glade/glade_menu_editor.c:847 glade/glade_menu_editor.c:2137
+#: glade/glade_menu_editor.c:2254
+msgid "Check"
+msgstr "Controleer"
+
+#: glade/gbwidgets/gbimage.c:208 glade/glade_menu_editor.c:854
+#: glade/property.c:103
+msgid "Normal"
+msgstr "Normaal"
+
+#. Accelerator key options.
+#: glade/glade_menu_editor.c:863
+msgid "Accelerator:"
+msgstr "Versneller:"
+
+#: glade/glade_menu_editor.c:900 glade/property.c:1566
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: glade/glade_menu_editor.c:905 glade/property.c:1569
+msgid "Shift"
+msgstr "Shift"
+
+#: glade/glade_menu_editor.c:910 glade/property.c:1572
+msgid "Alt"
+msgstr "Alt"
+
+#: glade/glade_menu_editor.c:915 glade/property.c:1579
+msgid "Key:"
+msgstr "Toets:"
+
+#: glade/glade_menu_editor.c:921 glade/property.c:1558
+msgid "Modifiers:"
+msgstr "Te wijzigen:"
+
+#: glade/glade_menu_editor.c:953
+msgid "Apply"
+msgstr "Toepassen"
+
+#: glade/glade_menu_editor.c:1372 glade/glade_menu_editor.c:1393
+#: glade/glade_menu_editor.c:2147 glade/glade_menu_editor.c:2149
+#: glade/glade_menu_editor.c:2265 glade/glade_menu_editor.c:2273
+#: glade/property.c:1822
+msgid "Yes"
+msgstr "Ja"
+
+#: glade/glade_menu_editor.c:1744
+msgid "Select icon"
+msgstr "Selekteer ikoon"
+
+#: glade/glade_menu_editor.c:2077 glade/glade_menu_editor.c:2479
+msgid "separator"
+msgstr "Scheidslijn"
+
+#: glade/glade_menu_editor.c:2916
+msgid "Couldn't create pixmap from file:"
+msgstr "Kon pixmap niet creeeren van bestand:"
+
+#: glade/glade_palette.c:186 glade/glade_palette.c:188
+#: glade/glade_palette.c:380
+msgid "Selector"
+msgstr "Selekteerder"
+
+#: glade/glade_project.c:351
+msgid ""
+"The project directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"De projectmap is niet bekend.\n"
+"Vul dit in door gebruik te maken van het Project Opties dialoogvenster.\n"
+
+#: glade/glade_project.c:358
+msgid ""
+"The source directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"De bronmap is niet bekend.\n"
+"Vul dit in door gebruik te maken van het Project Opties dialoogvenster.\n"
+
+#: glade/glade_project.c:368
+msgid ""
+"Invalid source directory:\n"
+"\n"
+"The source directory must be the project directory\n"
+"or a subdirectory of the project directory.\n"
+msgstr ""
+"Ongeldige bronmap:\n"
+"\n"
+"De bronmap moet bestaan in de projectmap \n"
+"of een submap van de projectmap.\n"
+
+#: glade/glade_project.c:376
+msgid ""
+"The pixmaps directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"De pixmap map is niet bekend.\n"
+"Vul dit in door gebruik te maken van het Project Opties dialoogvenster.\n"
+
+#: glade/glade_project.c:404
+#, c-format
+msgid "Sorry - generating source for %s is not implemented yet"
+msgstr "Sorry - het genereren van broncode voor %s is nog niet geimplementeerd"
+
+#: glade/glade_project.c:432
+msgid ""
+"Error running glade-- to generate the C++ source code.\n"
+"Check that you have glade-- installed and that it is in your PATH."
+msgstr ""
+"Fout tijdens gebruik van glade -- om de C++ broncode te genereren.\n"
+"Controleer dat u glade-- geinstalleerd heeft en dat het in uw PATH  is "
+"opgenomen."
+
+#: glade/glade_project.c:454
+msgid ""
+"Error running gate to generate the Ada95 source code.\n"
+"Check that you have gate installed and that it is in your PATH."
+msgstr ""
+"Fout tijdens gebruik van gate om de Ada95 broncode te genereren.\n"
+"Controleer dat u gate geinstalleerd heeft en dat het in uw PATH  is "
+"opgenomen."
+
+#: glade/glade_project.c:476
+msgid ""
+"Error running glade2perl to generate the Perl source code.\n"
+"Check that you have glade2perl installed and that it is in your PATH."
+msgstr ""
+"Fout tijdens gebruik van glade2perl om de Perl broncode te genereren.\n"
+"Controleer dat u glade2perl geinstalleerd heeft en dat het in uw PATH  is "
+"opgenomen."
+
+#: glade/glade_project.c:498
+msgid ""
+"Error running eglade to generate the Eiffel source code.\n"
+"Check that you have eglade installed and that it is in your PATH."
+msgstr ""
+"Fout tijdens gebruik van eglade om de Eiffel broncode te genereren.\n"
+"Controleer dat u eglade geinstalleerd heeft en dat het in uw PATH  is "
+"opgenomen."
+
+#: glade/glade_project.c:844
+msgid ""
+"The pixmap directory is not set.\n"
+"Please set it using the Project Options dialog.\n"
+msgstr ""
+"De pixmap map is niet bekend.\n"
+"Vul dit in door gebruik te maken van het Project Opties dialoogvenster.\n"
+
+#: glade/glade_project_options.c:141 glade/glade_project_window.c:318
+#: glade/glade_project_window.c:759
+msgid "Project Options"
+msgstr "Project Opties"
+
+#.
+#. * General Page.
+#.
+#: glade/glade_project_options.c:158
+msgid "General"
+msgstr "Algemeen"
+
+#: glade/glade_project_options.c:167
+msgid "Basic Options:"
+msgstr "Basisopties:"
+
+#: glade/glade_project_options.c:185
+msgid "The project directory"
+msgstr "De project map"
+
+#: glade/glade_project_options.c:187
+msgid "Project Directory:"
+msgstr "Project Map:"
+
+#: glade/glade_project_options.c:205
+msgid "Browse..."
+msgstr "Blader..."
+
+#: glade/glade_project_options.c:220
+msgid "The name of the current project"
+msgstr "De naam van het huidige project"
+
+#: glade/glade_project_options.c:222
+msgid "Project Name:"
+msgstr "Project Naam:"
+
+#: glade/glade_project_options.c:242
+msgid "The name of the program"
+msgstr "De naam van het programma"
+
+#: glade/glade_project_options.c:244
+msgid "Program Name:"
+msgstr "Programmanaam:"
+
+#: glade/glade_project_options.c:265
+msgid "The project file"
+msgstr "Het projectbestand"
+
+#: glade/glade_project_options.c:267
+msgid "Project File:"
+msgstr "Projectbestand:"
+
+#. Project Source Directory.
+#: glade/glade_project_options.c:283
+msgid "Subdirectories:"
+msgstr "Submappen:"
+
+#: glade/glade_project_options.c:300
+msgid "The directory to save generated source code"
+msgstr "De map waarin gegenereerde broncode bewaard wordt"
+
+#: glade/glade_project_options.c:303
+msgid "Source Directory:"
+msgstr "Bron map:"
+
+#: glade/glade_project_options.c:322
+msgid "The directory to store pixmaps"
+msgstr "De map waarin bixmaps bewaard worden"
+
+#: glade/glade_project_options.c:325
+msgid "Pixmaps Directory:"
+msgstr "Pixmaps Map:"
+
+#: glade/glade_project_options.c:347
+msgid "The license which is added at the top of generated files"
+msgstr ""
+"De licentie die toegevoegd wordt aan het begin van gegenereerde bestanden"
+
+#: glade/glade_project_options.c:349
+msgid "License:"
+msgstr "Licentie:"
+
+#. Source Language.
+#: glade/glade_project_options.c:369
+msgid "Language:"
+msgstr "Taal:"
+
+#: glade/glade_project_options.c:397
+msgid "Gnome:"
+msgstr "Gnome:"
+
+#: glade/glade_project_options.c:405
+msgid "Enable Gnome Support"
+msgstr "Gebruik Gnome Support"
+
+#: glade/glade_project_options.c:409
+msgid "If a Gnome application is to be built"
+msgstr "Als een Gnome applicatie gebouwd moet worden"
+
+#: glade/glade_project_options.c:412
+msgid "Enable Gnome DB Support"
+msgstr "Gebruik Gnome DB Support"
+
+#: glade/glade_project_options.c:416
+msgid "If a Gnome DB application is to be built"
+msgstr "Als een Gnome DB applicatie gebouwd moet worden"
+
+#.
+#. * C Options Page.
+#.
+#: glade/glade_project_options.c:426
+msgid "C Options"
+msgstr "C Opties"
+
+#: glade/glade_project_options.c:439
+msgid "General Options:"
+msgstr "Algemene Opties:"
+
+#. Gettext Support.
+#: glade/glade_project_options.c:449
+msgid "Gettext Support"
+msgstr "GetText Ondersteuning"
+
+#: glade/glade_project_options.c:454
+msgid "If strings are marked for translation by gettext"
+msgstr "Als teksten gemarkeerd moeten worden voor vertaling door gettext"
+
+#. Setting widget names.
+#: glade/glade_project_options.c:458
+msgid "Set Widget Names"
+msgstr "Zet Widget Namen"
+
+#: glade/glade_project_options.c:463
+msgid "If widget names are set in the source code"
+msgstr "Als widgetnamen gezet moeten worden in de broncode"
+
+#. Backing up source files.
+#: glade/glade_project_options.c:467
+msgid "Backup Source Files"
+msgstr "Backup bronbestanden"
+
+#: glade/glade_project_options.c:472
+msgid "If copies of old source files are made"
+msgstr "Als kopieen van oude bronbestanden gemaakt moeten worden"
+
+#. Gnome Help System support.
+#: glade/glade_project_options.c:476
+msgid "Gnome Help Support"
+msgstr "Gnome Help Support"
+
+#: glade/glade_project_options.c:483
+msgid "If support for the Gnome Help system should be included"
+msgstr "Als ondersteuning voor het Gnome Helpsysteem toegevoegd moet worden"
+
+#: glade/glade_project_options.c:486
+msgid "File Output Options:"
+msgstr "Bestand Uitvoeropties:"
+
+#. Outputting main file.
+#: glade/glade_project_options.c:496
+msgid "Output main.c File"
+msgstr "Uitvoer main.c bestand"
+
+#: glade/glade_project_options.c:501
+msgid ""
+"If a main.c file is output containing a main() function, if it doesn't "
+"already exist"
+msgstr ""
+"Een main.c bestand dat een main() functie bevat, als het niet al bestaat"
+
+#. Outputting support files.
+#: glade/glade_project_options.c:505
+msgid "Output Support Functions"
+msgstr "Uitvoer Support Functies"
+
+#: glade/glade_project_options.c:510
+msgid "If the support functions are output"
+msgstr "Als de support functies uitvoer zijn"
+
+#. Outputting build files.
+#: glade/glade_project_options.c:514
+msgid "Output Build Files"
+msgstr "Uitvoer bouwbestanden"
+
+#: glade/glade_project_options.c:519
+msgid ""
+"If files for building the source code are output, including Makefile.am and "
+"configure.in, if they don't already exist"
+msgstr ""
+"Als bestanden voor het bouwen van de broncode uitvoer zijn, inclusief "
+"Makefile.am en configure.in, als ze al niet bestaan"
+
+#. Main source file.
+#: glade/glade_project_options.c:523
+msgid "Interface Creation Functions:"
+msgstr "Interface Creatiefuncties:"
+
+#: glade/glade_project_options.c:535
+msgid "The file in which the functions to create the interface are written"
+msgstr ""
+"Het bestand waarin geschreven wordt welke functies gemaakt worden om de "
+"interface in te beschrijven"
+
+#: glade/glade_project_options.c:537 glade/glade_project_options.c:581
+#: glade/glade_project_options.c:624 glade/property.c:873
+msgid "Source File:"
+msgstr "Bronbestand:"
+
+#: glade/glade_project_options.c:552
+msgid ""
+"The file in which the declarations of the functions to create the interface "
+"are written"
+msgstr ""
+"Het bestand waarin geschreven wordt de declaratie van de functies om de "
+"interface mee te creeeren"
+
+#: glade/glade_project_options.c:554 glade/glade_project_options.c:598
+#: glade/glade_project_options.c:641
+msgid "Header File:"
+msgstr "Header Bestand:"
+
+#. Handler source file.
+#: glade/glade_project_options.c:567
+msgid "Signal Handler & Callback Functions:"
+msgstr "Signal Handler & Callback functies:"
+
+#: glade/glade_project_options.c:579
+msgid ""
+"The file in which the empty signal handler and callback functions are written"
+msgstr ""
+"Het bestand waarin de lege signal handlers en callback functies geschreven "
+"wordt"
+
+#: glade/glade_project_options.c:596
+msgid ""
+"The file in which the declarations of the signal handler and callback "
+"functions are written"
+msgstr ""
+"Het bestand waarin de declaraties van de signal handler en callback functies "
+"geschreven worden"
+
+#. Support source file.
+#: glade/glade_project_options.c:610
+msgid "Support Functions:"
+msgstr "Support functies:"
+
+#: glade/glade_project_options.c:622
+msgid "The file in which the support functions are written"
+msgstr "Het bestand waarin de support functies geschreven wordt"
+
+#: glade/glade_project_options.c:639
+msgid "The file in which the declarations of the support functions are written"
+msgstr ""
+"Het bestand waarin de declaraties van de support functies geschreven wordt"
+
+#.
+#. * libglade Options Page.
+#.
+#: glade/glade_project_options.c:657
+msgid "LibGlade Options"
+msgstr "LibGlade Opties"
+
+#: glade/glade_project_options.c:666
+msgid "Translatable Strings:"
+msgstr "Vertaalbare Teksten:"
+
+#. Output translatable strings.
+#: glade/glade_project_options.c:680
+msgid "Save Translatable Strings"
+msgstr "Bewaar Vertaalbare Teksten"
+
+#: glade/glade_project_options.c:685
+msgid ""
+"If translatable strings are saved in a separate C source file, to enable "
+"translation of interfaces loaded by libglade"
+msgstr ""
+"Als vertaalbare teksten bewaard worden in een apart C broncode bestand om "
+"vertaling van interfaces mogelijk te maken geladen door libglade"
+
+#: glade/glade_project_options.c:695
+msgid "The C source file to save all translatable strings in"
+msgstr "Het C broncode bestand waarin alle vertaalbare teksten bewaard worden"
+
+#: glade/gbwidgets/gbpixmap.c:71 glade/glade_project_options.c:697
+#: glade/gnome/gnomepixmap.c:78
+msgid "File:"
+msgstr "Bestand:"
+
+#: glade/glade_project_options.c:1158
+msgid "Select the Project Directory"
+msgstr "Selekteer de projectmap"
+
+#: glade/glade_project_options.c:1349 glade/glade_project_options.c:1359
+#: glade/glade_project_options.c:1369
+msgid "You need to set the Translatable Strings File option"
+msgstr "U moet de bestandsoptie Vertaalbare Teksten selecteren"
+
+#: glade/glade_project_options.c:1353 glade/glade_project_options.c:1363
+msgid "You need to set the Project Directory option"
+msgstr "U moet de projectmap optie selecteren"
+
+#: glade/glade_project_options.c:1355 glade/glade_project_options.c:1365
+msgid "You need to set the Project File option"
+msgstr "U moet de optie projectbestand selecteren"
+
+#: glade/glade_project_options.c:1371
+msgid "You need to set the Project Name option"
+msgstr "U moet de optie projectnaam selecteren"
+
+#: glade/glade_project_options.c:1373
+msgid "You need to set the Program Name option"
+msgstr "U moet de optie projectnaam selecteren"
+
+#: glade/glade_project_options.c:1376
+msgid "You need to set the Source Directory option"
+msgstr "U moet de optie bronmap selecteren"
+
+#: glade/glade_project_options.c:1379
+msgid "You need to set the Pixmaps Directory option"
+msgstr "U moet de optie pixmaps map selecteren"
+
+#: glade/glade_project_window.c:156
+msgid "_New Project"
+msgstr "_Nieuw Project"
+
+#: glade/glade_project_window.c:156 glade/glade_project_window.c:480
+msgid "Create a new project"
+msgstr "Maak een nieuw project"
+
+#: glade/glade_project_window.c:164
+msgid "_Build Source Code"
+msgstr "_Bouw Broncode"
+
+#: glade/glade_project_window.c:165 glade/glade_project_window.c:527
+msgid "Output the project source code"
+msgstr "Genereer de project broncode"
+
+#: glade/glade_project_window.c:171
+msgid "_Project Options..."
+msgstr "_Project Opties..."
+
+#: glade/glade_project_window.c:172 glade/glade_project_window.c:536
+msgid "Edit the project options"
+msgstr "Wijzig de projectopties"
+
+#: glade/glade_project_window.c:187
+msgid "_Delete"
+msgstr "_Verwijder"
+
+#: glade/glade_project_window.c:187
+msgid "Delete the selected widget"
+msgstr "Verwijder het geselecteerde widget"
+
+#: glade/glade_project_window.c:197
+msgid "Show _Palette"
+msgstr "Toon _Palette"
+
+#: glade/glade_project_window.c:197 glade/glade_project_window.c:611
+msgid "Show the palette of widgets"
+msgstr "Toon het pallet van widgets"
+
+#: glade/glade_project_window.c:203
+msgid "Show Property _Editor"
+msgstr "Toon Eigenschappen _Editor"
+
+#: glade/glade_project_window.c:204
+msgid "Show the property editor"
+msgstr "Toon de eigenschappen editor"
+
+#: glade/glade_project_window.c:210
+msgid "Show Widget _Tree"
+msgstr "Toon Widget _Boom"
+
+#: glade/glade_project_window.c:211
+msgid "Show the widget tree"
+msgstr "Toont de widget boom"
+
+#: glade/glade_project_window.c:217
+msgid "Show _Clipboard"
+msgstr "Toon _Klembord"
+
+#: glade/glade_project_window.c:218 glade/glade_project_window.c:639
+msgid "Show the clipboard"
+msgstr "Toon het klembord"
+
+#: glade/glade_project_window.c:236
+msgid "Show _Grid"
+msgstr "Toon _Grid"
+
+#: glade/glade_project_window.c:237 glade/glade_project_window.c:670
+msgid "Show the grid (in fixed containers only)"
+msgstr "Toon het grid ( alleen in gefixeerde containers)"
+
+#: glade/glade_project_window.c:243
+msgid "_Snap to Grid"
+msgstr "_Snap naar Grid"
+
+#: glade/glade_project_window.c:244
+msgid "Snap widgets to the grid"
+msgstr "Snap widgets naar het grid"
+
+#: glade/glade_project_window.c:250
+msgid "Show _Widget Tooltips"
+msgstr "Toon _Widget Tooltips"
+
+#: glade/glade_project_window.c:251 glade/glade_project_window.c:650
+msgid "Show the tooltips of created widgets"
+msgstr "Toon de tooltips van gecreeerde widgets"
+
+#: glade/glade_project_window.c:260
+msgid "Set Grid _Options..."
+msgstr "Zet Grid _Opties..."
+
+#: glade/glade_project_window.c:261
+msgid "Set the grid style and spacing"
+msgstr "Zet de gridstijl en spatiering"
+
+#: glade/glade_project_window.c:267
+msgid "Set Snap O_ptions..."
+msgstr "Zet Snap O_pties..."
+
+#: glade/glade_project_window.c:268
+msgid "Set options for snapping to the grid"
+msgstr "Zet opties voor het snappen naar het grid"
+
+#: glade/glade_project_window.c:307 glade/glade_project_window.c:746
+#: glade/glade_project_window.c:879
+msgid "Open Project"
+msgstr "Open Project"
+
+#: glade/glade_project_window.c:312 glade/glade_project_window.c:752
+#: glade/glade_project_window.c:1163
+msgid "Save Project"
+msgstr "Bewaar Project"
+
+#: glade/glade_project_window.c:318 glade/glade_project_window.c:759
+msgid "Options"
+msgstr "Opties"
+
+#: glade/glade_project_window.c:324 glade/glade_project_window.c:765
+msgid "Build"
+msgstr "Bouw"
+
+#: glade/glade_project_window.c:324
+msgid "Build the Source Code"
+msgstr "Bouw de Broncode"
+
+#. create File menu
+#: glade/glade_project_window.c:467
+msgid "File"
+msgstr "Bestand"
+
+#: glade/glade_project_window.c:474 glade/glade_project_window.c:740
+msgid "New Project"
+msgstr "Nieuw Project"
+
+#: glade/glade_project_window.c:483
+msgid "Open..."
+msgstr "Open..."
+
+#: glade/glade_project_window.c:490
+msgid "Open an existing project"
+msgstr "Open een bestaand project"
+
+#: glade/glade_project_window.c:501
+msgid "Save project"
+msgstr "Bewaar project"
+
+#: glade/glade_project_window.c:519
+msgid "Write Source Code..."
+msgstr "Schrijf broncode..."
+
+#: glade/glade_project_window.c:530
+msgid "Project Options..."
+msgstr "Project Opties..."
+
+#: glade/glade_project_window.c:544 glade/glade_project_window.c:1380
+#, fuzzy
+msgid "Exit"
+msgstr "Wijzig"
+
+#: glade/glade_project_window.c:550
+#, fuzzy
+msgid "Exit Glade"
+msgstr "Afsluiten Glade"
+
+#. Create Edit menu
+#: glade/glade_project_window.c:555
+msgid "Edit"
+msgstr "Wijzig"
+
+#. Create View menu
+#: glade/glade_project_window.c:599
+msgid "View"
+msgstr "Toon"
+
+#: glade/glade_project_window.c:606
+msgid "Show Palette"
+msgstr "Toon Palette"
+
+#: glade/glade_project_window.c:615
+msgid "Show Properties"
+msgstr "Toon Eigenschappen"
+
+#: glade/glade_project_window.c:621
+msgid "Show the properties of the selected widget"
+msgstr "Toon de eigenschappen van de geselecteerde widget"
+
+#: glade/glade_project_window.c:624
+msgid "Show Widget Tree"
+msgstr "Toon Widgetbom"
+
+#: glade/glade_project_window.c:630
+msgid "Show the project widget tree"
+msgstr "Toon de project widgetboom"
+
+#: glade/glade_project_window.c:633
+msgid "Show Clipboard"
+msgstr "Toon Klembord"
+
+#: glade/glade_project_window.c:642
+msgid "Show Widget Tooltips"
+msgstr "Toon Widget Tooltips"
+
+#: glade/glade_project_window.c:654
+msgid "Grid"
+msgstr "Grid"
+
+#: glade/glade_project_window.c:662
+msgid "Show Grid"
+msgstr "Toon Grid"
+
+#: glade/glade_project_window.c:673
+msgid "Set Grid Options..."
+msgstr "Zet Grid Opties..."
+
+#: glade/glade_project_window.c:679
+msgid "Set the spacing between grid lines"
+msgstr "Zet de spatiering tussen gridlijnen"
+
+#: glade/glade_project_window.c:682
+msgid "Snap to Grid"
+msgstr "Snap naar Grid"
+
+#: glade/glade_project_window.c:690
+msgid "Snap widgets to the grid (in fixed containers only)"
+msgstr "Snap widgets naar het grid (allen in gefixeerde containers)"
+
+#: glade/glade_project_window.c:694
+msgid "Set Snap Options..."
+msgstr "Zet Snap Opties..."
+
+#: glade/glade_project_window.c:700
+msgid "Set which parts of a widget snap to the grid"
+msgstr "Zet welke delen van een widget naar het grid gesnapt worden"
+
+#. Don't show these yet as we have no help pages.
+#. menuitem = gtk_menu_item_new_with_label (_("Contents"));
+#. gtk_menu_append (GTK_MENU (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#. menuitem = gtk_menu_item_new_with_label (_("Index"));
+#. gtk_menu_append (GTK_MENU (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#. menuitem = gtk_menu_item_new ();
+#. gtk_menu_append (GTK_MENU (menu), menuitem);
+#. gtk_widget_show (menuitem);
+#.
+#: glade/glade_project_window.c:725
+msgid "About..."
+msgstr "Over..."
+
+#: glade/glade_project_window.c:765
+msgid "Write Source Code"
+msgstr "Schrijf broncode"
+
+#: glade/glade_project_window.c:843
+msgid "Are you sure you want to create a new project?"
+msgstr "Weet u zeker dat u een nieuw project wilt maken?"
+
+#: glade/glade_project_window.c:865
+msgid "New project created."
+msgstr "Nieuw project gemaakt."
+
+#: glade/glade_project_window.c:938
+msgid "Project opened."
+msgstr "Project geopend."
+
+#: glade/glade_project_window.c:946
+msgid "Error opening project."
+msgstr "Fout tijdens openen project."
+
+#: glade/glade_project_window.c:964
+msgid "Errors opening project file"
+msgstr "Fouten tijdens openen projectbestand"
+
+#: glade/glade_project_window.c:971
+msgid " errors opening project file:"
+msgstr "fouten tijdens openen projectbestand:"
+
+#: glade/glade_project_window.c:1230
+msgid "Error saving project"
+msgstr "Fout tijdens bewaren project"
+
+#: glade/glade_project_window.c:1232
+msgid "Error saving project."
+msgstr "Fout bij bewaren project."
+
+#: glade/glade_project_window.c:1238
+msgid "Project saved."
+msgstr "Project bewaard."
+
+#: glade/glade_project_window.c:1304
+msgid "Errors writing source code"
+msgstr "Fouten tijdens schrijven broncode"
+
+#: glade/glade_project_window.c:1306
+msgid "Error writing source."
+msgstr "Fouten tijdens schrijven broncode."
+
+#: glade/glade_project_window.c:1312
+msgid "Source code written."
+msgstr "Broncode geschreven."
+
+#: glade/glade_project_window.c:1345
+msgid "System error message:"
+msgstr "Systeemfoutmelding:"
+
+#: glade/glade_project_window.c:1383
+#, fuzzy
+msgid "Are you sure you want to exit?"
+msgstr "Weet u zeker dat u wilt stoppen?"
+
+#: glade/glade_project_window.c:1576
+msgid "(C) 1998-2001 Damon Chaplin"
+msgstr "(C)1998-2001 Damon Chaplin"
+
+#: glade/glade_project_window.c:1578
+msgid "Glade is a User Interface Builder for GTK+ and GNOME.\n"
+msgstr "Glade is een User Interface Bouwprogramma voor GTK+ en GNOME.\n"
+
+#: glade/glade_project_window.c:1589
+msgid "Glade Home Page"
+msgstr "Glade Startpagina"
+
+#: glade/glade_project_window.c:1600
+#, c-format
+msgid ""
+"G L A D E\n"
+"\n"
+"A User Interface Builder for GTK+ and GNOME\n"
+"\n"
+"Version %s\n"
+"\n"
+"By\n"
+"Damon Chaplin\n"
+"Martijn van Beers\n"
+"\n"
+"Email: damon@ximian.com\n"
+"Home Page: http://glade.gnome.org\n"
+msgstr ""
+"G L A D E\n"
+"\n"
+"Een User Interface bouwprogramma voor GTK+ en GNOME\n"
+"\n"
+"Versie %s\n"
+"\n"
+"Door\n"
+"Damon Chaplin\n"
+"Martijn Van Beers\n"
+"\n"
+"Email: damon@ximian.com\n"
+"Startpagina: http://glade.gnome.org\n"
+
+#: glade/glade_project_window.c:1659
+msgid "<untitled>"
+msgstr "<geennaam>"
+
+#: glade/load.c:135
+msgid "Couldn't open file.\n"
+msgstr "Kon bestand niet openen.\n"
+
+#: glade/load.c:562
+#, c-format
+msgid "Line %i - %s %s %s\n"
+msgstr "Regel %i - %s %s %s\n"
+
+#: glade/load.c:587
+#, c-format
+msgid ""
+"Line %i - %s:\n"
+"  %s = %s\n"
+msgstr ""
+"Regel %i - %s:\n"
+"  %s = %s\n"
+
+#: glade/main.c:65
+msgid "Write the source code and exit"
+msgstr "Schrijf de broncode en sluit af"
+
+#: glade/main.c:99
+msgid "Oaf options"
+msgstr "Oaf opties"
+
+#: glade/main.c:252
+msgid ""
+"glade: The XML file must be set for the '-w' or '--write-source' option.\n"
+msgstr ""
+"glade: Het XML bestand met gezet zijn met de '-w' of '--write-source' "
+"optie.\n"
+
+#: glade/main.c:264
+msgid "glade: Error loading XML file.\n"
+msgstr "glade: Fout tijdens laden XML bestand.\n"
+
+#: glade/main.c:271
+msgid "glade: Error writing source.\n"
+msgstr "glade: Fouten tijdens schrijven broncode.\n"
+
+#: glade/palette.c:52
+msgid "Palette"
+msgstr "Palette"
+
+#: glade/property.c:74
+msgid "private"
+msgstr "private"
+
+#: glade/property.c:74
+msgid "protected"
+msgstr "protected"
+
+#: glade/property.c:74
+msgid "public"
+msgstr "public"
+
+#: glade/property.c:103
+msgid "Prelight"
+msgstr "Prelight"
+
+#: glade/property.c:104
+msgid "Selected"
+msgstr "Geselecteerd"
+
+#: glade/property.c:104
+msgid "Insens"
+msgstr "Insens"
+
+#: glade/property.c:460
+msgid "When the window needs redrawing"
+msgstr "Als het venster opnieuw getekend moet worden"
+
+#: glade/property.c:461
+msgid "When the mouse moves"
+msgstr "Als de muis beweegt"
+
+#: glade/property.c:462
+msgid "Mouse movement hints"
+msgstr "Muisbewegingshints"
+
+#: glade/property.c:463
+msgid "Mouse movement with any button pressed"
+msgstr "Muisbeweging als op een knop gedrukt wordt"
+
+#: glade/property.c:464
+msgid "Mouse movement with button 1 pressed"
+msgstr "Muisbeweging met knop 1 ingedrukt"
+
+#: glade/property.c:465
+msgid "Mouse movement with button 2 pressed"
+msgstr "Muisbeweging met knop 2 ingedrukt"
+
+#: glade/property.c:466
+msgid "Mouse movement with button 3 pressed"
+msgstr "Muisbeweging met knop 3 ingedrukt"
+
+#: glade/property.c:467
+msgid "Any mouse button pressed"
+msgstr "Een muisknop ingedrukt"
+
+#: glade/property.c:468
+msgid "Any mouse button released"
+msgstr "Een muisknop losgelaten"
+
+#: glade/property.c:469
+msgid "Any key pressed"
+msgstr "Een toets ingedrukt"
+
+#: glade/property.c:470
+msgid "Any key released"
+msgstr "Een toets losgelaten"
+
+#: glade/property.c:471
+msgid "When the mouse enters the window"
+msgstr "Als de muis het venster binnenkomt"
+
+#: glade/property.c:472
+msgid "When the mouse leaves the window"
+msgstr "Als de muis het venster verlaat"
+
+#: glade/property.c:473
+msgid "Any change in input focus"
+msgstr "Elke verandering in invoerfocus"
+
+#: glade/property.c:474
+msgid "Any change in window structure"
+msgstr "Elke verandering in de vensterstructuur"
+
+#: glade/property.c:475
+msgid "Any change in X Windows property"
+msgstr "Elke verandering in X Windows eigenschap"
+
+#: glade/property.c:476
+msgid "Any change in visibility"
+msgstr "Elke verandering in zichtbaarheid"
+
+#: glade/property.c:477 glade/property.c:478
+msgid "For cursors in XInput-aware programs"
+msgstr "Voor cursors in XInput ondersteunde programma's"
+
+#. Create the pages of the main notebook
+#. NOTE: If you add/remove pages you need to change the GB_PAGE_SIGNALS
+#. value at the top of this file
+#: glade/property.c:530
+msgid "Widget"
+msgstr "Wdiget"
+
+#: glade/property.c:535
+msgid "Packing"
+msgstr "Inpakken"
+
+#: glade/property.c:540
+msgid "Common"
+msgstr "Veelgebruikt"
+
+#: glade/property.c:546
+msgid "Style"
+msgstr "Stijl"
+
+#: glade/property.c:552 glade/property.c:3609
+msgid "Signals"
+msgstr "Signalen"
+
+#: glade/property.c:605
+msgid "Properties: "
+msgstr "Eigenschappen: "
+
+#: glade/property.c:616
+msgid "Properties: <none>"
+msgstr "Eigenschappen: <geen>"
+
+#: glade/property.c:657
+msgid "Class:"
+msgstr "Klasse:"
+
+#: glade/property.c:658
+msgid "The class of the widget"
+msgstr "De klasse van het widget"
+
+#: glade/property.c:688
+msgid "X:"
+msgstr "X:"
+
+#: glade/property.c:689
+msgid "The left edge of the widget, relative to its parent"
+msgstr "De linkerhoek van de widget, relatief ten opzicht van zijn ouder"
+
+#: glade/property.c:691
+msgid "Y:"
+msgstr "V:"
+
+#: glade/property.c:692
+msgid "The top edge of the widget, relative to its parent"
+msgstr "De bovenkant van de widget, relatief ten opzicht van zijn ouder"
+
+#: glade/property.c:694
+msgid "Width:"
+msgstr "Breedte:"
+
+#: glade/property.c:695
+msgid "The width of the widget"
+msgstr "De breedte van de widget"
+
+#: glade/property.c:697
+msgid "Height:"
+msgstr "Hoogte:"
+
+#: glade/property.c:698
+msgid "The height of the widget"
+msgstr "De hoogte van de widget"
+
+#: glade/property.c:701
+msgid "Visible:"
+msgstr "Zichtbaar:"
+
+#: glade/property.c:702
+msgid "If the widget is initially visible"
+msgstr "Als de widget initieel zichtbaar is"
+
+#: glade/property.c:703
+msgid "Sensitive:"
+msgstr "Gevoelig:"
+
+#: glade/property.c:704
+msgid "If the widget responds to input"
+msgstr "Als de widget reageert op invoer"
+
+#: glade/property.c:706
+msgid "The tooltip to display if the mouse lingers over the widget"
+msgstr ""
+"De tooltip die getoond wordt als de muis over de widget geplaatst wordt"
+
+#: glade/property.c:708
+msgid "Can Default:"
+msgstr "Kan Standaard:"
+
+#: glade/property.c:709
+msgid "If the widget can be the default"
+msgstr "Als de widget de standaard kan zijn"
+
+#: glade/property.c:710
+msgid "Has Default:"
+msgstr "Heeft Standaard:"
+
+#: glade/property.c:711
+msgid "If the widget is the default"
+msgstr "Als de widget de standaard is"
+
+#: glade/property.c:712
+msgid "Can Focus:"
+msgstr "Kan Focus:"
+
+#: glade/property.c:713
+msgid "If the widget can accept the input focus"
+msgstr "Als de widget de invoerfocus kan accepteren"
+
+#: glade/property.c:714
+msgid "Has Focus:"
+msgstr "Heeft Focus:"
+
+#: glade/property.c:715
+msgid "If the widget has the input focus"
+msgstr "Als de widget de invoerfocus heeft"
+
+#: glade/property.c:717
+msgid "Events:"
+msgstr "Gebeurtenissen:"
+
+#: glade/property.c:718
+msgid "The X events that the widget receives"
+msgstr "De X gebeurtenissen die de widget ontvangt"
+
+#: glade/property.c:720
+msgid "Ext.Events:"
+msgstr "Ext. Gebeurtenissen:"
+
+#: glade/property.c:721
+msgid "The X Extension events mode"
+msgstr "De X Uitbreidingsgebeurtenissen modus"
+
+#: glade/property.c:724
+msgid "Accelerators:"
+msgstr "Acceleratoren:"
+
+#: glade/property.c:725
+msgid "Defines the signals to emit when keys are pressed"
+msgstr "Definieert de signalen om te versturen als toetsen ingedrukt worden"
+
+#: glade/property.c:726
+msgid "Edit..."
+msgstr "Wijzig..."
+
+#: glade/property.c:746
+msgid "Propagate:"
+msgstr "Propageer:"
+
+#: glade/property.c:747
+msgid "Set True to propagate the style to the widget's children"
+msgstr "Zet True om de stijl van de widget te propageren naar zijn kinderen"
+
+#: glade/property.c:748
+msgid "Named Style:"
+msgstr "Genaamde stijl:"
+
+#: glade/property.c:749
+msgid "The name of the style, which can be shared by several widgets"
+msgstr "De naam van de stijl die gedeeld kan worden door verschillende widgets"
+
+#: glade/gnome/gnomeless.c:77 glade/property.c:751
+msgid "Font:"
+msgstr "Lettertype:"
+
+#: glade/property.c:752
+msgid "The font to use for any text in the widget"
+msgstr "Het lettertype dat gebruikt wordt voor teksten in de widget"
+
+#: glade/property.c:778
+msgid "Copy All"
+msgstr "Kopieer Alles"
+
+#: glade/property.c:806
+msgid "Foreground:"
+msgstr "Voorgrond:"
+
+#: glade/property.c:806
+msgid "Background:"
+msgstr "Achtergrond:"
+
+#: glade/gbwidgets/gbentry.c:73 glade/gbwidgets/gbtext.c:65
+#: glade/gnome/gnomedruidpagefinish.c:74 glade/gnome/gnomedruidpagestart.c:73
+#: glade/property.c:806
+msgid "Text:"
+msgstr "Tekst:"
+
+#: glade/property.c:806
+msgid "Base:"
+msgstr "Basis:"
+
+#: glade/property.c:808
+msgid "Foreground color"
+msgstr "Voorgrondkleur"
+
+#: glade/property.c:808
+msgid "Background color"
+msgstr "Achtergrondkleur"
+
+#: glade/property.c:808
+msgid "Text color"
+msgstr "Tekstkleur"
+
+#: glade/property.c:809
+msgid "Base color"
+msgstr "Basiskleur"
+
+#: glade/property.c:825
+msgid "Back. Pixmap:"
+msgstr "Achtergrond Pixmap:"
+
+#: glade/property.c:826
+msgid "The graphic to use as the background of the widget"
+msgstr "De tekening die gebruikt wordt als achtergrond van de widget"
+
+#: glade/property.c:874
+msgid "The file to write source code into"
+msgstr "Het bestand waarin broncode geschreven moet worden"
+
+#: glade/property.c:875
+msgid "Public:"
+msgstr "Public:"
+
+#: glade/property.c:876
+msgid "If the widget is added to the component's data structure"
+msgstr "Als de widget toegevoegd wordt aan de datastructuur van de component"
+
+#: glade/property.c:886
+msgid "Separate File:"
+msgstr "Scheid Bestand:"
+
+#: glade/property.c:887
+msgid "Put this widget in a separate source file"
+msgstr "Plaats dit widget in een apart broncode bestand"
+
+#: glade/property.c:888
+msgid "Use Heap:"
+msgstr "Gebruik Heap:"
+
+#: glade/property.c:889
+msgid ""
+"If the widget is allocated from the heap rather than from the parent's "
+"memory block"
+msgstr ""
+"Als de widget gealloceerd wordt van de heap in plaats van zijn ouder's "
+"geheugenblok"
+
+#: glade/property.c:890
+msgid "Separate Class:"
+msgstr "Scheid Klasse:"
+
+#: glade/property.c:891
+msgid "Put this widget's subtree in a separate class"
+msgstr "Plaats deze widgets subboom in een aparte klasse"
+
+#: glade/property.c:892
+msgid "Visibility:"
+msgstr "Zichtbaarheid:"
+
+#: glade/property.c:893
+msgid "Visibility of widgets. Public widgets are exported to a global map."
+msgstr ""
+"Zichtbaarheid van widgets. Publieke widgets worden geexporteerd naar een "
+"globale map."
+
+#: glade/property.c:1000
+msgid "You need to select a color or background to copy"
+msgstr "U moet een kleur of achtergrondkleur selekteren om te kopieeren"
+
+#: glade/property.c:1019
+msgid "Invalid selection in on_style_copy()"
+msgstr "Ongeldige selektie in on_style_copy()"
+
+#: glade/property.c:1061
+msgid "You need to copy a color or background pixmap first"
+msgstr "U moet eerst een kleur of achtergrond pixmap kopieeren"
+
+#: glade/property.c:1067
+msgid "You need to select a color to paste into"
+msgstr "U moet een kleur selecteren om in te plakken"
+
+#: glade/property.c:1077
+msgid "You need to select a background pixmap to paste into"
+msgstr "U moet een achtergrond pixmap selecteren om in te plakken"
+
+#: glade/gbwidgets/gbcolorselectiondialog.c:327 glade/property.c:1149
+msgid "Color Selection Dialog"
+msgstr "Kleur Selektie Dialoog"
+
+#: glade/gbwidgets/gbfileselection.c:65 glade/property.c:1239
+msgid "Select File"
+msgstr "Selekteer Bestand"
+
+#: glade/gbwidgets/gbpixmap.c:155 glade/gbwidgets/gbtoolbar.c:1444
+#: glade/property.c:1323
+msgid "Couldn't create pixmap from file\n"
+msgstr "Kon pixmap niet maken van bestand\n"
+
+#. List of current signal handlers - Signal/Handler/Data/Options
+#: glade/property.c:1362
+msgid "Signal"
+msgstr "Signaal"
+
+#: glade/property.c:1364
+msgid "Data"
+msgstr "Data"
+
+#: glade/property.c:1365
+msgid "After"
+msgstr "Erna"
+
+#: glade/property.c:1366
+msgid "Object"
+msgstr "Object"
+
+#: glade/property.c:1396 glade/property.c:1581
+msgid "Signal:"
+msgstr "Signaal:"
+
+#: glade/property.c:1397
+msgid "The signal to add a handler for"
+msgstr "Het signaal waaraan een handler toegevoegd moet worden"
+
+#: glade/property.c:1411
+msgid "The function to handle the signal"
+msgstr "De functie die het signaal afhandelt"
+
+#: glade/property.c:1414
+msgid "Data:"
+msgstr "Data:"
+
+#: glade/property.c:1415
+msgid "The data passed to the handler"
+msgstr "De data die doorgegeven wordt aan de handler."
+
+#: glade/property.c:1416
+msgid "Object:"
+msgstr "Object:"
+
+#: glade/property.c:1417
+msgid "The object which receives the signal"
+msgstr "Het object dat het signaal ontvangt"
+
+#: glade/property.c:1418
+msgid "After:"
+msgstr "Erna:"
+
+#: glade/property.c:1419
+msgid "If the handler runs after the class function"
+msgstr "Als de handler uitgevoerd wordt na de klassefunctie"
+
+#: glade/property.c:1438 glade/property.c:1594
+msgid "Update"
+msgstr "Update"
+
+#: glade/property.c:1493 glade/property.c:1504
+msgid "Accelerators"
+msgstr "Accelerators"
+
+#. List of current accelerators - Mods/Keys/Signals
+#: glade/property.c:1535
+msgid "Mod"
+msgstr "Mod"
+
+#: glade/property.c:1536
+msgid "Key"
+msgstr "Toets"
+
+#: glade/property.c:1537
+msgid "Signal to emit"
+msgstr "Te versturen Signaal "
+
+#: glade/property.c:1580
+msgid "The accelerator key"
+msgstr "De acceleratietoets"
+
+#: glade/property.c:1582
+msgid "The signal to emit when the accelerator is pressed"
+msgstr ""
+"Het signaal dat verstuurd moet worden als de accelerator ingedrukt wordt"
+
+#: glade/property.c:2897
+msgid "Select X Events"
+msgstr "Selekteer X Gebeurtenissen"
+
+#: glade/property.c:2904
+msgid "Event Mask"
+msgstr "Gebeurtenismasker"
+
+#: glade/property.c:2905
+msgid "Description"
+msgstr "Omschrijving"
+
+#: glade/property.c:3054 glade/property.c:3103
+msgid "You need to set the accelerator key"
+msgstr "U moet de acceleratortoets zetten"
+
+#: glade/property.c:3061 glade/property.c:3110
+msgid "You need to set the signal to emit"
+msgstr "U moet het signaal om te versturen zetten"
+
+#: glade/property.c:3344 glade/property.c:3400
+msgid "You need to set the signal name"
+msgstr "U moet de naam van het signaal zetten"
+
+#: glade/property.c:3351 glade/property.c:3407
+msgid "You need to set the handler for the signal"
+msgstr "U moet de handler voor het signaal zetten"
+
+#: glade/property.c:3602
+msgid "Select Signal"
+msgstr "Selekteer Signaal"
+
+#. This groups the signals by class, e.g. 'GtkButton signals'.
+#: glade/property.c:3645
+#, c-format
+msgid "%s signals"
+msgstr "%s signalen"
+
+#: glade/gbwidgets/gbprogressbar.c:118 glade/property.c:3843
+msgid "Value:"
+msgstr "Waarde:"
+
+#: glade/property.c:3843
+msgid "Min:"
+msgstr "Min:"
+
+#: glade/gbwidgets/gbhruler.c:91 glade/gbwidgets/gbvruler.c:91
+#: glade/property.c:3843
+msgid "Max:"
+msgstr "Max:"
+
+#: glade/property.c:3843
+msgid "Step Inc:"
+msgstr "Stapgrootte:"
+
+#: glade/property.c:3844
+msgid "Page Inc:"
+msgstr "Pagina Inc:"
+
+#: glade/property.c:3844
+msgid "Page Size:"
+msgstr "Paginagrootte:"
+
+#: glade/property.c:3846
+msgid "H Value:"
+msgstr "H Waarde:"
+
+#: glade/property.c:3846
+msgid "H Min:"
+msgstr "H Min:"
+
+#: glade/property.c:3846
+msgid "H Max:"
+msgstr "H Max:"
+
+#: glade/property.c:3846
+msgid "H Step Inc:"
+msgstr "H Stapgrootte:"
+
+#: glade/property.c:3847
+msgid "H Page Inc:"
+msgstr "H Pagina Inc:"
+
+#: glade/property.c:3847
+msgid "H Page Size:"
+msgstr "H Paginagrootte:"
+
+#: glade/property.c:3849
+msgid "V Value:"
+msgstr "V Waarde:"
+
+#: glade/property.c:3849
+msgid "V Min:"
+msgstr "V Min:"
+
+#: glade/property.c:3849
+msgid "V Max:"
+msgstr "V Max:"
+
+#: glade/property.c:3849
+msgid "V Step Inc:"
+msgstr "V Stapgrootte:"
+
+#: glade/property.c:3850
+msgid "V Page Inc:"
+msgstr "V Pagina Inc:"
+
+#: glade/property.c:3850
+msgid "V Page Size:"
+msgstr "V Paginagrootte:"
+
+#: glade/gbwidgets/gbprogressbar.c:118 glade/property.c:3853
+msgid "The initial value"
+msgstr "De initiele waarde"
+
+#: glade/gbwidgets/gbprogressbar.c:119 glade/property.c:3854
+msgid "The minimum value"
+msgstr "De minimale waarde"
+
+#: glade/gbwidgets/gbprogressbar.c:120 glade/property.c:3855
+msgid "The maximum value"
+msgstr "De maximale waarde"
+
+#: glade/property.c:3856
+msgid "The step increment"
+msgstr "De stapgrootte"
+
+#: glade/property.c:3857
+msgid "The page increment"
+msgstr "De pagina increment"
+
+#: glade/property.c:3858
+msgid "The page size"
+msgstr "De paginagrootte"
+
+#: glade/property.c:4013
+msgid "The requested font is not available."
+msgstr "Het gevraagde lettertype is niet beschikbaar."
+
+#: glade/property.c:4062
+msgid "Select Named Style"
+msgstr "Selecteer Genaamde Stijl"
+
+#: glade/property.c:4073
+msgid "Styles"
+msgstr "Stijlen"
+
+#: glade/property.c:4132
+msgid "Rename"
+msgstr "Hernoemen"
+
+#: glade/property.c:4280
+msgid "New Style:"
+msgstr "Nieuwe Stijl:"
+
+#: glade/property.c:4294 glade/property.c:4415
+msgid "Invalid style name"
+msgstr "Ongeldige stijlnaam"
+
+#: glade/property.c:4302 glade/property.c:4425
+msgid "That style name is already in use"
+msgstr "Deze stijlnaam is al in gebruik"
+
+#: glade/property.c:4400
+msgid "Rename Style To:"
+msgstr "Hernoem stijlnaam naar:"
+
+#: glade/save.c:126 glade/source.c:2885
+#, c-format
+msgid ""
+"Couldn't rename file:\n"
+"  %s\n"
+"to:\n"
+"  %s\n"
+msgstr ""
+"Kon bestand\n"
+"  %s niet hernoemen\n"
+"naar:\n"
+"  %s\n"
+
+#: glade/save.c:135 glade/save.c:662 glade/source.c:355 glade/source.c:370
+#: glade/source.c:388 glade/source.c:401 glade/source.c:782
+#: glade/source.c:1013 glade/source.c:1140 glade/source.c:1329
+#: glade/source.c:1388 glade/source.c:1499 glade/source.c:1785
+#: glade/source.c:1875 glade/source.c:1927 glade/source.c:1990
+#: glade/source.c:2038 glade/source.c:2159 glade/utils.c:1355
+#, c-format
+msgid ""
+"Couldn't create file:\n"
+"  %s\n"
+msgstr ""
+"Kon bestand %s\n"
+"niet maken\n"
+
+#: glade/save.c:563
+msgid "Error writing XML file\n"
+msgstr "Fout tijdens schrijven XML bestand\n"
+
+#: glade/save.c:668
+msgid ""
+"/*\n"
+" * Translatable strings file generated by Glade.\n"
+" * Add this file to your project's POTFILES.in.\n"
+" * DO NOT compile it as part of your application.\n"
+" */\n"
+"\n"
+msgstr ""
+"/*\n"
+" * Vertaalbare teksten bestand gegenereerd door Glade.\n"
+" * Voeg dit bestand toe aan uw project's bestand POTFILES.in.\n"
+" * Compileer dit NIET als onderdeel van uw applicatie.\n"
+" */\n"
+"\n"
+
+#: glade/source.c:181
+#, c-format
+msgid ""
+"Invalid interface source filename: %s\n"
+"%s\n"
+msgstr ""
+"Ongeldige interface broncode bestandsnaam: %s\n"
+"%s\n"
+
+#: glade/source.c:183
+#, c-format
+msgid ""
+"Invalid interface header filename: %s\n"
+"%s\n"
+msgstr ""
+"Ongeldige interface header bestandsnaam: %s\n"
+"%s\n"
+
+#: glade/source.c:186
+#, c-format
+msgid ""
+"Invalid callbacks source filename: %s\n"
+"%s\n"
+msgstr ""
+"Ongeldige callback broncode bestandsnaam: %s\n"
+"%s\n"
+
+#: glade/source.c:188
+#, c-format
+msgid ""
+"Invalid callbacks header filename: %s\n"
+"%s\n"
+msgstr ""
+"Ongeldige callback header bestandsnaam: %s\n"
+"%s\n"
+
+#: glade/source.c:194
+#, c-format
+msgid ""
+"Invalid support source filename: %s\n"
+"%s\n"
+msgstr ""
+"Ongeldige support broncode bestandsnaam: %s\n"
+"%s\n"
+
+#: glade/source.c:196
+#, c-format
+msgid ""
+"Invalid support header filename: %s\n"
+"%s\n"
+msgstr ""
+"Ongeldige support header bestandsnaam: %s\n"
+"%s\n"
+
+#: glade/source.c:415 glade/source.c:423
+#, c-format
+msgid ""
+"Couldn't append to file:\n"
+"  %s\n"
+msgstr ""
+"Kon niet toevoegen aan bestand:\n"
+" %s\n"
+
+#: glade/source.c:791
+msgid ""
+"/*\n"
+" * Initial main.c file generated by Glade. Edit as required.\n"
+" * Glade will not overwrite this file.\n"
+" */\n"
+"\n"
+msgstr ""
+"/*\n"
+" * Initieel main.c bestand gegenereerd door Glade. Wijzig indien nodig.\n"
+" * Glade zal dit bestand niet overschrijven.\n"
+" */\n"
+"\n"
+
+#: glade/source.c:1867 glade/utils.c:1376
+#, c-format
+msgid ""
+"Error writing to file:\n"
+"  %s\n"
+msgstr ""
+"Fout tijdens schrijven naar bestand:\n"
+"  %s\n"
+
+#: glade/source.c:2857
+msgid "The filename must be set in the Project Options dialog."
+msgstr "De bestandsnaam moet gezet zijn in de Project Opties Dialoog."
+
+#: glade/source.c:2860
+msgid ""
+"The filename must be a simple relative filename.\n"
+"Use the Project Options dialog to set it."
+msgstr ""
+"De bestandsnaam moet een eenvoudige relatieve bestandsnaam zijn.\n"
+"Gebruik de Project Opties Dialoog om het te zetten."
+
+#: glade/source.c:2929
+msgid "DO NOT EDIT THIS FILE - it is generated by Glade."
+msgstr "WIJZIG DIT BESTAND NIET - het is gegenereerd door Glade."
+
+#: glade/tree.c:79
+msgid "Widget Tree"
+msgstr "Wdiget Boom"
+
+#: glade/utils.c:1103 glade/utils.c:1143
+msgid "Widget not found in box"
+msgstr "Widget niet gevonden in doos"
+
+#: glade/utils.c:1123
+msgid "Widget not found in table"
+msgstr "Widget niet gevonden in tabel"
+
+#: glade/utils.c:1163
+msgid "Widget not found in fixed container"
+msgstr "Widget niet gevonden in gefixeerde container"
+
+#: glade/utils.c:1183
+msgid "Widget not found in packer"
+msgstr "Widget niet gevonden in verpakker"
+
+#: glade/utils.c:1326
+#, c-format
+msgid ""
+"Couldn't access file:\n"
+"  %s\n"
+msgstr ""
+"Kon geen toegang krijgen tot bestand:\n"
+"  %s\n"
+
+#: glade/utils.c:1349
+#, c-format
+msgid ""
+"Couldn't open file:\n"
+"  %s\n"
+msgstr ""
+"Kon bestand niet openen:\n"
+"  %s\n"
+
+#: glade/utils.c:1366
+#, c-format
+msgid ""
+"Error reading from file:\n"
+"  %s\n"
+msgstr ""
+"Fout tijdens lezen van bestand:\n"
+"  %s\n"
+
+#. This happens under WIN32 when stat is confused by the filename, but this is
+#. harmless, since we know that the directory exists after all.
+#: glade/utils.c:1431
+#, c-format
+msgid ""
+"Couldn't create directory:\n"
+"  %s\n"
+msgstr ""
+"Kon niet maken map:\n"
+"  %s\n"
+
+#: glade/utils.c:1437
+#, c-format
+msgid ""
+"Couldn't access directory:\n"
+"  %s\n"
+msgstr ""
+"Kon map niet benaderen:\n"
+"  %s\n"
+
+#: glade/utils.c:1445
+#, c-format
+msgid ""
+"Invalid directory:\n"
+"  %s\n"
+msgstr ""
+"Ongeldige map:\n"
+"  %s\n"
+
+#: glade/utils.c:1811
+msgid "Projects"
+msgstr "Projecten"
+
+#: glade/utils.c:1818
+msgid "project"
+msgstr "project"
+
+#: glade/utils.c:1824
+#, c-format
+msgid ""
+"Couldn't open directory:\n"
+"  %s\n"
+msgstr ""
+"Kon map niet openen:\n"
+"  %s\n"
+
+#: glade/gbwidgets/gbaccellabel.c:86 glade/gbwidgets/gbaspectframe.c:93
+#: glade/gbwidgets/gbbutton.c:169 glade/gbwidgets/gbbutton.c:175
+#: glade/gbwidgets/gbcheckbutton.c:76 glade/gbwidgets/gbcheckmenuitem.c:73
+#: glade/gbwidgets/gbentry.c:73 glade/gbwidgets/gbframe.c:87
+#: glade/gbwidgets/gblabel.c:124 glade/gbwidgets/gblistitem.c:73
+#: glade/gbwidgets/gbmenuitem.c:85 glade/gbwidgets/gbradiobutton.c:102
+#: glade/gbwidgets/gbradiomenuitem.c:93 glade/gbwidgets/gbtext.c:65
+#: glade/gbwidgets/gbtogglebutton.c:114 glade/gbwidgets/gbtreeitem.c:71
+#: glade/gnome/gbpixmapmenuitem.c:79
+msgid "The text to display"
+msgstr "De tekst om weer te geven"
+
+#: glade/gbwidgets/gbaccellabel.c:87 glade/gbwidgets/gblabel.c:125
+msgid "Justify:"
+msgstr "Aanpassen:"
+
+#: glade/gbwidgets/gbaccellabel.c:88 glade/gbwidgets/gblabel.c:126
+msgid "The justification of the lines of the label"
+msgstr "De aanpassing van de regels van het label"
+
+#: glade/gbwidgets/gbaccellabel.c:90 glade/gbwidgets/gblabel.c:128
+msgid "Wrap Text:"
+msgstr "Ombuigen tekst:"
+
+#: glade/gbwidgets/gbaccellabel.c:91 glade/gbwidgets/gblabel.c:129
+msgid "If the text is wrapped to fit within the width of the label"
+msgstr ""
+"Als de tekst omgebogen wordt zodat het binnen de breedte van het label past"
+
+#: glade/gbwidgets/gbaccellabel.c:92 glade/gbwidgets/gbalignment.c:66
+#: glade/gbwidgets/gbarrow.c:108 glade/gbwidgets/gbaspectframe.c:99
+#: glade/gbwidgets/gbimage.c:354 glade/gbwidgets/gblabel.c:130
+#: glade/gbwidgets/gbpixmap.c:72 glade/gbwidgets/gbprogressbar.c:138
+msgid "X Align:"
+msgstr "X Uitlijnen:"
+
+#: glade/gbwidgets/gbaccellabel.c:93 glade/gbwidgets/gblabel.c:131
+msgid "The horizontal alignment of the entire label"
+msgstr "De horizontale uitlijning van het gehele label"
+
+#: glade/gbwidgets/gbaccellabel.c:95 glade/gbwidgets/gbalignment.c:69
+#: glade/gbwidgets/gbarrow.c:111 glade/gbwidgets/gbaspectframe.c:102
+#: glade/gbwidgets/gbimage.c:357 glade/gbwidgets/gblabel.c:133
+#: glade/gbwidgets/gbpixmap.c:75 glade/gbwidgets/gbprogressbar.c:141
+msgid "Y Align:"
+msgstr "V Uitlijnen:"
+
+#: glade/gbwidgets/gbaccellabel.c:96 glade/gbwidgets/gblabel.c:134
+msgid "The vertical alignment of the entire label"
+msgstr "De vertikale uitlijning van het gehele label"
+
+#: glade/gbwidgets/gbaccellabel.c:98 glade/gbwidgets/gbarrow.c:114
+#: glade/gbwidgets/gbhbuttonbox.c:200 glade/gbwidgets/gbimage.c:360
+#: glade/gbwidgets/gblabel.c:136 glade/gbwidgets/gbpixmap.c:78
+msgid "X Pad:"
+msgstr "X Pad:"
+
+#: glade/gbwidgets/gbaccellabel.c:98 glade/gbwidgets/gbarrow.c:114
+#: glade/gbwidgets/gbimage.c:360 glade/gbwidgets/gblabel.c:136
+#: glade/gbwidgets/gbpixmap.c:78 glade/gbwidgets/gbtable.c:378
+msgid "The horizontal padding"
+msgstr "De horizontalle padding"
+
+#: glade/gbwidgets/gbaccellabel.c:100 glade/gbwidgets/gbarrow.c:116
+#: glade/gbwidgets/gbhbuttonbox.c:203 glade/gbwidgets/gbimage.c:362
+#: glade/gbwidgets/gblabel.c:138 glade/gbwidgets/gbpixmap.c:80
+msgid "Y Pad:"
+msgstr "V Pad:"
+
+#: glade/gbwidgets/gbaccellabel.c:100 glade/gbwidgets/gbarrow.c:116
+#: glade/gbwidgets/gbimage.c:362 glade/gbwidgets/gblabel.c:138
+#: glade/gbwidgets/gbpixmap.c:80 glade/gbwidgets/gbtable.c:381
+msgid "The vertical padding"
+msgstr "De vertikale padding"
+
+#: glade/gbwidgets/gbaccellabel.c:303
+msgid "Label with Accelerator"
+msgstr "Label met Accelerator"
+
+#: glade/gbwidgets/gbalignment.c:67
+msgid "The horizontal alignment of the child widget"
+msgstr "De horizontale uitlijning van het kind widget"
+
+#: glade/gbwidgets/gbalignment.c:70
+msgid "The vertical alignment of the child widget"
+msgstr "De vertikale uitlijning van het kind widget"
+
+#: glade/gbwidgets/gbalignment.c:72
+msgid "X Scale:"
+msgstr "X Schaal:"
+
+#: glade/gbwidgets/gbalignment.c:73
+msgid "The horizontal scale of the child widget"
+msgstr "De horizontale schaal van het kind widget"
+
+#: glade/gbwidgets/gbalignment.c:75
+msgid "Y Scale:"
+msgstr "Y Schaal:"
+
+#: glade/gbwidgets/gbalignment.c:76
+msgid "The vertical scale of the child widget"
+msgstr "De vertikale schaal van het kind widget"
+
+#: glade/gbwidgets/gbalignment.c:179
+msgid "Alignment"
+msgstr "Uitlijning"
+
+#: glade/gbwidgets/gbarrow.c:104
+msgid "Direction:"
+msgstr "Richting:"
+
+#: glade/gbwidgets/gbarrow.c:104
+msgid "The direction of the arrow"
+msgstr "De richting van de pijl"
+
+#: glade/gbwidgets/gbarrow.c:106 glade/gbwidgets/gbaspectframe.c:97
+#: glade/gbwidgets/gbclist.c:267 glade/gbwidgets/gbctree.c:253
+#: glade/gbwidgets/gbframe.c:91 glade/gbwidgets/gbhandlebox.c:109
+#: glade/gbwidgets/gbmenubar.c:118 glade/gbwidgets/gbviewport.c:104
+#: glade/gnome/gnomedockitem.c:212
+msgid "Shadow:"
+msgstr "Schaduw:"
+
+#: glade/gbwidgets/gbarrow.c:106
+msgid "The shadow type of the arrow"
+msgstr "Het schaduwtype van de pijl"
+
+#: glade/gbwidgets/gbarrow.c:109
+msgid "The horizontal alignment of the arrow"
+msgstr "De horizontale uitlijning van de pijl"
+
+#: glade/gbwidgets/gbarrow.c:112
+msgid "The vertical alignment of the arrow"
+msgstr "De vertikale uitlijning van de pijl"
+
+#: glade/gbwidgets/gbarrow.c:319
+msgid "Arrow"
+msgstr "Pijl"
+
+#: glade/gbwidgets/gbaspectframe.c:94 glade/gbwidgets/gbframe.c:88
+msgid "Label X Align:"
+msgstr "Label X Uitlijning:"
+
+#: glade/gbwidgets/gbaspectframe.c:95 glade/gbwidgets/gbframe.c:89
+msgid "The horizontal alignment of the frame's label"
+msgstr "De horizontale uitlijning van de label van het frame"
+
+#: glade/gbwidgets/gbaspectframe.c:97 glade/gbwidgets/gbframe.c:91
+msgid "The type of shadow of the frame"
+msgstr "Het type schaduw van het frame"
+
+#: glade/gbwidgets/gbaspectframe.c:100 glade/gbwidgets/gbaspectframe.c:103
+msgid "The horizontal alignment of the frame's child"
+msgstr "De horizontale uitlijning van het kind van het frame"
+
+#: glade/gbwidgets/gbaspectframe.c:105
+msgid "Ratio:"
+msgstr "Ratio:"
+
+#: glade/gbwidgets/gbaspectframe.c:106
+msgid "The aspect ratio of the frame's child"
+msgstr "De aspectratio van het kind van het frame"
+
+#: glade/gbwidgets/gbaspectframe.c:107
+msgid "Obey Child:"
+msgstr "Gehoorzaam Kind:"
+
+#: glade/gbwidgets/gbaspectframe.c:108
+msgid "If the aspect ratio should be determined by the child"
+msgstr "Als de aspect ratio bepaald moet worden door het kind"
+
+#: glade/gbwidgets/gbaspectframe.c:295
+msgid "Aspect Frame"
+msgstr "Aspect Frame"
+
+#: glade/gbwidgets/gbbutton.c:166
+msgid "Stock Button:"
+msgstr "Stock Knop:"
+
+#: glade/gbwidgets/gbbutton.c:167
+msgid "The Gnome stock button to use"
+msgstr "De Gnome stock knop om te gebruiken"
+
+#: glade/gbwidgets/gbbutton.c:170 glade/gbwidgets/gbbutton.c:176
+#: glade/gbwidgets/gbtogglebutton.c:115 glade/gbwidgets/gbtoolbar.c:316
+msgid "Button Relief:"
+msgstr "Knop Relief:"
+
+#: glade/gbwidgets/gbbutton.c:171 glade/gbwidgets/gbbutton.c:177
+#: glade/gbwidgets/gbtogglebutton.c:116
+msgid "The relief style of the button"
+msgstr "De reliefstijl van de knop"
+
+#: glade/gbwidgets/gbbutton.c:179 glade/gbwidgets/gbbutton.c:195
+msgid "The pixmap to display"
+msgstr "De pixmap om te tonen"
+
+#: glade/gbwidgets/gbbutton.c:343
+msgid "Invalid stock button"
+msgstr "Ongeldige stock knop"
+
+#: glade/gbwidgets/gbbutton.c:655 glade/gbwidgets/gbtoolbar.c:1314
+msgid "Invalid stock pixmap"
+msgstr "Ongeldige stock pixmap"
+
+#: glade/gbwidgets/gbbutton.c:1001
+msgid "Button"
+msgstr "Knop"
+
+#: glade/gbwidgets/gbcalendar.c:73
+msgid "Heading:"
+msgstr "Hoofd:"
+
+#: glade/gbwidgets/gbcalendar.c:74
+msgid "If the month and year should be shown at the top"
+msgstr "Als de maand en jaar aan het begin getoond moeten worden"
+
+#: glade/gbwidgets/gbcalendar.c:75
+msgid "Day Names:"
+msgstr "Dag namen:"
+
+#: glade/gbwidgets/gbcalendar.c:76
+msgid "If the day names should be shown"
+msgstr "Als de dagnamen getoond moeten worden"
+
+#: glade/gbwidgets/gbcalendar.c:77
+msgid "Fixed Month:"
+msgstr "Gefixeerde maanden:"
+
+#: glade/gbwidgets/gbcalendar.c:78
+msgid "If the month and year shouldn't be changeable"
+msgstr "Als de maanden en het jaar niet veranderbaar mogen worden"
+
+#: glade/gbwidgets/gbcalendar.c:79
+msgid "Week Numbers:"
+msgstr "Weeknummers:"
+
+#: glade/gbwidgets/gbcalendar.c:80
+msgid "If the number of the week should be shown"
+msgstr "Als het nummer van de week getoond moet worden"
+
+#: glade/gbwidgets/gbcalendar.c:81 glade/gnome/gnomedateedit.c:73
+msgid "Monday First:"
+msgstr "Maandag Eerst:"
+
+#: glade/gbwidgets/gbcalendar.c:82 glade/gnome/gnomedateedit.c:74
+msgid "If the week should start on Monday"
+msgstr "Als de week moet beginnen op Maandag"
+
+#: glade/gbwidgets/gbcalendar.c:250
+msgid "Calendar"
+msgstr "kalender"
+
+#: glade/gbwidgets/gbcheckbutton.c:77 glade/gbwidgets/gbcheckmenuitem.c:74
+#: glade/gbwidgets/gbradiobutton.c:108 glade/gbwidgets/gbradiomenuitem.c:94
+#: glade/gbwidgets/gbtogglebutton.c:124
+msgid "Initially On:"
+msgstr "Initieel Aan:"
+
+#: glade/gbwidgets/gbcheckbutton.c:78
+msgid "If the check button is initially on"
+msgstr "Als de checkknop initieel aan is"
+
+#: glade/gbwidgets/gbcheckbutton.c:79 glade/gbwidgets/gbcheckmenuitem.c:76
+#: glade/gbwidgets/gbradiobutton.c:110 glade/gbwidgets/gbradiomenuitem.c:96
+msgid "Indicator:"
+msgstr "Indicator:"
+
+#: glade/gbwidgets/gbcheckbutton.c:80 glade/gbwidgets/gbradiobutton.c:111
+msgid "If the indicator is always drawn"
+msgstr "Als de indicator altijd getekend wordt"
+
+#: glade/gbwidgets/gbcheckbutton.c:216
+msgid "Check Button"
+msgstr "Check knop"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:75
+msgid "If the check menu item is initially on"
+msgstr "Als het check menu item initieel aan is"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:77 glade/gbwidgets/gbradiomenuitem.c:97
+msgid "If the toggle indicator is always shown"
+msgstr "Als de toggle indicator altijd aan is"
+
+#: glade/gbwidgets/gbcheckmenuitem.c:222
+msgid "Check Menu Item"
+msgstr "Check Menu Item"
+
+#: glade/gbwidgets/gbclist.c:149
+msgid "New columned list"
+msgstr "Nieuwe kolommenlijst"
+
+#. Columns label & entry
+#: glade/gbwidgets/gbclist.c:159 glade/gbwidgets/gbctree.c:157
+#: glade/gbwidgets/gbhbox.c:108 glade/gbwidgets/gbhbuttonbox.c:125
+#: glade/gbwidgets/gbtable.c:161
+msgid "Number of columns:"
+msgstr "Aantal kolommen:"
+
+#: glade/gbwidgets/gbclist.c:262 glade/gbwidgets/gbctree.c:248
+#: glade/gbwidgets/gblist.c:80 glade/gbwidgets/gbtree.c:95
+#: glade/gnome/gnomeiconlist.c:176
+msgid "Select Mode:"
+msgstr "Selecteer Modus:"
+
+#: glade/gbwidgets/gbclist.c:263
+msgid "The selection mode of the columned list"
+msgstr "De selectiemodus van de kolommenlijst"
+
+#: glade/gbwidgets/gbclist.c:265 glade/gbwidgets/gbctree.c:251
+msgid "Show Titles:"
+msgstr "Toon Titels:"
+
+#: glade/gbwidgets/gbclist.c:266 glade/gbwidgets/gbctree.c:252
+msgid "If the column titles are shown"
+msgstr "Als de kolomtitels getoond worden"
+
+#: glade/gbwidgets/gbclist.c:268
+msgid "The type of shadow of the columned list's border"
+msgstr "Het schaduwtype van de rand van de kolommenlijst"
+
+#: glade/gbwidgets/gbclist.c:606
+msgid "Columned List"
+msgstr "Kolommenlijst"
+
+#: glade/gbwidgets/gbcolorselection.c:78
+#: glade/gbwidgets/gbcolorselectiondialog.c:119
+#: glade/gbwidgets/gbspinbutton.c:108
+msgid "Update Policy:"
+msgstr "Update beleid:"
+
+#: glade/gbwidgets/gbcolorselection.c:79
+#: glade/gbwidgets/gbcolorselectiondialog.c:120
+msgid "The update policy of the color selection scales"
+msgstr "Het updatebeleid van de kleurselectieschalen"
+
+#: glade/gbwidgets/gbcolorselection.c:195
+msgid "Color Selection"
+msgstr "Kleurselectie "
+
+#: glade/gbwidgets/gbcolorselectiondialog.c:83
+msgid "Select Color"
+msgstr "Selekteer kleur"
+
+#: glade/gbwidgets/gbcombo.c:94
+msgid "Value In List:"
+msgstr "Waarde in lijst:"
+
+#: glade/gbwidgets/gbcombo.c:95
+msgid "If the value must be in the list"
+msgstr "Als de waarde voor moet komen in de lijst"
+
+#: glade/gbwidgets/gbcombo.c:96
+msgid "OK If Empty:"
+msgstr "OK als leeg:"
+
+#: glade/gbwidgets/gbcombo.c:97
+msgid "If an empty value is acceptable, when 'Value In List' is set"
+msgstr "Als een lege waarde acceptable is, als Waarde in Lijst is gezet"
+
+#: glade/gbwidgets/gbcombo.c:98
+msgid "Case Sensitive:"
+msgstr "Hoofdlettergevoelig:"
+
+#: glade/gbwidgets/gbcombo.c:99
+msgid "If the searching is case sensitive"
+msgstr "Als het zoeken hoofdlettergevoelig is"
+
+#: glade/gbwidgets/gbcombo.c:100
+msgid "Use Arrows:"
+msgstr "Gebruik Pijlen:"
+
+#: glade/gbwidgets/gbcombo.c:101
+msgid "If arrows can be used to change the value"
+msgstr "Als pijlen gebruikt kunnen worden om de waarde te veranderen"
+
+#: glade/gbwidgets/gbcombo.c:102
+msgid "Use Always:"
+msgstr "Gebruik Altijd:"
+
+#: glade/gbwidgets/gbcombo.c:103
+msgid "If arrows work even if the value is not in the list"
+msgstr "Als pijlen werken zels als de waarde niet in de lijst voorkomt"
+
+#: glade/gbwidgets/gbcombo.c:104 glade/gbwidgets/gboptionmenu.c:120
+msgid "Items:"
+msgstr "Items:"
+
+#: glade/gbwidgets/gbcombo.c:105
+msgid "The items in the combo list, one per line"
+msgstr "De items in de combolijst, een per regel"
+
+#: glade/gbwidgets/gbcombo.c:381
+msgid "Combo Box"
+msgstr "Combo Box"
+
+#: glade/gbwidgets/gbctree.c:147
+msgid "New columned tree"
+msgstr "Niieuwe kolommenboom"
+
+#: glade/gbwidgets/gbctree.c:249
+msgid "The selection mode of the columned tree"
+msgstr "De selectiemodus van de kolommenboom"
+
+#: glade/gbwidgets/gbctree.c:254
+msgid "The type of shadow of the columned tree's border"
+msgstr "Het type schadow op de rand van de kolommenboom"
+
+#: glade/gbwidgets/gbctree.c:542
+msgid "Columned Tree"
+msgstr "Kolommenboom"
+
+#: glade/gbwidgets/gbcurve.c:85 glade/gbwidgets/gbwindow.c:157
+#: glade/gnome/gbclock.c:104
+msgid "Type:"
+msgstr "Type:"
+
+#: glade/gbwidgets/gbcurve.c:85
+msgid "The type of the curve"
+msgstr "Het type curve"
+
+#: glade/gbwidgets/gbcurve.c:87 glade/gbwidgets/gbgammacurve.c:91
+msgid "X Min:"
+msgstr "X Min:"
+
+#: glade/gbwidgets/gbcurve.c:87 glade/gbwidgets/gbgammacurve.c:91
+msgid "The minimum horizontal value"
+msgstr "De minimale horizontale waarde"
+
+#: glade/gbwidgets/gbcurve.c:88 glade/gbwidgets/gbgammacurve.c:92
+msgid "X Max:"
+msgstr "X Max:"
+
+#: glade/gbwidgets/gbcurve.c:88 glade/gbwidgets/gbgammacurve.c:92
+msgid "The maximum horizontal value"
+msgstr "De maximale horizontale waarde"
+
+#: glade/gbwidgets/gbcurve.c:89 glade/gbwidgets/gbgammacurve.c:93
+msgid "Y Min:"
+msgstr "Y Min:"
+
+#: glade/gbwidgets/gbcurve.c:89 glade/gbwidgets/gbgammacurve.c:93
+msgid "The minimum vertical value"
+msgstr "De minimale vertikale waarde"
+
+#: glade/gbwidgets/gbcurve.c:90 glade/gbwidgets/gbgammacurve.c:94
+msgid "Y Max:"
+msgstr "Y Max:"
+
+#: glade/gbwidgets/gbcurve.c:90 glade/gbwidgets/gbgammacurve.c:94
+msgid "The maximum vertical value"
+msgstr "De maximale vertikale waarde"
+
+#: glade/gbwidgets/gbcurve.c:249
+msgid "Curve"
+msgstr "Curve"
+
+#: glade/gbwidgets/gbcustom.c:154
+msgid "Creation Function:"
+msgstr "Creatiefunctie:"
+
+#: glade/gbwidgets/gbcustom.c:155
+msgid "The function which creates the widget"
+msgstr "De functie die de widget creeert"
+
+#: glade/gbwidgets/gbcustom.c:157
+msgid "String1:"
+msgstr "Tekst1:"
+
+#: glade/gbwidgets/gbcustom.c:158
+msgid "The first string argument to pass to the function"
+msgstr "Het eerste tekstargument om door te geven aan de functie"
+
+#: glade/gbwidgets/gbcustom.c:159
+msgid "String2:"
+msgstr "Tekst2:"
+
+#: glade/gbwidgets/gbcustom.c:160
+msgid "The second string argument to pass to the function"
+msgstr "Het tweede tekstargument om door te geven aan de functie"
+
+#: glade/gbwidgets/gbcustom.c:161
+msgid "Int1:"
+msgstr "Int1:"
+
+#: glade/gbwidgets/gbcustom.c:162
+msgid "The first integer argument to pass to the function"
+msgstr "Het integer argument om door te geven aan de functie"
+
+#: glade/gbwidgets/gbcustom.c:163
+msgid "Int2:"
+msgstr "Int2:"
+
+#: glade/gbwidgets/gbcustom.c:164
+msgid "The second integer argument to pass to the function"
+msgstr "Het tweede integer argument om door te geven aan de functie"
+
+#: glade/gbwidgets/gbcustom.c:360
+msgid "Custom Widget"
+msgstr "Zelfgemaakt Widget"
+
+#: glade/gbwidgets/gbdialog.c:248
+msgid "Dialog"
+msgstr "Dialoog"
+
+#: glade/gbwidgets/gbdrawingarea.c:145
+msgid "Drawing Area"
+msgstr "Tekengebied"
+
+#: glade/gbwidgets/gbentry.c:67 glade/gbwidgets/gbtext.c:64
+msgid "Editable:"
+msgstr "Te wijzigen:"
+
+#: glade/gbwidgets/gbentry.c:67 glade/gbwidgets/gbtext.c:64
+msgid "If the text can be edited"
+msgstr "Als de tekst gewijzigd kan worden"
+
+#: glade/gbwidgets/gbentry.c:68
+msgid "Text Visible:"
+msgstr "Tekst zichtbaar:"
+
+#: glade/gbwidgets/gbentry.c:69
+msgid ""
+"If the text entered by the user will be shown. When turned off, the text "
+"typed in is displayed as asterix characters, which is useful for entering "
+"passwords"
+msgstr ""
+"Als de tekst, ingevoerd door de gebruiker, getoond wordt. Als dit uitgezet "
+"is, wordt de ingevoerde tekst als asterix karakters  (*)  getoond. Dit is "
+"handig voor het invoeren van wachtwoorden"
+
+#: glade/gbwidgets/gbentry.c:70
+msgid "Max Length:"
+msgstr "Max Lengte:"
+
+#: glade/gbwidgets/gbentry.c:71
+msgid "The maximum length of the text"
+msgstr "De maximumlengte van de tekst"
+
+#: glade/gbwidgets/gbentry.c:200
+msgid "Text Entry"
+msgstr "Text Invoer"
+
+#: glade/gbwidgets/gbeventbox.c:146
+msgid "Event Box"
+msgstr "Event Box"
+
+#: glade/gbwidgets/gbfileselection.c:97
+msgid "File Ops.:"
+msgstr "Bestand Ops:"
+
+#: glade/gbwidgets/gbfileselection.c:98
+msgid "If the file operation buttons are shown"
+msgstr "Als de bestandsoperatie knoppen getoond worden"
+
+#: glade/gbwidgets/gbfileselection.c:259
+msgid "File Selection Dialog"
+msgstr "Bestand Selectie Dialoog"
+
+#: glade/gbwidgets/gbfixed.c:159
+msgid "Fixed Positions"
+msgstr "Gefixeerde Posities"
+
+#: glade/gbwidgets/gbfontselection.c:145
+msgid "Font Selection"
+msgstr "Lettertype Selectie"
+
+#: glade/gbwidgets/gbfontselectiondialog.c:64
+msgid "Select Font"
+msgstr "Selecteer Lettertype"
+
+#: glade/gbwidgets/gbfontselectiondialog.c:251
+msgid "Font Selection Dialog"
+msgstr "Lettertype Selectie Dialoog"
+
+#: glade/gbwidgets/gbframe.c:234
+msgid "Frame"
+msgstr "Frame"
+
+#: glade/gbwidgets/gbgammacurve.c:88
+msgid "Initial Type:"
+msgstr "Initieel Lettertype"
+
+#: glade/gbwidgets/gbgammacurve.c:88
+msgid "The initial type of the curve"
+msgstr "Het initieel type van de curve"
+
+#: glade/gbwidgets/gbgammacurve.c:255
+msgid "Gamma Curve"
+msgstr "Gamma Curve"
+
+#: glade/gbwidgets/gbhandlebox.c:110
+msgid "The type of shadow around the handle box"
+msgstr "Het type schaduw rondom de handle box"
+
+#: glade/gbwidgets/gbhandlebox.c:113
+msgid "Handle Pos:"
+msgstr "Handle Pos:"
+
+#: glade/gbwidgets/gbhandlebox.c:114
+msgid "The position of the handle"
+msgstr "De positie van de handle"
+
+#: glade/gbwidgets/gbhandlebox.c:116
+msgid "Snap Edge:"
+msgstr "Snap Hoek:"
+
+#: glade/gbwidgets/gbhandlebox.c:117
+msgid "The edge of the handle box which snaps into position"
+msgstr "De hoek van de handle box dat snapt in positie"
+
+#: glade/gbwidgets/gbhandlebox.c:303
+msgid "Handle Box"
+msgstr "Handle Box"
+
+#: glade/gbwidgets/gbhbox.c:98
+msgid "New horizontal box"
+msgstr "Nieuwe horizontale box"
+
+#: glade/gbwidgets/gbhbox.c:169 glade/gbwidgets/gbhbuttonbox.c:187
+#: glade/gbwidgets/gbtoolbar.c:301 glade/gbwidgets/gbvbox.c:155
+msgid "Size:"
+msgstr "Grootte:"
+
+#: glade/gbwidgets/gbhbox.c:169 glade/gbwidgets/gbvbox.c:155
+msgid "The number of widgets in the box"
+msgstr "Het aantal widgets in de box"
+
+#: glade/gbwidgets/gbhbox.c:171 glade/gbwidgets/gbtable.c:239
+#: glade/gbwidgets/gbvbox.c:157
+msgid "Homogeneous:"
+msgstr "Homogeen:"
+
+#: glade/gbwidgets/gbhbox.c:172 glade/gbwidgets/gbvbox.c:158
+msgid "If the children should be the same size"
+msgstr "Als de kinderen dezelfde grootte moeten zijn"
+
+#: glade/gbwidgets/gbhbox.c:173 glade/gbwidgets/gbhbuttonbox.c:192
+#: glade/gbwidgets/gbvbox.c:159
+msgid "Spacing:"
+msgstr "Spatiering:"
+
+#: glade/gbwidgets/gbhbox.c:173 glade/gbwidgets/gbvbox.c:159
+msgid "The space between each child"
+msgstr "De ruimte tussen elk kind"
+
+#: glade/gbwidgets/gbhbox.c:304
+msgid "Can't delete any children."
+msgstr "Kan geen kinderen verwijderen."
+
+#: glade/gbwidgets/gbhbox.c:318 glade/gbwidgets/gbhpaned.c:79
+#: glade/gbwidgets/gbhruler.c:89 glade/gbwidgets/gbpacker.c:236
+#: glade/gbwidgets/gbvpaned.c:75 glade/gbwidgets/gbvruler.c:89
+#: glade/gbwidgets/gbwindow.c:161
+msgid "Position:"
+msgstr "Positie:"
+
+#: glade/gbwidgets/gbhbox.c:319
+msgid "The widget's position relative to its siblings"
+msgstr "De positie van de widget ten opzicht van zijn afstammelingen"
+
+#: glade/gbwidgets/gbhbox.c:321
+msgid "Padding:"
+msgstr "Padding:"
+
+#: glade/gbwidgets/gbhbox.c:322
+msgid "The widget's padding"
+msgstr "De padding van de widget"
+
+#: glade/gbwidgets/gbhbox.c:324 glade/gbwidgets/gbpacker.c:246
+#: glade/gbwidgets/gbpreview.c:65
+msgid "Expand:"
+msgstr "Expanderen:"
+
+#: glade/gbwidgets/gbhbox.c:325 glade/gbwidgets/gbpacker.c:247
+msgid "Set True to let the widget expand"
+msgstr "Set op True om de widget te expanderen"
+
+#: glade/gbwidgets/gbhbox.c:326
+msgid "Fill:"
+msgstr "Vul:"
+
+#: glade/gbwidgets/gbhbox.c:327
+msgid "Set True to let the widget fill its allocated area"
+msgstr "Set op True om de widget zijn gealloceerd gebied te laten vullen"
+
+#: glade/gbwidgets/gbhbox.c:328
+msgid "Pack Start:"
+msgstr "Pack Start:"
+
+#: glade/gbwidgets/gbhbox.c:329
+msgid "Set True to pack the widget at the start of the box"
+msgstr "Set op True om de widget in te pakken vanaf de start van de box"
+
+#: glade/gbwidgets/gbhbox.c:446
+msgid "Insert Before"
+msgstr "Invoegen Voor"
+
+#: glade/gbwidgets/gbhbox.c:452
+msgid "Insert After"
+msgstr "Invoegen Na"
+
+#: glade/gbwidgets/gbhbox.c:561
+msgid "Horizontal Box"
+msgstr "Horizontale Box"
+
+#: glade/gbwidgets/gbhbuttonbox.c:114
+msgid "New horizontal button box"
+msgstr "Nieuwe horizontale knop box"
+
+#: glade/gbwidgets/gbhbuttonbox.c:187
+msgid "The number of buttons"
+msgstr "Het aantal knoppen"
+
+#: glade/gbwidgets/gbhbuttonbox.c:189
+msgid "Layout:"
+msgstr "Opmaak:"
+
+#: glade/gbwidgets/gbhbuttonbox.c:190
+msgid "The layout style of the buttons"
+msgstr "De opmaakstijl van de knoppen"
+
+#: glade/gbwidgets/gbhbuttonbox.c:192
+msgid "The space between the buttons"
+msgstr "De ruimte tussen de knoppen"
+
+#: glade/gbwidgets/gbhbuttonbox.c:194
+msgid "Min Width:"
+msgstr "Min Breedte:"
+
+#: glade/gbwidgets/gbhbuttonbox.c:195
+msgid "The minimum width of the buttons"
+msgstr "De minimale breedte van de knoppen"
+
+#: glade/gbwidgets/gbhbuttonbox.c:197
+msgid "Min Height:"
+msgstr "Min Hoogte:"
+
+#: glade/gbwidgets/gbhbuttonbox.c:198
+msgid "The minimum height of the buttons"
+msgstr "De minimale hoogte van de knoppen"
+
+#: glade/gbwidgets/gbhbuttonbox.c:201
+msgid "The horizontal padding of the buttons"
+msgstr "De horizonale padding van de knoppen"
+
+#: glade/gbwidgets/gbhbuttonbox.c:204
+msgid "The vertical padding of the buttons"
+msgstr "De vertikale padding van de knoppen"
+
+#: glade/gbwidgets/gbhbuttonbox.c:458
+msgid "Horizontal Button Box"
+msgstr "Horizontale Knop box"
+
+#: glade/gbwidgets/gbhpaned.c:75 glade/gbwidgets/gbvpaned.c:71
+msgid "Handle Size:"
+msgstr "Handle Grootte:"
+
+#: glade/gbwidgets/gbhpaned.c:75 glade/gbwidgets/gbvpaned.c:71
+msgid "The size of the handle"
+msgstr "De grootte van de handle"
+
+#: glade/gbwidgets/gbhpaned.c:77 glade/gbwidgets/gbvpaned.c:73
+msgid "Gutter Size:"
+msgstr "Goot Grootte:"
+
+#: glade/gbwidgets/gbhpaned.c:77 glade/gbwidgets/gbvpaned.c:73
+msgid "The size of the gutter"
+msgstr "De grootte van de goot"
+
+#: glade/gbwidgets/gbhpaned.c:80 glade/gbwidgets/gbvpaned.c:76
+msgid "The position of the divider"
+msgstr "De positie van de verdeler"
+
+#: glade/gbwidgets/gbhpaned.c:216 glade/gbwidgets/gbwindow.c:184
+msgid "Shrink:"
+msgstr "Krimp:"
+
+#: glade/gbwidgets/gbhpaned.c:217
+msgid "Set True to let the widget shrink"
+msgstr "Zet op True om de widget te laten krimpen"
+
+#: glade/gbwidgets/gbhpaned.c:218
+msgid "Resize:"
+msgstr "Vergroten/Verkleinen:"
+
+#: glade/gbwidgets/gbhpaned.c:219
+msgid "Set True to let the widget resize"
+msgstr "Zet op True om de widget van grootte te doen veranderen"
+
+#: glade/gbwidgets/gbhpaned.c:344
+msgid "Horizontal Panes"
+msgstr "Horizontale werkbalken"
+
+#: glade/gbwidgets/gbhruler.c:82 glade/gbwidgets/gbvruler.c:82
+msgid "Metric:"
+msgstr "Metrisch:"
+
+#: glade/gbwidgets/gbhruler.c:83 glade/gbwidgets/gbvruler.c:83
+msgid "The units of the ruler"
+msgstr "De eenheden van de lineaal"
+
+#: glade/gbwidgets/gbhruler.c:85 glade/gbwidgets/gbvruler.c:85
+msgid "Lower Value:"
+msgstr "Laagste waarde:"
+
+#: glade/gbwidgets/gbhruler.c:86 glade/gbwidgets/gbvruler.c:86
+#: glade/gbwidgets/gbvruler.c:88
+msgid "The low value of the ruler"
+msgstr "De laagste waarde van de lineaal"
+
+#: glade/gbwidgets/gbhruler.c:87 glade/gbwidgets/gbvruler.c:87
+msgid "Upper Value:"
+msgstr "Hoogste waarde:"
+
+#: glade/gbwidgets/gbhruler.c:88
+msgid "The high value of the ruler"
+msgstr "De hoogste waarde van de lineaal"
+
+#: glade/gbwidgets/gbhruler.c:90 glade/gbwidgets/gbvruler.c:90
+msgid "The current position on the ruler"
+msgstr "De huidige positie op de lineaal"
+
+#: glade/gbwidgets/gbhruler.c:92 glade/gbwidgets/gbvruler.c:92
+msgid "The maximum value of the ruler"
+msgstr "De maximale waarde van de lineaal"
+
+#: glade/gbwidgets/gbhruler.c:246
+msgid "Horizontal Ruler"
+msgstr "Horizontale lineaal"
+
+#: glade/gbwidgets/gbhscale.c:116 glade/gbwidgets/gbvscale.c:117
+msgid "Show Value:"
+msgstr "Toon Waarde:"
+
+#: glade/gbwidgets/gbhscale.c:116 glade/gbwidgets/gbvscale.c:117
+msgid "If the scale's value is shown"
+msgstr "Als de waarde van de schaal getoond wordt"
+
+#: glade/gbwidgets/gbhscale.c:117 glade/gbwidgets/gbspinbutton.c:103
+#: glade/gbwidgets/gbvscale.c:118
+msgid "Digits:"
+msgstr "Decimalen:"
+
+#: glade/gbwidgets/gbhscale.c:117 glade/gbwidgets/gbvscale.c:118
+msgid "The number of digits to show"
+msgstr "Het aantal te tonen decimalen"
+
+#: glade/gbwidgets/gbhscale.c:119 glade/gbwidgets/gbvscale.c:120
+msgid "Value Pos:"
+msgstr "Waarde Pos:"
+
+#: glade/gbwidgets/gbhscale.c:120 glade/gbwidgets/gbvscale.c:121
+msgid "The position of the value"
+msgstr "De positie van de waarde"
+
+#: glade/gbwidgets/gbhscale.c:122 glade/gbwidgets/gbhscrollbar.c:96
+#: glade/gbwidgets/gbvscale.c:123 glade/gbwidgets/gbvscrollbar.c:96
+#: glade/gnome/gbdial.c:129
+msgid "Policy:"
+msgstr "Beleid:"
+
+#: glade/gbwidgets/gbhscale.c:123 glade/gbwidgets/gbvscale.c:124
+msgid "The update policy of the scale"
+msgstr "Het update beleid van de schaal"
+
+#: glade/gbwidgets/gbhscale.c:312
+msgid "Horizontal Scale"
+msgstr "Horizontale schaal"
+
+#: glade/gbwidgets/gbhscrollbar.c:97 glade/gbwidgets/gbvscrollbar.c:97
+msgid "The update policy of the scrollbar"
+msgstr "Het update beleid van de schuifbalk"
+
+#: glade/gbwidgets/gbhscrollbar.c:230
+msgid "Horizontal Scrollbar"
+msgstr "Horizontale schuifbalk"
+
+#: glade/gbwidgets/gbhseparator.c:145
+msgid "Horizonal Separator"
+msgstr "Horizontaal scheidingsteken"
+
+#: glade/gbwidgets/gbimage.c:163
+msgid "New image"
+msgstr "Nieuwe afbeelding"
+
+#: glade/gbwidgets/gbimage.c:173
+msgid "Image Width:"
+msgstr "Afbeelding breedte:"
+
+#. Image height
+#: glade/gbwidgets/gbimage.c:188
+msgid "Image Height:"
+msgstr "Afbeelding Hoogte:"
+
+#. Type - Normal/Shared/Fastest
+#: glade/gbwidgets/gbimage.c:202
+msgid "Image Type:"
+msgstr "Afbeeldingstype:"
+
+#: glade/gbwidgets/gbimage.c:215
+msgid "Shared"
+msgstr "Gedeeld"
+
+#: glade/gbwidgets/gbimage.c:222
+msgid "Fastest"
+msgstr "Snelst"
+
+#. Visual - System/Best
+#: glade/gbwidgets/gbimage.c:229
+msgid "Visual:"
+msgstr "Visueel:"
+
+#: glade/gbwidgets/gbimage.c:235
+msgid "System"
+msgstr "Systeem"
+
+#: glade/gbwidgets/gbimage.c:242
+msgid "Best"
+msgstr "Beste"
+
+#: glade/gbwidgets/gbimage.c:355 glade/gbwidgets/gbpixmap.c:73
+msgid "The horizontal alignment"
+msgstr "De horizontale uitlijning"
+
+#: glade/gbwidgets/gbimage.c:358 glade/gbwidgets/gbpixmap.c:76
+msgid "The vertical alignment"
+msgstr "De vertikale uitlijning"
+
+#: glade/gbwidgets/gbimage.c:515
+msgid "Image"
+msgstr "Afbeelding"
+
+#: glade/gbwidgets/gbinputdialog.c:199
+msgid "Input Dialog"
+msgstr "Invoerdialoog"
+
+#: glade/gbwidgets/gblabel.c:140
+msgid "Focus Target:"
+msgstr "Focusseer Doel:"
+
+#: glade/gbwidgets/gblabel.c:141
+msgid ""
+"The widget to set the keyboard focus to when the underlined accelerator key "
+"is used"
+msgstr ""
+"De widget om de keyboardfocus te zetten als de onderstreepte sneltoets "
+"gebruikt wordt"
+
+#: glade/gbwidgets/gblabel.c:198 glade/gbwidgets/gblabel.c:213
+#: glade/gbwidgets/gblabel.c:374
+msgid "Auto"
+msgstr "Auto"
+
+#: glade/gbwidgets/gblayout.c:90
+msgid "Area Width:"
+msgstr "Gebied Breedte:"
+
+#: glade/gbwidgets/gblayout.c:91
+msgid "The width of the layout area"
+msgstr "De breedte van het opmaakgebied"
+
+#: glade/gbwidgets/gblayout.c:93
+msgid "Area Height:"
+msgstr "Gebied Hoogte:"
+
+#: glade/gbwidgets/gblayout.c:94
+msgid "The height of the layout area"
+msgstr "De hoogte van het opmaakgebied"
+
+#: glade/gbwidgets/gblayout.c:305
+msgid "Layout"
+msgstr "Opmaak"
+
+#: glade/gbwidgets/gblist.c:81
+msgid "The selection mode of the list"
+msgstr "De selectmodus van de lijst"
+
+#: glade/gbwidgets/gblist.c:194
+msgid "List"
+msgstr "Lijst"
+
+#: glade/gbwidgets/gblistitem.c:164
+msgid "List Item"
+msgstr "Lijstitem"
+
+#: glade/gbwidgets/gbmenu.c:190
+msgid "Popup Menu"
+msgstr "Popup Menu"
+
+#: glade/gbwidgets/gbmenubar.c:119
+msgid "The type of shadow around the menubar"
+msgstr "The type schaduw rondom de menubalk"
+
+#: glade/gbwidgets/gbmenubar.c:124
+msgid "Edit Menus..."
+msgstr "Wijzig Menus..."
+
+#: glade/gbwidgets/gbmenubar.c:223
+msgid "Edit Menu"
+msgstr "Wijzig Menu"
+
+#: glade/gbwidgets/gbmenubar.c:332
+msgid "Menu Bar"
+msgstr "Menubalk"
+
+#: glade/gbwidgets/gbmenuitem.c:87 glade/gnome/gbpixmapmenuitem.c:81
+msgid "If the menu item is right-justified"
+msgstr "Als het menuitem rechts uitgelijnd is"
+
+#: glade/gbwidgets/gbmenuitem.c:226 glade/gnome/gbpixmapmenuitem.c:249
+msgid "Invalid stock menu item"
+msgstr "Ongeldig stock menu-item"
+
+#: glade/gbwidgets/gbmenuitem.c:427
+msgid "Menu Item"
+msgstr "Menu Item"
+
+#: glade/gbwidgets/gbnotebook.c:174
+msgid "New notebook"
+msgstr "Nieuwe aantekeningenboek"
+
+#: glade/gbwidgets/gbnotebook.c:184 glade/gnome/gnomepropertybox.c:116
+msgid "Number of pages:"
+msgstr "Aantal pagina's:"
+
+#: glade/gbwidgets/gbnotebook.c:257
+msgid "Show Tabs:"
+msgstr "Toon Tabs:"
+
+#: glade/gbwidgets/gbnotebook.c:257
+msgid "If the notebook tabs are shown"
+msgstr "Als de aantekeningboeken tabs getoond worden"
+
+#: glade/gbwidgets/gbnotebook.c:258
+msgid "Show Border:"
+msgstr "Toon Rand:"
+
+#: glade/gbwidgets/gbnotebook.c:259
+msgid "If the notebook border is shown, when the tabs are not shown"
+msgstr ""
+"Als de aantekeningenboekjerand getoond wordt, als de tabs niet zichtbaar zijn"
+
+#: glade/gbwidgets/gbnotebook.c:260
+msgid "Tab Pos:"
+msgstr "Tab Pos:"
+
+#: glade/gbwidgets/gbnotebook.c:261
+msgid "The position of the notebook tabs"
+msgstr "De positie van de aantekeningboekje tabs"
+
+#: glade/gbwidgets/gbnotebook.c:263
+msgid "Scrollable:"
+msgstr "Verschuifbaar:"
+
+#: glade/gbwidgets/gbnotebook.c:264
+msgid "If the notebook tabs are scrollable"
+msgstr "Als de aantekeningboekje's tabs verschuifbaar zijn"
+
+#: glade/gbwidgets/gbnotebook.c:265
+msgid "Tab Horz. Border:"
+msgstr "Tab Horz. Rand:"
+
+#: glade/gbwidgets/gbnotebook.c:266
+msgid "The size of the notebook tabs' horizontal border"
+msgstr "De grootte van de horizontale rande van de aantekeningboekje's tabs"
+
+#: glade/gbwidgets/gbnotebook.c:268
+msgid "Tab Vert. Border:"
+msgstr "Tab Vert. Rand:"
+
+#: glade/gbwidgets/gbnotebook.c:269
+msgid "The size of the notebook tabs' vertical border"
+msgstr "De grootte van de vertikale rande van de aantekeningboekje's tabs"
+
+#: glade/gbwidgets/gbnotebook.c:271
+msgid "Show Popup:"
+msgstr "Toon Popup:"
+
+#: glade/gbwidgets/gbnotebook.c:271
+msgid "If the popup menu is enabled"
+msgstr "Als het popup menu aangevinkt is"
+
+#: glade/gbwidgets/gbnotebook.c:272 glade/gnome/gnomedruid.c:98
+msgid "Number of Pages:"
+msgstr "Aantal pagina's:"
+
+#: glade/gbwidgets/gbnotebook.c:273
+msgid "The number of notebook pages"
+msgstr "Het aantal notebook pagina's"
+
+#: glade/gbwidgets/gbnotebook.c:524
+msgid "Previous Page"
+msgstr "Vorige Pagina"
+
+#: glade/gbwidgets/gbnotebook.c:532
+msgid "Next Page"
+msgstr "Volgende Pagina"
+
+#: glade/gbwidgets/gbnotebook.c:540
+msgid "Delete Page"
+msgstr "Verwijder Pagina"
+
+#: glade/gbwidgets/gbnotebook.c:546
+msgid "Switch Next"
+msgstr "Ga naar Volgende"
+
+#: glade/gbwidgets/gbnotebook.c:554
+msgid "Switch Previous"
+msgstr "Ga naar Vorige"
+
+#: glade/gbwidgets/gbnotebook.c:562 glade/gnome/gnomedruid.c:277
+msgid "Insert Page After"
+msgstr "Invoegen Pagina Na"
+
+#: glade/gbwidgets/gbnotebook.c:570 glade/gnome/gnomedruid.c:267
+msgid "Insert Page Before"
+msgstr "Invoegen Pagina Voor"
+
+#: glade/gbwidgets/gbnotebook.c:691
+msgid "Notebook"
+msgstr "Aantekeningboekje"
+
+#: glade/gbwidgets/gboptionmenu.c:121
+msgid "The items in the option menu, one per line"
+msgstr "De items in het optiemenu, een per regel"
+
+#: glade/gbwidgets/gboptionmenu.c:122
+msgid "Initial Choice:"
+msgstr "Initieele Keuze:"
+
+#: glade/gbwidgets/gboptionmenu.c:123
+msgid "The index of the initially selected item"
+msgstr "De index van het initieel geselecteerde item"
+
+#: glade/gbwidgets/gboptionmenu.c:363
+msgid "Option Menu"
+msgstr "Optie Menu"
+
+#.
+#. property_add_int_range (Spacing, _("Spacing:"),
+#. _("The spacing between child widgets"),
+#. 0, 10000, 1, 10, 1);
+#.
+#: glade/gbwidgets/gbpacker.c:138
+msgid "Default Border:"
+msgstr "Standaard Rand:"
+
+#: glade/gbwidgets/gbpacker.c:139
+msgid "The default border width of child widgets"
+msgstr "De standaard borderbreedte van kind widgets"
+
+#: glade/gbwidgets/gbpacker.c:142
+msgid "Default Pad X:"
+msgstr "Standaard Pad X:"
+
+#: glade/gbwidgets/gbpacker.c:143
+msgid "The default horizontal padding of child widgets"
+msgstr "De standaard horizontale padding van kind widgets"
+
+#: glade/gbwidgets/gbpacker.c:145
+msgid "Default Pad Y:"
+msgstr "Standaard Pad Y:"
+
+#: glade/gbwidgets/gbpacker.c:146
+msgid "The default vertical padding of child widgets"
+msgstr "De standaard vertikale padding van kind widgets"
+
+#: glade/gbwidgets/gbpacker.c:149
+msgid "Default IPad X:"
+msgstr "Standaard IPad X:"
+
+#: glade/gbwidgets/gbpacker.c:150
+msgid "The default internal horizontal padding of child widgets"
+msgstr "De standaard interne horizontale padding van kind widgets"
+
+#: glade/gbwidgets/gbpacker.c:152
+msgid "Default IPad Y:"
+msgstr "Standaard IPad V:"
+
+#: glade/gbwidgets/gbpacker.c:153
+msgid "The default internal vertical padding of child widgets"
+msgstr "De standaard interne vertikale padding van kind widgets"
+
+#: glade/gbwidgets/gbpacker.c:237
+msgid "The position of the child widget with respect to its siblings"
+msgstr "De positie van het kind widget ten opzicht van zijn afstammelingen"
+
+#: glade/gbwidgets/gbpacker.c:240
+msgid "Side:"
+msgstr "Kant:"
+
+#: glade/gbwidgets/gbpacker.c:241
+msgid "The side of the remaining space to place the widget"
+msgstr "De kant van de overgebleven ruimte om het widget te plaatsen"
+
+#: glade/gbwidgets/gbpacker.c:243
+msgid "Anchor:"
+msgstr "Wees:"
+
+#: glade/gbwidgets/gbpacker.c:244
+msgid "Where to anchor the widget in its allocated area"
+msgstr "Waar de widget achter te laten in zijn gealloceerde ruimte"
+
+#: glade/gbwidgets/gbpacker.c:248
+msgid "Fill X:"
+msgstr "Vul X:"
+
+#: glade/gbwidgets/gbpacker.c:249
+msgid "Set True to let the widget fill its allocated width"
+msgstr "Set op True om de widget zijn gealloceerde breedte te laten vullen"
+
+#: glade/gbwidgets/gbpacker.c:250
+msgid "Fill Y:"
+msgstr "Vull Y:"
+
+#: glade/gbwidgets/gbpacker.c:251
+msgid "Set True to let the widget fill its allocated height"
+msgstr "Set op True om de widget zijn gealloceerde hoogte te laten vullen"
+
+#: glade/gbwidgets/gbpacker.c:253
+msgid "Use Defaults:"
+msgstr "Gebruik Standaardwaarden:"
+
+#: glade/gbwidgets/gbpacker.c:254
+msgid ""
+"Set True to use the parent GtkPacker's default settings for the border width "
+"and all padding properties"
+msgstr ""
+"Set op True om de ouder GtkPacker's standaardwaarden voor de randbreedte en "
+"alle padding eigenschappen te gebruiken"
+
+#: glade/gbwidgets/gbpacker.c:257
+msgid "The size of the widget's border"
+msgstr "De grootte van de rand van de widget"
+
+#: glade/gbwidgets/gbpacker.c:259 glade/gbwidgets/gbtable.c:377
+msgid "H Padding:"
+msgstr "H Padding:"
+
+#: glade/gbwidgets/gbpacker.c:260
+msgid "The widget's horizontal external padding"
+msgstr "De horizontale externe padding van de widget"
+
+#: glade/gbwidgets/gbpacker.c:262 glade/gbwidgets/gbtable.c:380
+msgid "V Padding:"
+msgstr "V Padding:"
+
+#: glade/gbwidgets/gbpacker.c:263
+msgid "The widget's vertical external padding"
+msgstr "De vertikale externe padding van de widget"
+
+#: glade/gbwidgets/gbpacker.c:265
+msgid "H Int. Padding:"
+msgstr "H Int Padding:"
+
+#: glade/gbwidgets/gbpacker.c:266
+msgid "The widget's horizontal internal padding"
+msgstr "De horizontale interne padding van de widget"
+
+#: glade/gbwidgets/gbpacker.c:268
+msgid "V Int. Padding:"
+msgstr "V Int. Padding:"
+
+#: glade/gbwidgets/gbpacker.c:269
+msgid "The widget's vertical internal padding"
+msgstr "De vertikale interne padding van de widget"
+
+#: glade/gbwidgets/gbpacker.c:640
+msgid "Packer"
+msgstr "Packer"
+
+#: glade/gbwidgets/gbpixmap.c:71 glade/gbwidgets/gbradiobutton.c:106
+#: glade/gbwidgets/gbtogglebutton.c:121 glade/gnome/gnomepixmap.c:78
+msgid "The pixmap filename"
+msgstr "De pixmal bestandsnaam"
+
+#: glade/gbwidgets/gbpixmap.c:82
+msgid "Build Insensitive:"
+msgstr "Bouw Ongevoelig:"
+
+#: glade/gbwidgets/gbpixmap.c:83
+msgid "If an insensitive version of the pixmap is built automatically"
+msgstr "Als een ongevoelige versie van de bixmap automatisch gebouwd wordt"
+
+#: glade/gbwidgets/gbpixmap.c:150 glade/gbwidgets/gbtoolbar.c:1439
+msgid "Couldn't create pixmap from file"
+msgstr "Kan geen pixmap creeren van bestand"
+
+#: glade/gbwidgets/gbpixmap.c:292
+msgid "Pixmap"
+msgstr "Pixmap"
+
+#: glade/gbwidgets/gbpreview.c:63
+msgid "Color:"
+msgstr "Kleur:"
+
+#: glade/gbwidgets/gbpreview.c:64
+msgid "If the preview is color or grayscale"
+msgstr "Als het voorbeeld kleur is of zwart-wit"
+
+#: glade/gbwidgets/gbpreview.c:66
+msgid "If the preview expands to fill its allocated area"
+msgstr "Als het voorbeeld expandeert om zijn gealloceerde ruimte te vullen"
+
+#: glade/gbwidgets/gbpreview.c:161
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: glade/gbwidgets/gbprogressbar.c:119
+msgid "Minimum Value:"
+msgstr "Minimale waarde:"
+
+#: glade/gbwidgets/gbprogressbar.c:120
+msgid "Maximum Value:"
+msgstr "Maximale waarde:"
+
+#: glade/gbwidgets/gbprogressbar.c:122 glade/gbwidgets/gbtoolbar.c:307
+msgid "Style:"
+msgstr "Stijl:"
+
+#: glade/gbwidgets/gbprogressbar.c:123
+msgid "The style of the progress bar"
+msgstr "De stijl van de voortgangsbalk"
+
+#: glade/gbwidgets/gbprogressbar.c:125 glade/gbwidgets/gbtoolbar.c:304
+#: glade/gnome/gnomedockitem.c:215
+msgid "Orientation:"
+msgstr "Orientatie:"
+
+#: glade/gbwidgets/gbprogressbar.c:126
+msgid "The orientation of the progress bar's contents"
+msgstr "De orientatie van de inhoud van de voortgangsbalk"
+
+#: glade/gbwidgets/gbprogressbar.c:129
+msgid "Activity Mode:"
+msgstr "Activiteitsmodus:"
+
+#: glade/gbwidgets/gbprogressbar.c:130
+msgid "If the progress bar should act like the front of Kit's car"
+msgstr "Als de voortgangsbalk moet reageren als de voorkant van Kit's auto"
+
+#: glade/gbwidgets/gbprogressbar.c:131
+msgid "Show Text:"
+msgstr "Toon tekst:"
+
+#: glade/gbwidgets/gbprogressbar.c:132
+msgid "If the text should be shown in the progress bar"
+msgstr "Als de tekst getoond moet worden in de voortgangsbalk"
+
+#: glade/gbwidgets/gbprogressbar.c:133 glade/gnome/gbclock.c:106
+msgid "Format:"
+msgstr "Formaat:"
+
+#: glade/gbwidgets/gbprogressbar.c:134
+msgid ""
+"The format of the text, similar to sprintf. Use %P, %V, %L and %U to insert "
+"the percentage, value, lower bound and upper bound respectively. Use %1V or "
+"%2V to show 1 or 2 decimal places."
+msgstr ""
+"Het formaat van de tekst, gelijkwaardig aan sprintf. Gebruik %P, %V, %L en "
+"%U om het  percentage, waarde, onderwaarde en bovenwaarde  respectievelijk. "
+"Gebruik %1V of %2V om 1 of 2 decimale posities te tonen."
+
+#: glade/gbwidgets/gbprogressbar.c:139
+msgid "The horizontal alignment of the text"
+msgstr "De horizontale uitlijning van de tekst"
+
+#: glade/gbwidgets/gbprogressbar.c:142
+msgid "The vertical alignment of the text"
+msgstr "De vertikale uitlijning van de tekst"
+
+#: glade/gbwidgets/gbprogressbar.c:401
+msgid "Progress Bar"
+msgstr "Voortgangsbalk"
+
+#: glade/gbwidgets/gbradiobutton.c:109
+msgid "If the radio button is initially on"
+msgstr "Als de radioknop initieel aan is"
+
+#: glade/gbwidgets/gbradiobutton.c:113
+msgid ""
+"The radio button group (the default is all radio buttons with the same "
+"parent)"
+msgstr "De radioknopgroep ( standaard is alle radioknoppen met dezelfde ouder)"
+
+#: glade/gbwidgets/gbradiobutton.c:501
+msgid "Radio Button"
+msgstr "Radioknop"
+
+#: glade/gbwidgets/gbradiomenuitem.c:95
+msgid "If the radio menu item is initially on"
+msgstr "Als het radio menu item initieel aan is"
+
+#: glade/gbwidgets/gbradiomenuitem.c:99
+msgid ""
+"The radio menu item group (the default is all radio menu items with the same "
+"parent)"
+msgstr ""
+"De radiomenu item groep ( standaard is alle radiomenu items met dezelfde "
+"ouder)"
+
+#: glade/gbwidgets/gbradiomenuitem.c:445
+msgid "Radio Menu Item"
+msgstr "Radio Menu Item"
+
+#: glade/gbwidgets/gbscrolledwindow.c:126
+msgid "H Policy:"
+msgstr "H Beleid:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:127
+msgid "When the horizontal scrollbar will be shown"
+msgstr "Wanneer de horizontale schuifbalk getoond wordt"
+
+#: glade/gbwidgets/gbscrolledwindow.c:129
+msgid "V Policy:"
+msgstr "V Beleid:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:130
+msgid "When the vertical scrollbar will be shown"
+msgstr "Wanneer de vertikale schuifbalk getoond wordt"
+
+#: glade/gbwidgets/gbscrolledwindow.c:132
+msgid "H Updates:"
+msgstr "H Updates:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:133
+msgid "The update policy of the horizontal scrollbar"
+msgstr "Het updatebeleid voor de horizontale schuifbalk"
+
+#: glade/gbwidgets/gbscrolledwindow.c:135
+msgid "V Updates:"
+msgstr "V Updates:"
+
+#: glade/gbwidgets/gbscrolledwindow.c:136
+msgid "The update policy of the vertical scrollbar"
+msgstr "Het updatebeleid voor de vertikale schuifbalk"
+
+#: glade/gbwidgets/gbscrolledwindow.c:380
+msgid "Scrolled Window"
+msgstr "Schuifbaar Venster"
+
+#: glade/gbwidgets/gbspinbutton.c:101
+msgid "Climb Rate:"
+msgstr "Klimsnelheid:"
+
+#: glade/gbwidgets/gbspinbutton.c:102
+msgid ""
+"The climb rate of the spinbutton, used in conjunction with the Page Increment"
+msgstr ""
+"De klimsnelheid van de spinknop, gebruikt in combinatie met de Pagina "
+"Increment"
+
+#: glade/gbwidgets/gbspinbutton.c:104
+msgid "The number of decimal digits to show"
+msgstr "Het aantal te tonen decimalen"
+
+#: glade/gbwidgets/gbspinbutton.c:106
+msgid "Numeric:"
+msgstr "Numeriek:"
+
+#: glade/gbwidgets/gbspinbutton.c:107
+msgid ""
+"If any value entered should be converted according to the locale settings"
+msgstr ""
+"Als een ingevoerde waarde geconverteerd moet worden conform de lokale "
+"instellingen"
+
+#: glade/gbwidgets/gbspinbutton.c:109
+msgid "When value_changed signals are emitted"
+msgstr "Als value_changed signalen verstuurd worden"
+
+#: glade/gbwidgets/gbspinbutton.c:111
+msgid "Snap:"
+msgstr "Snap:"
+
+#: glade/gbwidgets/gbspinbutton.c:112
+msgid "If the value is snapped to multiples of the step increment"
+msgstr "Als de waarde gesnapd wordt naar meervouden van de stapgrootte"
+
+#: glade/gbwidgets/gbspinbutton.c:113
+msgid "Wrap:"
+msgstr "Ombuigen:"
+
+#: glade/gbwidgets/gbspinbutton.c:114
+msgid "If the value is wrapped at the limits"
+msgstr "Als de waarde omgebogen wordt bij de limieten"
+
+#: glade/gbwidgets/gbspinbutton.c:294
+msgid "Spin Button"
+msgstr "Spin Knop"
+
+#: glade/gbwidgets/gbstatusbar.c:145
+msgid "Status Bar"
+msgstr "Statusbalk"
+
+#: glade/gbwidgets/gbtable.c:134
+msgid "New table"
+msgstr "Nieuwe Tabel"
+
+#: glade/gbwidgets/gbtable.c:145 glade/gbwidgets/gbvbox.c:94
+#: glade/gbwidgets/gbvbuttonbox.c:117
+msgid "Number of rows:"
+msgstr "Aantal rijen:"
+
+#: glade/gbwidgets/gbtable.c:233
+msgid "Rows:"
+msgstr "Rijen:"
+
+#: glade/gbwidgets/gbtable.c:234
+msgid "The number of rows in the table"
+msgstr "Het aantal rijen in de tabel"
+
+#: glade/gbwidgets/gbtable.c:236
+msgid "Columns:"
+msgstr "Kolommen:"
+
+#: glade/gbwidgets/gbtable.c:237
+msgid "The number of columns in the table"
+msgstr "Het aantal kolommen in de tabel"
+
+#: glade/gbwidgets/gbtable.c:240
+msgid "If the children should all be the same size"
+msgstr "Als de kinderen allemaal van gelijke grootte moeten zijn"
+
+#: glade/gbwidgets/gbtable.c:241 glade/gnome/gnomeiconlist.c:182
+msgid "Row Spacing:"
+msgstr "Rij spatiering:"
+
+#: glade/gbwidgets/gbtable.c:242
+msgid "The space between each row"
+msgstr "De ruimte tussen iedere rij"
+
+#: glade/gbwidgets/gbtable.c:244 glade/gnome/gnomeiconlist.c:185
+msgid "Col Spacing:"
+msgstr "Kolom spatiering:"
+
+#: glade/gbwidgets/gbtable.c:245
+msgid "The space between each column"
+msgstr "De ruimte tussen de kolommen"
+
+#: glade/gbwidgets/gbtable.c:364
+msgid "Cell X:"
+msgstr "Cel X:"
+
+#: glade/gbwidgets/gbtable.c:365
+msgid "The left edge of the widget in the table"
+msgstr "De linkerrand van de widget in de tabel"
+
+#: glade/gbwidgets/gbtable.c:367
+msgid "Cell Y:"
+msgstr "Cel Y:"
+
+#: glade/gbwidgets/gbtable.c:368
+msgid "The top edge of the widget in the table"
+msgstr "De bovenkant van de widget in de tabel"
+
+#: glade/gbwidgets/gbtable.c:371
+msgid "Col Span:"
+msgstr "Kolom Span:"
+
+#: glade/gbwidgets/gbtable.c:372
+msgid "The number of columns spanned by the widget in the table"
+msgstr "Het aantal kolommen gespannen door de widget in de tabel"
+
+#: glade/gbwidgets/gbtable.c:374
+msgid "Row Span:"
+msgstr "Rij span:"
+
+#: glade/gbwidgets/gbtable.c:375
+msgid "The number of rows spanned by the widget in the table"
+msgstr "Het aantal rijen gespannen door de widget in de tabel"
+
+#: glade/gbwidgets/gbtable.c:383
+msgid "X Expand:"
+msgstr "X Expandeer:"
+
+#: glade/gbwidgets/gbtable.c:384
+msgid "Set True to let the widget expand horizontally"
+msgstr "Set op True om de widget horizontaal te laten expanderen"
+
+#: glade/gbwidgets/gbtable.c:385
+msgid "Y Expand:"
+msgstr "V Expanderen:"
+
+#: glade/gbwidgets/gbtable.c:386
+msgid "Set True to let the widget expand vertically"
+msgstr "Set op True om de widget vertikaal te laten expanderen"
+
+#: glade/gbwidgets/gbtable.c:387
+msgid "X Shrink:"
+msgstr "X Krimp:"
+
+#: glade/gbwidgets/gbtable.c:388
+msgid "Set True to let the widget shrink horizontally"
+msgstr "Zet op True om de widget horizontaal te laten krimpen"
+
+#: glade/gbwidgets/gbtable.c:389
+msgid "Y Shrink:"
+msgstr "Y Krimp:"
+
+#: glade/gbwidgets/gbtable.c:390
+msgid "Set True to let the widget shrink vertically"
+msgstr "Zet op True om de widget vertikaal te laten krimpen"
+
+#: glade/gbwidgets/gbtable.c:391
+msgid "X Fill:"
+msgstr "X Vul:"
+
+#: glade/gbwidgets/gbtable.c:392
+msgid "Set True to let the widget fill its horizontal allocated area"
+msgstr ""
+"Zet op True om de widget zijn horizontaal gealloceerde ruimte te laten fullen"
+
+#: glade/gbwidgets/gbtable.c:393
+msgid "Y Fill:"
+msgstr "Y Vul:"
+
+#: glade/gbwidgets/gbtable.c:394
+msgid "Set True to let the widget fill its vertical allocated area"
+msgstr ""
+"Zet op True om de widget zijn vertikaal gealloceerde ruimte te laten fullen"
+
+#: glade/gbwidgets/gbtable.c:575
+msgid "Insert Row Before"
+msgstr "Invoegen Rij Voor"
+
+#: glade/gbwidgets/gbtable.c:582
+msgid "Insert Row After"
+msgstr "Invoegen Rij Na"
+
+#: glade/gbwidgets/gbtable.c:589
+msgid "Insert Column Before"
+msgstr "Invoegen Kolom Voor"
+
+#: glade/gbwidgets/gbtable.c:596
+msgid "Insert Column After"
+msgstr "Invoegen Kolom Na"
+
+#: glade/gbwidgets/gbtable.c:603
+msgid "Delete Row"
+msgstr "Verwijder Rij"
+
+#: glade/gbwidgets/gbtable.c:609
+msgid "Delete Column"
+msgstr "Verwijder Kolom"
+
+#: glade/gbwidgets/gbtable.c:1115
+msgid "Table"
+msgstr "Tabel"
+
+#: glade/gbwidgets/gbtext.c:248
+msgid "Text Box"
+msgstr "Tekst Box"
+
+#: glade/gbwidgets/gbtogglebutton.c:125
+msgid "If the toggle button is initially on"
+msgstr "Als de toggle knop initieel aan is"
+
+#: glade/gbwidgets/gbtogglebutton.c:337
+msgid "Toggle Button"
+msgstr "Toggle knop"
+
+#: glade/gbwidgets/gbtoolbar.c:229
+msgid "New toolbar"
+msgstr "Nieuwe gereedschapsbalk"
+
+#: glade/gbwidgets/gbtoolbar.c:239
+msgid "Number of items:"
+msgstr "Aantal items:"
+
+#: glade/gbwidgets/gbtoolbar.c:302
+msgid "The number of items in the toolbar"
+msgstr "Het aantal items in de gereedschapsbalk"
+
+#: glade/gbwidgets/gbtoolbar.c:305
+msgid "The toolbar orientation"
+msgstr "De orientatie van de gereedschapsbalk"
+
+#: glade/gbwidgets/gbtoolbar.c:308
+msgid "The toolbar style"
+msgstr "De stijl van de gereedschapsbalk"
+
+#: glade/gbwidgets/gbtoolbar.c:310
+msgid "Space Size:"
+msgstr "Spatie grootte:"
+
+#: glade/gbwidgets/gbtoolbar.c:311
+msgid "The size of spaces in the toolbar"
+msgstr "De grootte van spaties in de gereedschapskist"
+
+#: glade/gbwidgets/gbtoolbar.c:313
+msgid "Space Style:"
+msgstr "Spatie Stijl:"
+
+#: glade/gbwidgets/gbtoolbar.c:314
+msgid "The way spaces in the toolbar are displayed"
+msgstr "De manier waarop spaties in de gereedschapsbalk getoond worden"
+
+#: glade/gbwidgets/gbtoolbar.c:317
+msgid "The relief style of the toolbar buttons"
+msgstr "De reliefstijl van de knoppen van de gereedschaspbalk"
+
+#: glade/gbwidgets/gbtoolbar.c:319
+msgid "Tooltips:"
+msgstr "Tooltips:"
+
+#: glade/gbwidgets/gbtoolbar.c:319
+msgid "If tooltips are enabled"
+msgstr "Als de tooltips aan staan"
+
+#: glade/gbwidgets/gbtoolbar.c:515
+msgid "New Group:"
+msgstr "Nieuwe Groep:"
+
+#: glade/gbwidgets/gbtoolbar.c:516
+msgid "Set True to start a new group of toolbar items"
+msgstr "Zet op True om een nieuwe groep te starten van gereedschapsbalk items"
+
+#: glade/gbwidgets/gbtoolbar.c:584
+msgid "Insert Item Before"
+msgstr "Invoegen Item voor"
+
+#: glade/gbwidgets/gbtoolbar.c:591
+msgid "Insert Item After"
+msgstr "Invoegen Item Na"
+
+#: glade/gbwidgets/gbtoolbar.c:795
+msgid "Convert to ordinary button"
+msgstr "Converteer naar gewone knop"
+
+#: glade/gbwidgets/gbtoolbar.c:1628
+msgid "Toolbar"
+msgstr "Gereedschapsbalk"
+
+#: glade/gbwidgets/gbtree.c:96
+msgid "The selection mode of the tree"
+msgstr "De selectiemodus van de boom"
+
+#: glade/gbwidgets/gbtree.c:98
+msgid "View Mode:"
+msgstr "Toon Modus:"
+
+#: glade/gbwidgets/gbtree.c:99
+msgid "The view mode of the tree"
+msgstr "De toonmodus van de boom"
+
+#: glade/gbwidgets/gbtree.c:101
+msgid "View Lines:"
+msgstr "Toon Lijnen:"
+
+#: glade/gbwidgets/gbtree.c:102
+msgid "If lines are displayed between items"
+msgstr "Als lijnen getoond worden tussen items"
+
+#: glade/gbwidgets/gbtree.c:257
+msgid "Tree"
+msgstr "Boom"
+
+#: glade/gbwidgets/gbtreeitem.c:162
+msgid "Tree Item"
+msgstr "Boom Item"
+
+#: glade/gbwidgets/gbvbox.c:84
+msgid "New vertical box"
+msgstr "Nieuwe vertikale box"
+
+#: glade/gbwidgets/gbvbox.c:240
+msgid "Vertical Box"
+msgstr "Vertikale Box"
+
+#: glade/gbwidgets/gbvbuttonbox.c:106
+msgid "New vertical button box"
+msgstr "Nieuwe vertikale knop box"
+
+#: glade/gbwidgets/gbvbuttonbox.c:435
+msgid "Vertical Button Box"
+msgstr "Vertikale Knop Box"
+
+#: glade/gbwidgets/gbviewport.c:104
+msgid "The type of shadow of the viewport"
+msgstr "Het type schadow van de viewport"
+
+#: glade/gbwidgets/gbviewport.c:239
+msgid "Viewport"
+msgstr "Viewpoort "
+
+#: glade/gbwidgets/gbvpaned.c:221
+msgid "Vertical Panes"
+msgstr "Vertikale Panes"
+
+#: glade/gbwidgets/gbvruler.c:246
+msgid "Vertical Ruler"
+msgstr "Vertikale lineaal"
+
+#: glade/gbwidgets/gbvscale.c:312
+msgid "Vertical Scale"
+msgstr "Vertikale schaal"
+
+#: glade/gbwidgets/gbvscrollbar.c:229
+msgid "Vertical Scrollbar"
+msgstr "Vertikale Schuifbalk"
+
+#: glade/gbwidgets/gbvseparator.c:145
+msgid "Vertical Separator"
+msgstr "Vertikaal Scheidingsteken"
+
+#: glade/gbwidgets/gbwindow.c:154 glade/gnome/gnomecolorpicker.c:71
+#: glade/gnome/gnomedruidpagefinish.c:72
+#: glade/gnome/gnomedruidpagestandard.c:85
+#: glade/gnome/gnomedruidpagestart.c:71 glade/gnome/gnomefileentry.c:83
+#: glade/gnome/gnomefontpicker.c:96 glade/gnome/gnomeiconentry.c:66
+#: glade/gnome/gnomenumberentry.c:75
+msgid "Title:"
+msgstr "Titel:"
+
+#: glade/gbwidgets/gbwindow.c:154
+msgid "The title of the window"
+msgstr "De title van de het venster"
+
+#: glade/gbwidgets/gbwindow.c:157
+msgid "The type of the window"
+msgstr "Het type venster"
+
+#: glade/gbwidgets/gbwindow.c:162
+msgid "The initial position of the window"
+msgstr "De initiele positie van het venster"
+
+#: glade/gbwidgets/gbwindow.c:166 glade/gnome/gnomefileentry.c:87
+msgid "Modal:"
+msgstr "Modaal:"
+
+#: glade/gbwidgets/gbwindow.c:166
+msgid "If the window is modal"
+msgstr "Als  het venster modaal is"
+
+#: glade/gbwidgets/gbwindow.c:171
+msgid "Default Width:"
+msgstr "Standaard breedte:"
+
+#: glade/gbwidgets/gbwindow.c:172
+msgid "The default width of the window"
+msgstr "De standaard breedte van het venster"
+
+#: glade/gbwidgets/gbwindow.c:176
+msgid "Default Height:"
+msgstr "Standaard hoogte:"
+
+#: glade/gbwidgets/gbwindow.c:177
+msgid "The default height of the window"
+msgstr "De standaardhoogte van het venster"
+
+#: glade/gbwidgets/gbwindow.c:185
+msgid "If the window can be shrunk"
+msgstr "Als het venster ingeklapt kan worden"
+
+#: glade/gbwidgets/gbwindow.c:186
+msgid "Grow:"
+msgstr "Groei:"
+
+#: glade/gbwidgets/gbwindow.c:187
+msgid "If the window can be enlarged"
+msgstr "Als het venster uitvergroot kan worden"
+
+#: glade/gbwidgets/gbwindow.c:188
+msgid "Auto Shrink:"
+msgstr "Automatisch Minimaliseren:"
+
+#: glade/gbwidgets/gbwindow.c:189
+msgid "If the window shrinks automatically"
+msgstr "Als het venster automatisch geminimaliseerd wordt"
+
+#: glade/gbwidgets/gbwindow.c:193
+msgid "WM Name:"
+msgstr "WM Naam:"
+
+#: glade/gbwidgets/gbwindow.c:194
+msgid "The name to pass to the window manager"
+msgstr "De naam om door te geven aan de Window Manager"
+
+#: glade/gbwidgets/gbwindow.c:196
+msgid "WM Class:"
+msgstr "WM Class:"
+
+#: glade/gbwidgets/gbwindow.c:197
+msgid "The class name to pass to the window manager"
+msgstr "De klassenaam om door te geven aan de Window Manager"
+
+#: glade/gbwidgets/gbwindow.c:699
+msgid "Window"
+msgstr "Venster"
+
+#: glade/gnome/gbclock.c:104
+msgid "The type of the clock"
+msgstr "Het type klok"
+
+#: glade/gnome/gbclock.c:107
+msgid ""
+"The format of the time to display. Use %H, %M and %S to insert the hour, "
+"minute and seconds values"
+msgstr ""
+"Het formaat van de tijd om te tonen. Gebruik %H, %M en %S om uur, minuut en "
+"seconde waarden in te voegen"
+
+#: glade/gnome/gbclock.c:108
+msgid "Seconds:"
+msgstr "Seconden:"
+
+#: glade/gnome/gbclock.c:108
+msgid "The starting time"
+msgstr "De starttijd"
+
+#: glade/gnome/gbclock.c:110
+msgid "Interval:"
+msgstr "Interval:"
+
+#: glade/gnome/gbclock.c:111
+msgid "The time between updates, in seconds"
+msgstr "De tijd tussen updates, in seconden"
+
+#: glade/gnome/gbclock.c:119
+msgid "Start"
+msgstr "Start"
+
+#: glade/gnome/gbclock.c:429
+msgid "Clock"
+msgstr "Klok"
+
+#: glade/gnome/gbdial.c:127
+msgid "View Only:"
+msgstr "Toon Alleen:"
+
+#: glade/gnome/gbdial.c:128
+msgid "If the dial can not be changed by the user"
+msgstr "Als het bellen niet veranderd kan worden door de gebruiker"
+
+#: glade/gnome/gbdial.c:130
+msgid "The update policy of the dial"
+msgstr "Het updatebeleid van het bellen"
+
+#: glade/gnome/gbdial.c:275
+msgid "Dial"
+msgstr "Bel"
+
+#: glade/gnome/gbpixmapmenuitem.c:298
+msgid "Invalid stock menu pixmap"
+msgstr "Ongeldige stock menu pixmap"
+
+#: glade/gnome/gbpixmapmenuitem.c:452
+msgid "Menu item with a pixmap"
+msgstr "Menuitem met een pixmap"
+
+#: glade/gnome/gnomeabout.c:94
+msgid "Copyright:"
+msgstr "Copyright:"
+
+#: glade/gnome/gnomeabout.c:94
+msgid "The copyright notice"
+msgstr "De copyright opmerking"
+
+#: glade/gnome/gnomeabout.c:95
+msgid "Authors:"
+msgstr "Auteurs:"
+
+#: glade/gnome/gnomeabout.c:95
+msgid "The authors of the package, one on each line"
+msgstr "De auteurs van het pakket, een op iedere regel"
+
+#: glade/gnome/gnomeabout.c:96
+msgid "Comments:"
+msgstr "Kommentaar:"
+
+#: glade/gnome/gnomeabout.c:96
+msgid ""
+"Additional information, such as a description of the package and its home "
+"page on the web"
+msgstr ""
+"Extra informatie; zoals een beschrijving van het pakket en de startpagina op "
+"het web"
+
+#: glade/gnome/gnomeabout.c:97
+msgid "Logo:"
+msgstr "Logo:"
+
+#: glade/gnome/gnomeabout.c:97
+msgid "The pixmap to use as the logo"
+msgstr "De pixmap dat gebruikt wordt als logo"
+
+#: glade/gnome/gnomeabout.c:231
+msgid "Authors: "
+msgstr "Auteurs:"
+
+#: glade/gnome/gnomeabout.c:561
+msgid "Gnome About Dialog"
+msgstr "Gnome Over Dialoog"
+
+#: glade/gnome/gnomeanimator.c:94
+msgid "Loop Type:"
+msgstr "Loop type:"
+
+#: glade/gnome/gnomeanimator.c:95
+msgid "If the animation loops, and in what way"
+msgstr "Als de animatie loopt, en op welke manier"
+
+#: glade/gnome/gnomeanimator.c:97
+msgid "Reverse:"
+msgstr "Omgekeerd:"
+
+#: glade/gnome/gnomeanimator.c:98
+msgid "If the initial direction is reversed"
+msgstr "Als de initiele richting omgekeerd is"
+
+#: glade/gnome/gnomeanimator.c:99
+msgid "Speed:"
+msgstr "Snelheid:"
+
+#: glade/gnome/gnomeanimator.c:100
+msgid "The playback speed"
+msgstr "De afspeelsnelheid"
+
+#: glade/gnome/gnomeanimator.c:257
+msgid "Gnome Animator"
+msgstr "Gnome Animator"
+
+#: glade/gnome/gnomeapp.c:63
+msgid "_New File"
+msgstr "_Nieuw Bestand"
+
+#: glade/gnome/gnomeapp.c:63
+msgid "Create a new file"
+msgstr "Creeer een nieuw bestand"
+
+#: glade/gnome/gnomeapp.c:124
+msgid "New File"
+msgstr "Nieuw Bestand"
+
+#: glade/gnome/gnomeapp.c:129
+msgid "Open File"
+msgstr "Open Bestand"
+
+#: glade/gnome/gnomeapp.c:134
+msgid "Save File"
+msgstr "Bewaar Bestand"
+
+#: glade/gnome/gnomeapp.c:362
+msgid "Status Bar:"
+msgstr "Statusbalk:"
+
+#: glade/gnome/gnomeapp.c:363
+msgid "If the window has a status bar"
+msgstr "Als het venster een statusbalk heeft"
+
+#: glade/gnome/gnomeapp.c:364
+msgid "Store Config:"
+msgstr "Bewaar Configuratie:"
+
+#: glade/gnome/gnomeapp.c:365
+msgid "If the layout is saved and restored automatically"
+msgstr "Als de opmaak automatisch bewaard en teruggezet wordt"
+
+#: glade/gnome/gnomeapp.c:581
+msgid "Gnome Application Window"
+msgstr "Gnome Applicatie Venster"
+
+#: glade/gnome/gnomeappbar.c:56
+msgid "Status Message."
+msgstr "Status boodschap."
+
+#: glade/gnome/gnomeappbar.c:69
+msgid "Progress:"
+msgstr "Voortgang:"
+
+#: glade/gnome/gnomeappbar.c:70
+msgid "If the app bar has a progress indicator"
+msgstr "Als de applicatiebalk een voortgangsindicator heeft"
+
+#: glade/gnome/gnomeappbar.c:71
+msgid "Status:"
+msgstr "Status:"
+
+#: glade/gnome/gnomeappbar.c:72
+msgid "If the app bar has an area for status messages and user input"
+msgstr ""
+"Als de applicatiebalk een gebied heeft voor statusboodschappen en "
+"gebruikersinvoer"
+
+#: glade/gnome/gnomeappbar.c:183
+msgid "Gnome Application Bar"
+msgstr "Gnome Applicatie Balk"
+
+#: glade/gnome/gnomecalculator.c:146
+msgid "Gnome Calculator"
+msgstr "Gnome Calculator"
+
+#: glade/gnome/gnomecanvas.c:68
+msgid "Anti-Aliased:"
+msgstr "Anti-aliased:"
+
+#: glade/gnome/gnomecanvas.c:69
+msgid "If the canvas is anti-aliased, to smooth the edges of text and graphics"
+msgstr ""
+"Als de canvas niet aliased is, om de randen van tekst en afbeeldingen te "
+"verzachten"
+
+#: glade/gnome/gnomecanvas.c:70
+msgid "X1:"
+msgstr "X1:"
+
+#: glade/gnome/gnomecanvas.c:70
+msgid "The minimum x coordinate"
+msgstr "De minimale x coordinaat"
+
+#: glade/gnome/gnomecanvas.c:71
+msgid "Y1:"
+msgstr "Y1:"
+
+#: glade/gnome/gnomecanvas.c:71
+msgid "The minimum y coordinate"
+msgstr "De minimale y coordinaat"
+
+#: glade/gnome/gnomecanvas.c:72
+msgid "X2:"
+msgstr "X2:"
+
+#: glade/gnome/gnomecanvas.c:72
+msgid "The maximum x coordinate"
+msgstr "De maximale x coordinaat"
+
+#: glade/gnome/gnomecanvas.c:73
+msgid "Y2:"
+msgstr "Y2:"
+
+#: glade/gnome/gnomecanvas.c:73
+msgid "The maximum y coordinate"
+msgstr "De maximale y coordinaat"
+
+#: glade/gnome/gnomecanvas.c:75
+msgid "Pixels Per Unit:"
+msgstr "Pixels per Eenheid:"
+
+#: glade/gnome/gnomecanvas.c:76
+msgid "The number of pixels corresponding to one unit"
+msgstr "Het aantal pixels dat overeenkomt met een eenheid"
+
+#: glade/gnome/gnomecanvas.c:250
+msgid "GnomeCanvas"
+msgstr "GnomeCanvas"
+
+#: glade/gnome/gnomecolorpicker.c:66
+msgid "Dither:"
+msgstr "Dither:"
+
+#: glade/gnome/gnomecolorpicker.c:67
+msgid "If the sample should use dithering to be more accurate"
+msgstr ""
+"Als het voorbeeld gebruik moet maken van dithering om meer accurraat te zijn"
+
+#: glade/gnome/gnomecolorpicker.c:68
+msgid "Use Alpha:"
+msgstr "Gebruik Alpha:"
+
+#: glade/gnome/gnomecolorpicker.c:69
+msgid "If the alpha channel should be used"
+msgstr "Als het alphakanaal gebruikt moet worden"
+
+#: glade/gnome/gnomecolorpicker.c:72
+msgid "The title of the color selection dialog"
+msgstr "De titel van de Kleur Selectie Dialoog"
+
+#: glade/gnome/gnomecolorpicker.c:151
+msgid "Pick a color"
+msgstr "Kies een kleur"
+
+#: glade/gnome/gnomecolorpicker.c:194
+msgid "Gnome Color Picker"
+msgstr "Gnome Kleur Kiezer"
+
+#: glade/gnome/gnomedateedit.c:69
+msgid "Show Time:"
+msgstr "Toon Tijd:"
+
+#: glade/gnome/gnomedateedit.c:70
+msgid "If the time is shown as well as the date"
+msgstr "Als de tijd getoond wordt net als de datum"
+
+#: glade/gnome/gnomedateedit.c:71
+msgid "24 Hour Format:"
+msgstr "24 Uur Formaat:"
+
+#: glade/gnome/gnomedateedit.c:72
+msgid "If the time is shown in 24-hour format"
+msgstr "Als de tijd getoond wordt in 24 uur formaat"
+
+#: glade/gnome/gnomedateedit.c:75
+msgid "Lower Hour:"
+msgstr "Onderste uur:"
+
+#: glade/gnome/gnomedateedit.c:76
+msgid "The lowest hour to show in the popup"
+msgstr "Het laagste uur om te tonen in de pop-up"
+
+#: glade/gnome/gnomedateedit.c:78
+msgid "Upper Hour:"
+msgstr "Grootste uur:"
+
+#: glade/gnome/gnomedateedit.c:79
+msgid "The highest hour to show in the popup"
+msgstr "Het grootste uur om te tonen in de pop-up"
+
+#: glade/gnome/gnomedateedit.c:274
+msgid "GnomeDateEdit"
+msgstr "GnomeDateEdit"
+
+#: glade/gnome/gnomedialog.c:143 glade/gnome/gnomemessagebox.c:175
+msgid "Auto Close:"
+msgstr "Auto Sluit:"
+
+#: glade/gnome/gnomedialog.c:144 glade/gnome/gnomemessagebox.c:176
+msgid "If the dialog closes when any button is clicked"
+msgstr "Als het dialoogvenster sluit wanneer een knop ingedrukt wordt"
+
+#: glade/gnome/gnomedialog.c:145 glade/gnome/gnomemessagebox.c:177
+msgid "Hide on Close:"
+msgstr "Verberg op Sluiten:"
+
+#: glade/gnome/gnomedialog.c:146 glade/gnome/gnomemessagebox.c:178
+msgid "If the dialog is hidden when it is closed, instead of being destroyed"
+msgstr ""
+"Als het dialoogvenster verborgen worden als het gesloten is, in plaats van "
+"verwijderd."
+
+#: glade/gnome/gnomedialog.c:317
+msgid "Gnome Dialog Box"
+msgstr "Gnome Dialoog Box"
+
+#: glade/gnome/gnomedock.c:231
+msgid "Allow Floating:"
+msgstr "Toestaan Zweven:"
+
+#: glade/gnome/gnomedock.c:232
+msgid "If floating dock items are allowed"
+msgstr "Als zwevende dock items toegestaan worden"
+
+#: glade/gnome/gnomedock.c:278
+msgid "Add dock band on top"
+msgstr "Dockband toevoegen op de top"
+
+#: glade/gnome/gnomedock.c:285
+msgid "Add dock band on bottom"
+msgstr "Dockband toevoegen op de bodem"
+
+#: glade/gnome/gnomedock.c:292
+msgid "Add dock band on left"
+msgstr "Dockband toevoegen aan de linkerkant"
+
+#: glade/gnome/gnomedock.c:299
+msgid "Add dock band on right"
+msgstr "Dockband toevoegen aan de rechterkant"
+
+#: glade/gnome/gnomedock.c:306
+msgid "Add floating dock item"
+msgstr "Toevoegen zwevend docking item "
+
+#: glade/gnome/gnomedock.c:504
+msgid "Gnome Dock"
+msgstr "Gnome Dock"
+
+#: glade/gnome/gnomedockitem.c:201
+msgid "Locked:"
+msgstr "Versleuteld:"
+
+#: glade/gnome/gnomedockitem.c:202
+msgid "If the dock item is locked in position"
+msgstr "Als het dock item in positie versleuteld is"
+
+#: glade/gnome/gnomedockitem.c:203
+msgid "Exclusive:"
+msgstr "Exclusief:"
+
+#: glade/gnome/gnomedockitem.c:204
+msgid "If the dock item is always the only item in its band"
+msgstr "Als het dockitem altijd het enige item in de band is"
+
+#: glade/gnome/gnomedockitem.c:205
+msgid "Never Floating:"
+msgstr "Nooit Zweven:"
+
+#: glade/gnome/gnomedockitem.c:206
+msgid "If the dock item is never allowed to float in its own window"
+msgstr ""
+"Als het dockitem nooit toegestaan wordt om te zweven in zijn eigen venster"
+
+#: glade/gnome/gnomedockitem.c:207
+msgid "Never Vertical:"
+msgstr "Nooit Vertikaal:"
+
+#: glade/gnome/gnomedockitem.c:208
+msgid "If the dock item is never allowed to be vertical"
+msgstr "Als het dockitem nooit toegestaan wordt om vertikaal te zijn"
+
+#: glade/gnome/gnomedockitem.c:209
+msgid "Never Horizontal:"
+msgstr "Nooit Horizontaal:"
+
+#: glade/gnome/gnomedockitem.c:210
+msgid "If the dock item is never allowed to be horizontal"
+msgstr "Als het dockitem nooit toegestaan wordt om horizontaal te zijn"
+
+#: glade/gnome/gnomedockitem.c:213
+msgid "The type of shadow around the dock item"
+msgstr "Het type schaduw rondom het dock item"
+
+#: glade/gnome/gnomedockitem.c:216
+msgid "The orientation of a floating dock item"
+msgstr "De orientatie van een zwevend dock item"
+
+#: glade/gnome/gnomedockitem.c:431
+msgid "Add dock item before"
+msgstr "Toevoegen dock item voor"
+
+#: glade/gnome/gnomedockitem.c:438
+msgid "Add dock item after"
+msgstr "Toevoegen dock item na"
+
+#: glade/gnome/gnomedockitem.c:773
+msgid "Gnome Dock Item"
+msgstr "Gnome Dock Item"
+
+#: glade/gnome/gnomedruid.c:88
+msgid "New Gnome Druid"
+msgstr "Nieuwe Gnome Druide"
+
+#: glade/gnome/gnomedruid.c:246
+msgid "Add Start Page"
+msgstr "Toevoegen Startpagina"
+
+#: glade/gnome/gnomedruid.c:257
+msgid "Add Finish Page"
+msgstr "Toevoegen Finish pagina"
+
+#: glade/gnome/gnomedruid.c:450
+msgid "Druid"
+msgstr "Druide"
+
+#: glade/gnome/gnomedruidpagefinish.c:73
+#: glade/gnome/gnomedruidpagestandard.c:86
+#: glade/gnome/gnomedruidpagestart.c:72
+msgid "The title of the page"
+msgstr "De titel van de pagina"
+
+#: glade/gnome/gnomedruidpagefinish.c:75 glade/gnome/gnomedruidpagestart.c:74
+msgid "The main text of the page, introducing people to the druid."
+msgstr ""
+"De hoofdtekst van de pagina, waarbij mensen aan de druide geintroduceerd "
+"worden."
+
+#: glade/gnome/gnomedruidpagefinish.c:77
+#: glade/gnome/gnomedruidpagestandard.c:87
+#: glade/gnome/gnomedruidpagestart.c:76
+msgid "Title Color:"
+msgstr "Titel Kleur:"
+
+#: glade/gnome/gnomedruidpagefinish.c:78
+#: glade/gnome/gnomedruidpagestandard.c:88
+#: glade/gnome/gnomedruidpagestart.c:77
+msgid "The color of the title text"
+msgstr "De kleur van de titeltekst"
+
+#: glade/gnome/gnomedruidpagefinish.c:79 glade/gnome/gnomedruidpagestart.c:78
+msgid "Text Color:"
+msgstr "Tekst Kleur:"
+
+#: glade/gnome/gnomedruidpagefinish.c:80 glade/gnome/gnomedruidpagestart.c:79
+msgid "The color of the main text"
+msgstr "De kleur van de hoofdtekst"
+
+#: glade/gnome/gnomedruidpagefinish.c:81
+#: glade/gnome/gnomedruidpagestandard.c:89
+#: glade/gnome/gnomedruidpagestart.c:80
+msgid "Back. Color:"
+msgstr "Achtergrond Kleur:"
+
+#: glade/gnome/gnomedruidpagefinish.c:82
+#: glade/gnome/gnomedruidpagestandard.c:90
+#: glade/gnome/gnomedruidpagestart.c:81
+msgid "The background color of the page"
+msgstr "De achtergrondkleur van de pagina"
+
+#: glade/gnome/gnomedruidpagefinish.c:83
+#: glade/gnome/gnomedruidpagestandard.c:91
+#: glade/gnome/gnomedruidpagestart.c:82
+msgid "Logo Back. Color:"
+msgstr "Logo achtergrondkleur:"
+
+#: glade/gnome/gnomedruidpagefinish.c:84
+#: glade/gnome/gnomedruidpagestandard.c:92
+#: glade/gnome/gnomedruidpagestart.c:83
+msgid "The background color around the logo"
+msgstr "De achtergrondkleur van het logo"
+
+#: glade/gnome/gnomedruidpagefinish.c:85 glade/gnome/gnomedruidpagestart.c:84
+msgid "Text Box Color:"
+msgstr "Text Box Kleur:"
+
+#: glade/gnome/gnomedruidpagefinish.c:86 glade/gnome/gnomedruidpagestart.c:85
+msgid "The background color of the main text area"
+msgstr "De achtergrondkleur van het hoofdtekstgebied"
+
+#: glade/gnome/gnomedruidpagefinish.c:88
+#: glade/gnome/gnomedruidpagestandard.c:94
+#: glade/gnome/gnomedruidpagestart.c:87
+msgid "The logo to display in the top-right of the page"
+msgstr "Het logo dat getoond wordt rechtsboven aan de pagina"
+
+#: glade/gnome/gnomedruidpagefinish.c:90 glade/gnome/gnomedruidpagestart.c:89
+msgid "The main image to display on the left of the page."
+msgstr "De hoofdafbeelding om te tonen aan de linkerkant van de pagina."
+
+#: glade/gnome/gnomedruidpagefinish.c:196
+#: glade/gnome/gnomedruidpagefinish.c:241
+#: glade/gnome/gnomedruidpagestandard.c:179
+#: glade/gnome/gnomedruidpagestart.c:195 glade/gnome/gnomedruidpagestart.c:240
+msgid "Couldn't load image from file"
+msgstr "Kan afbeelding niet laden van bestand"
+
+#: glade/gnome/gnomedruidpagefinish.c:201
+#: glade/gnome/gnomedruidpagefinish.c:246
+#: glade/gnome/gnomedruidpagestandard.c:184
+#: glade/gnome/gnomedruidpagestart.c:200 glade/gnome/gnomedruidpagestart.c:245
+msgid "Couldn't load image from file\n"
+msgstr "Kon afbeelding niet laden van bestand\n"
+
+#: glade/gnome/gnomedruidpagefinish.c:420
+msgid "Druid Finish Page"
+msgstr "Druide Finish Pagina"
+
+#: glade/gnome/gnomedruidpagestandard.c:346
+msgid "Druid Standard Page"
+msgstr "Druide Standaard Pagina"
+
+#: glade/gnome/gnomedruidpagestart.c:419
+msgid "Druid Start Page"
+msgstr "Druide Start Pagina"
+
+#: glade/gnome/gnomeentry.c:74 glade/gnome/gnomefileentry.c:78
+#: glade/gnome/gnomeiconentry.c:68 glade/gnome/gnomenumberentry.c:77
+msgid "History ID:"
+msgstr "Historie ID:"
+
+#: glade/gnome/gnomeentry.c:75 glade/gnome/gnomefileentry.c:79
+#: glade/gnome/gnomeiconentry.c:69 glade/gnome/gnomenumberentry.c:78
+msgid "The ID to save the history entries under"
+msgstr "Het ID waaronder de historie ingangen te bewaren"
+
+#: glade/gnome/gnomeentry.c:76 glade/gnome/gnomefileentry.c:80
+#: glade/gnome/gnomeiconentry.c:70 glade/gnome/gnomenumberentry.c:79
+msgid "Max Saved:"
+msgstr "Maximaal bewaard:"
+
+#: glade/gnome/gnomeentry.c:77 glade/gnome/gnomefileentry.c:81
+#: glade/gnome/gnomeiconentry.c:71 glade/gnome/gnomenumberentry.c:80
+msgid "The maximum number of history entries saved"
+msgstr "Het maximaal aantal te bewaren historieingangen"
+
+#: glade/gnome/gnomeentry.c:212
+msgid "Gnome Entry"
+msgstr "Gnome Ingang"
+
+#: glade/gnome/gnomefileentry.c:84 glade/gnome/gnomeiconentry.c:67
+msgid "The title of the file selection dialog"
+msgstr "De titel van het bestandsselectiedialoog"
+
+#: glade/gnome/gnomefileentry.c:85
+msgid "Directory:"
+msgstr "Map:"
+
+#: glade/gnome/gnomefileentry.c:86
+msgid "If a directory is needed rather than a file"
+msgstr "Als een map nodig is in plaats van een bestand"
+
+#: glade/gnome/gnomefileentry.c:88
+msgid "If the file selection dialog should be modal"
+msgstr "Als een bestandsselectiediallog modaal moet zijn"
+
+#: glade/gnome/gnomefileentry.c:276
+msgid "Gnome File Entry"
+msgstr "Gnome Bestandsingang"
+
+#: glade/gnome/gnomefontpicker.c:97
+msgid "The title of the font selection dialog"
+msgstr "De titel van het lettertype selektiedialoog"
+
+#: glade/gnome/gnomefontpicker.c:98
+msgid "Preview Text:"
+msgstr "Voorbeeld Tekst:"
+
+#: glade/gnome/gnomefontpicker.c:99
+msgid "The preview text to show in the font selection dialog"
+msgstr "De voorbeeldtekst om te tonen in het lettertype selectie dialoog"
+
+#: glade/gnome/gnomefontpicker.c:100
+msgid "Mode:"
+msgstr "Modus:"
+
+#: glade/gnome/gnomefontpicker.c:101
+msgid "What to display in the font picker button"
+msgstr "Wat te tonen in de lettertype selectieknop"
+
+#: glade/gnome/gnomefontpicker.c:103
+msgid "Show Size:"
+msgstr "Toon grootte:"
+
+#: glade/gnome/gnomefontpicker.c:104
+msgid "If the font size is shown as part of the font information"
+msgstr ""
+"Als de lettertypegrootte getoond wordt als onderdeel van de "
+"lettertypeinformatie"
+
+#: glade/gnome/gnomefontpicker.c:105
+msgid "Use Font:"
+msgstr "Gebruik lettertype:"
+
+#: glade/gnome/gnomefontpicker.c:106
+msgid "If the selected font is used when displaying the font information"
+msgstr ""
+"Als het geselecteerde lettertype gebruikt wordt om de lettertypeinformatie "
+"te tonen"
+
+#: glade/gnome/gnomefontpicker.c:107
+msgid "Use Size:"
+msgstr "Gebruik grootte:"
+
+#: glade/gnome/gnomefontpicker.c:108
+msgid "The size of the font to use in the font picker button"
+msgstr ""
+"De grootte van het te gebruiken lettertype in de lettertypeselectie knop"
+
+#: glade/gnome/gnomefontpicker.c:182 glade/gnome/gnomefontpicker.c:276
+msgid "Pick a Font"
+msgstr "Selecteer een lettertype"
+
+#: glade/gnome/gnomefontpicker.c:341
+msgid "Gnome Font Picker"
+msgstr "Gnome Lettertype Selekteur"
+
+#: glade/gnome/gnomehref.c:65
+msgid "URL:"
+msgstr "URL:"
+
+#: glade/gnome/gnomehref.c:66
+msgid "The URL to display when the button is clicked"
+msgstr "Het weer te geven URL als op de knop gedrukt wordt"
+
+#: glade/gnome/gnomehref.c:68
+msgid "The text to display in the button"
+msgstr "De te tonen tekst in de knop"
+
+#: glade/gnome/gnomehref.c:171
+msgid "Gnome HRef Link Button"
+msgstr "Gnome HRef Link Knop"
+
+#: glade/gnome/gnomeiconentry.c:204
+msgid "Gnome Icon Entry"
+msgstr "Gnome Ikoon Entry"
+
+#: glade/gnome/gnomeiconlist.c:177
+msgid "The selection mode"
+msgstr "De selectiemodus"
+
+#: glade/gnome/gnomeiconlist.c:179
+msgid "Icon Width:"
+msgstr "Icoonbreedte:"
+
+#: glade/gnome/gnomeiconlist.c:180
+msgid "The width of each icon"
+msgstr "De breedte van ieder icoon"
+
+#: glade/gnome/gnomeiconlist.c:183
+msgid "The number of pixels between rows of icons"
+msgstr "Het aantal pixels tussen rijen van iconen"
+
+#: glade/gnome/gnomeiconlist.c:186
+msgid "The number of pixels between columns of icons"
+msgstr "Het aantal pixels tussen kolommen van iconen"
+
+#: glade/gnome/gnomeiconlist.c:189
+msgid "Icon Border:"
+msgstr "Icoon rand:"
+
+#: glade/gnome/gnomeiconlist.c:190
+msgid "The number of pixels around icons (unused?)"
+msgstr "Het aantal pixels rondom iconen (niet gebruikt?)"
+
+#: glade/gnome/gnomeiconlist.c:193
+msgid "Text Spacing:"
+msgstr "Tekst spatiering:"
+
+#: glade/gnome/gnomeiconlist.c:194
+msgid "The number of pixels between the text and the icon"
+msgstr "Het aantal pixels tussen de tekst en het ikoon"
+
+#: glade/gnome/gnomeiconlist.c:196
+msgid "Text Editable:"
+msgstr "Tekst Wijzigbaar:"
+
+#: glade/gnome/gnomeiconlist.c:197
+msgid "If the icon text can be edited by the user"
+msgstr "Als de icoontekst gewijzigd kan worden door de gebruiker"
+
+#: glade/gnome/gnomeiconlist.c:198
+msgid "Text Static:"
+msgstr "Tekst Statisch:"
+
+#: glade/gnome/gnomeiconlist.c:199
+msgid ""
+"If the icon text is static, in which case it will not be copied by the "
+"GnomeIconList"
+msgstr ""
+"Als de ikoontekst statis is, in welk geval het niet gekopieerd wordt door de "
+"GnomeIcoonLijst"
+
+#: glade/gnome/gnomeiconlist.c:462
+msgid "Icon List"
+msgstr "Icoon Lijst"
+
+#: glade/gnome/gnomeiconselection.c:153
+msgid "Icon Selection"
+msgstr "Icoon Selecteur"
+
+#: glade/gnome/gnomeless.c:67
+msgid "Example output from GnomeLess widget.\n"
+msgstr "Voorbeelduitvoer van GnomeLess widget.\n"
+
+#: glade/gnome/gnomeless.c:78
+msgid "The font to use for the text"
+msgstr "Het te gebruiken lettertype voor de tekst"
+
+#: glade/gnome/gnomeless.c:187
+msgid "Gnome Less"
+msgstr "Gnome Less"
+
+#: glade/gnome/gnomemessagebox.c:163
+msgid "Message Type:"
+msgstr "Boodschap Type:"
+
+#: glade/gnome/gnomemessagebox.c:164
+msgid "The type of the message box"
+msgstr "Het type van de boodschappen box"
+
+#: glade/gnome/gnomemessagebox.c:166
+msgid "Message:"
+msgstr "Boodschap:"
+
+#: glade/gnome/gnomemessagebox.c:166
+msgid "The message to display"
+msgstr "De te tonen boodschap"
+
+#: glade/gnome/gnomemessagebox.c:497
+msgid "Gnome Message Box"
+msgstr "Gnome Message Box"
+
+#: glade/gnome/gnomenumberentry.c:76
+msgid "The title of the calculator dialog"
+msgstr "De titel van de calculator dialoog"
+
+#: glade/gnome/gnomenumberentry.c:116 glade/gnome/gnomenumberentry.c:160
+msgid "Calculator"
+msgstr "Calculator"
+
+#: glade/gnome/gnomenumberentry.c:237
+msgid "GnomeNumberEntry"
+msgstr "GnomeNummer Entry"
+
+#: glade/gnome/gnomepaperselector.c:147
+msgid "Gnome Paper Selector"
+msgstr "Gnome Papier Selecteur"
+
+#: glade/gnome/gnomepixmap.c:79
+msgid "Scaled:"
+msgstr "Geschaald:"
+
+#: glade/gnome/gnomepixmap.c:79
+msgid "If the pixmap is scaled"
+msgstr "Als de pixmap geschaald is"
+
+#: glade/gnome/gnomepixmap.c:80
+msgid "Scaled Width:"
+msgstr "Schaalbreedte:"
+
+#: glade/gnome/gnomepixmap.c:81
+msgid "The width to scale the pixmap to"
+msgstr "De breedte om de pixmap naar te schalen"
+
+#: glade/gnome/gnomepixmap.c:83
+msgid "Scaled Height:"
+msgstr "Schaal Hoogte:"
+
+#: glade/gnome/gnomepixmap.c:84
+msgid "The height to scale the pixmap to"
+msgstr "De hoogte waarnaar de pixmap te schalen"
+
+#: glade/gnome/gnomepixmap.c:325
+msgid "Gnome Pixmap"
+msgstr "Gnome Pixmap"
+
+#: glade/gnome/gnomepixmapentry.c:81
+msgid "Preview:"
+msgstr "Voorbeeld:"
+
+#: glade/gnome/gnomepixmapentry.c:82
+msgid "If a small preview of the pixmap is displayed"
+msgstr "Als een klein voorbeeld van de pixmap getoond wordt"
+
+#: glade/gnome/gnomepixmapentry.c:223
+msgid "GnomePixmapEntry"
+msgstr "Gnome PixmapEntry"
+
+#: glade/gnome/gnomepropertybox.c:104
+msgid "New GnomePropertyBox"
+msgstr "Nieuwe GnopePropertyBox"
+
+#: glade/gnome/gnomepropertybox.c:342
+msgid "Property Dialog Box"
+msgstr "Property Dialog Box"
+
+#: glade/gnome/gnomespell.c:147
+msgid "Spell Checker"
+msgstr "Spellingscontrole"
+
+#: glade/gnome/gnomestock.c:143
+msgid "Gnome Stock Pixmap"
+msgstr "Gnome Stock Pixmap"
+
+#: glade/gnome-db/gnomedbbrowser.c:143
+msgid "Database Browser"
+msgstr "Database Browser"
+
+#: glade/gnome-db/gnomedbcombo.c:139
+msgid "Data-bound combo"
+msgstr "Data-gebonden combo"
+
+#: glade/gnome-db/gnomedbdataset.c:143
+msgid "Database Dataset"
+msgstr "Database Dataset"
+
+#: glade/gnome-db/gnomedbdesigner.c:139
+#, fuzzy
+msgid "Database designer"
+msgstr "Database Browser"
+
+#: glade/gnome-db/gnomedbdsnconfig.c:143
+msgid "DSN Configurator"
+msgstr "DSN Configurator"
+
+#: glade/gnome-db/gnomedbentry.c:141
+#, fuzzy
+msgid "Data-bound entry"
+msgstr "Data-gebonden grid"
+
+#: glade/gnome-db/gnomedberror.c:143
+msgid "Database error viewer"
+msgstr "Database Fout Kijker"
+
+#: glade/gnome-db/gnomedberrordlg.c:192
+msgid "Database error dialog"
+msgstr "Database fout dialoog"
+
+#: glade/gnome-db/gnomedbexport.c:140
+#, fuzzy
+msgid "Database export"
+msgstr "Database rapport"
+
+#: glade/gnome-db/gnomedbgrid.c:139
+msgid "Data-bound grid"
+msgstr "Data-gebonden grid"
+
+#: glade/gnome-db/gnomedbiconlist.c:143
+msgid "Database Icon List"
+msgstr "Database ikoon Lijst"
+
+#: glade/gnome-db/gnomedblabel.c:141
+msgid "Data label"
+msgstr ""
+
+#: glade/gnome-db/gnomedblist.c:145
+msgid "Data-bound list"
+msgstr "Data-gebonden lijst"
+
+#: glade/gnome-db/gnomedblogin.c:144
+msgid "Database login widget"
+msgstr "Database login widget"
+
+#: glade/gnome-db/gnomedblogindlg.c:65
+msgid "Login"
+msgstr "Login"
+
+#: glade/gnome-db/gnomedblogindlg.c:194
+msgid "Database login dialog"
+msgstr "Database login dialoog"
+
+#: glade/gnome-db/gnomedblogviewer.c:141
+#, fuzzy
+msgid "Database log viewer"
+msgstr "Database Fout Kijker"
+
+#: glade/gnome-db/gnomedbreport.c:145
+msgid "Database report"
+msgstr "Database rapport"
+
+#: glade/gnome-db/gnomedbtableeditor.c:139
+#, fuzzy
+msgid "Table Editor "
+msgstr "Menu Editor"
+
+#: glade/gnome-db/gnomedbwindow.c:141
+#, fuzzy
+msgid "GNOME-DB Application window"
+msgstr "Gnome Applicatie Venster"

@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<omf>
+  <resource>
+    <title>
+      Avvio rapido all'uso di Glade
+    </title>
+    <subject>
+      <category>GNOME|Development</category>
+    </subject>
+    <format mime="text/sgml"/>
+    <identifier url="turbo-start.sgml"/>
+    <language code="it"/>
+  </resource>
+</omf>

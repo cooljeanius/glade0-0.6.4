@@ -1,0 +1,421 @@
+callbacks.o callbacks.o: callbacks.c ../config.h \
+  /opt/local/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/sys/_symbol_aliasing.h \
+  /usr/include/sys/_posix_availability.h /usr/include/Availability.h \
+  /usr/include/AvailabilityInternal.h /opt/local/include/_types.h \
+  /usr/include/sys/_types.h /usr/include/machine/_types.h \
+  /usr/include/i386/_types.h /opt/local/include/secure/_stdio.h \
+  /opt/local/include/secure/_common.h \
+  /opt/local/include/gtk-1.2/gtk/gtk.h \
+  /opt/local/include/gtk-1.2/gdk/gdk.h \
+  /opt/local/include/gtk-1.2/gdk/gdktypes.h \
+  /opt/local/include/glib-1.2/glib.h \
+  /opt/local/lib/glib/include/glibconfig.h /opt/local/include/limits.h \
+  /usr/include/machine/limits.h /usr/include/i386/limits.h \
+  /usr/include/i386/_limits.h /usr/include/sys/syslimits.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/float.h \
+  /usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h \
+  /opt/local/include/gtk-1.2/gdk/gdkcursors.h \
+  /opt/local/include/gtk-1.2/gdk/gdkrgb.h \
+  /opt/local/include/gtk-1.2/gtk/gtkaccelgroup.h \
+  /opt/local/include/gtk-1.2/gtk/gtkobject.h \
+  /opt/local/include/gtk-1.2/gtk/gtkarg.h \
+  /opt/local/include/gtk-1.2/gtk/gtktypeutils.h \
+  /opt/local/include/gtk-1.2/gtk/gtktypebuiltins.h \
+  /opt/local/include/gtk-1.2/gtk/gtkenums.h \
+  /opt/local/include/gtk-1.2/gtk/gtkdebug.h \
+  /opt/local/include/gtk-1.2/gtk/gtkaccellabel.h \
+  /opt/local/include/gtk-1.2/gtk/gtklabel.h \
+  /opt/local/include/gtk-1.2/gtk/gtkmisc.h \
+  /opt/local/include/gtk-1.2/gtk/gtkwidget.h \
+  /opt/local/include/gtk-1.2/gtk/gtkadjustment.h \
+  /opt/local/include/gtk-1.2/gtk/gtkdata.h \
+  /opt/local/include/gtk-1.2/gtk/gtkstyle.h \
+  /opt/local/include/gtk-1.2/gtk/gtkalignment.h \
+  /opt/local/include/gtk-1.2/gtk/gtkbin.h \
+  /opt/local/include/gtk-1.2/gtk/gtkcontainer.h \
+  /opt/local/include/gtk-1.2/gtk/gtkaspectframe.h \
+  /opt/local/include/gtk-1.2/gtk/gtkframe.h \
+  /opt/local/include/gtk-1.2/gtk/gtkarrow.h \
+  /opt/local/include/gtk-1.2/gtk/gtkbindings.h \
+  /opt/local/include/gtk-1.2/gtk/gtkbox.h \
+  /opt/local/include/gtk-1.2/gtk/gtkbbox.h \
+  /opt/local/include/gtk-1.2/gtk/gtkbutton.h \
+  /opt/local/include/gtk-1.2/gtk/gtkcalendar.h \
+  /opt/local/include/gtk-1.2/gtk/gtksignal.h \
+  /opt/local/include/gtk-1.2/gtk/gtkmarshal.h \
+  /opt/local/include/gtk-1.2/gtk/gtkcheckbutton.h \
+  /opt/local/include/gtk-1.2/gtk/gtktogglebutton.h \
+  /opt/local/include/gtk-1.2/gtk/gtkcheckmenuitem.h \
+  /opt/local/include/gtk-1.2/gtk/gtkmenuitem.h \
+  /opt/local/include/gtk-1.2/gtk/gtkitem.h \
+  /opt/local/include/gtk-1.2/gtk/gtkclist.h \
+  /opt/local/include/gtk-1.2/gtk/gtkhscrollbar.h \
+  /opt/local/include/gtk-1.2/gtk/gtkscrollbar.h \
+  /opt/local/include/gtk-1.2/gtk/gtkrange.h \
+  /opt/local/include/gtk-1.2/gtk/gtkvscrollbar.h \
+  /opt/local/include/gtk-1.2/gtk/gtkcolorsel.h \
+  /opt/local/include/gtk-1.2/gtk/gtkwindow.h \
+  /opt/local/include/gtk-1.2/gtk/gtkvbox.h \
+  /opt/local/include/gtk-1.2/gtk/gtkpreview.h \
+  /opt/local/include/gtk-1.2/gtk/gtkentry.h \
+  /opt/local/include/gtk-1.2/gtk/gtkeditable.h \
+  /opt/local/include/gtk-1.2/gtk/gtkhbox.h \
+  /opt/local/include/gtk-1.2/gtk/gtkmain.h \
+  /opt/local/include/gtk-1.2/gtk/gtkscale.h \
+  /opt/local/include/gtk-1.2/gtk/gtkhscale.h \
+  /opt/local/include/gtk-1.2/gtk/gtktable.h \
+  /opt/local/include/gtk-1.2/gtk/gtkeventbox.h \
+  /opt/local/include/gtk-1.2/gtk/gtkcombo.h \
+  /opt/local/include/gtk-1.2/gtk/gtkcompat.h \
+  /opt/local/include/gtk-1.2/gtk/gtkctree.h \
+  /opt/local/include/gtk-1.2/gtk/gtkcurve.h \
+  /opt/local/include/gtk-1.2/gtk/gtkdrawingarea.h \
+  /opt/local/include/gtk-1.2/gtk/gtkdialog.h \
+  /opt/local/include/gtk-1.2/gtk/gtkdnd.h \
+  /opt/local/include/gtk-1.2/gtk/gtkselection.h \
+  /opt/local/include/gtk-1.2/gtk/gtkfeatures.h \
+  /opt/local/include/gtk-1.2/gtk/gtkfilesel.h \
+  /opt/local/include/gtk-1.2/gtk/gtkfixed.h \
+  /opt/local/include/gtk-1.2/gtk/gtkfontsel.h \
+  /opt/local/include/gtk-1.2/gtk/gtknotebook.h \
+  /opt/local/include/gtk-1.2/gtk/gtkgamma.h \
+  /opt/local/include/gtk-1.2/gtk/gtkgc.h \
+  /opt/local/include/gtk-1.2/gtk/gtkhandlebox.h \
+  /opt/local/include/gtk-1.2/gtk/gtkhbbox.h \
+  /opt/local/include/gtk-1.2/gtk/gtkhpaned.h \
+  /opt/local/include/gtk-1.2/gtk/gtkpaned.h \
+  /opt/local/include/gtk-1.2/gtk/gtkhruler.h \
+  /opt/local/include/gtk-1.2/gtk/gtkruler.h \
+  /opt/local/include/gtk-1.2/gtk/gtkhseparator.h \
+  /opt/local/include/gtk-1.2/gtk/gtkseparator.h \
+  /opt/local/include/gtk-1.2/gtk/gtkimage.h \
+  /opt/local/include/gtk-1.2/gtk/gtkinputdialog.h \
+  /opt/local/include/gtk-1.2/gtk/gtkitemfactory.h \
+  /opt/local/include/gtk-1.2/gtk/gtkmenufactory.h \
+  /opt/local/include/gtk-1.2/gtk/gtklayout.h \
+  /opt/local/include/gtk-1.2/gtk/gtklist.h \
+  /opt/local/include/gtk-1.2/gtk/gtklistitem.h \
+  /opt/local/include/gtk-1.2/gtk/gtkmenu.h \
+  /opt/local/include/gtk-1.2/gtk/gtkmenushell.h \
+  /opt/local/include/gtk-1.2/gtk/gtkmenubar.h \
+  /opt/local/include/gtk-1.2/gtk/gtkoptionmenu.h \
+  /opt/local/include/gtk-1.2/gtk/gtkpacker.h \
+  /opt/local/include/gtk-1.2/gtk/gtkpixmap.h \
+  /opt/local/include/gtk-1.2/gtk/gtkplug.h \
+  /opt/local/include/gtk-1.2/gtk/gtkprogress.h \
+  /opt/local/include/gtk-1.2/gtk/gtkprogressbar.h \
+  /opt/local/include/gtk-1.2/gtk/gtkradiobutton.h \
+  /opt/local/include/gtk-1.2/gtk/gtkradiomenuitem.h \
+  /opt/local/include/gtk-1.2/gtk/gtkrc.h \
+  /opt/local/include/gtk-1.2/gtk/gtkscrolledwindow.h \
+  /opt/local/include/gtk-1.2/gtk/gtkviewport.h \
+  /opt/local/include/gtk-1.2/gtk/gtksocket.h \
+  /opt/local/include/gtk-1.2/gtk/gtkspinbutton.h \
+  /opt/local/include/gtk-1.2/gtk/gtkstatusbar.h \
+  /opt/local/include/gtk-1.2/gtk/gtktearoffmenuitem.h \
+  /opt/local/include/gtk-1.2/gtk/gtktext.h \
+  /opt/local/include/gtk-1.2/gtk/gtkthemes.h \
+  /opt/local/include/gtk-1.2/gtk/gtktipsquery.h \
+  /opt/local/include/gtk-1.2/gtk/gtktoolbar.h \
+  /opt/local/include/gtk-1.2/gtk/gtktooltips.h \
+  /opt/local/include/gtk-1.2/gtk/gtktree.h \
+  /opt/local/include/gtk-1.2/gtk/gtktreeitem.h \
+  /opt/local/include/gtk-1.2/gtk/gtkvbbox.h \
+  /opt/local/include/gtk-1.2/gtk/gtkvpaned.h \
+  /opt/local/include/gtk-1.2/gtk/gtkvruler.h \
+  /opt/local/include/gtk-1.2/gtk/gtkvscale.h \
+  /opt/local/include/gtk-1.2/gtk/gtkvseparator.h callbacks.h interface.h \
+  support.h /opt/local/include/libintl.h /opt/local/include/locale.h \
+  /opt/local/include/_locale.h /opt/local/include/xlocale.h \
+  /opt/local/include/_xlocale.h /opt/local/include/xlocale/_stdio.h
+
+../config.h:
+
+/opt/local/include/stdio.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/sys/_symbol_aliasing.h:
+
+/usr/include/sys/_posix_availability.h:
+
+/usr/include/Availability.h:
+
+/usr/include/AvailabilityInternal.h:
+
+/opt/local/include/_types.h:
+
+/usr/include/sys/_types.h:
+
+/usr/include/machine/_types.h:
+
+/usr/include/i386/_types.h:
+
+/opt/local/include/secure/_stdio.h:
+
+/opt/local/include/secure/_common.h:
+
+/opt/local/include/gtk-1.2/gtk/gtk.h:
+
+/opt/local/include/gtk-1.2/gdk/gdk.h:
+
+/opt/local/include/gtk-1.2/gdk/gdktypes.h:
+
+/opt/local/include/glib-1.2/glib.h:
+
+/opt/local/lib/glib/include/glibconfig.h:
+
+/opt/local/include/limits.h:
+
+/usr/include/machine/limits.h:
+
+/usr/include/i386/limits.h:
+
+/usr/include/i386/_limits.h:
+
+/usr/include/sys/syslimits.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/float.h:
+
+/usr/llvm-gcc-4.2/bin/../lib/gcc/i686-apple-darwin11/4.2.1/include/stdarg.h:
+
+/opt/local/include/gtk-1.2/gdk/gdkcursors.h:
+
+/opt/local/include/gtk-1.2/gdk/gdkrgb.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkaccelgroup.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkobject.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkarg.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktypeutils.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktypebuiltins.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkenums.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkdebug.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkaccellabel.h:
+
+/opt/local/include/gtk-1.2/gtk/gtklabel.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkmisc.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkwidget.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkadjustment.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkdata.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkstyle.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkalignment.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkbin.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkcontainer.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkaspectframe.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkframe.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkarrow.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkbindings.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkbox.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkbbox.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkbutton.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkcalendar.h:
+
+/opt/local/include/gtk-1.2/gtk/gtksignal.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkmarshal.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkcheckbutton.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktogglebutton.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkcheckmenuitem.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkmenuitem.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkitem.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkclist.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkhscrollbar.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkscrollbar.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkrange.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkvscrollbar.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkcolorsel.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkwindow.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkvbox.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkpreview.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkentry.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkeditable.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkhbox.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkmain.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkscale.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkhscale.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktable.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkeventbox.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkcombo.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkcompat.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkctree.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkcurve.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkdrawingarea.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkdialog.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkdnd.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkselection.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkfeatures.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkfilesel.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkfixed.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkfontsel.h:
+
+/opt/local/include/gtk-1.2/gtk/gtknotebook.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkgamma.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkgc.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkhandlebox.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkhbbox.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkhpaned.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkpaned.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkhruler.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkruler.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkhseparator.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkseparator.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkimage.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkinputdialog.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkitemfactory.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkmenufactory.h:
+
+/opt/local/include/gtk-1.2/gtk/gtklayout.h:
+
+/opt/local/include/gtk-1.2/gtk/gtklist.h:
+
+/opt/local/include/gtk-1.2/gtk/gtklistitem.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkmenu.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkmenushell.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkmenubar.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkoptionmenu.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkpacker.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkpixmap.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkplug.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkprogress.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkprogressbar.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkradiobutton.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkradiomenuitem.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkrc.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkscrolledwindow.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkviewport.h:
+
+/opt/local/include/gtk-1.2/gtk/gtksocket.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkspinbutton.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkstatusbar.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktearoffmenuitem.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktext.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkthemes.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktipsquery.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktoolbar.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktooltips.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktree.h:
+
+/opt/local/include/gtk-1.2/gtk/gtktreeitem.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkvbbox.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkvpaned.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkvruler.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkvscale.h:
+
+/opt/local/include/gtk-1.2/gtk/gtkvseparator.h:
+
+callbacks.h:
+
+interface.h:
+
+support.h:
+
+/opt/local/include/libintl.h:
+
+/opt/local/include/locale.h:
+
+/opt/local/include/_locale.h:
+
+/opt/local/include/xlocale.h:
+
+/opt/local/include/_xlocale.h:
+
+/opt/local/include/xlocale/_stdio.h:

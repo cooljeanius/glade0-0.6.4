@@ -1,0 +1,489 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML
+><HEAD
+><TITLE
+>Glade - Manuale di riferimento</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.59"><LINK
+REL="NEXT"
+TITLE="Introduzione"
+HREF="introduction.html"></HEAD
+><BODY
+CLASS="BOOK"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="BOOK"
+><A
+NAME="INDEX"
+></A
+><DIV
+CLASS="TITLEPAGE"
+><H1
+CLASS="TITLE"
+><A
+NAME="AEN2"
+>Glade - Manuale di riferimento</A
+></H1
+><P
+CLASS="COPYRIGHT"
+><A
+HREF="ln7.html"
+>Copyright</A
+> &copy; 2000 by Michael Vance</P
+><SPAN
+CLASS="RELEASEINFO"
+> 
+      Prima versione del Manuale di riferimento di Glade.
+    <BR></SPAN
+><HR></DIV
+><DIV
+CLASS="TOC"
+><DL
+><DT
+><B
+>Table of Contents</B
+></DT
+><DT
+><A
+HREF="introduction.html"
+>Introduzione</A
+></DT
+><DT
+><A
+HREF="using.html"
+>Usare Glade</A
+></DT
+><DD
+><DL
+><DT
+>1<A
+HREF="using.html#AEN29"
+></A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="menus.html"
+>Menu</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="menus.html#FILE-MENU"
+>Il menu File</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="menus.html#FILE-NEW-PROJECT"
+>Nuovo progetto</A
+></DT
+><DT
+><A
+HREF="menus.html#FILE-OPEN-PROJECT"
+>Apri</A
+></DT
+><DT
+><A
+HREF="menus.html#FILE-SAVE-PROJECT"
+>Salva</A
+></DT
+><DT
+><A
+HREF="menus.html#FILE-BUILD-SOURCE-CODE"
+>Genera codice sorgente</A
+></DT
+><DT
+><A
+HREF="menus.html#FILE-PROJECT-OPTIONS"
+>Opzioni del progetto</A
+></DT
+><DT
+><A
+HREF="menus.html#EXIT-MENU"
+>Esci</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="edit-menu.html"
+>Il menu Modifica</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="edit-menu.html#EDIT-CUT"
+>Taglia</A
+></DT
+><DT
+><A
+HREF="edit-menu.html#EDIT-COPY"
+>Copia</A
+></DT
+><DT
+><A
+HREF="edit-menu.html#EDIT-PASTE"
+>Incolla</A
+></DT
+><DT
+><A
+HREF="edit-menu.html#EDIT-CLEAR"
+>Cancella</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="view-menu.html"
+>Il menu Vista</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="view-menu.html#VIEW-PALETTE"
+>Mostra Palette</A
+></DT
+><DT
+><A
+HREF="view-menu.html#VIEW-PROPERTY-EDITOR"
+>Mostra Editor delle proprietà</A
+></DT
+><DT
+><A
+HREF="view-menu.html#VIEW-WIDGET-TREE"
+>Mostra Albero dei widget</A
+></DT
+><DT
+><A
+HREF="view-menu.html#VIEW-CLIPBOARD"
+>Mostra Appunti</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="settings-menu.html"
+>Il menu Opzioni</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="settings-menu.html#SETTINGS-SHOW-GRID"
+>Mostra griglia</A
+></DT
+><DT
+><A
+HREF="settings-menu.html#SETTINGS-SNAP-TO-GRID"
+>Aggancia alla griglia</A
+></DT
+><DT
+><A
+HREF="settings-menu.html#SETTINGS-SHOW-WIDGET-TOOLTIPS"
+>Mostra Suggerimenti dei widget</A
+></DT
+><DT
+><A
+HREF="settings-menu.html#SETTINGS-GRID-OPTIONS"
+>Opzioni della griglia</A
+></DT
+><DT
+><A
+HREF="settings-menu.html#SETTINGS-SNAP-OPTIONS"
+>Opzioni di aggancio</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="help-menu.html"
+>Il menu Aiuto</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="help-menu.html#HELP-ABOUT"
+>Informazioni su...</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="toolbar.html"
+>La barra degli strumenti</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="toolbar.html#TOOLBAR-OPEN"
+>Apri</A
+></DT
+><DT
+><A
+HREF="toolbar.html#TOOLBAR-SAVE"
+>Salva</A
+></DT
+><DT
+><A
+HREF="toolbar.html#TOOLBAR-OPTIONS"
+>Opzioni</A
+></DT
+><DT
+><A
+HREF="toolbar.html#TOOLBAR-BUILD"
+>Crea sorgente</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+><A
+HREF="project-options.html"
+>Opzioni del progetto</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="project-options.html#PROJECT-OPTIONS-GENERAL"
+>Generale</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="project-options.html#PROJECT-OPTIONS-GENERAL-BASIC"
+>Opzioni principali</A
+></DT
+><DT
+><A
+HREF="project-options.html#PROJECT-OPTIONS-GENERAL-SUBDIRS"
+>Sottodirectory</A
+></DT
+><DT
+><A
+HREF="project-options.html#PROJECT-OPTIONS-GENERAL-LANGUAGE"
+>Linguaggio</A
+></DT
+><DT
+><A
+HREF="project-options.html#AEN222"
+>GNOME</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="x225.html"
+>Opzioni C</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="x225.html#PROEJCT-OPTIONS-C-GENERAL"
+>Opzioni generali</A
+></DT
+><DT
+><A
+HREF="x225.html#PROEJCT-OPTIONS-C-FILE"
+>Opzioni File in uscita</A
+></DT
+><DT
+><A
+HREF="x225.html#PROEJCT-OPTIONS-C-INTERFACE"
+>Funzioni di creazione dell'interfaccia</A
+></DT
+><DT
+><A
+HREF="x225.html#PROEJCT-OPTIONS-C-SIGNAL"
+>Gestori di segnale e funzioni di callback</A
+></DT
+><DT
+><A
+HREF="x225.html#PROEJCT-OPTIONS-C-SUPPORT"
+>Funzioni di supporto</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="x324.html"
+>Opzioni per LibGlade</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="x324.html#PROJECT-OPTIONS-LIBGLADE-TRANS"
+>Salva le stringhe traducibili</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+><A
+HREF="windows.html"
+>Finestre</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="windows.html#WINDOWS-MAIN"
+>Finestra principale</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="windows.html#WINDOWS-MAIN-MENU"
+>Menu</A
+></DT
+><DT
+><A
+HREF="windows.html#WINDOWS-MAIN-TOOLBAR"
+>Barra degli strumenti</A
+></DT
+><DT
+><A
+HREF="windows.html#WINDOWS-MAIN-LIST"
+>Elenco delle finestre di primo livello</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="windows-palette.html"
+>Palette</A
+></DT
+><DD
+><DL
+><DT
+><A
+HREF="windows-palette.html#WINDOWS-PALETTE-BASIC"
+>Gtk+ Basic</A
+></DT
+><DT
+><A
+HREF="windows-palette.html#WINDOWS-PALETTE-ADD"
+>Gtk+ Additional</A
+></DT
+><DT
+><A
+HREF="windows-palette.html#WINDOWS-PALETTE-GNOME"
+>GNOME</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="windows-editor.html"
+>Editor delle proprietà</A
+></DT
+><DT
+><A
+HREF="windows-tree.html"
+>Albero dei widget</A
+></DT
+><DT
+><A
+HREF="windows-clipboard.html"
+>Appunti</A
+></DT
+></DL
+></DD
+><DT
+><A
+HREF="output.html"
+>Output</A
+></DT
+><DT
+><A
+HREF="libglade.html"
+>Libglade</A
+></DT
+><DT
+><A
+HREF="quickstart.html"
+>Quick Start</A
+></DT
+><DT
+><A
+HREF="helloworld.html"
+>Ciao mondo - Un semplice progetto</A
+></DT
+><DT
+><A
+HREF="authors.html"
+>Autori</A
+></DT
+></DL
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="introduction.html"
+>Next &#62;&#62;&#62;</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+>&nbsp;</TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Introduzione</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>

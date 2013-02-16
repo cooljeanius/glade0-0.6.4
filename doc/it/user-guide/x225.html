@@ -1,0 +1,451 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML
+><HEAD
+><TITLE
+>Opzioni C</TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.59"><LINK
+REL="HOME"
+TITLE="Glade - Manuale di riferimento"
+HREF="index.html"><LINK
+REL="UP"
+TITLE="Opzioni del progetto"
+HREF="project-options.html"><LINK
+REL="PREVIOUS"
+TITLE="Opzioni del progetto"
+HREF="project-options.html"><LINK
+REL="NEXT"
+TITLE="Opzioni per LibGlade"
+HREF="x324.html"></HEAD
+><BODY
+CLASS="SECT1"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="NAVHEADER"
+><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TH
+COLSPAN="3"
+ALIGN="center"
+>Glade - Manuale di riferimento</TH
+></TR
+><TR
+><TD
+WIDTH="10%"
+ALIGN="left"
+VALIGN="bottom"
+><A
+HREF="project-options.html"
+>&#60;&#60;&#60; Previous</A
+></TD
+><TD
+WIDTH="80%"
+ALIGN="center"
+VALIGN="bottom"
+>Opzioni del progetto</TD
+><TD
+WIDTH="10%"
+ALIGN="right"
+VALIGN="bottom"
+><A
+HREF="x324.html"
+>Next &#62;&#62;&#62;</A
+></TD
+></TR
+></TABLE
+><HR
+ALIGN="LEFT"
+WIDTH="100%"></DIV
+><DIV
+CLASS="SECT1"
+><H1
+CLASS="SECT1"
+><A
+NAME="AEN225"
+>Opzioni C</A
+></H1
+><DIV
+CLASS="FIGURE"
+><A
+NAME="AEN227"
+></A
+><P
+><IMG
+SRC="user-guide-images/options-c.png"></P
+><P
+><B
+>Figure 2. Opzioni C</B
+></P
+></DIV
+><DIV
+CLASS="SECT2"
+><H2
+CLASS="SECT2"
+><A
+NAME="PROEJCT-OPTIONS-C-GENERAL"
+>Opzioni generali</A
+></H2
+><P
+></P
+><DIV
+CLASS="VARIABLELIST"
+><DL
+><DT
+>Supporto per Gettext</DT
+><DD
+><P
+>	        Glade deve scrivere codice che supporti lo GNU gettext
+		per l'internazionalizzazione?
+	      </P
+></DD
+><DT
+>Imposta nomi dei widget</DT
+><DD
+><P
+>	        Glade deve scrivere nel codice i nomi di tutti i widget?
+		Questa opzione è utile se avete intenzione di usare le
+		chiamate Gtk+ come <TT
+CLASS="FUNCTION"
+>gtk_widget_path()</TT
+>. 
+		Vedete anche <TT
+CLASS="FUNCTION"
+>gtk_widget_set_name()</TT
+>.
+	      </P
+></DD
+><DT
+>Crea copie di backup dei file sorgente</DT
+><DD
+><P
+>	        Glade deve creare delle copie di backup di tutti i vostri
+		file sorgente quando ne create di nuovi?
+	      </P
+></DD
+></DL
+></DIV
+></DIV
+><DIV
+CLASS="SECT2"
+><H2
+CLASS="SECT2"
+><A
+NAME="PROEJCT-OPTIONS-C-FILE"
+>Opzioni File in uscita</A
+></H2
+><P
+></P
+><DIV
+CLASS="VARIABLELIST"
+><DL
+><DT
+>Crea file <TT
+CLASS="FILENAME"
+>main.c</TT
+></DT
+><DD
+><P
+>	        Glade deve creare un file <TT
+CLASS="FILENAME"
+>main.c</TT
+>
+		contenente un semplice codice d'inizializzazione?
+		Se avete abilitato il supporto per GNOME, allora 
+		chiamerà <TT
+CLASS="FUNCTION"
+>gnome_init()</TT
+>, altimenti 
+		chiamerà <TT
+CLASS="FUNCTION"
+>gtk_init()</TT
+>.
+	      </P
+></DD
+><DT
+>Crea Funzioni di supporto</DT
+><DD
+><P
+>	        Glade deve creare il file <TT
+CLASS="FILENAME"
+>support.c</TT
+>,
+		contenente delle funzioni di servizio per compiti quali
+		la creazione di immagini, o la ricerca di un widget noto
+		il nome?
+	      </P
+></DD
+><DT
+>Crea file di supporto per la compilazione</DT
+><DD
+><P
+>	        Glade deve creare dei file utili per supportare la 
+		configurazione del vostro progetto tramite automake/autoconf?
+		Abilitando questa opzione verranno creati diversi file:
+	      </P
+><P
+></P
+><TABLE
+BORDER="0"
+><TBODY
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>AUTHORS</TT
+>: File per registrare i
+		nomi dei collaboratori.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>ChangeLog</TT
+>: File con il log delle
+		modifiche da voi fatte al progetto.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>Makefile.am</TT
+>: template del 
+		progetto per Automake.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>NEWS</TT
+>: Annunci delle nuove 
+		versioni rilasciate al pubblico.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>README</TT
+>: Informazioni generiche
+		sul progetto.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>acconfig.h</TT
+>: Definisce i simboli
+		predefiniti del preprocessore per autoconf.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>autogen.sh</TT
+>: Script per la
+		creazione di uno script di configurazione.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>configure.in</TT
+>: Template per la
+		scrittura di uno script configure.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>macros/</TT
+>: Directory contenente
+		le macro di automake per Glade, GNOME, etc.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>stamp-h.in</TT
+>: File 
+		Timestamp.</TD
+></TR
+><TR
+><TD
+><TT
+CLASS="FILENAME"
+>src/Makefile.am</TT
+>: Template di
+		automake per la directory src/.</TD
+></TR
+></TBODY
+></TABLE
+><P
+></P
+></DD
+></DL
+></DIV
+></DIV
+><DIV
+CLASS="SECT2"
+><H2
+CLASS="SECT2"
+><A
+NAME="PROEJCT-OPTIONS-C-INTERFACE"
+>Funzioni di creazione dell'interfaccia</A
+></H2
+><P
+></P
+><DIV
+CLASS="VARIABLELIST"
+><DL
+><DT
+>File sorgente</DT
+><DD
+><P
+>	        Memorizza in questo file il codice che genera l'interfaccia
+		utente.
+	      </P
+></DD
+><DT
+>Nome file header</DT
+><DD
+><P
+>	        Quando scrive il codice che serve a generare 
+		l'interfaccia utente, memorizza in questo file i 
+		prototipi di funzione, ecc.
+	      </P
+></DD
+></DL
+></DIV
+></DIV
+><DIV
+CLASS="SECT2"
+><H2
+CLASS="SECT2"
+><A
+NAME="PROEJCT-OPTIONS-C-SIGNAL"
+>Gestori di segnale e funzioni di callback</A
+></H2
+><P
+></P
+><DIV
+CLASS="VARIABLELIST"
+><DL
+><DT
+>File sorgente</DT
+><DD
+><P
+>	        Memorizza in questo file il codice dei gestori di segnale.
+	      </P
+></DD
+><DT
+>Nome file header</DT
+><DD
+><P
+> 
+	        Quando scrive il codice dei gestori di segnale,
+	        memorizza in questo file i prototipi di funzione, ecc.
+	      </P
+></DD
+></DL
+></DIV
+></DIV
+><DIV
+CLASS="SECT2"
+><H2
+CLASS="SECT2"
+><A
+NAME="PROEJCT-OPTIONS-C-SUPPORT"
+>Funzioni di supporto</A
+></H2
+><P
+></P
+><DIV
+CLASS="VARIABLELIST"
+><DL
+><DT
+>File sorgente</DT
+><DD
+><P
+>	        Memorizza in questo file il codice delle funzioni di supporto.
+	      </P
+></DD
+><DT
+>Nome file header</DT
+><DD
+><P
+>	        Quando scrive il codice delle funzioni di supporto,
+	        memorizza in questo file i prototipi di funzione, ecc.
+	      </P
+></DD
+></DL
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="NAVFOOTER"
+><HR
+ALIGN="LEFT"
+WIDTH="100%"><TABLE
+WIDTH="100%"
+BORDER="0"
+CELLPADDING="0"
+CELLSPACING="0"
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+><A
+HREF="project-options.html"
+>&#60;&#60;&#60; Previous</A
+></TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="index.html"
+>Home</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+><A
+HREF="x324.html"
+>Next &#62;&#62;&#62;</A
+></TD
+></TR
+><TR
+><TD
+WIDTH="33%"
+ALIGN="left"
+VALIGN="top"
+>Opzioni del progetto</TD
+><TD
+WIDTH="34%"
+ALIGN="center"
+VALIGN="top"
+><A
+HREF="project-options.html"
+>Up</A
+></TD
+><TD
+WIDTH="33%"
+ALIGN="right"
+VALIGN="top"
+>Opzioni per LibGlade</TD
+></TR
+></TABLE
+></DIV
+></BODY
+></HTML
+>
