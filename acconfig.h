@@ -1,3 +1,8 @@
+/*
+ * Warning: This file is deprecated and should be replaced by re-writing
+ * configure.ac accordingly
+ */
+
 #undef ENABLE_NLS
 #undef HAVE_CATGETS
 #undef HAVE_GETTEXT

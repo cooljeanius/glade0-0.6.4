@@ -1,20 +1,21 @@
-dnl Process this file with autoconf to produce a configure script.
+dnl#                                               -*- Autoconf -*-
+dnl# Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.13])
 AC_INIT([glade], [0.6.4], [damon@ximian.com])
 AC_CONFIG_SRCDIR([glade/gbwidget.c])
 
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([foreign])
 AM_MAINTAINER_MODE
 AM_SANITY_CHECK
 AC_CONFIG_HEADERS([config.h])
 AC_USE_SYSTEM_EXTENSIONS
 
-dnl Pick up GNOME macros
+dnl# Pick up GNOME macros
 AC_CONFIG_MACRO_DIR([macros])
 AM_ACLOCAL_INCLUDE([macros])
 
-dnl AM_PROG_XML_I18N_TOOLS
+#AM_PROG_XML_I18N_TOOLS
 AX_LIB_XML_SECURITY
 AM_PATH_XML2
 
@@ -26,6 +27,7 @@ IT_PROG_INTLTOOL
 AC_PROG_CC
 AC_PROG_CPP
 AC_PROG_CXX
+AC_PROG_MKDIR_P
 AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_PROG_MAKE_SET
@@ -51,7 +53,7 @@ dnl ***************************************************************************
 dnl GTK+ - Checks the version and sets GTK_CFLAGS & GTK_LIBS.
 dnl ***************************************************************************
 
-AM_PATH_GTK(1.2.0,, AC_MSG_ERROR(Cannot find GTK: Is gtk-config in path?))
+AM_PATH_GTK([1.2.0],[], [AC_MSG_ERROR([Cannot find GTK: Is gtk-config in path?])])
 
 
 dnl ***************************************************************************
@@ -60,7 +62,9 @@ dnl ***************************************************************************
 
 ALL_LINGUAS="az ca cs da de el en_GB es fr ga gl hu it ja ko lv nl nn no pl pt pt_BR ro ru sk sv tr uk zh_CN"
 AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.18.2])
 BISON_I18N
+#AM_GNOME_GETTEXT
 
 dnl Set the location of the locale messages to be used in main.c
 dnl This will substitute GLADE_LOCALE_DIR in config.h (from acconfig.h).
@@ -94,7 +98,7 @@ dnl CFLAGS - Use -Wall if we have gcc, and use -ansi -pedantic if ansi enabled.
 dnl ***************************************************************************
 
 AC_ARG_ENABLE([ansi],
-[  --enable-ansi           turn on strict ansi [default=no]],,enable_ansi=no)
+[  --enable-ansi           turn on strict ansi [default=no]],[],[enable_ansi=no])
 
 changequote(,)dnl
 if test "x$GCC" = "xyes"; then
@@ -127,7 +131,7 @@ gnome_modules=
 
 AC_ARG_ENABLE([gnome],
 [  --disable-gnome         disable use of gnome],
-	gnome=$enableval, gnome=yes)
+	[gnome=$enableval], [gnome=yes])
 
 if test "x$gnome" = "xyes"; then
   AC_PATH_PROG([gnome_config], [gnome-config])
@@ -137,7 +141,7 @@ if test "x$gnome" = "xyes"; then
 fi
 
 if test "$gnome" = yes; then
-  AC_DEFINE(USE_GNOME)
+  AC_DEFINE([USE_GNOME])
   GLADE_GNOME_DIR="gnome"
   GLADE_GNOME_LIB="gnome/libgnomewidgets.a"
   AC_SUBST([GLADE_GNOME_DIR])
@@ -160,7 +164,6 @@ SCROLLKEEPER_REQUIRED=0.1.4
 AC_SUBST([SCROLLKEEPER_REQUIRED])
 
 
-
 dnl ***************************************************************************
 dnl Check for Bonobo
 dnl ***************************************************************************
@@ -171,9 +174,9 @@ bonobo_msg=no
 using_oaf=no
 AC_ARG_WITH([bonobo],
 [  --with-bonobo           include Bonobo support (under development)],
-	if test x$withval = xyes; then
+	[if test x$withval = xyes; then
 	  try_bonobo=true
-	fi)
+	fi])
 
 if $try_bonobo; then
   AC_MSG_CHECKING([for Bonobo >= 0.27])
@@ -197,19 +200,19 @@ if $try_bonobo; then
     have_bonobo=true
     bonobo_msg=yes
 
-#    dnl Check if Bonobo is OAFized
-#
-#    AC_MSG_CHECKING([if Bonobo uses OAF])
-#    if ( gnome-config --libs bonobox | grep oaf ) > /dev/null 2>&1 ; then
-#      using_oaf="yes"
-#      AC_DEFINE([USING_OAF])
-#      AC_MSG_RESULT(["$using_oaf"])
-#
-#      AM_CONDITIONAL([USING_OAF], [test "x$using_oaf" = "xyes"])
-#    fi
+    #dnl Check if Bonobo is OAFized
+    #
+    #AC_MSG_CHECKING([if Bonobo uses OAF])
+    #if ( gnome-config --libs bonobox | grep oaf ) > /dev/null 2>&1 ; then
+    #  using_oaf="yes"
+    #  AC_DEFINE([USING_OAF])
+    #  AC_MSG_RESULT(["$using_oaf"])
+    #
+    #  AM_CONDITIONAL([USING_OAF], [test "x$using_oaf" = "xyes"])
+    #fi
 
   else
-    AC_MSG_RESULT(not found)
+    AC_MSG_RESULT([not found])
   fi
 fi
 
@@ -231,39 +234,39 @@ dnl ***************************************************************************
 dnl Gnome-DB Support (use --enable-gnome-db to enable).
 dnl ***************************************************************************
 
-AC_ARG_ENABLE(gnome-db,
+AC_ARG_ENABLE([gnome-db],
 [  --enable-gnome-db      enable use of gnome-db],
-	gnome_db=$enableval, gnome_db=yes)
+	[gnome_db=$enableval], [gnome_db=yes])
 
 if test "x$gnome" != "xyes"; then
   gnome_db=no
 fi
 
 if test "x$gnome_db" = "xyes"; then
-  AC_PATH_PROG(gnomedb_config, gnomedb-config)
+  AC_PATH_PROG([gnomedb_config], [gnomedb-config])
   if test "x$gnomedb_config" = "x"; then
     gnome_db=no
   else
     gnomedbminvers="0.2.93"
-    AC_MSG_CHECKING(for gnome-db >= $gnomedbminvers)
+    AC_MSG_CHECKING([for gnome-db >= $gnomedbminvers])
     gnomedbver=`gnomedb-config --version | awk 'BEGIN {FS="."}{printf "%d", $1*10000+$2*100+$3}'`
     if test "$gnomedbver" -ge 293
     then
-      AC_MSG_RESULT(found)
+      AC_MSG_RESULT([found])
       gnome_db=yes
     else
-      AC_MSG_WARN(not found)
+      AC_MSG_WARN([not found])
       gnome_db=no
     fi
   fi
 fi
 
 if test "x$gnome_db" = "xyes"; then
-  AC_DEFINE(USE_GNOME_DB)
+  AC_DEFINE([USE_GNOME_DB])
   GLADE_GNOME_DB_DIR="gnome-db"
   GLADE_GNOME_DB_LIB="gnome-db/libgnomedbwidgets.a"
-  AC_SUBST(GLADE_GNOME_DB_DIR)
-  AC_SUBST(GLADE_GNOME_DB_LIB)
+  AC_SUBST([GLADE_GNOME_DB_DIR])
+  AC_SUBST([GLADE_GNOME_DB_LIB])
 
   GNOMEDB_CFLAGS=`gnomedb-config --cflags 2>/dev/null`
   GNOMEDB_LIBS=`gnomedb-config --libs 2>/dev/null`
@@ -276,14 +279,14 @@ dnl ***************************************************************************
 dnl Palette type - temporary option to try the different palette layouts.
 dnl ***************************************************************************
 
-AC_ARG_WITH(palette,
+AC_ARG_WITH([palette],
 [  --with-palette=TYPE     select the palette type: damon or martijn],
 	[if test "x$withval" = "xmartijn"; then
 		PALETTE_TYPE=2
-	   AC_MSG_RESULT(Picking Martijn's palette layout)
+	   AC_MSG_RESULT([Picking Martijn's palette layout])
 	 else
 	 	PALETTE_TYPE=1
-	   AC_MSG_RESULT(Picking Damon's palette layout)
+	   AC_MSG_RESULT([Picking Damon's palette layout])
 	 fi],
 	[PALETTE_TYPE=1])
 AC_DEFINE_UNQUOTED(PALETTE_TYPE, $PALETTE_TYPE)
@@ -293,9 +296,9 @@ dnl ***************************************************************************
 dnl Debugging - defines GLADE_DEBUG if --enable-debug option is used.
 dnl ***************************************************************************
 
-AC_ARG_ENABLE(debug,
+AC_ARG_ENABLE([debug],
 [  --enable-debug          turn on debugging [default=no]],
-	AC_DEFINE(GLADE_DEBUG),)
+	[AC_DEFINE([GLADE_DEBUG])],[])
 
 
 dnl ***************************************************************************

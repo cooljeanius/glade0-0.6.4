@@ -2,7 +2,7 @@
 
 noinst_LIBRARIES = libgnomedbwidgets.a
 
-INCLUDES = -I$(top_srcdir)/intl -I$(top_builddir)/intl
+AM_CPPFLAGS = -I$(top_srcdir)/intl -I$(top_builddir)/intl
 
 libgnomedbwidgets_a_SOURCES = \
 	gnomedbbrowser.c \

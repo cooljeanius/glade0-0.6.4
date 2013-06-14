@@ -2,7 +2,7 @@
 
 noinst_LIBRARIES = libgnomewidgets.a
 
-INCLUDES = -I$(top_srcdir)/intl -I$(top_builddir)/intl
+AM_CPPFLAGS = -I$(top_srcdir)/intl -I$(top_builddir)/intl
 
 libgnomewidgets_a_SOURCES = \
 	gbclock.c \

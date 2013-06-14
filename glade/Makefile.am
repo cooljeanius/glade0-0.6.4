@@ -4,7 +4,7 @@
 
 bin_PROGRAMS = glade
 
-INCLUDES = -I$(top_srcdir)/intl -I$(top_builddir)/intl
+AM_CPPFLAGS = -I$(top_srcdir)/intl -I$(top_builddir)/intl
 
 DIST_SUBDIRS = gbwidgets gnome gnome-db data
 
