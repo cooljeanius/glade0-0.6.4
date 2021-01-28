@@ -1,4 +1,4 @@
-# inttypes-pri.m4 serial 7 (gettext-0.18.2)
+# inttypes-pri.m4 serial 8 (gettext-0.18.2+)
 dnl Copyright (C) 1997-2002, 2006, 2008-2013 Free Software Foundation, Inc.
 dnl This file is free software; the Free Software Foundation
 dnl gives unlimited permission to copy and/or distribute it,
@@ -6,7 +6,7 @@ dnl with or without modifications, as long as this notice is preserved.
 
 dnl From Bruno Haible.
 
-AC_PREREQ([2.53])
+AC_PREREQ([2.70])
 
 # Define PRI_MACROS_BROKEN if <inttypes.h> exists and defines the PRI*
 # macros to non-string values.  This is the case on AIX 4.3.3.

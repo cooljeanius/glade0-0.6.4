@@ -98,13 +98,13 @@ else
 	CPPFLAGS="$saved_cppflags $GUILE_INCS"
 
 	AC_MSG_CHECKING(whether guile works)
-	AC_TRY_LINK([
+	AC_LINK_IFELSE([AC_LANG_PROGRAM([[
 		#include <libguile.h>
 		#include <guile/gh.h>
-	],[
+	]], [[
 		gh_eval_str("(newline)");
 		scm_boot_guile(0,NULL,NULL,NULL);
-	],[
+	]])],[
 		ac_cv_guile_found=yes
 		AC_DEFINE(HAVE_GUILE)
 	],[

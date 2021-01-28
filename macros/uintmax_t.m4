@@ -1,4 +1,4 @@
-# uintmax_t.m4 serial 12
+# uintmax_t.m4 serial 14
 dnl Copyright (C) 1997-2004, 2007-2013 Free Software Foundation, Inc.
 dnl This file is free software; the Free Software Foundation
 dnl gives unlimited permission to copy and/or distribute it,
@@ -6,7 +6,7 @@ dnl with or without modifications, as long as this notice is preserved.
 
 dnl From Paul Eggert.
 
-AC_PREREQ([2.13])
+AC_PREREQ([2.70])
 
 # Define uintmax_t to 'unsigned long' or 'unsigned long long'
 # if it is not already defined in <stdint.h> or <inttypes.h>.

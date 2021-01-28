@@ -10,7 +10,7 @@
 # but which still want to provide support for the GNU gettext functionality.
 # Please note that the actual code is *not* freely available.
 
-# serial 5
+# serial 6
 
 AC_DEFUN([AM_GNOME_WITH_NLS],
   [AC_MSG_CHECKING([whether NLS is requested])
@@ -26,13 +26,6 @@ AC_DEFUN([AM_GNOME_WITH_NLS],
 
     dnl If we use NLS figure out what method
     if test "$USE_NLS" = "yes"; then
-#      AC_DEFINE(ENABLE_NLS)
-#      AC_MSG_CHECKING([whether included gettext is requested])
-#      AC_ARG_WITH(included-gettext,
-#        [  --with-included-gettext use the GNU gettext library included here],
-#        nls_cv_force_use_gnu_gettext=$withval,
-#        nls_cv_force_use_gnu_gettext=no)
-#      AC_MSG_RESULT($nls_cv_force_use_gnu_gettext)
       nls_cv_force_use_gnu_gettext="no"
 
       nls_cv_use_gnu_gettext="$nls_cv_force_use_gnu_gettext"
@@ -47,8 +40,7 @@ AC_DEFUN([AM_GNOME_WITH_NLS],
 
 	AC_CHECK_HEADER(libintl.h,
 	  [AC_CACHE_CHECK([for gettext in libc], gt_cv_func_gettext_libc,
-	    [AC_TRY_LINK([#include <libintl.h>], [return (int) gettext ("")],
-	       gt_cv_func_gettext_libc=yes, gt_cv_func_gettext_libc=no)])
+	    [AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <libintl.h>]], [[return (int) gettext ("")]])],[gt_cv_func_gettext_libc=yes],[gt_cv_func_gettext_libc=no])])
 
 	   if test "$gt_cv_func_gettext_libc" != "yes"; then
 	     AC_CHECK_LIB(intl, bindtextdomain,
@@ -70,11 +62,9 @@ AC_DEFUN([AM_GNOME_WITH_NLS],
 		AC_PATH_PROG(GMSGFMT, gmsgfmt, $MSGFMT)
 		AM_PATH_PROG_WITH_TEST(XGETTEXT, xgettext,
 		  [test -z "`$ac_dir/$ac_word -h 2>&1 | grep '(HELP)'`"], :)
-		AC_TRY_LINK(, [extern int _nl_msg_cat_cntr;
-			       return _nl_msg_cat_cntr],
-		  [CATOBJEXT=.gmo
-		   DATADIRNAME=share],
-		  [CATOBJEXT=.mo
+		AC_LINK_IFELSE([AC_LANG_PROGRAM([[]], [[extern int _nl_msg_cat_cntr;
+			       return _nl_msg_cat_cntr]])],[CATOBJEXT=.gmo
+		   DATADIRNAME=share],[CATOBJEXT=.mo
 		   DATADIRNAME=lib])
 		INSTOBJEXT=.mo
 	      fi
@@ -102,24 +92,6 @@ AC_DEFUN([AM_GNOME_WITH_NLS],
 	      [AC_DEFINE(HAVE_CATGETS)
 	       INTLOBJS="\$(CATOBJS)"
 	       AC_PATH_PROG(GENCAT, gencat, no)dnl
-#	       if test "$GENCAT" != "no"; then
-#		 AC_PATH_PROG(GMSGFMT, gmsgfmt, no)
-#		 if test "$GMSGFMT" = "no"; then
-#		   AM_PATH_PROG_WITH_TEST(GMSGFMT, msgfmt,
-#		    [test -z "`$ac_dir/$ac_word -h 2>&1 | grep 'dv '`"], no)
-#		 fi
-#		 AM_PATH_PROG_WITH_TEST(XGETTEXT, xgettext,
-#		   [test -z "`$ac_dir/$ac_word -h 2>&1 | grep '(HELP)'`"], :)
-#		 USE_INCLUDED_LIBINTL=yes
-#		 CATOBJEXT=.cat
-#		 INSTOBJEXT=.cat
-#		 DATADIRNAME=lib
-#		 INTLDEPS='$(top_builddir)/intl/libintl.a'
-#		 INTLLIBS=$INTLDEPS
-#		 LIBS=`echo $LIBS | sed -e 's/-lintl//'`
-#		 nls_cv_header_intl=intl/libintl.h
-#		 nls_cv_header_libgt=intl/libgettext.h
-#              fi
             ])
 	  fi
         fi
@@ -136,23 +108,6 @@ AC_DEFUN([AM_GNOME_WITH_NLS],
       else
          # Unset this variable since we use the non-zero value as a flag.
          CATOBJEXT=
-#        dnl Mark actions used to generate GNU NLS library.
-#        INTLOBJS="\$(GETTOBJS)"
-#        AM_PATH_PROG_WITH_TEST(MSGFMT, msgfmt,
-#	  [test -z "`$ac_dir/$ac_word -h 2>&1 | grep 'dv '`"], msgfmt)
-#        AC_PATH_PROG(GMSGFMT, gmsgfmt, $MSGFMT)
-#        AM_PATH_PROG_WITH_TEST(XGETTEXT, xgettext,
-#	  [test -z "`$ac_dir/$ac_word -h 2>&1 | grep '(HELP)'`"], :)
-#        AC_SUBST(MSGFMT)
-#	USE_INCLUDED_LIBINTL=yes
-#        CATOBJEXT=.gmo
-#        INSTOBJEXT=.mo
-#        DATADIRNAME=share
-#	INTLDEPS='$(top_builddir)/intl/libintl.a'
-#	INTLLIBS=$INTLDEPS
-#	LIBS=`echo $LIBS | sed -e 's/-lintl//'`
-#        nls_cv_header_intl=intl/libintl.h
-#        nls_cv_header_libgt=intl/libgettext.h
       fi
 
       dnl Test whether we really found GNU xgettext.
@@ -175,19 +130,18 @@ AC_DEFUN([AM_GNOME_WITH_NLS],
       nls_cv_header_intl=intl/libintl.h
       nls_cv_header_libgt=intl/libgettext.h
     fi
-    AC_LINK_FILES($nls_cv_header_libgt, $nls_cv_header_intl)
-    AC_OUTPUT_COMMANDS(
-     [case "$CONFIG_FILES" in *po/Makefile.in*)
+    dnl# autoupdate did this; removing the warning about it:
+    ac_sources="$nls_cv_header_libgt"
+    ac_dests="$nls_cv_header_intl"
+    while test -n "$ac_sources"; do
+      set $ac_dests; ac_dest=$1; shift; ac_dests=$*
+      set $ac_sources; ac_source=$1; shift; ac_sources=$*
+      ac_config_links_1="$ac_config_links_1 $ac_dest:$ac_source"
+    done
+    AC_CONFIG_LINKS([$ac_config_links_1])
+    AC_CONFIG_COMMANDS([default-1],[[case "$CONFIG_FILES" in *po/Makefile.in*)
         sed -e "/POTFILES =/r po/POTFILES" po/Makefile.in > po/Makefile
-      esac])
-
-
-#    # If this is used in GNU gettext we have to set USE_NLS to `yes'
-#    # because some of the sources are only built for this goal.
-#    if test "$PACKAGE" = gettext; then
-#      USE_NLS=yes
-#      USE_INCLUDED_LIBINTL=yes
-#    fi
+      esac]],[[]])dnl
 
     dnl These rules are solely for the distribution goal.  While doing this
     dnl we only have to keep exactly one list of the available catalogs

@@ -23,9 +23,7 @@ AC_DEFUN([GNOME_SUPPORT_CHECKS],[
   for v in $vars; do
     AC_MSG_CHECKING([for $v])
     AC_CACHE_VAL(gnome_cv_var_$v,
-      [AC_TRY_LINK([int *p;], [extern int $v; p = &$v;],
-		   [eval "gnome_cv_var_$v=yes"],
-		   [eval "gnome_cv_var_$v=no"])])
+      [AC_LINK_IFELSE([AC_LANG_PROGRAM([[int *p;]], [[extern int $v; p = &$v;]])],[eval "gnome_cv_var_$v=yes"],[eval "gnome_cv_var_$v=no"])])
     if eval "test \"`echo '$gnome_cv_var_'$v`\" = yes"; then
       AC_MSG_RESULT(yes)
       n=HAVE_`echo $v | tr 'abcdefghijklmnopqrstuvwxyz' 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'`
@@ -42,7 +40,7 @@ AC_DEFUN([GNOME_SUPPORT_CHECKS],[
 
   # to include `error.c' error.c has some HAVE_* checks
   AC_CHECK_FUNCS(vprintf doprnt strerror_r)
-  AM_FUNC_ERROR_AT_LINE
+  AC_FUNC_ERROR_AT_LINE
 
   # This is required if we declare setreuid () and setregid ().
   AC_TYPE_UID_T

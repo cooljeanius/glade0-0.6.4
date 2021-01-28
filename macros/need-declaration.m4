@@ -3,7 +3,7 @@ dnl GCC_NEED_DECLARATION(FUNCTION [, EXTRA-HEADER-FILES])
 AC_DEFUN([GCC_NEED_DECLARATION],
 [AC_MSG_CHECKING([whether $1 must be declared])
 AC_CACHE_VAL(gcc_cv_decl_needed_$1,
-[AC_TRY_COMPILE([
+[AC_COMPILE_IFELSE([AC_LANG_PROGRAM([[
 #include <stdio.h>
 #ifdef HAVE_STRING_H
 #include <string.h>
@@ -18,9 +18,7 @@ AC_CACHE_VAL(gcc_cv_decl_needed_$1,
 #ifdef HAVE_UNISTD_H
 #include <unistd.h>
 #endif
-$2],
-[char *(*pfn) = (char *(*)) $1],
-eval "gcc_cv_decl_needed_$1=no", eval "gcc_cv_decl_needed_$1=yes")])
+$2]], [[char *(*pfn) = (char *(*)) $1]])],[eval "gcc_cv_decl_needed_$1=no"],[eval "gcc_cv_decl_needed_$1=yes"])])
 if eval "test \"`echo '$gcc_cv_decl_needed_'$1`\" = yes"; then
   AC_MSG_RESULT(yes)
   gcc_need_declarations="$gcc_need_declarations $1"

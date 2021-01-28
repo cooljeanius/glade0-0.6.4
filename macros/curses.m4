@@ -1,4 +1,4 @@
-dnl Curses detection: Munged from Midnight Commander's configure.in
+dnl Curses detection: Munged from Midnight Commander's configure.ac
 dnl
 dnl What it does:
 dnl =============
@@ -228,7 +228,7 @@ AC_DEFUN([AC_NCURSES], [
 ])
 
 AC_DEFUN([AC_SEARCH_NCURSES], [
-    AC_CHECKING("location of ncurses.h file")
+    AS_MESSAGE([checking "location of ncurses.h file"...])
 
     AC_NCURSES(/usr/include, ncurses.h, -lncurses,, "ncurses on /usr/include")
     AC_NCURSES(/usr/include/ncurses, ncurses.h, -lncurses, -I/usr/include/ncurses, "ncurses on /usr/include/ncurses")
@@ -288,7 +288,7 @@ cat > conftest.$ac_ext <<EOF
 #undef VERSION
 VERSION:NCURSES_VERSION
 EOF
-        if (eval "$ac_cpp conftest.$ac_ext") 2>&AC_FD_CC |
+        if (eval "$ac_cpp conftest.$ac_ext") 2>&AS_MESSAGE_LOG_FD |
   egrep "VERSION:" >conftest.out 2>&1; then
 changequote(,)dnl
             ncurses_version=`cat conftest.out|sed -e 's/^[^"]*"//' -e 's/".*//'`

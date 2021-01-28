@@ -42,7 +42,7 @@ int main () {
 }
 EOF
 
-      $OBJC $CFLAGS -o conftest $LDFLAGS conftest.m $OBJC_LIBS 1>&AC_FD_CC 2>&1
+      $OBJC $CFLAGS -o conftest $LDFLAGS conftest.m $OBJC_LIBS 1>&AS_MESSAGE_LOG_FD 2>&1
       result=$?
       rm -f conftest*
 

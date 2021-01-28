@@ -1,4 +1,4 @@
-# nls.m4 serial 5 (gettext-0.18)
+# nls.m4 serial 6 (gettext-0.18+)
 dnl Copyright (C) 1995-2003, 2005-2006, 2008-2010 Free Software Foundation,
 dnl Inc.
 dnl This file is free software; the Free Software Foundation
@@ -18,7 +18,7 @@ dnl Authors:
 dnl   Ulrich Drepper <drepper@cygnus.com>, 1995-2000.
 dnl   Bruno Haible <haible@clisp.cons.org>, 2000-2003.
 
-AC_PREREQ([2.50])
+AC_PREREQ([2.70])
 
 AC_DEFUN([AM_NLS],
 [

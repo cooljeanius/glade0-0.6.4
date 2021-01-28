@@ -114,14 +114,11 @@ if test -z "$list_mounted_fs"; then
 # DEC Alpha running OSF/1.
 AC_MSG_CHECKING([for getfsstat function])
 AC_CACHE_VAL(fu_cv_sys_mounted_getsstat,
-[AC_TRY_LINK([
+[AC_LINK_IFELSE([AC_LANG_PROGRAM([[
 #include <sys/types.h>
 #include <sys/mount.h>
-#include <sys/fs_types.h>],
-[struct statfs *stats;
-int numsys = getfsstat ((struct statfs *)0, 0L, MNT_WAIT); ],
-fu_cv_sys_mounted_getsstat=yes,
-fu_cv_sys_mounted_getsstat=no)])
+#include <sys/fs_types.h>]], [[struct statfs *stats;
+int numsys = getfsstat ((struct statfs *)0, 0L, MNT_WAIT); ]])],[fu_cv_sys_mounted_getsstat=yes],[fu_cv_sys_mounted_getsstat=no])])
 AC_MSG_RESULT($fu_cv_sys_mounted_getsstat)
 if test $fu_cv_sys_mounted_getsstat = yes; then
 list_mounted_fs=found
@@ -133,9 +130,7 @@ if test -z "$list_mounted_fs"; then
 # AIX.
 AC_MSG_CHECKING([for mntctl function and struct vmount])
 AC_CACHE_VAL(fu_cv_sys_mounted_vmount,
-[AC_TRY_CPP([#include <fshelp.h>],
-fu_cv_sys_mounted_vmount=yes,
-fu_cv_sys_mounted_vmount=no)])
+[AC_PREPROC_IFELSE([AC_LANG_SOURCE([[#include <fshelp.h>]])],[fu_cv_sys_mounted_vmount=yes],[fu_cv_sys_mounted_vmount=no])])
 AC_MSG_RESULT($fu_cv_sys_mounted_vmount)
 if test $fu_cv_sys_mounted_vmount = yes; then
 list_mounted_fs=found
@@ -147,12 +142,10 @@ if test -z "$list_mounted_fs"; then
 # SVR3
 AC_MSG_CHECKING([for FIXME existence of three headers])
 AC_CACHE_VAL(fu_cv_sys_mounted_fread_fstyp,
-[AC_TRY_CPP([
+[AC_PREPROC_IFELSE([AC_LANG_SOURCE([[
 #include <sys/statfs.h>
 #include <sys/fstyp.h>
-#include <mnttab.h>],
-fu_cv_sys_mounted_fread_fstyp=yes,
-fu_cv_sys_mounted_fread_fstyp=no)])
+#include <mnttab.h>]])],[fu_cv_sys_mounted_fread_fstyp=yes],[fu_cv_sys_mounted_fread_fstyp=no])])
 AC_MSG_RESULT($fu_cv_sys_mounted_fread_fstyp)
 if test $fu_cv_sys_mounted_fread_fstyp = yes; then
 list_mounted_fs=found
@@ -187,11 +180,9 @@ if test -z "$list_mounted_fs"; then
 # Ultrix
 AC_MSG_CHECKING([for getmnt function])
 AC_CACHE_VAL(fu_cv_sys_mounted_getmnt,
-[AC_TRY_CPP([
+[AC_PREPROC_IFELSE([AC_LANG_SOURCE([[
 #include <sys/fs_types.h>
-#include <sys/mount.h>],
-fu_cv_sys_mounted_getmnt=yes,
-fu_cv_sys_mounted_getmnt=no)])
+#include <sys/mount.h>]])],[fu_cv_sys_mounted_getmnt=yes],[fu_cv_sys_mounted_getmnt=no])])
 AC_MSG_RESULT($fu_cv_sys_mounted_getmnt)
 if test $fu_cv_sys_mounted_getmnt = yes; then
 list_mounted_fs=found
@@ -203,9 +194,7 @@ if test -z "$list_mounted_fs"; then
 # SVR2
 AC_MSG_CHECKING([whether it is possible to resort to fread on /etc/mnttab])
 AC_CACHE_VAL(fu_cv_sys_mounted_fread,
-[AC_TRY_CPP([#include <mnttab.h>],
-fu_cv_sys_mounted_fread=yes,
-fu_cv_sys_mounted_fread=no)])
+[AC_PREPROC_IFELSE([AC_LANG_SOURCE([[#include <mnttab.h>]])],[fu_cv_sys_mounted_fread=yes],[fu_cv_sys_mounted_fread=no])])
 AC_MSG_RESULT($fu_cv_sys_mounted_fread)
 if test $fu_cv_sys_mounted_fread = yes; then
 list_mounted_fs=found
@@ -219,7 +208,7 @@ AC_MSG_ERROR([could not determine how to read list of mounted filesystems])
 # Cannot build mountlist.c or anything that needs its functions
 fi
 
-AC_CHECKING(how to get filesystem space usage)
+AS_MESSAGE([checking how to get filesystem space usage...])
 space=no
 
 # Perform only the link test since it seems there are no variants of the
@@ -231,11 +220,8 @@ space=no
 if test $space = no; then
 # SVR4
 AC_CACHE_CHECK([statvfs function (SVR4)], fu_cv_sys_stat_statvfs,
-[AC_TRY_LINK([#include <sys/types.h>
-#include <sys/statvfs.h>],
-[struct statvfs fsd; statvfs (0, &fsd);],
-fu_cv_sys_stat_statvfs=yes,
-fu_cv_sys_stat_statvfs=no)])
+[AC_LINK_IFELSE([AC_LANG_PROGRAM([[#include <sys/types.h>
+#include <sys/statvfs.h>]], [[struct statvfs fsd; statvfs (0, &fsd);]])],[fu_cv_sys_stat_statvfs=yes],[fu_cv_sys_stat_statvfs=no])])
 if test $fu_cv_sys_stat_statvfs = yes; then
 space=yes
 AC_DEFINE(STAT_STATVFS)
@@ -246,7 +232,7 @@ if test $space = no; then
 # DEC Alpha running OSF/1
 AC_MSG_CHECKING([for 3-argument statfs function (DEC OSF/1)])
 AC_CACHE_VAL(fu_cv_sys_stat_statfs3_osf1,
-[AC_TRY_RUN([
+[AC_RUN_IFELSE([AC_LANG_SOURCE([[
 #include <sys/param.h>
 #include <sys/types.h>
 #include <sys/mount.h>
@@ -255,10 +241,7 @@ int main ()
 struct statfs fsd;
 fsd.f_fsize = 0;
 return (statfs (".", &fsd, sizeof (struct statfs)));
-}],
-fu_cv_sys_stat_statfs3_osf1=yes,
-fu_cv_sys_stat_statfs3_osf1=no,
-fu_cv_sys_stat_statfs3_osf1=no)])
+}]])],[fu_cv_sys_stat_statfs3_osf1=yes],[fu_cv_sys_stat_statfs3_osf1=no],[fu_cv_sys_stat_statfs3_osf1=no])])
 AC_MSG_RESULT($fu_cv_sys_stat_statfs3_osf1)
 if test $fu_cv_sys_stat_statfs3_osf1 = yes; then
 space=yes
@@ -271,7 +254,7 @@ if test $space = no; then
 AC_MSG_CHECKING([for two-argument statfs with statfs.bsize dnl
 member (AIX, 4.3BSD)])
 AC_CACHE_VAL(fu_cv_sys_stat_statfs2_bsize,
-[AC_TRY_RUN([
+[AC_RUN_IFELSE([AC_LANG_SOURCE([[
 #ifdef HAVE_SYS_PARAM_H
 #include <sys/param.h>
 #endif
@@ -286,10 +269,7 @@ int main ()
 struct statfs fsd;
 fsd.f_bsize = 0;
 return (statfs (".", &fsd));
-}],
-fu_cv_sys_stat_statfs2_bsize=yes,
-fu_cv_sys_stat_statfs2_bsize=no,
-fu_cv_sys_stat_statfs2_bsize=no)])
+}]])],[fu_cv_sys_stat_statfs2_bsize=yes],[fu_cv_sys_stat_statfs2_bsize=no],[fu_cv_sys_stat_statfs2_bsize=no])])
 AC_MSG_RESULT($fu_cv_sys_stat_statfs2_bsize)
 if test $fu_cv_sys_stat_statfs2_bsize = yes; then
 space=yes
@@ -301,16 +281,13 @@ if test $space = no; then
 # SVR3
 AC_MSG_CHECKING([for four-argument statfs (AIX-3.2.5, SVR3)])
 AC_CACHE_VAL(fu_cv_sys_stat_statfs4,
-[AC_TRY_RUN([#include <sys/types.h>
+[AC_RUN_IFELSE([AC_LANG_SOURCE([[#include <sys/types.h>
 #include <sys/statfs.h>
 int main ()
 {
 struct statfs fsd;
 return (statfs (".", &fsd, sizeof fsd, 0));
-}],
-fu_cv_sys_stat_statfs4=yes,
-fu_cv_sys_stat_statfs4=no,
-fu_cv_sys_stat_statfs4=no)])
+}]])],[fu_cv_sys_stat_statfs4=yes],[fu_cv_sys_stat_statfs4=no],[fu_cv_sys_stat_statfs4=no])])
 AC_MSG_RESULT($fu_cv_sys_stat_statfs4)
 if test $fu_cv_sys_stat_statfs4 = yes; then
 space=yes
@@ -323,7 +300,7 @@ if test $space = no; then
 AC_MSG_CHECKING([for two-argument statfs with statfs.fsize dnl
 member (4.4BSD and NetBSD)])
 AC_CACHE_VAL(fu_cv_sys_stat_statfs2_fsize,
-[AC_TRY_RUN([#include <sys/types.h>
+[AC_RUN_IFELSE([AC_LANG_SOURCE([[#include <sys/types.h>
 #ifdef HAVE_SYS_PARAM_H
 #include <sys/param.h>
 #endif
@@ -335,10 +312,7 @@ int main ()
 struct statfs fsd;
 fsd.f_fsize = 0;
 return (statfs (".", &fsd));
-}],
-fu_cv_sys_stat_statfs2_fsize=yes,
-fu_cv_sys_stat_statfs2_fsize=no,
-fu_cv_sys_stat_statfs2_fsize=no)])
+}]])],[fu_cv_sys_stat_statfs2_fsize=yes],[fu_cv_sys_stat_statfs2_fsize=no],[fu_cv_sys_stat_statfs2_fsize=no])])
 AC_MSG_RESULT($fu_cv_sys_stat_statfs2_fsize)
 if test $fu_cv_sys_stat_statfs2_fsize = yes; then
 space=yes
@@ -350,7 +324,7 @@ if test $space = no; then
 # Ultrix
 AC_MSG_CHECKING([for two-argument statfs with struct fs_data (Ultrix)])
 AC_CACHE_VAL(fu_cv_sys_stat_fs_data,
-[AC_TRY_RUN([#include <sys/types.h>
+[AC_RUN_IFELSE([AC_LANG_SOURCE([[#include <sys/types.h>
 #ifdef HAVE_SYS_PARAM_H
 #include <sys/param.h>
 #endif
@@ -366,10 +340,7 @@ struct fs_data fsd;
 /* Ultrix's statfs returns 1 for success,
 0 for not mounted, -1 for failure.  */
 return (statfs (".", &fsd) != 1);
-}],
-fu_cv_sys_stat_fs_data=yes,
-fu_cv_sys_stat_fs_data=no,
-fu_cv_sys_stat_fs_data=no)])
+}]])],[fu_cv_sys_stat_fs_data=yes],[fu_cv_sys_stat_fs_data=no],[fu_cv_sys_stat_fs_data=no])])
 AC_MSG_RESULT($fu_cv_sys_stat_fs_data)
 if test $fu_cv_sys_stat_fs_data = yes; then
 space=yes
@@ -379,8 +350,7 @@ fi
 
 if test $space = no; then
 # SVR2
-AC_TRY_CPP([#include <sys/filsys.h>],
-AC_DEFINE(STAT_READ_FILSYS) space=yes)
+AC_PREPROC_IFELSE([AC_LANG_SOURCE([[#include <sys/filsys.h>]])],[AC_DEFINE(STAT_READ_FILSYS) space=yes],[])
 fi
 
 if test -n "$list_mounted_fs" && test $space != no; then
@@ -394,21 +364,17 @@ fi
 # enable the work-around code in fsusage.c.
 AC_MSG_CHECKING([for statfs that truncates block counts])
 AC_CACHE_VAL(fu_cv_sys_truncating_statfs,
-[AC_TRY_COMPILE([
+[AC_COMPILE_IFELSE([AC_LANG_PROGRAM([[
 #if !defined(sun) && !defined(__sun)
 choke -- this is a workaround for a Sun-specific problem
 #endif
 #include <sys/types.h>
-#include <sys/vfs.h>],
-[struct statfs t; long c = *(t.f_spare);],
-fu_cv_sys_truncating_statfs=yes,
-fu_cv_sys_truncating_statfs=no,
-)])
+#include <sys/vfs.h>]], [[struct statfs t; long c = *(t.f_spare);]])],[fu_cv_sys_truncating_statfs=yes],[fu_cv_sys_truncating_statfs=no])])
 if test $fu_cv_sys_truncating_statfs = yes; then
 AC_DEFINE(STATFS_TRUNCATES_BLOCK_COUNTS)
 fi
 AC_MSG_RESULT($fu_cv_sys_truncating_statfs)
 
-AC_CHECKING(for AFS)
+AS_MESSAGE([checking for AFS...])
 test -d /afs && AC_DEFINE(AFS)
 ])

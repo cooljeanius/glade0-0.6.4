@@ -20,7 +20,7 @@ AC_DEFUN([AC_PROG_GPERF],[
 dnl
 dnl Now check if the installed gperf is sufficiently new.
 dnl
-	AC_TRY_RUN([
+	AC_RUN_IFELSE([AC_LANG_SOURCE([[
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -69,7 +69,7 @@ main ()
     return 1;
   }
 }
-],,no_gperf=yes,[/bin/true])
+]])],[],[no_gperf=yes],[/bin/true])
 	if test "x$no_gperf" = x ; then
 		AC_MSG_RESULT(yes)
 	else

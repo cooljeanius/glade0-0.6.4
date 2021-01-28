@@ -4,7 +4,7 @@ dnl
 AC_DEFUN([AC_STRUCT_LINGER], [
 av_struct_linger=no
 AC_MSG_CHECKING(struct linger is available)
-AC_TRY_RUN([
+AC_RUN_IFELSE([AC_LANG_SOURCE([[
 #include <sys/types.h>
 #include <sys/socket.h>
 
@@ -16,7 +16,7 @@ int main ()
     li.l_linger = 120;
     return 0;
 }
-],[
+]])],[
 AC_DEFINE(HAVE_STRUCT_LINGER)
 av_struct_linger=yes
 ],[

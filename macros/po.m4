@@ -1,4 +1,4 @@
-# po.m4 serial 20 (gettext-0.18.2)
+# po.m4 serial 21 (gettext-0.18.2+)
 dnl Copyright (C) 1995-2013 Free Software Foundation, Inc.
 dnl This file is free software; the Free Software Foundation
 dnl gives unlimited permission to copy and/or distribute it,
@@ -17,7 +17,7 @@ dnl Authors:
 dnl   Ulrich Drepper <drepper@cygnus.com>, 1995-2000.
 dnl   Bruno Haible <haible@clisp.cons.org>, 2000-2003.
 
-AC_PREREQ([2.60])
+AC_PREREQ([2.70])
 
 dnl Checks for all prerequisites of the po subdirectory.
 AC_DEFUN([AM_PO_SUBDIRS],

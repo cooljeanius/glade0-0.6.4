@@ -5807,7 +5807,7 @@ else $as_nop
 	 elif test -d /usr/include/xsec ; then
 	     xml_security_prefix=/usr
 	 else
-	     xml-security_prefix=""
+	     xml_security_prefix=""
 	 fi
 
 
@@ -19943,10 +19943,12 @@ fi
 
 
 # Checks for header files.
-# Autoupdate added the next two lines to ensure that your configure
+# Autoupdate added the next few lines to ensure that your configure
 # script's behavior did not change.  They are probably safe to remove.
 
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for egrep" >&5
+if test "x${EGREP}" = "x"; then
+  test -z "${EGREP}"
+  { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for egrep" >&5
 printf %s "checking for egrep... " >&6; }
 if test ${ac_cv_path_EGREP+y}
 then :
@@ -20019,7 +20021,7 @@ printf "%s\n" "$ac_cv_path_EGREP" >&6; }
  EGREP="$ac_cv_path_EGREP"
 
 
-
+fi
 ac_fn_c_check_type "$LINENO" "size_t" "ac_cv_type_size_t" "$ac_includes_default"
 if test "x$ac_cv_type_size_t" = xyes
 then :
@@ -20263,7 +20265,6 @@ then :
   printf "%s\n" "#define HAVE_UNISTD_H 1" >>confdefs.h
 
 fi
-
 
 # Checks for typedefs, structures, and compiler characteristics.
 { printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for inline" >&5
@@ -20962,7 +20963,11 @@ then :
 fi
 
 
-
+# Probably a bad idea, but I figured I might as well give it a try:
+if test -d /Users/Shared/Previously\ Relocated\ Items/Security/sw/bin; then
+  echo "Modifying PATH to try harder to find gtk-config"
+  export PATH="${PATH}:/Users/Shared/Previously\ Relocated\ Items/Security/sw/bin"
+fi
 
 # Check whether --with-gtk-prefix was given.
 if test ${with_gtk_prefix+y}
@@ -21238,13 +21243,14 @@ rm -f core conftest.err conftest.$ac_objext conftest.beam \
      fi
      GTK_CFLAGS=""
      GTK_LIBS=""
-     as_fn_error $? "Cannot find GTK: Is gtk-config in path?" "$LINENO" 5
+     { printf "%s\n" "$as_me:${as_lineno-$LINENO}: WARNING: Cannot find GTK: Is gtk-config in path?" >&5
+printf "%s\n" "$as_me: WARNING: Cannot find GTK: Is gtk-config in path?" >&2;}
+             { printf "%s\n" "$as_me:${as_lineno-$LINENO}: (this ought to be an error, but we are downgrading it to a warning to facilitate work on this configure script)" >&5
+printf "%s\n" "$as_me: (this ought to be an error, but we are downgrading it to a warning to facilitate work on this configure script)" >&6;}
   fi
 
 
   rm -f conf.gtktest
-
-
 
 
 ALL_LINGUAS="az ca cs da de el en_GB es fr ga gl hu it ja ko lv nl nn no pl pt pt_BR ro ru sk sv tr uk zh_CN"
@@ -23357,7 +23363,6 @@ printf "%s\n" "#define YYENABLE_NLS 1" >>confdefs.h
 
   fi
 
-#AM_GNOME_GETTEXT
 
 if test "x$prefix" = "xNONE"; then
   GLADE_LOCALE_DIR=$ac_default_prefix/share/locale

@@ -45,7 +45,7 @@
 #   and this notice are preserved. This file is offered as-is, without any
 #   warranty.
 
-#serial 10
+#serial 11
 
 AC_DEFUN([AX_LIB_XML_SECURITY],
 [
@@ -78,7 +78,7 @@ AC_DEFUN([AX_LIB_XML_SECURITY],
 	 elif test -d /usr/include/xsec ; then
 	     xml_security_prefix=/usr
 	 else
-	     xml-security_prefix=""
+	     xml_security_prefix=""
 	 fi
 	 ]
     )
