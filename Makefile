@@ -1016,8 +1016,6 @@ uninstall-am: uninstall-DevelopmentDATA uninstall-pixmapsDATA
 .PRECIOUS: Makefile
 
 
-@XML_I18N_MERGE_DESKTOP_RULE@
-
 dist-hook: glade.spec
 	cp glade.spec $(distdir)
 

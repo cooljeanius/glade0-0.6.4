@@ -8,7 +8,8 @@ Developmentdir = $(datadir)/gnome/apps/Development
 Development_in_files = glade.desktop.in
 Development_DATA = $(Development_in_files:.desktop.in=.desktop)
 
-@XML_I18N_MERGE_DESKTOP_RULE@
+## whatever was supposed to subst XML_I18N_MERGE_DESKTOP_RULE seems to have
+## disappeared, so I am removing it for now
 
 EXTRA_DIST = build-aux/config.rpath \
 	config.rpath \
