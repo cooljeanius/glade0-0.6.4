@@ -4,6 +4,7 @@ dnl# Process this file with autoconf to produce a configure script.
 AC_PREREQ([2.13])
 AC_INIT([glade], [0.6.4], [damon@ximian.com])
 AC_CONFIG_SRCDIR([glade/gbwidget.c])
+AC_CONFIG_AUX_DIR([build-aux])dnl
 
 AM_INIT_AUTOMAKE([foreign])
 AM_MAINTAINER_MODE
@@ -13,9 +14,8 @@ AC_USE_SYSTEM_EXTENSIONS
 
 dnl# Pick up GNOME macros
 AC_CONFIG_MACRO_DIR([macros])
-AM_ACLOCAL_INCLUDE([macros])
+AM_ACLOCAL_INCLUDE([macros])dnl
 
-#AM_PROG_XML_I18N_TOOLS
 AX_LIB_XML_SECURITY
 AM_PATH_XML2
 
@@ -199,18 +199,6 @@ if $try_bonobo; then
     gnome_modules="$gnome_modules bonobox"
     have_bonobo=true
     bonobo_msg=yes
-
-    #dnl Check if Bonobo is OAFized
-    #
-    #AC_MSG_CHECKING([if Bonobo uses OAF])
-    #if ( gnome-config --libs bonobox | grep oaf ) > /dev/null 2>&1 ; then
-    #  using_oaf="yes"
-    #  AC_DEFINE([USING_OAF])
-    #  AC_MSG_RESULT(["$using_oaf"])
-    #
-    #  AM_CONDITIONAL([USING_OAF], [test "x$using_oaf" = "xyes"])
-    #fi
-
   else
     AC_MSG_RESULT([not found])
   fi

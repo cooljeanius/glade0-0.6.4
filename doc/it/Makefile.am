@@ -33,7 +33,8 @@ omf_dir=$(top_srcdir)/omf-install
 
 all: html omf
 
-html: user-guide.stamp faq.stamp turbo-start.stamp 
+html-local: user-guide.stamp faq.stamp turbo-start.stamp
+.PHONY: html-local
 
 user-guide.stamp: user-guide.sgml
 	-db2html user-guide.sgml
@@ -121,7 +122,8 @@ install-data-local: omf
 	  $(INSTALL_DATA) $$file $(DESTDIR)$(glade_helpdir)/turbo-start/$$basefile; \
 	done
 
-clean:
+clean-local:
 	-rm -rf user-guide faq turbo-start
 	-rm -f user-guide.stamp faq.stamp turbo-start.stamp
 	-rm -rf user-guide.junk faq.junk turbo-start.junk
+.PHONY: clean-local

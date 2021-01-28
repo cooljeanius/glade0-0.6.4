@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-ACLOCAL_AMFLAGS = -I macros
+ACLOCAL_AMFLAGS = -I macros --install
 
 SUBDIRS = macros glade po doc omf-install
 
@@ -10,7 +10,8 @@ Development_DATA = $(Development_in_files:.desktop.in=.desktop)
 
 @XML_I18N_MERGE_DESKTOP_RULE@
 
-EXTRA_DIST = config.rpath  \
+EXTRA_DIST = build-aux/config.rpath \
+	config.rpath \
 	FAQ \
 	glade.spec.in \
 	glade.desktop.in \
