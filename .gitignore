@@ -8,3 +8,15 @@ libtool
 *.status
 confdefs.h
 conftest*
+config.h
+doc/Makefile
+doc/*/Makefile
+glade.spec
+*/*deps/*.Po
+*/*/*deps/*.Po
+glade/data/*/Makefile
+glade/data/Makefile
+Makefile
+po/Makefile.in
+po/POTFILES
+po/stamp-it
