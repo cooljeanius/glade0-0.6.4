@@ -20,3 +20,11 @@ Makefile
 po/Makefile.in
 po/POTFILES
 po/stamp-it
+*.stamp
+cscope.files
+glade/tags
+glade/*/tags
+GPATH
+GRTAGS
+GTAGS
+ID
