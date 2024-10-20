@@ -44,12 +44,16 @@ EXTRA_DIST = build-aux/config.rpath \
 	examples/editor/po/ChangeLog \
 	examples/editor/po/POTFILES.in
 
+DISTCLEANFILES = *~ autoscan.log build-aux/*~ macros/*~
+
 pixmapsdir = $(datadir)/pixmaps
 pixmaps_DATA = glade.png
 
 dist-hook: glade.spec
 	cp glade.spec $(distdir)
 
+distclean-local:
+	-rm -rf autom4te.cache || rmdir autom4te.cache
 
 # Install all the Gnome m4 macros we use to build Glade, so we can copy them
 # to each project's directory (for Gnome projects).

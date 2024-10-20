@@ -19,7 +19,7 @@ AM_ACLOCAL_INCLUDE([macros])dnl
 AX_LIB_XML_SECURITY
 AM_PATH_XML2
 
-AC_SEARCH_LIBS([strerror],[cposix])
+AC_SEARCH_LIBS([strerror],[cposix])dnl
 
 LT_INIT
 IT_PROG_INTLTOOL
@@ -34,15 +34,9 @@ AC_PROG_MAKE_SET
 AC_PROG_RANLIB
 
 # Checks for header files.
-dnl# autoupdate says:
-dnl# The preprocessor macro `STDC_HEADERS' is obsolete.
-dnl# Except in unusual embedded environments, you can safely include all
-dnl# ISO C90 headers unconditionally.
-# Autoupdate added the next few lines to ensure that your configure
-# script's behavior did not change.  They are probably safe to remove.
 AC_CHECK_INCLUDES_DEFAULT
 if test "x${EGREP}" = "x"; then
-  test -z "${EGREP}"
+  test -z "${EGREP}" || unset EGREP
   AC_PROG_EGREP
 fi
 AC_FUNC_ALLOCA
@@ -76,134 +70,134 @@ AM_PATH_GTK([1.2.0],[],
             [AC_MSG_WARN([Cannot find GTK: Is gtk-config in path?])
              AC_MSG_NOTICE([(this ought to be an error, but we are downgrading it to a warning to facilitate work on this configure script)])])dnl
 
-dnl ***************************************************************************
-dnl Gettext stuff.
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# Gettext stuff.
+dnl#***************************************************************************
 
 ALL_LINGUAS="az ca cs da de el en_GB es fr ga gl hu it ja ko lv nl nn no pl pt pt_BR ro ru sk sv tr uk zh_CN"
 AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_VERSION([0.18.2])
 BISON_I18N
 
-dnl Set the location of the locale messages to be used in main.c
-dnl This will substitute GLADE_LOCALE_DIR in config.h (from acconfig.h).
-if test "x$prefix" = "xNONE"; then
-  GLADE_LOCALE_DIR=$ac_default_prefix/share/locale
+dnl# Set the location of the locale messages to be used in main.c
+dnl# This will substitute GLADE_LOCALE_DIR in config.h (from acconfig.h).
+if test "x${prefix}" = "xNONE"; then
+  GLADE_LOCALE_DIR=${ac_default_prefix}/share/locale
 else
-  GLADE_LOCALE_DIR=$prefix/share/locale
+  GLADE_LOCALE_DIR=${prefix}/share/locale
 fi
-AC_DEFINE_UNQUOTED(GLADE_LOCALE_DIR, "$GLADE_LOCALE_DIR")
+AC_DEFINE_UNQUOTED([GLADE_LOCALE_DIR],["${GLADE_LOCALE_DIR}"])dnl
 
 
-dnl ***************************************************************************
-dnl GLADE_DATA_DIR - Sets the location of the data directory, where we install
-dnl source files added to projects (such as all the Gnome m4 macros).
-dnl This will substitute GLADE_DATA_DIR in config.h (from acconfig.h).
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# GLADE_DATA_DIR - Sets the location of the data directory, where we install
+dnl# source files added to projects (such as all the Gnome m4 macros).
+dnl# This will substitute GLADE_DATA_DIR in config.h (from acconfig.h).
+dnl#***************************************************************************
 
 if test "x${datadir}" = 'x${prefix}/share'; then
   if test "x${prefix}" = "xNONE"; then
-    AC_DEFINE_UNQUOTED(GLADE_DATA_DIR, "${ac_default_prefix}/share/${PACKAGE}")
+    AC_DEFINE_UNQUOTED([GLADE_DATA_DIR],["${ac_default_prefix}/share/${PACKAGE}"])
   else
-    AC_DEFINE_UNQUOTED(GLADE_DATA_DIR, "${prefix}/share/${PACKAGE}")
+    AC_DEFINE_UNQUOTED([GLADE_DATA_DIR],["${prefix}/share/${PACKAGE}"])
   fi
 else
-  AC_DEFINE_UNQUOTED(GLADE_DATA_DIR, "${datadir}/${PACKAGE}")
+  AC_DEFINE_UNQUOTED([GLADE_DATA_DIR],["${datadir}/${PACKAGE}"])
 fi
 
 
-dnl ***************************************************************************
-dnl CFLAGS - Use -Wall if we have gcc, and use -ansi -pedantic if ansi enabled.
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# CFLAGS - Use -Wall if we have gcc, and use -ansi -pedantic if ansi enabled.
+dnl#***************************************************************************
 
 AC_ARG_ENABLE([ansi],
-[  --enable-ansi           turn on strict ansi [default=no]],[],[enable_ansi=no])
+[AS_HELP_STRING([--enable-ansi],[turn on strict ansi [default=no]])],[],[enable_ansi=no])dnl
 
 changequote(,)dnl
-if test "x$GCC" = "xyes"; then
-  case " $CFLAGS " in
+if test "x${GCC}" = "xyes"; then
+  case " ${CFLAGS} " in
   *[\ \	]-Wall[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wall" ;;
+  *) CFLAGS="${CFLAGS} -Wall" ;;
   esac
 
-  if test "x$enable_ansi" = "xyes"; then
-    case " $CFLAGS " in
+  if test "x${enable_ansi}" = "xyes"; then
+    case " ${CFLAGS} " in
     *[\ \	]-ansi[\ \	]*) ;;
     *) CFLAGS="$CFLAGS -ansi" ;;
     esac
 
-    case " $CFLAGS " in
+    case " ${CFLAGS} " in
     *[\ \	]-pedantic[\ \	]*) ;;
-    *) CFLAGS="$CFLAGS -pedantic" ;;
+    *) CFLAGS="${CFLAGS} -pedantic" ;;
     esac
   fi
 fi
 changequote([,])dnl
 
 
-dnl ***************************************************************************
-dnl Gnome Support (use --disable-gnome to disable).
-dnl (Use "#ifdef USE_GNOME" in Glade for Gnome-specific code.)
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# Gnome Support (use --disable-gnome to disable).
+dnl# (Use "#ifdef USE_GNOME" in Glade for Gnome-specific code.)
+dnl#***************************************************************************
 
-gnome_modules=
+gnome_modules=""
 
 AC_ARG_ENABLE([gnome],
-[  --disable-gnome         disable use of gnome],
-	[gnome=$enableval], [gnome=yes])
+[AS_HELP_STRING([--disable-gnome],[disable use of gnome])],
+	[gnome=${enableval}],[gnome=yes])
 
-if test "x$gnome" = "xyes"; then
-  AC_PATH_PROG([gnome_config], [gnome-config])
-  if test "x$gnome_config" = "x"; then
+if test "x${gnome}" = "xyes"; then
+  AC_PATH_PROG([gnome_config],[gnome-config])
+  if test "x${gnome_config}" = "x"; then
     gnome=no
   fi
 fi
 
-if test "$gnome" = yes; then
+if test "x${gnome}" = "xyes"; then
   AC_DEFINE([USE_GNOME])
   GLADE_GNOME_DIR="gnome"
   GLADE_GNOME_LIB="gnome/libgnomewidgets.a"
   AC_SUBST([GLADE_GNOME_DIR])
   AC_SUBST([GLADE_GNOME_LIB])
-  gnome_modules="$gnome_modules gnomeui gnome gtk glib"
+  gnome_modules="${gnome_modules} gnomeui gnome gtk glib"
 else
-  CPPFLAGS="$CPPFLAGS $GTK_CFLAGS"
-  LIBS="$LIBS $GTK_LIBS"
+  CPPFLAGS="${CPPFLAGS} ${GTK_CFLAGS}"
+  LIBS="${LIBS} ${GTK_LIBS}"
 fi
 
 
-dnl ***************************************************************************
-dnl Check for ScrollKeeper
-dnl ***************************************************************************
-AC_PATH_PROG([SCROLLKEEPER_CONFIG], [scrollkeeper-config],[no])
-if test x$SCROLLKEEPER_CONFIG = xno; then
-  AC_MSG_ERROR([Couldn't find scrollkeeper-config, please install the scrollkeeper package])
+dnl#***************************************************************************
+dnl# Check for ScrollKeeper
+dnl#***************************************************************************
+AC_PATH_PROG([SCROLLKEEPER_CONFIG],[scrollkeeper-config],[no])
+if test "x${SCROLLKEEPER_CONFIG}" = "xno"; then
+  AC_MSG_ERROR([Failed to find scrollkeeper-config, please install the scrollkeeper package])
 fi
 SCROLLKEEPER_REQUIRED=0.1.4
-AC_SUBST([SCROLLKEEPER_REQUIRED])
+AC_SUBST([SCROLLKEEPER_REQUIRED])dnl
 
 
-dnl ***************************************************************************
-dnl Check for Bonobo
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# Check for Bonobo
+dnl#***************************************************************************
 
 try_bonobo=false
 have_bonobo=false
 bonobo_msg=no
 using_oaf=no
 AC_ARG_WITH([bonobo],
-[  --with-bonobo           include Bonobo support (under development)],
-	[if test x$withval = xyes; then
+[AS_HELP_STRING([--with-bonobo],[include Bonobo support (under development)])],
+	[if test "x${withval}" = "xyes"; then
 	  try_bonobo=true
 	fi])
 
-if $try_bonobo; then
+if ${try_bonobo}; then
   AC_MSG_CHECKING([for Bonobo >= 0.27])
-  if $gnome_config --libs bonobox > /dev/null 2>&1; then
+  if ${gnome_config} --libs bonobox > /dev/null 2>&1; then
 
     vers=`gnome-config --modversion bonobox | sed -e "s/bonobo-//" | \
           awk 'BEGIN { FS = "."; } { printf "%d", $1 * 1000 + $2;}'`
-    if test "$vers" -ge 27; then
+    if test "${vers}" -ge 27; then
       bonobo_ok=true
     else
       bonobo_ok=false
@@ -212,10 +206,10 @@ if $try_bonobo; then
     bonobo_ok=false
   fi
 
-  if $bonobo_ok; then
+  if ${bonobo_ok}; then
     AC_MSG_RESULT([found])
     AC_DEFINE([ENABLE_BONOBO])
-    gnome_modules="$gnome_modules bonobox"
+    gnome_modules="${gnome_modules} bonobox"
     have_bonobo=true
     bonobo_msg=yes
   else
@@ -223,41 +217,41 @@ if $try_bonobo; then
   fi
 fi
 
-AM_CONDITIONAL([BONOBO], [$have_bonobo])
+AM_CONDITIONAL([BONOBO],[${have_bonobo}])dnl
 
-dnl ***************************************************************************
-dnl Add all the cflags & libs needed for the Gnome modules.
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# Add all the cflags & libs needed for the Gnome modules.
+dnl#***************************************************************************
 
-if test "x$gnome_modules" != "x"; then
-  GNOME_CFLAGS=`$gnome_config --cflags $gnome_modules 2>/dev/null`
-  GNOME_LDFLAGS=`$gnome_config --libs $gnome_modules 2>/dev/null`
-  CPPFLAGS="$CPPFLAGS $GNOME_CFLAGS"
-  LIBS="$LIBS $GNOME_LDFLAGS"
+if test "x${gnome_modules}" != "x"; then
+  GNOME_CFLAGS=`${gnome_config} --cflags ${gnome_modules} 2>/dev/null`
+  GNOME_LDFLAGS=`${gnome_config} --libs ${gnome_modules} 2>/dev/null`
+  CPPFLAGS="${CPPFLAGS} ${GNOME_CFLAGS}"
+  LIBS="${LIBS} ${GNOME_LDFLAGS}"
 fi
 
 
-dnl ***************************************************************************
-dnl Gnome-DB Support (use --enable-gnome-db to enable).
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# Gnome-DB Support (use --enable-gnome-db to enable).
+dnl#***************************************************************************
 
 AC_ARG_ENABLE([gnome-db],
-[  --enable-gnome-db      enable use of gnome-db],
-	[gnome_db=$enableval], [gnome_db=yes])
+[AS_HELP_STRING([--enable-gnome-db],[enable use of gnome-db])],
+	[gnome_db=${enableval}],[gnome_db=yes])dnl
 
-if test "x$gnome" != "xyes"; then
+if test "x${gnome}" != "xyes"; then
   gnome_db=no
 fi
 
-if test "x$gnome_db" = "xyes"; then
-  AC_PATH_PROG([gnomedb_config], [gnomedb-config])
-  if test "x$gnomedb_config" = "x"; then
+if test "x${gnome_db}" = "xyes"; then
+  AC_PATH_PROG([gnomedb_config],[gnomedb-config])
+  if test "x${gnomedb_config}" = "x"; then
     gnome_db=no
   else
     gnomedbminvers="0.2.93"
-    AC_MSG_CHECKING([for gnome-db >= $gnomedbminvers])
+    AC_MSG_CHECKING([for gnome-db >= ${gnomedbminvers}])
     gnomedbver=`gnomedb-config --version | awk 'BEGIN {FS="."}{printf "%d", $1*10000+$2*100+$3}'`
-    if test "$gnomedbver" -ge 293
+    if test "${gnomedbver}" -ge 293
     then
       AC_MSG_RESULT([found])
       gnome_db=yes
@@ -268,49 +262,49 @@ if test "x$gnome_db" = "xyes"; then
   fi
 fi
 
-if test "x$gnome_db" = "xyes"; then
+if test "x${gnome_db}" = "xyes"; then
   AC_DEFINE([USE_GNOME_DB])
   GLADE_GNOME_DB_DIR="gnome-db"
   GLADE_GNOME_DB_LIB="gnome-db/libgnomedbwidgets.a"
-  AC_SUBST([GLADE_GNOME_DB_DIR])
-  AC_SUBST([GLADE_GNOME_DB_LIB])
+  AC_SUBST([GLADE_GNOME_DB_DIR])dnl
+  AC_SUBST([GLADE_GNOME_DB_LIB])dnl
 
   GNOMEDB_CFLAGS=`gnomedb-config --cflags 2>/dev/null`
   GNOMEDB_LIBS=`gnomedb-config --libs 2>/dev/null`
-  CPPFLAGS="$GNOMEDB_CFLAGS $CPPFLAGS"
-  LIBS="$GNOMEDB_LIBS $LIBS"
+  CPPFLAGS="${GNOMEDB_CFLAGS} ${CPPFLAGS}"
+  LIBS="${GNOMEDB_LIBS} ${LIBS}"
 fi
 
 
-dnl ***************************************************************************
-dnl Palette type - temporary option to try the different palette layouts.
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# Palette type - temporary option to try the different palette layouts.
+dnl#***************************************************************************
 
 AC_ARG_WITH([palette],
-[  --with-palette=TYPE     select the palette type: damon or martijn],
-	[if test "x$withval" = "xmartijn"; then
-		PALETTE_TYPE=2
+[AS_HELP_STRING([--with-palette=TYPE],[select the palette type: damon or martijn])],
+	[if test "x${withval}" = "xmartijn"; then
+	   PALETTE_TYPE=2
 	   AC_MSG_RESULT([Picking Martijn's palette layout])
 	 else
-	 	PALETTE_TYPE=1
+	   PALETTE_TYPE=1
 	   AC_MSG_RESULT([Picking Damon's palette layout])
 	 fi],
 	[PALETTE_TYPE=1])
-AC_DEFINE_UNQUOTED(PALETTE_TYPE, $PALETTE_TYPE)
+AC_DEFINE_UNQUOTED([PALETTE_TYPE],[${PALETTE_TYPE}])dnl
 	
 
-dnl ***************************************************************************
-dnl Debugging - defines GLADE_DEBUG if --enable-debug option is used.
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# Debugging - defines GLADE_DEBUG if --enable-debug option is used.
+dnl#***************************************************************************
 
 AC_ARG_ENABLE([debug],
-[  --enable-debug          turn on debugging [default=no]],
-	[AC_DEFINE([GLADE_DEBUG])],[])
+[AS_HELP_STRING([--enable-debug],[turn on debugging [default=no]])],
+	[AC_DEFINE([GLADE_DEBUG])],[])dnl
 
 
-dnl ***************************************************************************
-dnl Output the Makefiles etc.
-dnl ***************************************************************************
+dnl#***************************************************************************
+dnl# Output the Makefiles etc.
+dnl#***************************************************************************
 
 AC_CONFIG_FILES([glade.spec
                  Makefile

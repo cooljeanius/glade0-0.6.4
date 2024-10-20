@@ -27,3 +27,8 @@ dist-hook:
 ACLOCAL_AMFLAGS = -I m4 --install
 
 EXTRA_DIST = build-aux/config.rpath config.rpath m4/ChangeLog
+
+DISTCLEANFILES = *~ autoscan.log build-aux/*~ m4/*~
+
+distclean-local:
+	-rm -rf autom4te.cache || rmdir autom4te.cache

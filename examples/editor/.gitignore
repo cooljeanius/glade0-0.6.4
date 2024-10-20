@@ -7,4 +7,9 @@ stamp-h*
 libtool
 *.status
 confdefs.h
+config.h
 conftest*
+Makefile
+po/POTFILES
+src/.deps
+src/glade-editor
